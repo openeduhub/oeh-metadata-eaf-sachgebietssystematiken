@@ -1,0 +1,166 @@
+{
+  "id": "https://example-perma-id/sachgebietssystematik/06003",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenexample-perma-id%2Fsachgebietssystematik%2F06003",
+  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenexample-perma-id%2Fsachgebietssystematik%2F06003",
+  "prefLabel": {
+    "de": "Kunstgeschichte"
+  },
+  "note": {
+    "de": "Kunstgeschichte; Kunst; Kunstunterricht"
+  },
+  "narrower": [
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600301",
+      "prefLabel": {
+        "de": "Vor- und frühgeschichtliche Kulturen"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600302",
+      "prefLabel": {
+        "de": "Frühe Hochkulturen"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600303",
+      "prefLabel": {
+        "de": "Klassisches Altertum"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600304",
+      "prefLabel": {
+        "de": "Frühchristliche und byzantinische Kunst"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600305",
+      "prefLabel": {
+        "de": "Kunst des Mittelalters"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600306",
+      "prefLabel": {
+        "de": "Renaissance"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600307",
+      "prefLabel": {
+        "de": "Barock, Rokoko"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600308",
+      "prefLabel": {
+        "de": "Klassizismus"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600309",
+      "prefLabel": {
+        "de": "19. Jahrhundert"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600310",
+      "prefLabel": {
+        "de": "Kunst der Jahrhundertwende"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600311"
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600312",
+      "prefLabel": {
+        "de": "Kunstgeschichtliche Überblicksdarstellungen"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600313",
+      "prefLabel": {
+        "de": "Museen, Galerien"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/0600314",
+      "prefLabel": {
+        "de": "Biographien"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://example-perma-id/sachgebietssystematik/060",
+    "prefLabel": {
+      "de": "BILDENDE KUNST"
+    }
+  },
+  "inScheme": {
+    "id": "https://example-perma-id/sachgebietssystematik/",
+    "title": {
+      "de": "sachgebietssystematik"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

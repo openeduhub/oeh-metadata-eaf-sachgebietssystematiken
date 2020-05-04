@@ -1,0 +1,130 @@
+{
+  "id": "https://example-perma-id/sachgebietssystematik/0400203",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenexample-perma-id%2Fsachgebietssystematik%2F0400203",
+  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenexample-perma-id%2Fsachgebietssystematik%2F0400203",
+  "prefLabel": {
+    "de": "Ausbau"
+  },
+  "note": {
+    "de": "Innenausbau"
+  },
+  "narrower": [
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020301",
+      "prefLabel": {
+        "de": "Bodenbeläge"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020302",
+      "prefLabel": {
+        "de": "Dämmung, Isolierung"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020303",
+      "prefLabel": {
+        "de": "Elektroinstallationen"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020304",
+      "prefLabel": {
+        "de": "Estricharbeiten"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020305"
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020306",
+      "prefLabel": {
+        "de": "Holzbau"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020307",
+      "prefLabel": {
+        "de": "Metallbau"
+      }
+    },
+    {
+      "id": "https://example-perma-id/sachgebietssystematik/040020308",
+      "prefLabel": {
+        "de": "Putzarbeiten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://example-perma-id/sachgebietssystematik/04002",
+    "prefLabel": {
+      "de": "Bau, Architektur, Vermessung"
+    }
+  },
+  "inScheme": {
+    "id": "https://example-perma-id/sachgebietssystematik/",
+    "title": {
+      "de": "sachgebietssystematik"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}
