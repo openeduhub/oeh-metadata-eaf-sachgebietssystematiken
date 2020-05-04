@@ -6,6 +6,7 @@ Every time a push is made to the repository a GitHub-workflow-action is triggere
 
 ## Sachgebietssystematiken
 
-Die Systematiken basieren auf dem Excel-File das unter <http://agmud.de/sachgebietssystematik/> zu finden ist.
-Diese wurden zu txt-Dateien konvertiert und anschließend in SKOS umgewandelt.
+Die Systematiken basieren auf dem Excel-File, das unter <http://agmud.de/sachgebietssystematik/> zu finden ist.
+Dieses wurden zu einer txt-Datei konvertiert und anschließend in SKOS umgewandelt.
+Die Konvertierung wurde mit Python in einem Jupyter Notebook durchgeführt.
 Dies ist momentan noch als PoC anzusehen.
