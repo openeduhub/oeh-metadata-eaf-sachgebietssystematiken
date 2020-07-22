@@ -1,0 +1,136 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420",
+  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420",
+  "prefLabel": {
+    "de": "MUSIK"
+  },
+  "note": {
+    "de": "Musik; Musikunterricht"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42001",
+      "prefLabel": {
+        "de": "Außereuropäische Musik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42002",
+      "prefLabel": {
+        "de": "Europäische Zeitstile"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
+      "prefLabel": {
+        "de": "Musikarten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42004",
+      "prefLabel": {
+        "de": "Interpretation"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42005",
+      "prefLabel": {
+        "de": "Musik und Gesellschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42006",
+      "prefLabel": {
+        "de": "Musik und Technik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42007",
+      "prefLabel": {
+        "de": "Musiktheorie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42008",
+      "prefLabel": {
+        "de": "Unterrichtsorientierte Zusammenstellungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42080",
+      "prefLabel": {
+        "de": "Bilingualer Unterricht"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
+    "title": {
+      "de": "eaf-sachgebietssystematik"
+    }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}
