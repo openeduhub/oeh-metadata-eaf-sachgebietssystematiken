@@ -23,7 +23,7 @@ jobs:
 
       - run: git clone https://github.com/openeduhub/oeh-metadata-eaf-sachgebietssystematiken
 
-      - run: cp oeh-metadata-eaf-sachgebietssystematiken/sachgebietssystematik.ttl data/
+      - run: cp oeh-metadata-eaf-sachgebietssystematiken/eaf-sachgebietssystematik.ttl data/
 
       - name: build public dir with docker image
         run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/skohub-vocabs:oeh-metadata-eaf-sachgebietssystematiken
