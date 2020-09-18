@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12001",
   "prefLabel": {
     "de": "Literatur"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200101",
       "prefLabel": {
         "de": "Epik"
+      },
+      "note": {
+        "de": "Epik; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200102",
       "prefLabel": {
         "de": "Dramatik"
+      },
+      "note": {
+        "de": "Dramatik; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200103",
       "prefLabel": {
         "de": "Lyrik"
+      },
+      "note": {
+        "de": "Lyrik; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200104",
       "prefLabel": {
         "de": "Literaturtheorie"
+      },
+      "note": {
+        "de": "Literaturtheorie; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200105",
       "prefLabel": {
         "de": "Literaturgeschichte"
+      },
+      "note": {
+        "de": "Literaturgeschichte; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200106",
       "prefLabel": {
         "de": "Literatursoziologie"
+      },
+      "note": {
+        "de": "Literatursoziologie; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200107",
       "prefLabel": {
         "de": "Kinder- und Jugendliteratur"
+      },
+      "note": {
+        "de": "Kinderliteratur; Jugendliteratur; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200108",
       "prefLabel": {
         "de": "Comics, Cartoons"
+      },
+      "note": {
+        "de": "Comics; Cartoons; Deutsch; Deutschunterricht"
       }
     }
   ],
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120",
     "prefLabel": {
       "de": "DEUTSCH"
+    },
+    "note": {
+      "de": "Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

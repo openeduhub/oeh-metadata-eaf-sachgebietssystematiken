@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400204",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400204",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400204",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400204",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400204",
   "prefLabel": {
     "de": "Neuere Geschichte"
   },
@@ -14,90 +14,135 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020401",
       "prefLabel": {
         "de": "Zeitalter der Entdeckungen, Eroberungen und Erfindungen"
+      },
+      "note": {
+        "de": "Zeitalter der Entdeckungen; Eroberungen; Erfindungen; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020402",
       "prefLabel": {
         "de": "Humanismus und Renaissance"
+      },
+      "note": {
+        "de": "Humanismus; Renaissance; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020403",
       "prefLabel": {
         "de": "Reformation, Bauernkriege, Glaubenskämpfe"
+      },
+      "note": {
+        "de": "Reformation; Bauernkriege; Glaubenskämpfe; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020404",
       "prefLabel": {
         "de": "Absolutismus, Aufklärung, Parlamentarismus"
+      },
+      "note": {
+        "de": "Absolutismus; Aufklärung; Parlamentarismus; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020405",
       "prefLabel": {
         "de": "Bürgerliche Revolutionen des 18. Jahrhunderts"
+      },
+      "note": {
+        "de": "Bürgerliche Revolutionen des 18. Jahrhunderts; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020406",
       "prefLabel": {
         "de": "Napoleon, Napoleonisches Zeitalter"
+      },
+      "note": {
+        "de": "Napoleon; Napoleonisches Zeitalter; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020407",
       "prefLabel": {
         "de": "Restauration, Revolutionen des 19. Jahrhunderts"
+      },
+      "note": {
+        "de": "Restauration; Revolutionen des 19. Jahrhunderts; Liberalismus; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020408",
       "prefLabel": {
         "de": "Industrialisierung und soziale Frage"
+      },
+      "note": {
+        "de": "Industrialisierung; soziale Frage; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020409",
       "prefLabel": {
         "de": "Nationale Bewegungen und Deutsches Kaiserreich"
+      },
+      "note": {
+        "de": "Nationale Bewegungen; Deutsches Kaiserreich; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020410",
       "prefLabel": {
         "de": "Imperialismus und Erster Weltkrieg"
+      },
+      "note": {
+        "de": "Imperialismus; Erster Weltkrieg; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020411",
       "prefLabel": {
         "de": "Weimarer Republik"
+      },
+      "note": {
+        "de": "Weimarer Republik; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020412",
       "prefLabel": {
         "de": "Faschismus und Nationalsozialismus"
+      },
+      "note": {
+        "de": "Faschismus; Nationalsozialismus; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020413",
       "prefLabel": {
         "de": "Zweiter Weltkrieg"
+      },
+      "note": {
+        "de": "Zweiter Weltkrieg; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020414",
       "prefLabel": {
         "de": "Weitere Themen der neueren europäischen Geschichte"
+      },
+      "note": {
+        "de": "Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020415",
       "prefLabel": {
         "de": "Neuere Geschichte außereuropäischer Staaten und Völker"
+      },
+      "note": {
+        "de": "Neuere Geschichte außereuropäischer Staaten und Völker; Geschichte; Geschichtsunterricht"
       }
     }
   ],
@@ -105,6 +150,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
+    },
+    "note": {
+      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -114,6 +162,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -149,6 +198,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

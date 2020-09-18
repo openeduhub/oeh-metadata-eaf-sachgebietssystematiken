@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48004",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48004",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48004",
   "prefLabel": {
     "de": "Politikfelder"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800401",
       "prefLabel": {
         "de": "Bildung, Kultur, Forschung"
+      },
+      "note": {
+        "de": "Bildungspolitik; Kulturpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800402",
       "prefLabel": {
         "de": "Innere Sicherheit"
+      },
+      "note": {
+        "de": "Innere Sicherheit; Sicherheitspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800403",
       "prefLabel": {
         "de": "Internationale Beziehungen"
+      },
+      "note": {
+        "de": "Internationale Beziehungen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800404",
       "prefLabel": {
         "de": "Raumordnung, Städtebau, Verkehr"
+      },
+      "note": {
+        "de": "Raumordnung; Städtebau; Verkehr; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800405",
       "prefLabel": {
         "de": "Recht"
+      },
+      "note": {
+        "de": "Recht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800406",
       "prefLabel": {
         "de": "Sozialpolitik"
+      },
+      "note": {
+        "de": "Sozialpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800407",
       "prefLabel": {
         "de": "Verteidigungspolitik"
+      },
+      "note": {
+        "de": "Verteidigungspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800408",
       "prefLabel": {
         "de": "Wirtschaftspolitik"
+      },
+      "note": {
+        "de": "Wirtschaftspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     }
   ],
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
+    },
+    "note": {
+      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

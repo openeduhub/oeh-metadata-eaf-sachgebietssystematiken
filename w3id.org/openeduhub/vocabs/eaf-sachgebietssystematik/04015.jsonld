@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04015",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04015",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04015",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04015",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04015",
   "prefLabel": {
     "de": "Sozialarbeit und Erziehung"
   },
@@ -14,18 +14,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401501",
       "prefLabel": {
         "de": "Erziehung, Aus- und Weiterbildung"
+      },
+      "note": {
+        "de": "Ausbildung; Weiterbildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401502",
       "prefLabel": {
         "de": "Gesundheit- und Sozialmanagement"
+      },
+      "note": {
+        "de": "Gesundheitsmanagement; Sozialmanagement"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401503",
       "prefLabel": {
         "de": "Sozialarbeit, Sozialpflege"
+      },
+      "note": {
+        "de": "Sozialarbeit; Sozialpflege"
       }
     }
   ],
@@ -33,6 +42,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -42,6 +54,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -77,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

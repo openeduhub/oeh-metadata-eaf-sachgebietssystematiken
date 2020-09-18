@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F66001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F66001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F66001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F66001",
   "prefLabel": {
     "de": "Verkehrsverhalten"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6600101",
       "prefLabel": {
         "de": "Fußgänger"
+      },
+      "note": {
+        "de": "Fußgänger; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6600102",
       "prefLabel": {
         "de": "Radfahrer"
+      },
+      "note": {
+        "de": "Radfahrer; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6600103",
       "prefLabel": {
         "de": "Motorisierter Zweiradfahrer"
+      },
+      "note": {
+        "de": "Motorisierter Zweiradfahrer; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6600104",
       "prefLabel": {
         "de": "Autofahrer"
+      },
+      "note": {
+        "de": "Autofahrer; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6600105",
       "prefLabel": {
         "de": "Sonstige"
+      },
+      "note": {
+        "de": "Inline-Skater; Skateboardfahrer; Kickboarder; Verkehrserziehung"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/660",
     "prefLabel": {
       "de": "VERKEHRSERZIEHUNG"
+    },
+    "note": {
+      "de": "Verkehrserziehung"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

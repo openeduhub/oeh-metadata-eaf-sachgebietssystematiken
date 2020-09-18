@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401104",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0401104",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0401104",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0401104",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0401104",
   "prefLabel": {
     "de": "Produktionstechnik"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040110401",
       "prefLabel": {
         "de": "Fertigungstechnik"
+      },
+      "note": {
+        "de": "Fertigungstechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040110402",
       "prefLabel": {
+        "de": "Verfahrenstechnik"
+      },
+      "note": {
         "de": "Verfahrenstechnik"
       }
     }
@@ -26,6 +32,9 @@
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011",
     "prefLabel": {
+      "de": "Metalltechnik"
+    },
+    "note": {
       "de": "Metalltechnik"
     }
   },
@@ -36,6 +45,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -71,6 +81,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

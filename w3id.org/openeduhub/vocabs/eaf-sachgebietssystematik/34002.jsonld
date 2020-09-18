@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/34002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F34002",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F34002",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F34002",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F34002",
   "prefLabel": {
     "de": "Interkulturelles Zusammenleben"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3400201",
       "prefLabel": {
         "de": "Schule"
+      },
+      "note": {
+        "de": "Schule; Interkulturelle Bildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3400202",
       "prefLabel": {
         "de": "Freizeit"
+      },
+      "note": {
+        "de": "Freizeit; Interkulturelle Bildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3400203",
       "prefLabel": {
         "de": "Familie"
+      },
+      "note": {
+        "de": "Familie; Interkulturelle Bildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3400204",
       "prefLabel": {
         "de": "Arbeitswelt"
+      },
+      "note": {
+        "de": "Arbeitswelt; Interkulturelle Bildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3400205",
       "prefLabel": {
         "de": "Gesellschaft, Öffentlichkeit"
+      },
+      "note": {
+        "de": "Gesellschaft; Öffentlichkeit; Interkulturelle Bildung"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/340",
     "prefLabel": {
       "de": "INTERKULTURELLE BILDUNG"
+    },
+    "note": {
+      "de": "Interkulturelle Bildung"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

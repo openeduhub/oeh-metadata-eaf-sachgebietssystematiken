@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800405",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800405",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800405",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800405",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800405",
   "prefLabel": {
     "de": "Recht"
   },
@@ -14,42 +14,63 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040501",
       "prefLabel": {
         "de": "Menschenrechte"
+      },
+      "note": {
+        "de": "Menschenrechte; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040502",
       "prefLabel": {
         "de": "Verfassungen"
+      },
+      "note": {
+        "de": "Verfassungen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040503",
       "prefLabel": {
         "de": "Arbeitsrecht"
+      },
+      "note": {
+        "de": "Arbeitsrecht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040504",
       "prefLabel": {
         "de": "Zivilrecht"
+      },
+      "note": {
+        "de": "Zivilrecht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040505",
       "prefLabel": {
         "de": "Strafrecht"
+      },
+      "note": {
+        "de": "Strafrecht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040506",
       "prefLabel": {
         "de": "Öffentliches Recht"
+      },
+      "note": {
+        "de": "Öffentliches Recht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480040507",
       "prefLabel": {
         "de": "Sozialrecht"
+      },
+      "note": {
+        "de": "Sozialrecht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     }
   ],
@@ -57,6 +78,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
     "prefLabel": {
       "de": "Politikfelder"
+    },
+    "note": {
+      "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -66,6 +90,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -101,6 +126,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

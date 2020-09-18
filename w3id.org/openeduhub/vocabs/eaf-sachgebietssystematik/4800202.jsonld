@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800202",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800202",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800202",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800202",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800202",
   "prefLabel": {
     "de": "Kommunale Ebene"
   },
@@ -14,18 +14,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020201",
       "prefLabel": {
         "de": "Kommunalwahlen"
+      },
+      "note": {
+        "de": "Kommunalwahlen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020202",
       "prefLabel": {
         "de": "Kommunale Institutionen"
+      },
+      "note": {
+        "de": "Kommunale Institutionen; Institutionen der Kommunen; kommunale Institutionen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020203",
       "prefLabel": {
         "de": "Kommunalpolitik"
+      },
+      "note": {
+        "de": "Kommunalpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     }
   ],
@@ -33,6 +42,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48002",
     "prefLabel": {
       "de": "Politisches System der Bundesrepublik Deutschland"
+    },
+    "note": {
+      "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -42,6 +54,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -77,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/640",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F640",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F640",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F640",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F640",
   "prefLabel": {
     "de": "UMWELTGEFÄHRDUNG, UMWELTSCHUTZ"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64001",
       "prefLabel": {
         "de": "Wasser"
+      },
+      "note": {
+        "de": "Wasser"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64002",
       "prefLabel": {
+        "de": "Boden"
+      },
+      "note": {
         "de": "Boden"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64003",
       "prefLabel": {
         "de": "Luft"
+      },
+      "note": {
+        "de": "Luft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64004",
       "prefLabel": {
+        "de": "Klima"
+      },
+      "note": {
         "de": "Klima"
       }
     },
@@ -38,17 +50,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64005",
       "prefLabel": {
         "de": "Wald"
+      },
+      "note": {
+        "de": "Wald"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64006",
       "prefLabel": {
         "de": "Arten, Biotope"
+      },
+      "note": {
+        "de": "Arten; Biotope"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64007",
       "prefLabel": {
+        "de": "Landschaft"
+      },
+      "note": {
         "de": "Landschaft"
       }
     },
@@ -56,17 +77,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64008",
       "prefLabel": {
         "de": "Landwirtschaft und Nahrungsmittelproduktion"
+      },
+      "note": {
+        "de": "Landwirtschaft und Nahrungsmittelproduktion"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64009",
       "prefLabel": {
         "de": "Abfall"
+      },
+      "note": {
+        "de": "Abfall; Müll"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64010",
       "prefLabel": {
+        "de": "Energie"
+      },
+      "note": {
         "de": "Energie"
       }
     },
@@ -74,11 +104,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64011",
       "prefLabel": {
         "de": "Lärm"
+      },
+      "note": {
+        "de": "Lärm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64012",
       "prefLabel": {
+        "de": "Verkehr"
+      },
+      "note": {
         "de": "Verkehr"
       }
     },
@@ -86,11 +122,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64013",
       "prefLabel": {
         "de": "Freizeit und Tourismus"
+      },
+      "note": {
+        "de": "Freizeit und Tourismus"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64014",
       "prefLabel": {
+        "de": "Bauen und Wohnen"
+      },
+      "note": {
         "de": "Bauen und Wohnen"
       }
     },
@@ -98,11 +140,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64015",
       "prefLabel": {
         "de": "Umwelt in Politik und Wirtschaft"
+      },
+      "note": {
+        "de": "Umwelt in Politik und Wirtschaft; Politikwissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64016",
       "prefLabel": {
+        "de": "Umweltbewusstes Handeln"
+      },
+      "note": {
         "de": "Umweltbewusstes Handeln"
       }
     },
@@ -110,6 +158,9 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/64017",
       "prefLabel": {
         "de": "Themenübergreifende Darstellungen"
+      },
+      "note": {
+        "de": "NaN"
       }
     }
   ],
@@ -123,6 +174,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -158,6 +210,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

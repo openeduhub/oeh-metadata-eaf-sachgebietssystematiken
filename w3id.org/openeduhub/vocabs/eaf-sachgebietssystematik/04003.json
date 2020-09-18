@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04003",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04003",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04003",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04003",
   "prefLabel": {
     "de": "Naturwissenschaften und Mathematik"
   },
@@ -14,17 +14,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400301",
       "prefLabel": {
         "de": "Labor"
+      },
+      "note": {
+        "de": "Labor; Labortechnik; Labortechnologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400302",
       "prefLabel": {
         "de": "Produktionstechnik"
+      },
+      "note": {
+        "de": "Produktionstechnik; Energietechnik; Fertigungstechnik; Verfahrenstechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400303",
       "prefLabel": {
+        "de": "Chemie"
+      },
+      "note": {
         "de": "Chemie"
       }
     },
@@ -32,17 +41,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400304",
       "prefLabel": {
         "de": "Geowissenschaften"
+      },
+      "note": {
+        "de": "Geowissenschaften"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400305",
       "prefLabel": {
         "de": "Mathematik und Statistik"
+      },
+      "note": {
+        "de": "Mathematik; Statistik; Mathematikunterricht; Matheunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400306",
       "prefLabel": {
+        "de": "Pharmazie"
+      },
+      "note": {
         "de": "Pharmazie"
       }
     }
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

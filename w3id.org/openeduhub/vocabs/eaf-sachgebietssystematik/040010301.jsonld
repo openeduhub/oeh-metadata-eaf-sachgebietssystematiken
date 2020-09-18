@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040010301",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040010301",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040010301",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040010301",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040010301",
   "prefLabel": {
     "de": "Tierzucht und Tierhaltung, Tierpflege"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030101",
       "prefLabel": {
         "de": "Geflügel"
+      },
+      "note": {
+        "de": "Geflügelhaltung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030102",
       "prefLabel": {
         "de": "Pferde"
+      },
+      "note": {
+        "de": "Pferdehaltung; Pferdezucht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030103",
       "prefLabel": {
         "de": "Rinder"
+      },
+      "note": {
+        "de": "Rinderhaltung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030104",
       "prefLabel": {
         "de": "Schafe"
+      },
+      "note": {
+        "de": "Schafhaltung; Schafzucht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030105",
       "prefLabel": {
         "de": "Schweine"
+      },
+      "note": {
+        "de": "Schweinezucht; Schweinemast; Schweineproduktion"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030106",
       "prefLabel": {
         "de": "Fische"
+      },
+      "note": {
+        "de": "Fischzucht; Aquakultur; Fischerei"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001030107",
       "prefLabel": {
         "de": "Allgemein"
+      },
+      "note": {
+        "de": "NaN"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400103",
     "prefLabel": {
+      "de": "Tierische Produktion"
+    },
+    "note": {
       "de": "Tierische Produktion"
     }
   },
@@ -66,6 +90,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -101,6 +126,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800202",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800202",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800202",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800202",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800202",
   "prefLabel": {
     "de": "Fertigkeitsbezogene Ordnung"
   },
@@ -14,49 +14,76 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020201",
       "prefLabel": {
         "de": "Alphabetisierung"
+      },
+      "note": {
+        "de": "Alphabetisierung; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020202"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020202",
+      "note": {
+        "de": "Sehverstehen; Hörverstehen; Grundschule; Primarunterricht; Grundschulunterricht"
+      }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020203",
       "prefLabel": {
         "de": "Interkulturelles Verstehen"
+      },
+      "note": {
+        "de": "Interkulturelles Verstehen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020204",
       "prefLabel": {
         "de": "Leseverstehen"
+      },
+      "note": {
+        "de": "Leseverstehen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020205",
       "prefLabel": {
         "de": "Schreiben"
+      },
+      "note": {
+        "de": "Schreiben; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020206",
       "prefLabel": {
         "de": "Sprechen"
+      },
+      "note": {
+        "de": "Sprechen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020207",
       "prefLabel": {
         "de": "Übersetzen"
+      },
+      "note": {
+        "de": "Übersetzen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020208"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020208",
+      "note": {
+        "de": "Grammatik; Systematisierung; Grundschule; Primarunterricht; Grundschulunterricht"
+      }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28002",
     "prefLabel": {
       "de": "Deutsch für Kinder anderer Muttersprache"
+    },
+    "note": {
+      "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -66,6 +93,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -101,6 +129,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

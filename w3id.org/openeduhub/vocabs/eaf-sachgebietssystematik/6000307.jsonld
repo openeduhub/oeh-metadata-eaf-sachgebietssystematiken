@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000307",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000307",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000307",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000307",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000307",
   "prefLabel": {
     "de": "Sonstige Sportarten"
   },
@@ -14,66 +14,99 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030701",
       "prefLabel": {
         "de": "Golf"
+      },
+      "note": {
+        "de": "Golf; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030702",
       "prefLabel": {
         "de": "Wurfscheibe"
+      },
+      "note": {
+        "de": "Wurfscheibe; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030703",
       "prefLabel": {
         "de": "Akrobatik"
+      },
+      "note": {
+        "de": "Akrobatik; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030704",
       "prefLabel": {
         "de": "Cheerleading"
+      },
+      "note": {
+        "de": "Cheerleading; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030705",
       "prefLabel": {
         "de": "Luftkissenbahn"
+      },
+      "note": {
+        "de": "Luftkissenbahn; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030706",
       "prefLabel": {
         "de": "Kampfsport"
+      },
+      "note": {
+        "de": "Kampfsport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030707",
       "prefLabel": {
         "de": "Kraftsport"
+      },
+      "note": {
+        "de": "Kraftsport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030708",
       "prefLabel": {
         "de": "Urbansport"
+      },
+      "note": {
+        "de": "Urbansport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030709",
       "prefLabel": {
         "de": "Klettern"
+      },
+      "note": {
+        "de": "Klettern; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030710",
       "prefLabel": {
         "de": "Pferdesport"
+      },
+      "note": {
+        "de": "Pferdesport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030711",
       "prefLabel": {
         "de": "Radsport"
+      },
+      "note": {
+        "de": "Radsport; Sport; Sportunterricht"
       }
     }
   ],
@@ -81,6 +114,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
     "prefLabel": {
       "de": "Sportarten"
+    },
+    "note": {
+      "de": "Sportarten; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -90,6 +126,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -125,6 +162,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

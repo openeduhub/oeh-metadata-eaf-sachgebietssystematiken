@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200304",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4200304",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4200304",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4200304",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4200304",
   "prefLabel": {
     "de": "Populäre Musik"
   },
@@ -11,30 +11,45 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030401"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030401",
+      "note": {
+        "de": "Unterhaltungsmusik; Schlager; Musik; Musikunterricht"
+      }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030402",
       "prefLabel": {
         "de": "Jazz und Blues"
+      },
+      "note": {
+        "de": "Jazz und Blues; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030403",
       "prefLabel": {
         "de": "Rock- und Popmusik"
+      },
+      "note": {
+        "de": "Popmusik; Rockmusik; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030404",
       "prefLabel": {
         "de": "Chanson, Liedermacher, Kleinkunst"
+      },
+      "note": {
+        "de": "Chanson; Liedermacher; Kleinkunst; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030405",
       "prefLabel": {
         "de": "Neue Stilrichtungen"
+      },
+      "note": {
+        "de": "New Wave; Punk; Techno; Rap; Musik; Musikunterricht"
       }
     }
   ],
@@ -42,6 +57,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
     "prefLabel": {
       "de": "Musikarten"
+    },
+    "note": {
+      "de": "Musikarten; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -51,6 +69,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -86,6 +105,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F46003",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F46003",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F46003",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F46003",
   "prefLabel": {
     "de": "Optik"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4600301",
       "prefLabel": {
         "de": "Geometrische Optik"
+      },
+      "note": {
+        "de": "Geometrische Optik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4600302",
       "prefLabel": {
         "de": "Wellenoptik"
+      },
+      "note": {
+        "de": "Wellenoptik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4600303",
       "prefLabel": {
         "de": "Fotometrie"
+      },
+      "note": {
+        "de": "Fotometrie; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4600304",
       "prefLabel": {
         "de": "Farbenlehre"
+      },
+      "note": {
+        "de": "Farbenlehre; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4600305",
       "prefLabel": {
         "de": "Technische Anwendungen"
+      },
+      "note": {
+        "de": "Physik; Physikunterricht"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
+    },
+    "note": {
+      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

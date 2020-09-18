@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40001",
   "prefLabel": {
     "de": "Grundlagen"
   },
@@ -14,18 +14,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000101",
       "prefLabel": {
         "de": "Kommunikationslehre"
+      },
+      "note": {
+        "de": "Kommunikationslehre; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000102",
       "prefLabel": {
         "de": "Mediennutzung, Medienwirkung"
+      },
+      "note": {
+        "de": "Mediennutzung; Medienwirkung; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000103",
       "prefLabel": {
         "de": "Medien im gesellschaftlichen System"
+      },
+      "note": {
+        "de": "Medien im gesellschaftlichen System; Medienpädagogik"
       }
     }
   ],
@@ -33,6 +42,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400",
     "prefLabel": {
       "de": "MEDIENPÄDAGOGIK"
+    },
+    "note": {
+      "de": "Medienpädagogik"
     }
   },
   "inScheme": {
@@ -42,6 +54,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -77,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

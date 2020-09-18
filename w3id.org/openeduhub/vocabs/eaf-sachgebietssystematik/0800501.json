@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800501",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800501",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800501",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800501",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800501",
   "prefLabel": {
     "de": "Allgemeine Zoologie"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050101",
       "prefLabel": {
         "de": "Gestalt und Bau"
+      },
+      "note": {
+        "de": "Gestalt und Bau; Anatomie; Tieranatomie; Körperbau; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050102",
       "prefLabel": {
         "de": "Fortpflanzung und Entwicklung"
+      },
+      "note": {
+        "de": "Fortpflanzung; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050103",
       "prefLabel": {
         "de": "Stoffwechsel"
+      },
+      "note": {
+        "de": "Stoffwechsel; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050104",
       "prefLabel": {
         "de": "Verhalten"
+      },
+      "note": {
+        "de": "Verhalten; Ethologie; Verhaltensbiologie; Biologieunterricht; Biologie"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08005",
     "prefLabel": {
       "de": "Zoologie"
+    },
+    "note": {
+      "de": "Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

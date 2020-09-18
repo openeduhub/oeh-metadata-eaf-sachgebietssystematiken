@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F600",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F600",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F600",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F600",
   "prefLabel": {
     "de": "SPORT"
   },
@@ -14,84 +14,126 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60001",
       "prefLabel": {
         "de": "Sportwissenschaft"
+      },
+      "note": {
+        "de": "Sportwissenschaft; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60002",
       "prefLabel": {
         "de": "Sportbereiche"
+      },
+      "note": {
+        "de": "Sportbereiche; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
       "prefLabel": {
         "de": "Sportarten"
+      },
+      "note": {
+        "de": "Sportarten; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60004",
       "prefLabel": {
         "de": "Sportorganisation"
+      },
+      "note": {
+        "de": "Sportorganisation; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60005",
       "prefLabel": {
         "de": "Olympische Spiele"
+      },
+      "note": {
+        "de": "Olympische Spiele; Olympiade; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60006",
       "prefLabel": {
         "de": "Sport und Kunst"
+      },
+      "note": {
+        "de": "Sport und Kunst; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60007",
       "prefLabel": {
         "de": "Sport und Recht"
+      },
+      "note": {
+        "de": "Sport und Recht; Sportrecht; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60008",
       "prefLabel": {
         "de": "Sport und Umwelt"
+      },
+      "note": {
+        "de": "Sport und Umwelt; Sportökologie; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60009",
       "prefLabel": {
         "de": "Sportstätten"
+      },
+      "note": {
+        "de": "Sportstätten; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60010",
       "prefLabel": {
         "de": "Sport und Physik"
+      },
+      "note": {
+        "de": "Sport und Physik; Sportphysik; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60011",
       "prefLabel": {
         "de": "Sport und Ernährung"
+      },
+      "note": {
+        "de": "Sport und Ernährung; Sporternährung; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60012",
       "prefLabel": {
         "de": "Sport und Erziehung"
+      },
+      "note": {
+        "de": "Sport und Erziehung; Sporterziehung; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60013",
       "prefLabel": {
         "de": "Sport und Biologie"
+      },
+      "note": {
+        "de": "Sport und Biologie; Sportbiologie; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Unterricht; Bilingualer Sportunterricht; Sport"
       }
     }
   ],
@@ -105,6 +147,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -140,6 +183,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

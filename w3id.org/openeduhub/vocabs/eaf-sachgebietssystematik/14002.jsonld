@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/14002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F14002",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F14002",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F14002",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F14002",
   "prefLabel": {
     "de": "Lebensbereiche"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1400201",
       "prefLabel": {
         "de": "Familie, Nachbarschaft, Freunde"
+      },
+      "note": {
+        "de": "Familie; Nachbarschaft; Freunde; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehungf"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1400202",
       "prefLabel": {
         "de": "Gesundheit"
+      },
+      "note": {
+        "de": "Gesundheit; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1400203",
       "prefLabel": {
         "de": "Natur"
+      },
+      "note": {
+        "de": "Natur; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1400204",
       "prefLabel": {
         "de": "Öffentliche"
+      },
+      "note": {
+        "de": "Öffentliche Einrichtungen; Öffentliche Dienstleistungen; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1400205",
       "prefLabel": {
         "de": "Berufe"
+      },
+      "note": {
+        "de": "Berufe; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/140",
     "prefLabel": {
       "de": "ELEMENTARBEREICH, VORSCHULERZIEHUNG"
+    },
+    "note": {
+      "de": "Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

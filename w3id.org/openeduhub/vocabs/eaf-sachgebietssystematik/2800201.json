@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800201",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800201",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800201",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800201",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2800201",
   "prefLabel": {
     "de": "Szenarien- bzw. dialogbezogene Ordnung"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020101",
       "prefLabel": {
         "de": "Einwirkende Interaktionen"
+      },
+      "note": {
+        "de": "Einwirkende Interaktionen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020102",
       "prefLabel": {
         "de": "Informationsaustausch"
+      },
+      "note": {
+        "de": "Informationsaustausch; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020103",
       "prefLabel": {
         "de": "Meinungsaustausch"
+      },
+      "note": {
+        "de": "Meinungsaustausch; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020104",
       "prefLabel": {
         "de": "Soziale Kontakte"
+      },
+      "note": {
+        "de": "Soziale Kontakte; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28002",
     "prefLabel": {
       "de": "Deutsch für Kinder anderer Muttersprache"
+    },
+    "note": {
+      "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

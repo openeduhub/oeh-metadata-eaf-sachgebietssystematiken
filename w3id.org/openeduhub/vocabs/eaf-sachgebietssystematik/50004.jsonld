@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/50004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50004",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50004",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50004",
   "prefLabel": {
     "de": "Textiles Gestalten"
   },
@@ -14,17 +14,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000401",
       "prefLabel": {
         "de": "Materialien"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000402",
       "prefLabel": {
         "de": "Techniken"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000403",
       "prefLabel": {
+        "de": "Maschinenkunde"
+      },
+      "note": {
         "de": "Maschinenkunde"
       }
     }
@@ -33,6 +42,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/500",
     "prefLabel": {
       "de": "PRAXISORIENTIERTE FÄCHER"
+    },
+    "note": {
+      "de": "Praxisorientierte Fächer"
     }
   },
   "inScheme": {
@@ -42,6 +54,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -77,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

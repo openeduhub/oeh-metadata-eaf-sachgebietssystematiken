@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/060",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F060",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F060",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F060",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F060",
   "prefLabel": {
     "de": "BILDENDE KUNST"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06001",
       "prefLabel": {
         "de": "Grundlagen künstlerischen Schaffens"
+      },
+      "note": {
+        "de": "künstlerisches Schaffen; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06002",
       "prefLabel": {
         "de": "Theorien zur Kunst"
+      },
+      "note": {
+        "de": "Theorien zur Kunst; Kunsttheorie; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
       "prefLabel": {
         "de": "Kunstgeschichte"
+      },
+      "note": {
+        "de": "Kunstgeschichte; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06004",
       "prefLabel": {
         "de": "Angewandte Kunst der Gegenwart"
+      },
+      "note": {
+        "de": "Angewandte Kunst der Gegenwart; Gegenwartskunst; Zeitgenössische Kunst; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06005",
       "prefLabel": {
         "de": "Erhalten und Restaurieren"
+      },
+      "note": {
+        "de": "Restaurieren; Restaurierung; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Kunstunterricht; Kunst; Kunstunterricht"
       }
     }
   ],
@@ -57,6 +75,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -92,6 +111,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

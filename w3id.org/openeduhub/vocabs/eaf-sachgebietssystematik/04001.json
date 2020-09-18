@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04001",
   "prefLabel": {
     "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
   },
@@ -14,17 +14,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400101",
       "prefLabel": {
         "de": "Pflanzliche Produktion"
+      },
+      "note": {
+        "de": "Pflanzliche Produktion"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400102",
       "prefLabel": {
         "de": "Bodenkunde und Kulturtechnik"
+      },
+      "note": {
+        "de": "Bodenkunde; Kulturtechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400103",
       "prefLabel": {
+        "de": "Tierische Produktion"
+      },
+      "note": {
         "de": "Tierische Produktion"
       }
     },
@@ -32,29 +41,44 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400104",
       "prefLabel": {
         "de": "Landtechnik"
+      },
+      "note": {
+        "de": "Landtechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400105",
       "prefLabel": {
         "de": "Betriebswirtschaftslehre"
+      },
+      "note": {
+        "de": "Betriebswirtschaftslehre; Betriebswirtschaft; BWL; Wirtschaftswissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400106",
       "prefLabel": {
         "de": "Agrarpolitik"
+      },
+      "note": {
+        "de": "Agrarpolitik; Politikwissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400108",
       "prefLabel": {
         "de": "Umweltschutz und Naturschutz"
+      },
+      "note": {
+        "de": "Umweltschutz; Naturschutz"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400109",
       "prefLabel": {
+        "de": "Forstwirtschaft"
+      },
+      "note": {
         "de": "Forstwirtschaft"
       }
     },
@@ -62,16 +86,25 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400110",
       "prefLabel": {
         "de": "Gartenbau, Floristik"
+      },
+      "note": {
+        "de": "Gartenbau; Floristik"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400112"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400112",
+      "note": {
+        "de": "Agrargeschichte"
+      }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -81,6 +114,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -116,6 +150,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

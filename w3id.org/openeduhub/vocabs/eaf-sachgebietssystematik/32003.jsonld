@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F32003",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F32003",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F32003",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F32003",
   "prefLabel": {
     "de": "Berufsbezogene informationstechnische Bildung"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200301",
       "prefLabel": {
         "de": "Wirtschaftsinformatik"
+      },
+      "note": {
+        "de": "Wirtschaftsinformatik; Informatik; Informatikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200302",
       "prefLabel": {
         "de": "Technische Kommunikation"
+      },
+      "note": {
+        "de": "Technische Kommunikation; Informatik; Informatikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200303",
       "prefLabel": {
         "de": "Prozessdatenverarbeitung"
+      },
+      "note": {
+        "de": "Prozessdatenverarbeitung; Informatik; Informatikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200304",
       "prefLabel": {
         "de": "CNC-Fertigung"
+      },
+      "note": {
+        "de": "CNC-Fertigung; Informatik; Informatikunterricht"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320",
     "prefLabel": {
       "de": "INFORMATIONSTECHNISCHE BILDUNG"
+    },
+    "note": {
+      "de": "Informationstechnische Bildung"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

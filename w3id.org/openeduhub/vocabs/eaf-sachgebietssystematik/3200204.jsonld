@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200204",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F3200204",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F3200204",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F3200204",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F3200204",
   "prefLabel": {
     "de": "Praktische Informatik"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320020401",
       "prefLabel": {
         "de": "Algorithmen und Datenstrukturen"
+      },
+      "note": {
+        "de": "Informatik; Informatikunterricht; Algorithmus; Datenstruktur; Algorithmen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320020402",
       "prefLabel": {
         "de": "Betriebssysteme"
+      },
+      "note": {
+        "de": "Informatik; Informatikunterricht; Betriebssystem"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320020403",
       "prefLabel": {
         "de": "Programmiersprachen"
+      },
+      "note": {
+        "de": "Informatik; Informatikunterricht; Programmiersprache"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320020404",
       "prefLabel": {
         "de": "Programmierung"
+      },
+      "note": {
+        "de": "Informatik; Informatikunterricht; Programmierung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320020405",
       "prefLabel": {
         "de": "Software-Projekte"
+      },
+      "note": {
+        "de": "Informatik; Informatikunterricht; Software-Projekt"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32002",
     "prefLabel": {
       "de": "Informatik"
+    },
+    "note": {
+      "de": "Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

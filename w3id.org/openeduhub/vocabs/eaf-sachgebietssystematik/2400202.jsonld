@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400202",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400202",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400202",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400202",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400202",
   "prefLabel": {
     "de": "Alte Geschichte"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020201",
       "prefLabel": {
         "de": "Frühe Hochkulturen"
+      },
+      "note": {
+        "de": "Frühe Hochkulturen; Sumerer; Babylonier; Ägypter; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020202",
       "prefLabel": {
         "de": "Griechische Geschichte"
+      },
+      "note": {
+        "de": "Griechische Geschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020203",
       "prefLabel": {
         "de": "Römische Geschichte, etruskische Geschichte"
+      },
+      "note": {
+        "de": "Römische Geschichte; etruskische Geschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020204",
       "prefLabel": {
         "de": "Völkerwanderung, germanische Geschichte"
+      },
+      "note": {
+        "de": "Völkerwanderung; germanische Geschichte; Geschichte; Geschichtsunterricht"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
+    },
+    "note": {
+      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40002",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40002",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40002",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F40002",
   "prefLabel": {
     "de": "Medienpädagogische Handlungsfelder"
   },
@@ -14,39 +14,60 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000201",
       "prefLabel": {
         "de": "Druckmedien"
+      },
+      "note": {
+        "de": "Druckmedien; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000202",
       "prefLabel": {
         "de": "Fotografie"
+      },
+      "note": {
+        "de": "Fotografie; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000203",
       "prefLabel": {
         "de": "Auditive Medien, Hörfunk"
+      },
+      "note": {
+        "de": "Auditive Medien; Hörfunk; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000204",
       "prefLabel": {
         "de": "Film, Video"
+      },
+      "note": {
+        "de": "Film; Video; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000205",
       "prefLabel": {
         "de": "Fernsehen"
+      },
+      "note": {
+        "de": "Fernsehen; Medienpädagogik"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000206"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000206",
+      "note": {
+        "de": "Computer; Multimedia; Medienpädagogik"
+      }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000207",
       "prefLabel": {
         "de": "Theater"
+      },
+      "note": {
+        "de": "Theater; Medienpädagogik"
       }
     }
   ],
@@ -54,6 +75,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400",
     "prefLabel": {
       "de": "MEDIENPÄDAGOGIK"
+    },
+    "note": {
+      "de": "Medienpädagogik"
     }
   },
   "inScheme": {
@@ -63,6 +87,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -98,6 +123,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

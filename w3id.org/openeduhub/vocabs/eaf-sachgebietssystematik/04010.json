@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04010",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04010",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04010",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04010",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04010",
   "prefLabel": {
     "de": "Fahrzeugtechnik, Mechatronik"
   },
@@ -14,35 +14,53 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401001",
       "prefLabel": {
         "de": "Motortechnik"
+      },
+      "note": {
+        "de": "Motortechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401002",
       "prefLabel": {
         "de": "Kraft- und Bewegungsübertragung"
+      },
+      "note": {
+        "de": "Kraftübertragung; Bewegungsübertragung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401003",
       "prefLabel": {
         "de": "Fahrwerk- und Bremstechnik"
+      },
+      "note": {
+        "de": "Fahrwerktechnik; Bremstechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401004",
       "prefLabel": {
         "de": "Steuerungs- und Regelungstechnik"
+      },
+      "note": {
+        "de": "Steuerungstechnik; Regelungstechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401005",
       "prefLabel": {
         "de": "Karosserietechnik"
+      },
+      "note": {
+        "de": "Karosserietechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401006",
       "prefLabel": {
+        "de": "Installationstechnik"
+      },
+      "note": {
         "de": "Installationstechnik"
       }
     }
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

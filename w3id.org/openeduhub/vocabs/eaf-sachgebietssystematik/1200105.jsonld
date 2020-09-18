@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200105",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F1200105",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F1200105",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F1200105",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F1200105",
   "prefLabel": {
     "de": "Literaturgeschichte"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010501",
       "prefLabel": {
         "de": "Antike"
+      },
+      "note": {
+        "de": "Antike; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010502",
       "prefLabel": {
         "de": "Mittelalter"
+      },
+      "note": {
+        "de": "Mittelalter; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010503",
       "prefLabel": {
         "de": "16. - 18. Jahrhundert"
+      },
+      "note": {
+        "de": "16. - 18. Jahrhundert; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010504",
       "prefLabel": {
         "de": "19. Jahrhundert"
+      },
+      "note": {
+        "de": "19. Jahrhundert; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010505",
       "prefLabel": {
         "de": "20. Jahrhundert"
+      },
+      "note": {
+        "de": "20. Jahrhundert; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010506",
       "prefLabel": {
         "de": "21. Jahrhundert"
+      },
+      "note": {
+        "de": "21. Jahrhundert; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010507",
       "prefLabel": {
         "de": "Biographien"
+      },
+      "note": {
+        "de": "Biographien; Biographien bekannter Autoren und Schriftsteller; Biografien; Biografien bekannter Autoren und Schriftsteller; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010508",
       "prefLabel": {
         "de": "Überblicksdarstellungen"
+      },
+      "note": {
+        "de": "Überblicksdarstellungen; Deutsch; Deutschunterricht"
       }
     }
   ],
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12001",
     "prefLabel": {
       "de": "Literatur"
+    },
+    "note": {
+      "de": "Literatur; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

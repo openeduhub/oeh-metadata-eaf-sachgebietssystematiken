@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28001",
   "prefLabel": {
     "de": "Deutsch"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800101",
       "prefLabel": {
         "de": "Anlässe zum Sprechen, Lesen, Schreiben"
+      },
+      "note": {
+        "de": "Anlässe zum Sprechen; Lesen; Schreiben; Grundschule; Grundschulunterricht; Deutsch; Deutschunterricht; Deutsch in der Grundschule; Primarunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800102",
       "prefLabel": {
         "de": "Literatur"
+      },
+      "note": {
+        "de": "Literatur; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800103",
       "prefLabel": {
         "de": "Sprachlehre, Rechtschreibung"
+      },
+      "note": {
+        "de": "Sprachlehre; Rechtschreibung; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800104",
       "prefLabel": {
         "de": "Lesen, Lesetechnik, Umgang mit Texten"
+      },
+      "note": {
+        "de": "Lesen; Lesetechnik; Umgang mit Texten; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
+    },
+    "note": {
+      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

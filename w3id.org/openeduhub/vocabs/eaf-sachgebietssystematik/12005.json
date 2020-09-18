@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12005",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12005",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12005",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12005",
   "prefLabel": {
     "de": "Deutsch als Zweit- und Fremdsprache"
   },
@@ -14,12 +14,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200501",
       "prefLabel": {
         "de": "Sprachliche Fertigkeiten"
+      },
+      "note": {
+        "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200502",
       "prefLabel": {
         "de": "Landeskunde Deutschland"
+      },
+      "note": {
+        "de": "Landeskunde Deutschland; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     }
   ],
@@ -27,6 +33,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120",
     "prefLabel": {
       "de": "DEUTSCH"
+    },
+    "note": {
+      "de": "Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -36,6 +45,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -71,6 +81,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

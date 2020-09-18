@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120050103",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120050103",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120050103",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120050103",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120050103",
   "prefLabel": {
     "de": "Fachsprachliche Vertiefungen"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010301",
       "prefLabel": {
         "de": "Handwerk"
+      },
+      "note": {
+        "de": "Handwerk; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010302",
       "prefLabel": {
         "de": "Medizin und Pflege"
+      },
+      "note": {
+        "de": "Medizin und Pflege; Medizin; Pflege; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010303",
       "prefLabel": {
         "de": "Naturwissenschaft und Technik"
+      },
+      "note": {
+        "de": "Naturwissenschaft und Technik; Naturwissenschaft; Technik; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010304",
       "prefLabel": {
         "de": "Recht"
+      },
+      "note": {
+        "de": "Recht; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010305",
       "prefLabel": {
         "de": "Wirtschaft"
+      },
+      "note": {
+        "de": "Wirtschaft; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200501",
     "prefLabel": {
       "de": "Sprachliche Fertigkeiten"
+    },
+    "note": {
+      "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400702",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400702",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400702",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400702",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400702",
   "prefLabel": {
     "de": "Raumgestaltung"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040070201",
       "prefLabel": {
         "de": "Raumgestaltung"
+      },
+      "note": {
+        "de": "Raumgestaltung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040070202",
       "prefLabel": {
+        "de": "Flächengestaltung"
+      },
+      "note": {
         "de": "Flächengestaltung"
       }
     },
@@ -26,17 +32,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040070203",
       "prefLabel": {
         "de": "Wandgestaltung"
+      },
+      "note": {
+        "de": "Wandgestaltung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040070204",
       "prefLabel": {
         "de": "Bodengestaltung"
+      },
+      "note": {
+        "de": "Bodengestaltung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040070205",
       "prefLabel": {
+        "de": "Dekoration"
+      },
+      "note": {
         "de": "Dekoration"
       }
     }
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04007",
     "prefLabel": {
       "de": "Farbtechnik und Raumgestaltung"
+    },
+    "note": {
+      "de": "Farbtechnik; Raumgestaltung"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

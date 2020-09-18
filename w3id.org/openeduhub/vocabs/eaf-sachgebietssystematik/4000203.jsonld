@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000203",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000203",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000203",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000203",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000203",
   "prefLabel": {
     "de": "Auditive Medien, Hörfunk"
   },
@@ -14,12 +14,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400020301",
       "prefLabel": {
         "de": "Medienkundlicher Aspekt"
+      },
+      "note": {
+        "de": "Medienkundlicher Aspekt; Medienpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400020302",
       "prefLabel": {
         "de": "Medienpädagogischer Aspekt"
+      },
+      "note": {
+        "de": "Medienpädagogischer Aspekt; Medienpädagogik"
       }
     }
   ],
@@ -27,6 +33,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40002",
     "prefLabel": {
       "de": "Medienpädagogische Handlungsfelder"
+    },
+    "note": {
+      "de": "Medienpädagogische Handlungsfelder; Medienpädagogik"
     }
   },
   "inScheme": {
@@ -36,6 +45,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -71,6 +81,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

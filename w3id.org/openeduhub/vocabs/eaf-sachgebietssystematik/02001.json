@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/02001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02001",
   "prefLabel": {
     "de": "Hinführung zur Arbeitswelt"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200101",
       "prefLabel": {
         "de": "Arbeitsbedingungen, Arbeitsabläufe"
+      },
+      "note": {
+        "de": "Arbeitsbedingungen; Arbeitsabläufe; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200102",
       "prefLabel": {
         "de": "Arbeitswert"
+      },
+      "note": {
+        "de": "Arbeitswert; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200103",
       "prefLabel": {
         "de": "Arbeitssicherheit"
+      },
+      "note": {
+        "de": "Arbeitssicherheit; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200104",
       "prefLabel": {
         "de": "Recht im Betrieb"
+      },
+      "note": {
+        "de": "Arbeitsrecht; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200105",
       "prefLabel": {
         "de": "Unternehmensformen, Unternehmensstrukturen"
+      },
+      "note": {
+        "de": "Unternehmensformen; Unternehmensstrukturen; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200106",
       "prefLabel": {
         "de": "Strukturwandel, Rationalisierung, Humanisierung"
+      },
+      "note": {
+        "de": "Strukturwandel; Rationalisierung; Humanisierung; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200107",
       "prefLabel": {
         "de": "Gesellschaftliche Bedingungen"
+      },
+      "note": {
+        "de": "Gesellschaftliche Bedingungen; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200108",
       "prefLabel": {
         "de": "Geschichte von Arbeit und Technik"
+      },
+      "note": {
+        "de": "Technikgeschichte; Geschichte der Arbeit; Arbeitslehre"
       }
     }
   ],
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/020",
     "prefLabel": {
       "de": "ARBEITSLEHRE"
+    },
+    "note": {
+      "de": "Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

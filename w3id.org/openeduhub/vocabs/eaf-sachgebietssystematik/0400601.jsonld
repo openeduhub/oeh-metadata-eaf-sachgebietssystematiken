@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400601",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400601",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400601",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400601",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400601",
   "prefLabel": {
     "de": "Gastronomie"
   },
@@ -14,17 +14,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040060101",
       "prefLabel": {
         "de": "Service"
+      },
+      "note": {
+        "de": "Gastronomieservice; Gastroservice"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040060102",
       "prefLabel": {
         "de": "Küche"
+      },
+      "note": {
+        "de": "Gastroküchen; Gastronomiebedarf"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040060103",
       "prefLabel": {
+        "de": "Housekeeping"
+      },
+      "note": {
         "de": "Housekeeping"
       }
     },
@@ -32,18 +41,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040060104",
       "prefLabel": {
         "de": "Verwaltung"
+      },
+      "note": {
+        "de": "Verwaltung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040060105",
       "prefLabel": {
         "de": "Rezeption"
+      },
+      "note": {
+        "de": "Rezeption; Empfang"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040060106",
       "prefLabel": {
         "de": "Sonstige Bereiche"
+      },
+      "note": {
+        "de": "NaN"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04006",
     "prefLabel": {
       "de": "Gastgewerbe und Hauswirtschaft"
+    },
+    "note": {
+      "de": "Gastgewerbe; Hauswirtschaft"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

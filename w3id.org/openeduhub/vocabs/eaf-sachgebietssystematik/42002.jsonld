@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F42002",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F42002",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F42002",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F42002",
   "prefLabel": {
     "de": "Europäische Zeitstile"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200201",
       "prefLabel": {
         "de": "Anfänge der abendländischen Musik"
+      },
+      "note": {
+        "de": "Anfänge der abendländischen Musik; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200202",
       "prefLabel": {
         "de": "Mittelalterliche Ein- und Mehrstimmigkeit"
+      },
+      "note": {
+        "de": "Mittelalterliche Einstimmigkeit; Mittelalterliche Mehrstimmigkeit; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200203",
       "prefLabel": {
         "de": "Renaissance"
+      },
+      "note": {
+        "de": "Renaissance; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200204",
       "prefLabel": {
         "de": "Barock"
+      },
+      "note": {
+        "de": "Barock; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200205",
       "prefLabel": {
         "de": "Klassik"
+      },
+      "note": {
+        "de": "Klassik; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200206",
       "prefLabel": {
         "de": "Romantik"
+      },
+      "note": {
+        "de": "Romantik; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200207",
       "prefLabel": {
         "de": "Impressionismus"
+      },
+      "note": {
+        "de": "Impressionismus; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200208",
       "prefLabel": {
         "de": "Moderne"
+      },
+      "note": {
+        "de": "Moderne; Musik; Musikunterricht"
       }
     }
   ],
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420",
     "prefLabel": {
       "de": "MUSIK"
+    },
+    "note": {
+      "de": "Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

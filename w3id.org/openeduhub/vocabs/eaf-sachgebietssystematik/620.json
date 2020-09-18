@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/620",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F620",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F620",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F620",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F620",
   "prefLabel": {
     "de": "SUCHT UND PRÄVENTION"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/62001",
       "prefLabel": {
         "de": "Suchtursachen"
+      },
+      "note": {
+        "de": "Suchtursachen; Sucht; Prävention"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/62002",
       "prefLabel": {
         "de": "Drogen"
+      },
+      "note": {
+        "de": "Drogen; Sucht; Prävention"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/62003",
       "prefLabel": {
         "de": "Sonstige Abhängigkeiten"
+      },
+      "note": {
+        "de": "Sucht; Prävention"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/62004",
       "prefLabel": {
         "de": "Prävention, Therapie"
+      },
+      "note": {
+        "de": "Prävention; Therapie; Sucht; Prävention"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/62005",
       "prefLabel": {
         "de": "Gesellschaftliche Aspekte"
+      },
+      "note": {
+        "de": "Sucht; Prävention"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/62080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Unterricht; Sucht; Prävention"
       }
     }
   ],
@@ -57,6 +75,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -92,6 +111,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

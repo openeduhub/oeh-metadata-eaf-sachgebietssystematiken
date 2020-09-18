@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48005",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48005",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48005",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F48005",
   "prefLabel": {
     "de": "Gesellschaftspolitische Gegenwartsfragen"
   },
@@ -14,72 +14,108 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800501",
       "prefLabel": {
         "de": "Arbeit"
+      },
+      "note": {
+        "de": "Arbeit; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800502",
       "prefLabel": {
         "de": "Armut, soziale Unterschiede"
+      },
+      "note": {
+        "de": "Armut; soziale Unterschiede; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800503",
       "prefLabel": {
         "de": "Formen des Zusammenlebens"
+      },
+      "note": {
+        "de": "Formen des Zusammenlebens; Zusammenleben; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800504",
       "prefLabel": {
         "de": "Freizeit"
+      },
+      "note": {
+        "de": "Freizeit; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800505",
       "prefLabel": {
         "de": "Gewalt"
+      },
+      "note": {
+        "de": "Gewalt; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800506",
       "prefLabel": {
         "de": "Gleichberechtigung"
+      },
+      "note": {
+        "de": "Gleichberechtigung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800507",
       "prefLabel": {
         "de": "Migration"
+      },
+      "note": {
+        "de": "Migration; Flucht; Immigration; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800508",
       "prefLabel": {
         "de": "Randgruppen"
+      },
+      "note": {
+        "de": "Randgruppen; Minderheiten; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800509",
       "prefLabel": {
         "de": "Schule, Ausbildung"
+      },
+      "note": {
+        "de": "Schule; Ausbildung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800510",
       "prefLabel": {
         "de": "Verhältnis der Generationen"
+      },
+      "note": {
+        "de": "Verhältnis der Generationen; Generationenverhältnis; Generationenbeziehungen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800511",
       "prefLabel": {
         "de": "Vorurteile, Rassismus"
+      },
+      "note": {
+        "de": "Vorurteile; Rassismus; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800512",
       "prefLabel": {
         "de": "Umwelt, Energie"
+      },
+      "note": {
+        "de": "Umwelt; Energie; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
       }
     }
   ],
@@ -87,6 +123,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
+    },
+    "note": {
+      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -96,6 +135,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -131,6 +171,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

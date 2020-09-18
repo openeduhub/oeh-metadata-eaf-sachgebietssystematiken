@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/560",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F560",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F560",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F560",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F560",
   "prefLabel": {
     "de": "SEXUALERZIEHUNG"
   },
@@ -14,42 +14,63 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56001",
       "prefLabel": {
         "de": "Sexualität"
+      },
+      "note": {
+        "de": "Sexualität; Bisexualität; Homosexualität; Transsexualität"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56002",
       "prefLabel": {
         "de": "Pubertät"
+      },
+      "note": {
+        "de": "Pubertät; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56003",
       "prefLabel": {
         "de": "Partnerschaft, Beziehungen"
+      },
+      "note": {
+        "de": "Partnerschaft; Beziehungen; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56004",
       "prefLabel": {
         "de": "Schwangerschaft und Geburt"
+      },
+      "note": {
+        "de": "Schwangerschaft; Geburt; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56005",
       "prefLabel": {
         "de": "Empfängnisverhütung"
+      },
+      "note": {
+        "de": "Empfängnisverhütung; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56006",
       "prefLabel": {
         "de": "Sexueller Missbrauch"
+      },
+      "note": {
+        "de": "Sexueller Missbrauch; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/56007",
       "prefLabel": {
         "de": "Sexuell übertragbare Krankheiten"
+      },
+      "note": {
+        "de": "Sexuell übertragbare Krankheiten; Geschlechtskrankheiten; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
       }
     }
   ],
@@ -63,6 +84,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -98,6 +120,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

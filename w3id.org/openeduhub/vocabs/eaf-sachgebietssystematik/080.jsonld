@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F080",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F080",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F080",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F080",
   "prefLabel": {
     "de": "BIOLOGIE"
   },
@@ -14,54 +14,81 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08001",
       "prefLabel": {
         "de": "Allgemeine Biologie"
+      },
+      "note": {
+        "de": "Allgemeine Biologie; Biologie; Biologieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08002",
       "prefLabel": {
         "de": "Mikroorganismen"
+      },
+      "note": {
+        "de": "Mikroorganismen; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08003",
       "prefLabel": {
         "de": "Pilze"
+      },
+      "note": {
+        "de": "Pilze; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08004",
       "prefLabel": {
         "de": "Botanik"
+      },
+      "note": {
+        "de": "Botanik; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08005",
       "prefLabel": {
         "de": "Zoologie"
+      },
+      "note": {
+        "de": "Zoologie; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08006",
       "prefLabel": {
         "de": "Menschenkunde"
+      },
+      "note": {
+        "de": "Menschenkunde; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08007",
       "prefLabel": {
         "de": "Ökologie"
+      },
+      "note": {
+        "de": "Ökologie; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08008",
       "prefLabel": {
         "de": "Biographien"
+      },
+      "note": {
+        "de": "Biographien; Biografien; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Biologieunterricht; Biologie"
       }
     }
   ],
@@ -75,6 +102,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -110,6 +138,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

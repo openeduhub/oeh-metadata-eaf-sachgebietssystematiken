@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F460",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F460",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F460",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F460",
   "prefLabel": {
     "de": "PHYSIK"
   },
@@ -14,102 +14,153 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46001",
       "prefLabel": {
         "de": "Klassische Mechanik"
+      },
+      "note": {
+        "de": "Klassische Mechanik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46002",
       "prefLabel": {
         "de": "Wärmelehre"
+      },
+      "note": {
+        "de": "Wärmelehre; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46003",
       "prefLabel": {
         "de": "Optik"
+      },
+      "note": {
+        "de": "Optik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46004",
       "prefLabel": {
         "de": "Magnetismus"
+      },
+      "note": {
+        "de": "Magnetismus; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46005",
       "prefLabel": {
         "de": "Elektrizitätslehre"
+      },
+      "note": {
+        "de": "Elektrizitätslehre; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46006",
       "prefLabel": {
         "de": "Relativitätstheorie"
+      },
+      "note": {
+        "de": "Relativitätstheorie; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46007",
       "prefLabel": {
         "de": "Quantentheorie"
+      },
+      "note": {
+        "de": "Quantentheorie; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46008",
       "prefLabel": {
         "de": "Atomphysik"
+      },
+      "note": {
+        "de": "Atomphysik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46009",
       "prefLabel": {
         "de": "Kernphysik"
+      },
+      "note": {
+        "de": "Kernphysik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46010",
       "prefLabel": {
         "de": "Chaostheorie"
+      },
+      "note": {
+        "de": "Chaostheorie; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46011",
       "prefLabel": {
         "de": "Elementarteilchenphysik"
+      },
+      "note": {
+        "de": "Elementarteilchenphysik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46012",
       "prefLabel": {
         "de": "Festkörperphysik"
+      },
+      "note": {
+        "de": "Festkörperphysik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46013",
       "prefLabel": {
         "de": "Biophysik"
+      },
+      "note": {
+        "de": "Biophysik; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46014",
       "prefLabel": {
         "de": "Astronomie"
+      },
+      "note": {
+        "de": "Astronomie; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46015",
       "prefLabel": {
         "de": "Technologie"
+      },
+      "note": {
+        "de": "Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46016",
       "prefLabel": {
         "de": "Biographien"
+      },
+      "note": {
+        "de": "Biographien; Biografien; Physik; Physikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Physikunterricht; Physik; Physikunterricht"
       }
     }
   ],
@@ -123,6 +174,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -158,6 +210,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420",
   "prefLabel": {
     "de": "MUSIK"
   },
@@ -14,54 +14,81 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42001",
       "prefLabel": {
         "de": "Außereuropäische Musik"
+      },
+      "note": {
+        "de": "Außereuropäische Musik; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42002",
       "prefLabel": {
         "de": "Europäische Zeitstile"
+      },
+      "note": {
+        "de": "Europäische Zeitstile; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
       "prefLabel": {
         "de": "Musikarten"
+      },
+      "note": {
+        "de": "Musikarten; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42004",
       "prefLabel": {
         "de": "Interpretation"
+      },
+      "note": {
+        "de": "Interpretation; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42005",
       "prefLabel": {
         "de": "Musik und Gesellschaft"
+      },
+      "note": {
+        "de": "Musik und Gesellschaft; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42006",
       "prefLabel": {
         "de": "Musik und Technik"
+      },
+      "note": {
+        "de": "Musik und Technik; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42007",
       "prefLabel": {
         "de": "Musiktheorie"
+      },
+      "note": {
+        "de": "Musiktheorie; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42008",
       "prefLabel": {
         "de": "Unterrichtsorientierte Zusammenstellungen"
+      },
+      "note": {
+        "de": "Unterrichtsorientierte Zusammenstellungen; Musik; Musikunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Unterricht; Bilingualer Musikunterricht; Musik"
       }
     }
   ],
@@ -75,6 +102,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -110,6 +138,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

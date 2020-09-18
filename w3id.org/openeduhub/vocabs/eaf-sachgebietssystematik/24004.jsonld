@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F24004",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F24004",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F24004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F24004",
   "prefLabel": {
     "de": "Geschichtliche Überblicke und thematische Querschnitte"
   },
@@ -14,78 +14,117 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400401",
       "prefLabel": {
         "de": "Alltag"
+      },
+      "note": {
+        "de": "Alltagsgeschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400402",
       "prefLabel": {
         "de": "Arbeit, Handwerk"
+      },
+      "note": {
+        "de": "Geschichte des Handwerks; Arbeit im Wandel der Zeit; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400403",
       "prefLabel": {
         "de": "Bildung und Wissenschaft"
+      },
+      "note": {
+        "de": "Geschichte der Wissenschaft; Bildungsgeschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400404",
       "prefLabel": {
         "de": "Formen der Weltauffassung, Religion"
+      },
+      "note": {
+        "de": "Formen der Weltauffassung; Weltanschauungen und ihre Geschichte; Geschichte der Religion; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400405",
       "prefLabel": {
         "de": "Gesellschaft"
+      },
+      "note": {
+        "de": "Geschichte der Gesellschaft; Gesellschaft im Wandel der Zeit; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400406",
       "prefLabel": {
         "de": "Staat, Herrschaftsformen"
+      },
+      "note": {
+        "de": "Herrschaftsformen in der Geschichte; Geschichte eines Staates; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400407",
       "prefLabel": {
         "de": "Kriegs- und Wehrwesen"
+      },
+      "note": {
+        "de": "Geschichte des Kriegs- und Wehrwesens; Kriegswesen; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400408",
       "prefLabel": {
         "de": "Kultur"
+      },
+      "note": {
+        "de": "Kulturgeschichte; Kultur und Geschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400409",
       "prefLabel": {
         "de": "Recht"
+      },
+      "note": {
+        "de": "Geschichte des Rechts; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400410",
       "prefLabel": {
         "de": "Siedlungsformen"
+      },
+      "note": {
+        "de": "Siedlungsgeschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400411",
       "prefLabel": {
         "de": "Technik, Verkehr"
+      },
+      "note": {
+        "de": "Technikgeschichte; Verkehrsgeschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400412",
       "prefLabel": {
         "de": "Wirtschaft"
+      },
+      "note": {
+        "de": "Wirtschaftsgeschichte; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400413",
       "prefLabel": {
         "de": "Allgemeine Längs- und Querschnitte"
+      },
+      "note": {
+        "de": "Geschichte; Geschichtsunterricht"
       }
     }
   ],
@@ -93,6 +132,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240",
     "prefLabel": {
       "de": "GESCHICHTE"
+    },
+    "note": {
+      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -102,6 +144,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -137,6 +180,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

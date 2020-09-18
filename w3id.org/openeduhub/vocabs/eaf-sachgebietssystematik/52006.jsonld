@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52006",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52006",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52006",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52006",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52006",
   "prefLabel": {
     "de": "Religiöse Kunst"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200601",
       "prefLabel": {
         "de": "Bild und Plastik"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200602",
       "prefLabel": {
         "de": "Musik"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200603",
       "prefLabel": {
         "de": "Theater"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200604",
       "prefLabel": {
         "de": "Film"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200605",
       "prefLabel": {
         "de": "Literatur"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200606",
       "prefLabel": {
         "de": "Architektur"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Religionslehre"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
+    },
+    "note": {
+      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

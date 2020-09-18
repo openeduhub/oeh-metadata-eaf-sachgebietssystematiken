@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/360",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F360",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F360",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F360",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F360",
   "prefLabel": {
     "de": "KINDER- UND JUGENDBILDUNG"
   },
@@ -14,17 +14,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36001",
       "prefLabel": {
         "de": "Lebensbewältigung"
+      },
+      "note": {
+        "de": "Lebensbewältigung von Kindern; Lebensbewältigung von Jugendlichen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36002",
       "prefLabel": {
         "de": "Lebensformen, Lebensvorstellungen"
+      },
+      "note": {
+        "de": "Lebensformen; Lebensvorstellungen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36003",
       "prefLabel": {
+        "de": "Leben miteinander"
+      },
+      "note": {
         "de": "Leben miteinander"
       }
     },
@@ -32,23 +41,35 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36004",
       "prefLabel": {
         "de": "Leben anderswo"
+      },
+      "note": {
+        "de": "Leben anderswo"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36005",
       "prefLabel": {
         "de": "Beeinflussung durch Subkulturen, Ideologien, Jugendsekten"
+      },
+      "note": {
+        "de": "Beeinflussung durch Subkulturen; Ideologien; Jugendsekten"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36006",
       "prefLabel": {
         "de": "Kreatives, künstlerisches Lernen"
+      },
+      "note": {
+        "de": "Kreatives; künstlerisches Lernen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36007",
       "prefLabel": {
+        "de": "Spiele"
+      },
+      "note": {
         "de": "Spiele"
       }
     }
@@ -63,6 +84,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -98,6 +120,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

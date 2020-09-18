@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400203",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400203",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400203",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400203",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F2400203",
   "prefLabel": {
     "de": "Mittelalterliche Geschichte"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020301",
       "prefLabel": {
         "de": "Kaiser, Kirche, Reich"
+      },
+      "note": {
+        "de": "Kaiser; Kirche; Reich; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020302",
       "prefLabel": {
         "de": "Wirtschaft und Gesellschaft"
+      },
+      "note": {
+        "de": "Wirtschaft und Gesellschaft; Wirtschaft und Gesellschaft im Mittelalter; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020303",
       "prefLabel": {
         "de": "Kultur"
+      },
+      "note": {
+        "de": "Kultur; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020304",
       "prefLabel": {
         "de": "Kriege, Kreuzzüge, Normannen"
+      },
+      "note": {
+        "de": "Kriege; Kreuzzüge; Normannen; Kriege im Mittelalter; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020305",
       "prefLabel": {
         "de": "Islam, Judentum"
+      },
+      "note": {
+        "de": "Islam; Judentum; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020306",
       "prefLabel": {
         "de": "Außereuropäische Geschichte"
+      },
+      "note": {
+        "de": "Außereuropäische Geschichte; Geschichte; Geschichtsunterricht"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
+    },
+    "note": {
+      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

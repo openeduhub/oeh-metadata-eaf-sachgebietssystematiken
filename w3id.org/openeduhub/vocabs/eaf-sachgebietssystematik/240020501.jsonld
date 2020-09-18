@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020501",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F240020501",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F240020501",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F240020501",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F240020501",
   "prefLabel": {
     "de": "Deutschland"
   },
@@ -14,18 +14,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002050101",
       "prefLabel": {
         "de": "Alliierte Besatzung 1945 -1949"
+      },
+      "note": {
+        "de": "Alliierte Besatzung 1945 -1949; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002050102",
       "prefLabel": {
         "de": "Deutsche Demokratische Republik 1949 - 1990"
+      },
+      "note": {
+        "de": "Deutsche Demokratische Republik 1949 - 1990; DDR 1949 bis 1990; Geschichte; Geschichtsunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002050103",
       "prefLabel": {
         "de": "Bundesrepublik Deutschland 1949 - 1990"
+      },
+      "note": {
+        "de": "Bundesrepublik Deutschland 1949 - 1990; BRD 1949 bis 1990; Geschichte; Geschichtsunterricht"
       }
     }
   ],
@@ -33,6 +42,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400205",
     "prefLabel": {
       "de": "Geschichte von 1945 bis 1990"
+    },
+    "note": {
+      "de": "Geschichte von 1945 bis 1990; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -42,6 +54,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -77,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

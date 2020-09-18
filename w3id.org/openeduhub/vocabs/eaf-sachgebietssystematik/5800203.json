@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5800203",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F5800203",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F5800203",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F5800203",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F5800203",
   "prefLabel": {
     "de": "Spielfilm"
   },
@@ -14,95 +14,143 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020301",
       "prefLabel": {
         "de": "Abenteuer"
+      },
+      "note": {
+        "de": "Abenteuerfilm; Mantel-und-Degen-Film; Piratenfilm; Karatefilm; Ritterfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020302",
       "prefLabel": {
         "de": "Biographie"
+      },
+      "note": {
+        "de": "Filmbiographie; Filmbiografie; Biografie; Biographie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020303",
       "prefLabel": {
         "de": "Experimentalfilm, Avantgarde"
+      },
+      "note": {
+        "de": "Experimentalfilm; Avantgarde"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020304",
       "prefLabel": {
         "de": "Horror"
+      },
+      "note": {
+        "de": "Horrorfilm; Gruselfilm; Vampirfilm; Monsterfilm; Gespensterfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020305",
       "prefLabel": {
         "de": "Heimat"
+      },
+      "note": {
+        "de": "Heimatfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020306",
       "prefLabel": {
         "de": "Katastrophe"
+      },
+      "note": {
+        "de": "Katastrophenfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020307",
       "prefLabel": {
         "de": "Komödie, Satire, Parodie"
+      },
+      "note": {
+        "de": "Filmkomödie; Satire; Parodie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020308",
       "prefLabel": {
         "de": "Kriegsfilm, Antikriegsfilm"
+      },
+      "note": {
+        "de": "Kriegsfilm; Antikriegsfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020309",
       "prefLabel": {
         "de": "Krimi, Thriller, Justiz"
+      },
+      "note": {
+        "de": "Kriminalfilm; Thriller; Justiz; Krimi; Politthriller; Psychotriller; Spionagefilm; Detektivfilm; Gaunerfilm; Gangsterfilm; Gerichtsdrama"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020310",
       "prefLabel": {
         "de": "Liebe, Freundschaft"
+      },
+      "note": {
+        "de": "Liebesfilm; Freundschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020311",
       "prefLabel": {
         "de": "Märchen, Sagen, Legenden"
+      },
+      "note": {
+        "de": "Märchen; Sagen; Legenden; Märchenfilm; Fantasyfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020312",
       "prefLabel": {
         "de": "Monumentalfilm, Historienfilm"
+      },
+      "note": {
+        "de": "Monumentalfilm; Historienfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020313",
       "prefLabel": {
         "de": "Musik, Tanz"
+      },
+      "note": {
+        "de": "Musikfilm; Tanzfilm; Musicalfilm; Revuefilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020314",
       "prefLabel": {
         "de": "Politik, Geschichte"
+      },
+      "note": {
+        "de": "Politikwissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020315",
       "prefLabel": {
         "de": "Sciencefiction, Fantasy"
+      },
+      "note": {
+        "de": "Sciencefiction; Fantasy; Fantasyfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020316",
       "prefLabel": {
+        "de": "Western"
+      },
+      "note": {
         "de": "Western"
       }
     },
@@ -110,11 +158,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020317",
       "prefLabel": {
         "de": "Sonstige Gattungen"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020318",
       "prefLabel": {
+        "de": "Literaturverfilmung"
+      },
+      "note": {
         "de": "Literaturverfilmung"
       }
     },
@@ -122,17 +176,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020319",
       "prefLabel": {
         "de": "Action"
+      },
+      "note": {
+        "de": "Action; Actionfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020320",
       "prefLabel": {
         "de": "Drama, Schicksal"
+      },
+      "note": {
+        "de": "Drama; Schicksal"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020321",
       "prefLabel": {
+        "de": "Tierspielfilm"
+      },
+      "note": {
         "de": "Tierspielfilm"
       }
     },
@@ -140,36 +203,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020322",
       "prefLabel": {
         "de": "Gesellschafts- und sozialkritische Film"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020323",
       "prefLabel": {
         "de": "Macht, Machtmissbrauch"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020324",
       "prefLabel": {
         "de": "Milieufilm"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020325",
       "prefLabel": {
         "de": "Theaterverfilmung"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580020326",
       "prefLabel": {
         "de": "Tod, Sterben"
+      },
+      "note": {
+        "de": "NaN"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58002",
     "prefLabel": {
+      "de": "Langfilm"
+    },
+    "note": {
       "de": "Langfilm"
     }
   },
@@ -180,6 +261,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -215,6 +297,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

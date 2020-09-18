@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28007",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28007",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28007",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28007",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28007",
   "prefLabel": {
     "de": "Mathematik"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800701",
       "prefLabel": {
         "de": "Zahlen, Grundrechenarten"
+      },
+      "note": {
+        "de": "Zahlen; Grundrechenarten; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800702",
       "prefLabel": {
         "de": "Messen und Größen"
+      },
+      "note": {
+        "de": "Messung; Messgröße; physikalische Größe; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800703",
       "prefLabel": {
         "de": "Raum und Ebenen"
+      },
+      "note": {
+        "de": "Raum; Ebene; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800704",
       "prefLabel": {
         "de": "Daten und Zufall"
+      },
+      "note": {
+        "de": "Daten; Zufall; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
+    },
+    "note": {
+      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

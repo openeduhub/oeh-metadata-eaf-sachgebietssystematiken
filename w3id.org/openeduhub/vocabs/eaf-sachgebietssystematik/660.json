@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/660",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F660",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F660",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F660",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F660",
   "prefLabel": {
     "de": "VERKEHRSERZIEHUNG"
   },
@@ -14,66 +14,99 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66001",
       "prefLabel": {
         "de": "Verkehrsverhalten"
+      },
+      "note": {
+        "de": "Verkehrsverhalten; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66002",
       "prefLabel": {
         "de": "Verkehrsmittel"
+      },
+      "note": {
+        "de": "Verkehrsmittel; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66003",
       "prefLabel": {
         "de": "Verkehrswege"
+      },
+      "note": {
+        "de": "Verkehrswege; Autobahn; Flughafen; Hafen; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66004",
       "prefLabel": {
         "de": "Verkehrsrecht"
+      },
+      "note": {
+        "de": "Verkehrsrecht; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66005",
       "prefLabel": {
         "de": "Verkehrspolitik"
+      },
+      "note": {
+        "de": "Verkehrspolitik; Politikwissenschaft; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66006",
       "prefLabel": {
         "de": "Sicherheitstechnik, Fahrphysik"
+      },
+      "note": {
+        "de": "Sicherheitstechnik; Fahrphysik; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66007",
       "prefLabel": {
         "de": "Verkehrspsychologie, Verkehrssoziologie"
+      },
+      "note": {
+        "de": "Verkehrspsychologie; Verkehrssoziologie; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66008",
       "prefLabel": {
         "de": "Verkehrsmedizin"
+      },
+      "note": {
+        "de": "Verkehrsmedizin; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66009",
       "prefLabel": {
         "de": "Verkehr und Wetter"
+      },
+      "note": {
+        "de": "Verkehr und Wetter; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66010",
       "prefLabel": {
         "de": "Verkehr und Umweltschutz"
+      },
+      "note": {
+        "de": "Verkehr und Umweltschutz; Verkehrserziehung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66011",
       "prefLabel": {
         "de": "Verkehrsunfall"
+      },
+      "note": {
+        "de": "Verkehrsunfall; Verkehrserziehung"
       }
     }
   ],
@@ -87,6 +120,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -122,6 +156,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

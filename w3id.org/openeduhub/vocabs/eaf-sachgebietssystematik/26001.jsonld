@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/26001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F26001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F26001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F26001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F26001",
   "prefLabel": {
     "de": "Gesunderhaltung"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2600101",
       "prefLabel": {
         "de": "Ernährung"
+      },
+      "note": {
+        "de": "Ernährung; Gesundheit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2600102",
       "prefLabel": {
         "de": "Zahnpflege"
+      },
+      "note": {
+        "de": "Zahnpflege; Gesundheit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2600103",
       "prefLabel": {
         "de": "Körperpflege"
+      },
+      "note": {
+        "de": "Körperpflege; Gesundheit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2600104",
       "prefLabel": {
         "de": "Bewegung"
+      },
+      "note": {
+        "de": "Bewegung; Gesundheit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2600105",
       "prefLabel": {
         "de": "Regeneration"
+      },
+      "note": {
+        "de": "Regeneration; Gesundheit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2600106",
       "prefLabel": {
         "de": "Krankheitsvorsorge und Früherkennung"
+      },
+      "note": {
+        "de": "Krankheitsvorsorge; Früherkennung; Prävention; Gesundheit"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/260",
     "prefLabel": {
       "de": "GESUNDHEIT"
+    },
+    "note": {
+      "de": "Gesundheit"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

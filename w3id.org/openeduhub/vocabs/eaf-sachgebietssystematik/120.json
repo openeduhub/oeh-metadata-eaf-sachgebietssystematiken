@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120",
   "prefLabel": {
     "de": "DEUTSCH"
   },
@@ -14,42 +14,63 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12001",
       "prefLabel": {
         "de": "Literatur"
+      },
+      "note": {
+        "de": "Literatur; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12002",
       "prefLabel": {
         "de": "Darstellendes Spiel, Schultheater"
+      },
+      "note": {
+        "de": "Darstellendes Spiel; Schultheater; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12003",
       "prefLabel": {
         "de": "Nichtliterarische Texte"
+      },
+      "note": {
+        "de": "Nichtliterarische Texte; Jounalistik; wissenschaftliche Texte; Reden; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12004",
       "prefLabel": {
         "de": "Kommunikation"
+      },
+      "note": {
+        "de": "Kommunikation; Deutsch; Deutschunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005",
       "prefLabel": {
         "de": "Deutsch als Zweit- und Fremdsprache"
+      },
+      "note": {
+        "de": "Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12006",
       "prefLabel": {
         "de": "Grammatik, Rechtschreiben"
+      },
+      "note": {
+        "de": "Grammatik; Rechtschreiben; Rechtschreibung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12007",
       "prefLabel": {
         "de": "Lesen, Lesetechnik, Umgang mit Texten"
+      },
+      "note": {
+        "de": "Lesen; Lesetechnik; Umgang mit Texten"
       }
     }
   ],
@@ -63,6 +84,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -98,6 +120,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

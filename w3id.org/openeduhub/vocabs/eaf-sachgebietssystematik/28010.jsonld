@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28010",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28010",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28010",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28010",
   "prefLabel": {
     "de": "Sachkunde"
   },
@@ -14,126 +14,189 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801001",
       "prefLabel": {
         "de": "Soziales Lernen"
+      },
+      "note": {
+        "de": "Soziales Lernen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801002",
       "prefLabel": {
         "de": "Ausländische Arbeitnehmer und ihre Familien"
+      },
+      "note": {
+        "de": "Ausländische Arbeitnehmer und ihre Familien; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801003",
       "prefLabel": {
         "de": "Behinderte"
+      },
+      "note": {
+        "de": "Behinderte; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801004",
       "prefLabel": {
         "de": "Familie"
+      },
+      "note": {
+        "de": "Familie; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801005",
       "prefLabel": {
         "de": "Schule"
+      },
+      "note": {
+        "de": "Schule; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801006",
       "prefLabel": {
         "de": "Wohnen"
+      },
+      "note": {
+        "de": "Wohnen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801007",
       "prefLabel": {
         "de": "Grunderfahrungen aus Naturwissenschaft und Technik"
+      },
+      "note": {
+        "de": "Grunderfahrungen aus Naturwissenschaft und Technik; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801008",
       "prefLabel": {
         "de": "Konsum"
+      },
+      "note": {
+        "de": "Konsum; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801009",
       "prefLabel": {
         "de": "Freizeit"
+      },
+      "note": {
+        "de": "Freizeit; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801010",
       "prefLabel": {
         "de": "Öffentliche Einrichtungen und Aufgaben"
+      },
+      "note": {
+        "de": "Öffentliche Einrichtungen; Öffentliche Aufgaben; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801011",
       "prefLabel": {
         "de": "Arbeit"
+      },
+      "note": {
+        "de": "Arbeit; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801012",
       "prefLabel": {
         "de": "Verkehrserziehung"
+      },
+      "note": {
+        "de": "Verkehrserziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801013",
       "prefLabel": {
         "de": "Umwelterziehung"
+      },
+      "note": {
+        "de": "Umwelterziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801014",
       "prefLabel": {
         "de": "Wetter"
+      },
+      "note": {
+        "de": "Wetter; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801015",
       "prefLabel": {
         "de": "Pflanzen"
+      },
+      "note": {
+        "de": "Pflanzen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801016",
       "prefLabel": {
         "de": "Tiere"
+      },
+      "note": {
+        "de": "Tiere; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801017",
       "prefLabel": {
         "de": "Mensch"
+      },
+      "note": {
+        "de": "Mensch; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801018",
       "prefLabel": {
         "de": "Sucht und Prävention"
+      },
+      "note": {
+        "de": "Sucht; Prävention; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801019",
       "prefLabel": {
         "de": "Heimatkunde"
+      },
+      "note": {
+        "de": "Heimatkunde; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801020",
       "prefLabel": {
         "de": "Zeiterfahrungen"
+      },
+      "note": {
+        "de": "Zeiterfahrung; Zeitmessung; Uhrzeiten; Jahreszeiten; Kalender; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Unterricht in der Grundschule; Sachkunde; Sachkundeunterricht; Bilingualer Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     }
   ],
@@ -141,6 +204,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
+    },
+    "note": {
+      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -150,6 +216,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -185,6 +252,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

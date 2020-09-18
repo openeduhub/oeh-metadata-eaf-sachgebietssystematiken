@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800503",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800503",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800503",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800503",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0800503",
   "prefLabel": {
     "de": "Wirbellose"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050301",
       "prefLabel": {
         "de": "Gliederfüßer"
+      },
+      "note": {
+        "de": "Gliederfüßer; Insekten; Tausendfüßer; Spinnentiere; Krebse; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050302",
       "prefLabel": {
         "de": "Stachelhäuter"
+      },
+      "note": {
+        "de": "Stachelhäuter; Schlangensterne; Haarsterne; Seeigel; Seewalzen; Seegurken; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050303",
       "prefLabel": {
         "de": "Weichtiere"
+      },
+      "note": {
+        "de": "Weichtiere; Schnecken; Muscheln; Kopffüßer; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050304",
       "prefLabel": {
         "de": "Platt-, Rund- und Ringelwürmer"
+      },
+      "note": {
+        "de": "Plattwürmer; Rundwürmer; Ringelwürmer; Strudelwürmer; Saugwürmer; Bandwürmer; Rüsselwürmer; Fadenwürmer; Vielborster; Wenigborster; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050305",
       "prefLabel": {
         "de": "Hohltiere, Schwämme"
+      },
+      "note": {
+        "de": "Hohltiere; Schwämme; Schirmquallen; Quallenpolypen; Korallentiere; Nesseltiere; Biologie"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08005",
     "prefLabel": {
       "de": "Zoologie"
+    },
+    "note": {
+      "de": "Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60002",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60002",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60002",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60002",
   "prefLabel": {
     "de": "Sportbereiche"
   },
@@ -14,54 +14,81 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000201",
       "prefLabel": {
         "de": "Altensport"
+      },
+      "note": {
+        "de": "Altensport; Seniorensport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000202",
       "prefLabel": {
         "de": "Behindertensport"
+      },
+      "note": {
+        "de": "Behindertensport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000203",
       "prefLabel": {
         "de": "Betriebssport"
+      },
+      "note": {
+        "de": "Betriebssport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000204",
       "prefLabel": {
         "de": "Breitensport"
+      },
+      "note": {
+        "de": "Breitensport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000205",
       "prefLabel": {
         "de": "Kinder- und Jugendsport"
+      },
+      "note": {
+        "de": "Kindersort; Jugendsport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000206",
       "prefLabel": {
         "de": "Leistungssport"
+      },
+      "note": {
+        "de": "Leistungssport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000207",
       "prefLabel": {
         "de": "Schulsport"
+      },
+      "note": {
+        "de": "Schulsport; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000208",
       "prefLabel": {
         "de": "Gesundheitssport"
+      },
+      "note": {
+        "de": "Gesundheitssport; Gesundheit; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000270",
       "prefLabel": {
         "de": "Sonstige Sportbereiche"
+      },
+      "note": {
+        "de": "Frauensport; Militärsport; Amateursport; Profisport; Sport; Sportunterricht"
       }
     }
   ],
@@ -69,6 +96,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
+    },
+    "note": {
+      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -78,6 +108,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -113,6 +144,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

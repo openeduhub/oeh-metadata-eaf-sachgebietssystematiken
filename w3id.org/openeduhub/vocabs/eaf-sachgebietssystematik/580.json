@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F580",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F580",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F580",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F580",
   "prefLabel": {
     "de": "SPIEL- UND DOKUMENTARFILM"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58001",
       "prefLabel": {
         "de": "Kurzfilm"
+      },
+      "note": {
+        "de": "Kurzfilm"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58002",
       "prefLabel": {
+        "de": "Langfilm"
+      },
+      "note": {
         "de": "Langfilm"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58003",
       "prefLabel": {
         "de": "Zielgruppenfilm"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58004",
       "prefLabel": {
+        "de": "Dokumentarfilm"
+      },
+      "note": {
         "de": "Dokumentarfilm"
       }
     }
@@ -45,6 +57,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -80,6 +93,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

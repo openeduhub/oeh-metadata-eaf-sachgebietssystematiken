@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10005",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10005",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10005",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10005",
   "prefLabel": {
     "de": "Organische Chemie"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000501",
       "prefLabel": {
         "de": "Kohlenwasserstoffe"
+      },
+      "note": {
+        "de": "Kohlenwasserstoffe; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000502",
       "prefLabel": {
         "de": "Stoffe mit funktionellen Gruppen"
+      },
+      "note": {
+        "de": "Stoffe mit funktionellen Gruppen; Funktionelle Gruppe; Alkohole; Aldehyde; Ketone; Karbonsäuren; Aminoverbindungen; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000503",
       "prefLabel": {
         "de": "Polymere Stoffe, Naturstoffe"
+      },
+      "note": {
+        "de": "Polymere Stoffe; Naturstoffe; Kohlehydrate; Fette; Proteine; Kunststoffe; Nukleinsäuren; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000504",
       "prefLabel": {
         "de": "Reaktionsmechanismen"
+      },
+      "note": {
+        "de": "Reaktionsmechanismen; Reaktionsmechanismus; Chemieunterricht; Chemie"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
+    },
+    "note": {
+      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

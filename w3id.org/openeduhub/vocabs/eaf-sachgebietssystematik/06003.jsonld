@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F06003",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F06003",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F06003",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F06003",
   "prefLabel": {
     "de": "Kunstgeschichte"
   },
@@ -14,81 +14,123 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600301",
       "prefLabel": {
         "de": "Vor- und frühgeschichtliche Kulturen"
+      },
+      "note": {
+        "de": "Vor- und frühgeschichtliche Kulturen; Vorgeschichtliche und frühgeschichtliche Kulturen; Kunst; Kunstunterricht, Vor- und Frühgeschichte"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600302",
       "prefLabel": {
         "de": "Frühe Hochkulturen"
+      },
+      "note": {
+        "de": "Frühe Hochkulturen; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600303",
       "prefLabel": {
         "de": "Klassisches Altertum"
+      },
+      "note": {
+        "de": "Klassisches Altertum; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600304",
       "prefLabel": {
         "de": "Frühchristliche und byzantinische Kunst"
+      },
+      "note": {
+        "de": "Frühchristliche Kunst, Byzantinische Kunst; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600305",
       "prefLabel": {
         "de": "Kunst des Mittelalters"
+      },
+      "note": {
+        "de": "Kunst des Mittelalters; Kunst im Mittelalter; mittelalterliche Kunst; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600306",
       "prefLabel": {
         "de": "Renaissance"
+      },
+      "note": {
+        "de": "Renaissance; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600307",
       "prefLabel": {
         "de": "Barock, Rokoko"
+      },
+      "note": {
+        "de": "Barock; Rokoko; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600308",
       "prefLabel": {
         "de": "Klassizismus"
+      },
+      "note": {
+        "de": "Klassizismus; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600309",
       "prefLabel": {
         "de": "19. Jahrhundert"
+      },
+      "note": {
+        "de": "Kunst des 19. Jahrhunderts; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600310",
       "prefLabel": {
         "de": "Kunst der Jahrhundertwende"
+      },
+      "note": {
+        "de": "Kunst der Jahrhundertwende; Kunst um die Jahrhundertwende; Symbolismus; Jugendstil; Neoimpressionismus; Pointilismus; Kunst; Kunstunterricht"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311",
+      "note": {
+        "de": "Jahrhundert; Kunst der Moderne; Kunst; Kunstunterricht"
+      }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600312",
       "prefLabel": {
         "de": "Kunstgeschichtliche Überblicksdarstellungen"
+      },
+      "note": {
+        "de": "Kunstgeschichte im Überblick; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600313",
       "prefLabel": {
         "de": "Museen, Galerien"
+      },
+      "note": {
+        "de": "Museen; Galerien; Kunst; Kunstunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600314",
       "prefLabel": {
         "de": "Biographien"
+      },
+      "note": {
+        "de": "Biographien; Künstlerbiographien; Biografien; Künsterbiografien; Kunst; Kunstunterricht"
       }
     }
   ],
@@ -96,6 +138,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/060",
     "prefLabel": {
       "de": "BILDENDE KUNST"
+    },
+    "note": {
+      "de": "Bildende Kunst; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -105,6 +150,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -140,6 +186,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

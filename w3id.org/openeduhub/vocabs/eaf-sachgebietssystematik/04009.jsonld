@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04009",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04009",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04009",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04009",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04009",
   "prefLabel": {
     "de": "Holztechnik"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400901",
       "prefLabel": {
         "de": "Holzbearbeitung"
+      },
+      "note": {
+        "de": "Holzbearbeitung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400902",
       "prefLabel": {
+        "de": "Holzverarbeitung"
+      },
+      "note": {
         "de": "Holzverarbeitung"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400903",
       "prefLabel": {
         "de": "Grundlagen der Holztechnik"
+      },
+      "note": {
+        "de": "Holztechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400904",
       "prefLabel": {
+        "de": "Technische Kommunikation"
+      },
+      "note": {
         "de": "Technische Kommunikation"
       }
     },
@@ -38,11 +50,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400905",
       "prefLabel": {
         "de": "Holzschäden"
+      },
+      "note": {
+        "de": "Holzschäden"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400906",
       "prefLabel": {
+        "de": "Werkstoffe"
+      },
+      "note": {
         "de": "Werkstoffe"
       }
     }
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

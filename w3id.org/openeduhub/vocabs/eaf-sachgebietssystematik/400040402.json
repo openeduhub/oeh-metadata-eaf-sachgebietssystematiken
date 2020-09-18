@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040402",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040402",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040402",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040402",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040402",
   "prefLabel": {
     "de": "Persönliche Daten und Privatsphäre schützen"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004040201",
       "prefLabel": {
         "de": "Maßnahmen für Datensicherheit und gegen Datenmissbrauch berücksichtigen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt; Datenschutz; datenmissbrauch"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004040202",
       "prefLabel": {
         "de": "Privatsphäre in digitalen Umgebungen durch geeignete Maßnahmen schützen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004040203",
       "prefLabel": {
         "de": "Sicherheitseinstellungen ständig aktualisieren"
+      },
+      "note": {
+        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004040204",
       "prefLabel": {
         "de": "Jugendschutz- und Verbraucherschutzmaßnahmen berücksichtigen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt; Jugendschutz; Verbraucherschutz"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000404",
     "prefLabel": {
       "de": "Schützen und sicher Agieren"
+    },
+    "note": {
+      "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

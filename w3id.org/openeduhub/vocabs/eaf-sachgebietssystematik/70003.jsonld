@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/70003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F70003",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F70003",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F70003",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F70003",
   "prefLabel": {
     "de": "Volkswirtschaft"
   },
@@ -14,42 +14,63 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000301",
       "prefLabel": {
         "de": "Markt und Preis"
+      },
+      "note": {
+        "de": "Markt und Preis; Wirtschaftswissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000302",
       "prefLabel": {
         "de": "Geld und Kredit"
+      },
+      "note": {
+        "de": "Geld und Kredit; Wirtschaftswissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000303",
       "prefLabel": {
         "de": "Arbeit und Lohn"
+      },
+      "note": {
+        "de": "Arbeit und Lohn; Arbeitsentgelt; Einkommen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000304",
       "prefLabel": {
         "de": "Sozialpolitik, Wirtschaftspolitik"
+      },
+      "note": {
+        "de": "Sozialpolitik; Wirtschaftspolitik; Politikwissenschaft; Wirtschaftswissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000305",
       "prefLabel": {
         "de": "Öffentliche Finanzwirtschaft, Steuern"
+      },
+      "note": {
+        "de": "Öffentliche Finanzwirtschaft; Steuern"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000306",
       "prefLabel": {
         "de": "Weltwirtschaft"
+      },
+      "note": {
+        "de": "Weltwirtschaft; Wirtschaftswissenschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/7000307",
       "prefLabel": {
         "de": "Wirtschaftssysteme"
+      },
+      "note": {
+        "de": "Wirtschaftssysteme; Wirtschaftswissenschaft"
       }
     }
   ],
@@ -57,6 +78,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/700",
     "prefLabel": {
       "de": "WIRTSCHAFTSKUNDE"
+    },
+    "note": {
+      "de": "Wirtschaftskunde; Wirtschaftswissenschaft"
     }
   },
   "inScheme": {
@@ -66,6 +90,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -101,6 +126,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F60001",
   "prefLabel": {
     "de": "Sportwissenschaft"
   },
@@ -14,48 +14,72 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000101",
       "prefLabel": {
         "de": "Trainings- und Bewegungslehre"
+      },
+      "note": {
+        "de": "Trainingslehre; Sporttraining; Aufwärmprogramm; Trainingswissenschaft; Bewegungslehre; Bewegungswissenschaft; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000102",
       "prefLabel": {
         "de": "Sportgeschichte"
+      },
+      "note": {
+        "de": "Geschichte des Sports; Sportgeschichte; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000103",
       "prefLabel": {
         "de": "Sportpädagogik"
+      },
+      "note": {
+        "de": "Pädagogik des Sports Sportpädagogik; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000104",
       "prefLabel": {
         "de": "Sportpsychologie"
+      },
+      "note": {
+        "de": "Psychologie des Sports; Sportpsychologie; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000105",
       "prefLabel": {
         "de": "Sportsoziologie"
+      },
+      "note": {
+        "de": "Soziologie des Sports; Sportsoziologie; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000106",
       "prefLabel": {
         "de": "Sportmedizin"
+      },
+      "note": {
+        "de": "Sportmedizin; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000107",
       "prefLabel": {
         "de": "Sportdidaktik"
+      },
+      "note": {
+        "de": "Sportdidaktik; Sportpädagogik; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000108",
       "prefLabel": {
         "de": "Biomechanik"
+      },
+      "note": {
+        "de": "Biomechanik; Sport; Sportunterricht"
       }
     }
   ],
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
+    },
+    "note": {
+      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

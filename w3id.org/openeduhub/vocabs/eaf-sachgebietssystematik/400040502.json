@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040502",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040502",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040502",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040502",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F400040502",
   "prefLabel": {
     "de": "Werkzeuge bedarfsgerecht einsetzen"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004050201",
       "prefLabel": {
         "de": "Eine Vielzahl von digitalen Werkzeugen kennen und kreativ anwenden"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004050202",
       "prefLabel": {
         "de": "Anforderungen an digitale Werkzeuge formulieren"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004050203",
       "prefLabel": {
         "de": "Passende Werkzeuge zur Lösung identifizieren"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004050204",
       "prefLabel": {
         "de": "Digitale Umgebungen und Werkzeuge zum persönlichen Gebrauch anpassen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000405",
     "prefLabel": {
       "de": "Problemlösen und Handeln"
+    },
+    "note": {
+      "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

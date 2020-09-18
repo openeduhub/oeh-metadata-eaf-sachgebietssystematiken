@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22013",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22013",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22013",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22013",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22013",
   "prefLabel": {
     "de": "Wirtschaftsgeographie"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2201301",
       "prefLabel": {
         "de": "Wirtschaftsstrukturen, Wirtschaftssysteme, Wirtschaftsformen"
+      },
+      "note": {
+        "de": "Wirtschaftsstrukturen; Wirtschaftssysteme; Wirtschaftsformen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2201302",
       "prefLabel": {
         "de": "Wirtschaftsräume"
+      },
+      "note": {
+        "de": "Wirtschaftsräume; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2201303",
       "prefLabel": {
         "de": "Handel, Versorgung"
+      },
+      "note": {
+        "de": "Handel; Versorgung; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2201304",
       "prefLabel": {
         "de": "Waldwirtschaft"
+      },
+      "note": {
+        "de": "Waldwirtschaft; Forstwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2201305",
       "prefLabel": {
         "de": "Fischwirtschaft, Fischereiwirtschaft"
+      },
+      "note": {
+        "de": "Fischwirtschaft; Fischereiwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2201306",
       "prefLabel": {
         "de": "Wasserwirtschaft"
+      },
+      "note": {
+        "de": "Wasserwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
+    },
+    "note": {
+      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

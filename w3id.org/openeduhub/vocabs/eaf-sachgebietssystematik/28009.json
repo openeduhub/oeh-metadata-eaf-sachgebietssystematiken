@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28009",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28009",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28009",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28009",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F28009",
   "prefLabel": {
     "de": "Religion"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800901",
       "prefLabel": {
         "de": "Bibel"
+      },
+      "note": {
+        "de": "Bibel; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800902",
       "prefLabel": {
         "de": "Kirchenjahr"
+      },
+      "note": {
+        "de": "Kirchenjahr; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800903",
       "prefLabel": {
         "de": "Glaube, Ethik"
+      },
+      "note": {
+        "de": "Glaube; Ethik; Ethikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800904",
       "prefLabel": {
         "de": "Vorbilder, Heilige"
+      },
+      "note": {
+        "de": "Vorbilder; Heilige; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800905",
       "prefLabel": {
         "de": "Christliche und nichtchristliche Religionen"
+      },
+      "note": {
+        "de": "Christliche und nichtchristliche Religionen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
+    },
+    "note": {
+      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

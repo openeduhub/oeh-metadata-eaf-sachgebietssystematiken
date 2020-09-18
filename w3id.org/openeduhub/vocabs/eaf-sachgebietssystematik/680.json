@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/680",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F680",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F680",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F680",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F680",
   "prefLabel": {
     "de": "WEITERBILDUNG"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68001",
       "prefLabel": {
         "de": "Grundlagen der Weiterbildung"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68002",
       "prefLabel": {
+        "de": "Politische Weiterbildung"
+      },
+      "note": {
         "de": "Politische Weiterbildung"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68003",
       "prefLabel": {
         "de": "Kulturelle Weiterbildung"
+      },
+      "note": {
+        "de": "Kulturelle Weiterbildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68004",
       "prefLabel": {
+        "de": "Kreative Weiterbildung"
+      },
+      "note": {
         "de": "Kreative Weiterbildung"
       }
     },
@@ -38,11 +50,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68005",
       "prefLabel": {
         "de": "Elternbildung, Familienbildung"
+      },
+      "note": {
+        "de": "Elternbildung; Familienbildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68006",
       "prefLabel": {
+        "de": "Wirtschaftliche Weiterbildung"
+      },
+      "note": {
         "de": "Wirtschaftliche Weiterbildung"
       }
     },
@@ -50,11 +68,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68007",
       "prefLabel": {
         "de": "Mathematisch-naturwissenschaftliche Weiterbildung"
+      },
+      "note": {
+        "de": "Mathematisch-naturwissenschaftliche Weiterbildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68008",
       "prefLabel": {
+        "de": "Sprachliche Weiterbildung"
+      },
+      "note": {
         "de": "Sprachliche Weiterbildung"
       }
     },
@@ -62,18 +86,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68009",
       "prefLabel": {
         "de": "Gesundheitliche und sportliche Weiterbildung"
+      },
+      "note": {
+        "de": "Gesundheitliche Weiterbildung; sportliche Weiterbildung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68010",
       "prefLabel": {
         "de": "Schulische Weiterbildung, Zweiter Bildungsweg"
+      },
+      "note": {
+        "de": "Schulische Weiterbildung; Zweiter Bildungsweg"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/68011",
       "prefLabel": {
         "de": "Zielgruppenangebot"
+      },
+      "note": {
+        "de": "NaN"
       }
     }
   ],
@@ -87,6 +120,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -122,6 +156,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

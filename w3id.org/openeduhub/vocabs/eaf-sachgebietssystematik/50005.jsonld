@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/50005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50005",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50005",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50005",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F50005",
   "prefLabel": {
     "de": "Werken"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000501",
       "prefLabel": {
         "de": "Holz, Kunststoff"
+      },
+      "note": {
+        "de": "Holz; Kunststoff"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000502",
       "prefLabel": {
+        "de": "Metall"
+      },
+      "note": {
         "de": "Metall"
       }
     },
@@ -26,23 +32,35 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000503",
       "prefLabel": {
         "de": "Ton"
+      },
+      "note": {
+        "de": "Ton"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000504",
       "prefLabel": {
         "de": "Papier, Pappe"
+      },
+      "note": {
+        "de": "Papier; Pappe"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000505",
       "prefLabel": {
         "de": "Andere Materialien"
+      },
+      "note": {
+        "de": "NaN"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000506",
       "prefLabel": {
+        "de": "Elektrotechnik"
+      },
+      "note": {
         "de": "Elektrotechnik"
       }
     },
@@ -50,17 +68,26 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000507",
       "prefLabel": {
         "de": "Maschinentechnik"
+      },
+      "note": {
+        "de": "Maschinentechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000508",
       "prefLabel": {
         "de": "Grundlagen des technischen Zeichnens"
+      },
+      "note": {
+        "de": "technisches Zeichnen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5000509",
       "prefLabel": {
+        "de": "Unfallverhütung"
+      },
+      "note": {
         "de": "Unfallverhütung"
       }
     }
@@ -69,6 +96,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/500",
     "prefLabel": {
       "de": "PRAXISORIENTIERTE FÄCHER"
+    },
+    "note": {
+      "de": "Praxisorientierte Fächer"
     }
   },
   "inScheme": {
@@ -78,6 +108,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -113,6 +144,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

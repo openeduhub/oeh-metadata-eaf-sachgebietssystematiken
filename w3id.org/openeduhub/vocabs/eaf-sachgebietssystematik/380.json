@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/380",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F380",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F380",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F380",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F380",
   "prefLabel": {
     "de": "MATHEMATIK"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/38001",
       "prefLabel": {
         "de": "Zahlen, Algebra"
+      },
+      "note": {
+        "de": "Zahlen; Algebra; Mathematik; Mathematikunterricht; Matheunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/38002",
       "prefLabel": {
         "de": "Analysis, Analytische Geometrie"
+      },
+      "note": {
+        "de": "Analysis; Analytische Geometrie; Mathematik; Mathematikunterricht; Matheunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/38003",
       "prefLabel": {
         "de": "Geometrie"
+      },
+      "note": {
+        "de": "Geometrie; Mathematik; Mathematikunterricht; Matheunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/38004",
       "prefLabel": {
         "de": "Endliche Mathematik, Stochastik"
+      },
+      "note": {
+        "de": "Endliche Mathematik; Stochastik; Mathematik; Mathematikunterricht; Matheunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/38005",
       "prefLabel": {
         "de": "Mathematik und Chaos"
+      },
+      "note": {
+        "de": "Mathematik und Chaos; Chaostheorie; Chaosforschung; Mathematik; Mathematikunterricht; Matheunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/38006",
       "prefLabel": {
         "de": "Mathematische Anwendungen in anderen Gebieten"
+      },
+      "note": {
+        "de": "Mathematik; Mathematikunterricht; Matheunterricht"
       }
     }
   ],
@@ -57,6 +75,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -92,6 +111,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

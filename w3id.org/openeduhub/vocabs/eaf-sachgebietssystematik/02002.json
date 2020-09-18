@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/02002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02002",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02002",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02002",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F02002",
   "prefLabel": {
     "de": "Berufskunde"
   },
@@ -14,24 +14,36 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200201",
       "prefLabel": {
         "de": "Berufswahlkriterien"
+      },
+      "note": {
+        "de": "Berufswahlkriterien; Berufswahl; Berufsvorbereitung; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
       "prefLabel": {
         "de": "Berufsbilder"
+      },
+      "note": {
+        "de": "Berufsbilder; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200203",
       "prefLabel": {
         "de": "Wandel von Berufen"
+      },
+      "note": {
+        "de": "Wandel von Berufen; Berufe im Wandel; Arbeitslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200204",
       "prefLabel": {
         "de": "Berufsweg, Fort- und Weiterbildung"
+      },
+      "note": {
+        "de": "Berufsweg; berufliche Laufbahn; berufliche Entwicklung; Weiterbildung; Fortbildung; Arbeitslehre"
       }
     }
   ],
@@ -39,6 +51,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/020",
     "prefLabel": {
       "de": "ARBEITSLEHRE"
+    },
+    "note": {
+      "de": "Arbeitslehre"
     }
   },
   "inScheme": {
@@ -48,6 +63,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -83,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

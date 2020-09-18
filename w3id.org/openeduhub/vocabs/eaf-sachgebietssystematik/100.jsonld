@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F100",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F100",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F100",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F100",
   "prefLabel": {
     "de": "CHEMIE"
   },
@@ -14,54 +14,81 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10001",
       "prefLabel": {
         "de": "Geschichte der Chemie"
+      },
+      "note": {
+        "de": "Geschichte der Chemie; Chemieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10002",
       "prefLabel": {
         "de": "Allgemeine Chemie"
+      },
+      "note": {
+        "de": "Allgemeine Chemie; Chemieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10003",
       "prefLabel": {
         "de": "Physikalische Chemie"
+      },
+      "note": {
+        "de": "Physikalische Chemie; Chemieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10004",
       "prefLabel": {
         "de": "Anorganische Chemie"
+      },
+      "note": {
+        "de": "Anorganische Chemie; Anorganik; Chemieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10005",
       "prefLabel": {
         "de": "Organische Chemie"
+      },
+      "note": {
+        "de": "Organische Chemie; Chemieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10006",
       "prefLabel": {
         "de": "Biochemie"
+      },
+      "note": {
+        "de": "Biochemie; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10007",
       "prefLabel": {
         "de": "Angewandte Chemie"
+      },
+      "note": {
+        "de": "Angewandte Chemie; Chemieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10008",
       "prefLabel": {
         "de": "Biographien"
+      },
+      "note": {
+        "de": "Biographien; Biografien; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": "Bilingualer Chemieunterricht; Chemie"
       }
     }
   ],
@@ -75,6 +102,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -110,6 +138,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

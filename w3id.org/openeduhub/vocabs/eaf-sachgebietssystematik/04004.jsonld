@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04004",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04004",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04004",
   "prefLabel": {
     "de": "IT- und Medientechnik"
   },
@@ -14,29 +14,44 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400401",
       "prefLabel": {
         "de": "Archiv, Bibliothek, Dokumentation"
+      },
+      "note": {
+        "de": "Archiv; Bibliothek; Dokumentation"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400402",
       "prefLabel": {
         "de": "Druck und Medien"
+      },
+      "note": {
+        "de": "Drucktechnik; Medientechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400403",
       "prefLabel": {
         "de": "Film, Funk und Fernsehen"
+      },
+      "note": {
+        "de": "Film; Funk; Fernsehen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400404",
       "prefLabel": {
         "de": "Foto"
+      },
+      "note": {
+        "de": "Foto; Bildverarbeitung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400405",
       "prefLabel": {
+        "de": "Verlagswesen"
+      },
+      "note": {
         "de": "Verlagswesen"
       }
     },
@@ -44,6 +59,9 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400406",
       "prefLabel": {
         "de": "IT, Computer"
+      },
+      "note": {
+        "de": "IT; Computer"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

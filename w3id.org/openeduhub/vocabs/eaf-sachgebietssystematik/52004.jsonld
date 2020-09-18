@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52004",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52004",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52004",
   "prefLabel": {
     "de": "Kult und Frömmigkeit"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200401",
       "prefLabel": {
         "de": "Kirchenjahr"
+      },
+      "note": {
+        "de": "Kirchenjahr; Advent; Ostern; Passion; Pfingsten; Weihnachten; Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200402",
       "prefLabel": {
         "de": "Gottesdienst"
+      },
+      "note": {
+        "de": "Gottesdienst; Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200403",
       "prefLabel": {
         "de": "Gebet"
+      },
+      "note": {
+        "de": "Gebet; Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200404",
       "prefLabel": {
         "de": "Meditation"
+      },
+      "note": {
+        "de": "Meditation; Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200405",
       "prefLabel": {
         "de": "Sakramente"
+      },
+      "note": {
+        "de": "Sakramente; Religion; Religionsunterricht; Religionslehre"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200406",
       "prefLabel": {
         "de": "Religiöses Brauchtum"
+      },
+      "note": {
+        "de": "Religiöses Brauchtum; Religion; Religionsunterricht; Religionslehre"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
+    },
+    "note": {
+      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

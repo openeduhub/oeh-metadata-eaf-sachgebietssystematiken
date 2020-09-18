@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400501",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400501",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400501",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400501",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400501",
   "prefLabel": {
     "de": "Aufgabenbereiche"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050101",
       "prefLabel": {
         "de": "Energietechnik"
+      },
+      "note": {
+        "de": "Energietechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050102",
       "prefLabel": {
+        "de": "Antriebstechnik"
+      },
+      "note": {
         "de": "Antriebstechnik"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050103",
       "prefLabel": {
         "de": "Nachrichtentechnik"
+      },
+      "note": {
+        "de": "Nachrichtentechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050104",
       "prefLabel": {
+        "de": "Elektronik"
+      },
+      "note": {
         "de": "Elektronik"
       }
     },
@@ -38,20 +50,32 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050105",
       "prefLabel": {
         "de": "Mechatronik, Automatisierungstechnik"
+      },
+      "note": {
+        "de": "Mechatronik; Automatisierungstechnik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050106",
       "prefLabel": {
         "de": "Elektronische Gerätetechnik"
+      },
+      "note": {
+        "de": "Elektronische Gerätetechnik; Gerätetechnik"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050107"
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050107",
+      "note": {
+        "de": "Gebäudetechnik; Haustechnik"
+      }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050108",
       "prefLabel": {
+        "de": "Theoretische Elektrotechnik"
+      },
+      "note": {
         "de": "Theoretische Elektrotechnik"
       }
     }
@@ -60,6 +84,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04005",
     "prefLabel": {
       "de": "Elektrotechnik"
+    },
+    "note": {
+      "de": "Elektrotechnik; elektrische Energietechnik"
     }
   },
   "inScheme": {
@@ -69,6 +96,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -104,6 +132,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

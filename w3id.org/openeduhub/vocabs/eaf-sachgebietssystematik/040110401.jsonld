@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040110401",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040110401",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040110401",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040110401",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040110401",
   "prefLabel": {
     "de": "Fertigungstechnik"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011040101",
       "prefLabel": {
         "de": "Urformen"
+      },
+      "note": {
+        "de": "Urformen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011040102",
       "prefLabel": {
+        "de": "Umformen"
+      },
+      "note": {
         "de": "Umformen"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011040103",
       "prefLabel": {
         "de": "Trennen"
+      },
+      "note": {
+        "de": "Trennen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011040104",
       "prefLabel": {
+        "de": "Fügen"
+      },
+      "note": {
         "de": "Fügen"
       }
     },
@@ -38,18 +50,27 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011040105",
       "prefLabel": {
         "de": "Stoffeigenschaften ändern"
+      },
+      "note": {
+        "de": "Stoffeigenschaften"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011040106",
       "prefLabel": {
         "de": "Galvanik und Oberflächenbearbeitung"
+      },
+      "note": {
+        "de": "Galvanik; Oberflächenbearbeitung"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401104",
     "prefLabel": {
+      "de": "Produktionstechnik"
+    },
+    "note": {
       "de": "Produktionstechnik"
     }
   },
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

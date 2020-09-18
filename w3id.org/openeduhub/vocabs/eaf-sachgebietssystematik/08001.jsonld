@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F08001",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F08001",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F08001",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F08001",
   "prefLabel": {
     "de": "Allgemeine Biologie"
   },
@@ -14,42 +14,63 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800101",
       "prefLabel": {
         "de": "Biologische Forschung, biologische Arbeitsmethoden"
+      },
+      "note": {
+        "de": "Biologische Forschung; biologische Arbeitsmethoden; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800102",
       "prefLabel": {
         "de": "Genetik"
+      },
+      "note": {
+        "de": "Genetik; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800103",
       "prefLabel": {
         "de": "Evolution"
+      },
+      "note": {
+        "de": "Evolution; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800104",
       "prefLabel": {
         "de": "Biochemie"
+      },
+      "note": {
+        "de": "Biochemie; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800105",
       "prefLabel": {
         "de": "Biologische Regelkreise, Kybernetik"
+      },
+      "note": {
+        "de": "Biologische Regelkreise; Kybernetik; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800106",
       "prefLabel": {
         "de": "Biophysik, Bionik"
+      },
+      "note": {
+        "de": "Biophysik; Bionik; Biologieunterricht; Biologie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800107",
       "prefLabel": {
         "de": "Zellenlehre"
+      },
+      "note": {
+        "de": "Zellenlehre; Biologieunterricht; Biologie"
       }
     }
   ],
@@ -57,6 +78,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
+    },
+    "note": {
+      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -66,6 +90,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -101,6 +126,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04008",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04008",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04008",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04008",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F04008",
   "prefLabel": {
     "de": "Gesundheit und Pflege"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400801",
       "prefLabel": {
         "de": "Medizinische Grundlagen"
+      },
+      "note": {
+        "de": "Medizinische Grundlagen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400802",
       "prefLabel": {
+        "de": "Gesunderhaltung"
+      },
+      "note": {
         "de": "Gesunderhaltung"
       }
     },
@@ -26,11 +32,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400803",
       "prefLabel": {
         "de": "Vorbeugung"
+      },
+      "note": {
+        "de": "Vorbeugung; Prävention"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400804",
       "prefLabel": {
+        "de": "Erste Hilfe"
+      },
+      "note": {
         "de": "Erste Hilfe"
       }
     },
@@ -38,11 +50,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400805",
       "prefLabel": {
         "de": "Therapie"
+      },
+      "note": {
+        "de": "Therapie; Heilpädagogik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400806",
       "prefLabel": {
+        "de": "Rehabilitation"
+      },
+      "note": {
         "de": "Rehabilitation"
       }
     },
@@ -50,11 +68,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400807",
       "prefLabel": {
         "de": "Ernährung"
+      },
+      "note": {
+        "de": "Ernährung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400808",
       "prefLabel": {
+        "de": "Pflege"
+      },
+      "note": {
         "de": "Pflege"
       }
     }
@@ -63,6 +87,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
+    },
+    "note": {
+      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -72,6 +99,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -107,6 +135,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

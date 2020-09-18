@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000405",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000405",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000405",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000405",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000405",
   "prefLabel": {
     "de": "Problemlösen und Handeln"
   },
@@ -14,30 +14,45 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040501",
       "prefLabel": {
         "de": "Technische Probleme lösen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040502",
       "prefLabel": {
         "de": "Werkzeuge bedarfsgerecht einsetzen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040503",
       "prefLabel": {
         "de": "Eigene Defizite ermitteln und nach Lösungen suchen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040504",
       "prefLabel": {
         "de": "Digitale Werkzeuge und Medien zum Lernen, Arbeiten und Problemlösen nutzen"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040505",
       "prefLabel": {
         "de": "Algorithmen erkennen und formulieren"
+      },
+      "note": {
+        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt, Algorithmen"
       }
     }
   ],
@@ -45,6 +60,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004",
     "prefLabel": {
       "de": "Kompetenzen in der digitalen Welt"
+    },
+    "note": {
+      "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
     }
   },
   "inScheme": {
@@ -54,6 +72,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

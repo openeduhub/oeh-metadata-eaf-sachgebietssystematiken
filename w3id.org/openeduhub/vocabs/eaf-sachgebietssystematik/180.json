@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/180",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F180",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F180",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F180",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F180",
   "prefLabel": {
     "de": "FREIZEIT"
   },
@@ -14,11 +14,17 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/18001",
       "prefLabel": {
         "de": "Freizeitbetätigung, Hobby"
+      },
+      "note": {
+        "de": "Freizeitbetätigung; Hobby"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/18002",
       "prefLabel": {
+        "de": "Freizeitsport"
+      },
+      "note": {
         "de": "Freizeitsport"
       }
     },
@@ -26,12 +32,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/18003",
       "prefLabel": {
         "de": "Reisen"
+      },
+      "note": {
+        "de": "Reisen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/18004",
       "prefLabel": {
         "de": "Familie, Gemeinschaft, Verein"
+      },
+      "note": {
+        "de": "Familie; Gemeinschaft; Verein"
       }
     }
   ],
@@ -45,6 +57,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -80,6 +93,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

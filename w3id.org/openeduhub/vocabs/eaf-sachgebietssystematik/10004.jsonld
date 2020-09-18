@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10004",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10004",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F10004",
   "prefLabel": {
     "de": "Anorganische Chemie"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000401",
       "prefLabel": {
         "de": "Stoffgemische"
+      },
+      "note": {
+        "de": "Stoffgemische; Gemisch; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000402",
       "prefLabel": {
         "de": "Elemente"
+      },
+      "note": {
+        "de": "Chemische Elemente; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000403",
       "prefLabel": {
         "de": "Verbindungen"
+      },
+      "note": {
+        "de": "Chemische Verbindungen; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000404",
       "prefLabel": {
         "de": "Redoxreaktionen"
+      },
+      "note": {
+        "de": "Redoxreaktionen; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000405",
       "prefLabel": {
         "de": "Säure-Base-Reaktionen"
+      },
+      "note": {
+        "de": "Säure-Base-Reaktionen; Chemieunterricht; Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1000406",
       "prefLabel": {
         "de": "Komplexchemie"
+      },
+      "note": {
+        "de": "Komplexchemie; Chemieunterricht; Chemie"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
+    },
+    "note": {
+      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

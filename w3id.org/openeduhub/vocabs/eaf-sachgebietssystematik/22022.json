@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22022",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22022",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22022",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22022",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22022",
   "prefLabel": {
     "de": "Afrika"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202201",
       "prefLabel": {
         "de": "Nordafrika"
+      },
+      "note": {
+        "de": "Nordafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202202",
       "prefLabel": {
         "de": "Westafrika"
+      },
+      "note": {
+        "de": "Westafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202203",
       "prefLabel": {
         "de": "Zentralafrika"
+      },
+      "note": {
+        "de": "Zentralafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202204",
       "prefLabel": {
         "de": "Ostafrika"
+      },
+      "note": {
+        "de": "Ostafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202205",
       "prefLabel": {
         "de": "Südafrika"
+      },
+      "note": {
+        "de": "Südafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202298",
       "prefLabel": {
         "de": "Allgemeines"
+      },
+      "note": {
+        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
+    },
+    "note": {
+      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

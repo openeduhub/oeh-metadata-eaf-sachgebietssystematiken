@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F280",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F280",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F280",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F280",
   "prefLabel": {
     "de": "GRUNDSCHULE"
   },
@@ -14,66 +14,99 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28001",
       "prefLabel": {
         "de": "Deutsch"
+      },
+      "note": {
+        "de": "Deutsch; Deutschunterricht; Deutsch in der Grundschule; Grundschule; Grundschulunterricht; Primarunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28002",
       "prefLabel": {
         "de": "Deutsch für Kinder anderer Muttersprache"
+      },
+      "note": {
+        "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28003",
       "prefLabel": {
         "de": "Medienerziehung"
+      },
+      "note": {
+        "de": "Medienerziehung; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28004",
       "prefLabel": {
         "de": "Ethik"
+      },
+      "note": {
+        "de": "Ethik; Ethikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28005",
       "prefLabel": {
         "de": "Fremdsprachen"
+      },
+      "note": {
+        "de": "Fremdsprachen; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28006",
       "prefLabel": {
         "de": "Kunst, Werken, Textiles Gestalten"
+      },
+      "note": {
+        "de": "Kunst; Werken; Textiles Gestalten; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28007",
       "prefLabel": {
         "de": "Mathematik"
+      },
+      "note": {
+        "de": "Mathematik; Rechnen; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28008",
       "prefLabel": {
         "de": "Musik"
+      },
+      "note": {
+        "de": "Musik; Musikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28009",
       "prefLabel": {
         "de": "Religion"
+      },
+      "note": {
+        "de": "Religion; Religionsunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
       "prefLabel": {
         "de": "Sachkunde"
+      },
+      "note": {
+        "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28011",
       "prefLabel": {
         "de": "Sport"
+      },
+      "note": {
+        "de": "Sport; Sportunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
       }
     }
   ],
@@ -87,6 +120,7 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -122,6 +156,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22023",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22023",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22023",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22023",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F22023",
   "prefLabel": {
     "de": "Amerika"
   },
@@ -14,36 +14,54 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202301",
       "prefLabel": {
         "de": "Grönland, Kanada"
+      },
+      "note": {
+        "de": "Grönland; Kanada; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202302",
       "prefLabel": {
         "de": "USA"
+      },
+      "note": {
+        "de": "USA; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202303",
       "prefLabel": {
         "de": "Mittelamerika"
+      },
+      "note": {
+        "de": "Mittelamerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202304",
       "prefLabel": {
         "de": "Andenländer"
+      },
+      "note": {
+        "de": "Andenländer; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202305",
       "prefLabel": {
         "de": "Östliches Südamerika"
+      },
+      "note": {
+        "de": "Östliches Südamerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2202398",
       "prefLabel": {
         "de": "Allgemeines"
+      },
+      "note": {
+        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
       }
     }
   ],
@@ -51,6 +69,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
+    },
+    "note": {
+      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -60,6 +81,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -95,6 +117,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

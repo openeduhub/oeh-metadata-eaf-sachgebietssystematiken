@@ -1,8 +1,8 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000304",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000304",
-  "inbox": "https://test.skohub.io/inbox?target=%2Foeh-metadata-eaf-sachgebietssystematikenw3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000304",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000304",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F6000304",
   "prefLabel": {
     "de": "Spielsportarten"
   },
@@ -14,66 +14,99 @@
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030401",
       "prefLabel": {
         "de": "Basketball"
+      },
+      "note": {
+        "de": "Basketball; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030402",
       "prefLabel": {
         "de": "Fußball"
+      },
+      "note": {
+        "de": "Fußball; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030403",
       "prefLabel": {
         "de": "Handball"
+      },
+      "note": {
+        "de": "Handball; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030404",
       "prefLabel": {
         "de": "Tennis"
+      },
+      "note": {
+        "de": "Tennis; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030405",
       "prefLabel": {
         "de": "Volleyball"
+      },
+      "note": {
+        "de": "Volleyball; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030406",
       "prefLabel": {
         "de": "Weitere Spielsportarten und Spiele"
+      },
+      "note": {
+        "de": "Spielsportarten und Spiele; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030407",
       "prefLabel": {
         "de": "Badminton"
+      },
+      "note": {
+        "de": "Badminton; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030408",
       "prefLabel": {
         "de": "Tischtennis"
+      },
+      "note": {
+        "de": "Tischtennis; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030409",
       "prefLabel": {
         "de": "Hockey"
+      },
+      "note": {
+        "de": "Hockey; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030410",
       "prefLabel": {
         "de": "Integrative Spiele"
+      },
+      "note": {
+        "de": "Integrative Spiele; Sport; Sportunterricht"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600030411",
       "prefLabel": {
         "de": "Kleine Spiele"
+      },
+      "note": {
+        "de": "Kleine Spiele; Sport; Sportunterricht"
       }
     }
   ],
@@ -81,6 +114,9 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
     "prefLabel": {
       "de": "Sportarten"
+    },
+    "note": {
+      "de": "Sportarten; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -90,6 +126,7 @@
     }
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -125,6 +162,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
