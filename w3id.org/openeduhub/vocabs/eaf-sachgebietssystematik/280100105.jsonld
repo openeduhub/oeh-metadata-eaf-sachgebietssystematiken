@@ -7,15 +7,21 @@
     "de": "Rechte und Pflichten"
   },
   "note": {
-    "de": "Rechte; Pflichten; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Pflichten",
+      "Primarunterricht",
+      "Rechte",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801001",
     "prefLabel": {
       "de": "Soziales Lernen"
-    },
-    "note": {
-      "de": "Soziales Lernen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,12 @@
     "de": "Religiöse Kunst"
   },
   "note": {
-    "de": "Religiöse Kunst; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht",
+      "Religiöse Kunst"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,11 @@
         "de": "Bild und Plastik"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Musik"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Theater"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Film"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -52,7 +73,11 @@
         "de": "Literatur"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -61,7 +86,11 @@
         "de": "Architektur"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     }
   ],
@@ -69,9 +98,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -128,10 +154,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

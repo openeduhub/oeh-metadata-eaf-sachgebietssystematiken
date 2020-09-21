@@ -7,7 +7,12 @@
     "de": "Fertigkeitsbezogene Ordnung"
   },
   "note": {
-    "de": "Fertigkeitsbezogene Ordnung; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Fertigkeitsbezogene Ordnung",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,13 +21,24 @@
         "de": "Alphabetisierung"
       },
       "note": {
-        "de": "Alphabetisierung; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Alphabetisierung",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020202",
       "note": {
-        "de": "Sehverstehen; Hörverstehen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Hörverstehen",
+          "Primarunterricht",
+          "Sehverstehen"
+        ]
       }
     },
     {
@@ -31,7 +47,12 @@
         "de": "Interkulturelles Verstehen"
       },
       "note": {
-        "de": "Interkulturelles Verstehen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Interkulturelles Verstehen",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -40,7 +61,12 @@
         "de": "Leseverstehen"
       },
       "note": {
-        "de": "Leseverstehen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Leseverstehen",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -49,7 +75,12 @@
         "de": "Schreiben"
       },
       "note": {
-        "de": "Schreiben; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Schreiben"
+        ]
       }
     },
     {
@@ -58,7 +89,12 @@
         "de": "Sprechen"
       },
       "note": {
-        "de": "Sprechen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sprechen"
+        ]
       }
     },
     {
@@ -67,13 +103,24 @@
         "de": "Übersetzen"
       },
       "note": {
-        "de": "Übersetzen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Übersetzen"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280020208",
       "note": {
-        "de": "Grammatik; Systematisierung; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grammatik",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Systematisierung"
+        ]
       }
     }
   ],
@@ -81,9 +128,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28002",
     "prefLabel": {
       "de": "Deutsch für Kinder anderer Muttersprache"
-    },
-    "note": {
-      "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -140,10 +184,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

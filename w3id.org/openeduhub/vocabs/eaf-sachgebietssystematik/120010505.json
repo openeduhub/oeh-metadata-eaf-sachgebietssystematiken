@@ -7,15 +7,16 @@
     "de": "20. Jahrhundert"
   },
   "note": {
-    "de": "20. Jahrhundert; Deutsch; Deutschunterricht"
+    "de": [
+      "20. Jahrhundert",
+      "Deutsch",
+      "Deutschunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200105",
     "prefLabel": {
       "de": "Literaturgeschichte"
-    },
-    "note": {
-      "de": "Literaturgeschichte; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

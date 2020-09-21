@@ -7,15 +7,19 @@
     "de": "Sozialisation, Verhalten"
   },
   "note": {
-    "de": "Sozialisation; Verhalten; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Sozialisation",
+      "Sozialkunde",
+      "Verhalten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48006",
     "prefLabel": {
       "de": "Individuum und Gesellschaft"
-    },
-    "note": {
-      "de": "Individuum und Gesellschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

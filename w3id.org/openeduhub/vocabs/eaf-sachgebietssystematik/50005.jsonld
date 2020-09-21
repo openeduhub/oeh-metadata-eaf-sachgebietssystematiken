@@ -7,7 +7,9 @@
     "de": "Werken"
   },
   "note": {
-    "de": "Werken"
+    "de": [
+      "Werken"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Holz, Kunststoff"
       },
       "note": {
-        "de": "Holz; Kunststoff"
+        "de": [
+          "Holz",
+          "Kunststoff"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Metall"
       },
       "note": {
-        "de": "Metall"
+        "de": [
+          "Metall"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Ton"
       },
       "note": {
-        "de": "Ton"
+        "de": [
+          "Ton"
+        ]
       }
     },
     {
@@ -43,7 +52,10 @@
         "de": "Papier, Pappe"
       },
       "note": {
-        "de": "Papier; Pappe"
+        "de": [
+          "Papier",
+          "Pappe"
+        ]
       }
     },
     {
@@ -52,7 +64,9 @@
         "de": "Andere Materialien"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -61,7 +75,9 @@
         "de": "Elektrotechnik"
       },
       "note": {
-        "de": "Elektrotechnik"
+        "de": [
+          "Elektrotechnik"
+        ]
       }
     },
     {
@@ -70,7 +86,9 @@
         "de": "Maschinentechnik"
       },
       "note": {
-        "de": "Maschinentechnik"
+        "de": [
+          "Maschinentechnik"
+        ]
       }
     },
     {
@@ -79,7 +97,9 @@
         "de": "Grundlagen des technischen Zeichnens"
       },
       "note": {
-        "de": "technisches Zeichnen"
+        "de": [
+          "technisches Zeichnen"
+        ]
       }
     },
     {
@@ -88,7 +108,9 @@
         "de": "Unfallverhütung"
       },
       "note": {
-        "de": "Unfallverhütung"
+        "de": [
+          "Unfallverhütung"
+        ]
       }
     }
   ],
@@ -96,9 +118,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/500",
     "prefLabel": {
       "de": "PRAXISORIENTIERTE FÄCHER"
-    },
-    "note": {
-      "de": "Praxisorientierte Fächer"
     }
   },
   "inScheme": {
@@ -155,10 +174,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

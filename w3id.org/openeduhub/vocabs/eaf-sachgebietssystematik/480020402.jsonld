@@ -7,15 +7,20 @@
     "de": "Parlamentarisches Regierungssystem"
   },
   "note": {
-    "de": "Parlamentarisches Regierungssystem; Regierung; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Parlamentarisches Regierungssystem",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Regierung",
+      "Sozialkunde"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800204",
     "prefLabel": {
       "de": "Politische Ordnung des Bundes"
-    },
-    "note": {
-      "de": "Politische Ordnung des Bundes; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

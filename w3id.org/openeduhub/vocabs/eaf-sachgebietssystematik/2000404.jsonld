@@ -7,15 +7,16 @@
     "de": "Spielfilm"
   },
   "note": {
-    "de": "Spielfilm; Italienisch; Italienischunterricht"
+    "de": [
+      "Italienisch",
+      "Italienischunterricht",
+      "Spielfilm"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20004",
     "prefLabel": {
       "de": "Italienisch"
-    },
-    "note": {
-      "de": "Italienisch; Italienischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

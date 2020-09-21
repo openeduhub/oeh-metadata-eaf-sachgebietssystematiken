@@ -7,7 +7,11 @@
     "de": "Neueste Geschichte seit 1990"
   },
   "note": {
-    "de": "Neueste Geschichte seit 1990; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Neueste Geschichte seit 1990"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Bundesrepublik Deutschland"
       },
       "note": {
-        "de": "Bundesrepublik Deutschland seit 1990; BRD seit 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "BRD seit 1990",
+          "Bundesrepublik Deutschland seit 1990",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Europa"
       },
       "note": {
-        "de": "Europa seit 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Europa seit 1990",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Außereuropäische Staaten und Völker"
       },
       "note": {
-        "de": "Außereuropäische Staaten und Völker seit 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Außereuropäische Staaten und Völker seit 1990",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Internationale Entwicklungen"
       },
       "note": {
-        "de": "Internationale Entwicklungen seit 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Internationale Entwicklungen seit 1990"
+        ]
       }
     }
   ],
@@ -51,9 +72,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +128,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

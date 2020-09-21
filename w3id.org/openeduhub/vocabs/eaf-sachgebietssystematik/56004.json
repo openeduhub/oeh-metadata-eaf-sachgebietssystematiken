@@ -7,15 +7,18 @@
     "de": "Schwangerschaft und Geburt"
   },
   "note": {
-    "de": "Schwangerschaft; Geburt; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+    "de": [
+      "Geburt",
+      "Schwangerschaft",
+      "Sexualerziehung",
+      "Sexualkunde",
+      "Sexualkundeunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/560",
     "prefLabel": {
       "de": "SEXUALERZIEHUNG"
-    },
-    "note": {
-      "de": "Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

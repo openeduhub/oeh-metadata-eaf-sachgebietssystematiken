@@ -7,7 +7,10 @@
     "de": "Schützen und sicher Agieren"
   },
   "note": {
-    "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Schützen und sicher Agieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Sicher in digitalen Umgebungen agieren"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Persönliche Daten und Privatsphäre schützen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Gesundheit schützen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +55,10 @@
         "de": "Natur und Umwelt schützen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -51,9 +66,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004",
     "prefLabel": {
       "de": "Kompetenzen in der digitalen Welt"
-    },
-    "note": {
-      "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
     }
   },
   "inScheme": {
@@ -110,10 +122,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

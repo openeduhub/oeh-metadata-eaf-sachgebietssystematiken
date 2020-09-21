@@ -7,15 +7,18 @@
     "de": "Schwingungen, Wellen, Akustik"
   },
   "note": {
-    "de": "Schwingungen; Wellen; Akustik; Physik; Physikunterricht"
+    "de": [
+      "Akustik",
+      "Physik",
+      "Physikunterricht",
+      "Schwingungen",
+      "Wellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46001",
     "prefLabel": {
       "de": "Klassische Mechanik"
-    },
-    "note": {
-      "de": "Klassische Mechanik; Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Kriechtiere"
   },
   "note": {
-    "de": "Kriechtiere; Reptilien; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Kriechtiere",
+      "Reptilien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800504",
     "prefLabel": {
       "de": "Wirbeltiere"
-    },
-    "note": {
-      "de": "Wirbeltiere; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

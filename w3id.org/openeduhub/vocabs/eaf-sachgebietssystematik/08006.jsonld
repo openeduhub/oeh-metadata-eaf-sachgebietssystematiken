@@ -7,7 +7,11 @@
     "de": "Menschenkunde"
   },
   "note": {
-    "de": "Menschenkunde; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Menschenkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Körperbau"
       },
       "note": {
-        "de": "Körperbau des Menschen; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Körperbau des Menschen"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Stoffwechsel, Innere Organe"
       },
       "note": {
-        "de": "Stoffwechsel; Innere Organe; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Innere Organe",
+          "Stoffwechsel"
+        ]
       }
     },
     {
@@ -34,7 +47,12 @@
         "de": "Sinnesorgane, Nervensystem"
       },
       "note": {
-        "de": "Sinnesorgane; Nervensystem; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Nervensystem",
+          "Sinnesorgane"
+        ]
       }
     },
     {
@@ -43,7 +61,11 @@
         "de": "Fortpflanzung und Entwicklung"
       },
       "note": {
-        "de": "Fortpflanzung; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Fortpflanzung"
+        ]
       }
     },
     {
@@ -52,7 +74,12 @@
         "de": "Genetik, Evolution"
       },
       "note": {
-        "de": "Genetik; Evolution; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Evolution",
+          "Genetik"
+        ]
       }
     },
     {
@@ -61,7 +88,12 @@
         "de": "Krankheiten und Vorbeugung"
       },
       "note": {
-        "de": "Krankheiten; Prävention; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Krankheiten",
+          "Prävention"
+        ]
       }
     },
     {
@@ -70,7 +102,13 @@
         "de": "Verhalten"
       },
       "note": {
-        "de": "Verhalten; Verhaltensbiologie; Verhalten des Menschen; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Verhalten",
+          "Verhalten des Menschen",
+          "Verhaltensbiologie"
+        ]
       }
     }
   ],
@@ -78,9 +116,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
-    },
-    "note": {
-      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -137,10 +172,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

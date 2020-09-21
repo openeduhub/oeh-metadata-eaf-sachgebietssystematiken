@@ -7,15 +7,17 @@
     "de": "Literatur, Medien"
   },
   "note": {
-    "de": "Literatur Spaniens; Medien; Spanisch; Spanischunterricht"
+    "de": [
+      "Literatur Spaniens",
+      "Medien",
+      "Spanisch",
+      "Spanischunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20007",
     "prefLabel": {
       "de": "Spanisch"
-    },
-    "note": {
-      "de": "Spanisch; Spanischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

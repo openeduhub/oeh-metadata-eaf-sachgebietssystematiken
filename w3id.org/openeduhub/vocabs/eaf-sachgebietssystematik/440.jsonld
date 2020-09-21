@@ -7,7 +7,9 @@
     "de": "PÄDAGOGIK"
   },
   "note": {
-    "de": "Pädagogik"
+    "de": [
+      "Pädagogik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Allgemeine Pädagogik"
       },
       "note": {
-        "de": "Allgemeine Pädagogik; Pädagogik"
+        "de": [
+          "Allgemeine Pädagogik",
+          "Pädagogik"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Pädagogische Psychologie"
       },
       "note": {
-        "de": "Pädagogische Psychologie"
+        "de": [
+          "Pädagogische Psychologie"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Vorschulpädagogik"
       },
       "note": {
-        "de": "Vorschulpädagogik"
+        "de": [
+          "Vorschulpädagogik"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Schulpädagogik"
       },
       "note": {
-        "de": "Schulpädagogik"
+        "de": [
+          "Schulpädagogik"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Berufspädagogik"
       },
       "note": {
-        "de": "Berufspädagogik"
+        "de": [
+          "Berufspädagogik"
+        ]
       }
     },
     {
@@ -61,7 +74,9 @@
         "de": "Sonderpädagogik"
       },
       "note": {
-        "de": "Sonderpädagogik"
+        "de": [
+          "Sonderpädagogik"
+        ]
       }
     },
     {
@@ -70,7 +85,9 @@
         "de": "Sozialpädagogik"
       },
       "note": {
-        "de": "Sozialpädagogik"
+        "de": [
+          "Sozialpädagogik"
+        ]
       }
     },
     {
@@ -79,7 +96,9 @@
         "de": "Erwachsenenpädagogik"
       },
       "note": {
-        "de": "Erwachsenenpädagogik"
+        "de": [
+          "Erwachsenenpädagogik"
+        ]
       }
     },
     {
@@ -88,7 +107,9 @@
         "de": "Ausländerpädagogik"
       },
       "note": {
-        "de": "Ausländerpädagogik"
+        "de": [
+          "Ausländerpädagogik"
+        ]
       }
     },
     {
@@ -97,7 +118,10 @@
         "de": "Eltern und Erziehung"
       },
       "note": {
-        "de": "Eltern; Erziehung"
+        "de": [
+          "Eltern",
+          "Erziehung"
+        ]
       }
     },
     {
@@ -106,7 +130,9 @@
         "de": "Inklusion"
       },
       "note": {
-        "de": "Inklusion"
+        "de": [
+          "Inklusion"
+        ]
       }
     }
   ],
@@ -167,10 +193,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

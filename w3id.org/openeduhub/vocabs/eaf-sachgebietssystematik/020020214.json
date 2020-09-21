@@ -7,15 +7,18 @@
     "de": "Berufe in der Land- und Forstwirtschaft"
   },
   "note": {
-    "de": "Berufe in der Landwirtschaft; Berufe in der Forstwirtschaft; Berufsfeld Landwirtschaft, Natur und Umwelt; Berufe im Umwelt- und Naturschutz; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe im Umwelt- und Naturschutz",
+      "Berufe in der Forstwirtschaft",
+      "Berufe in der Landwirtschaft",
+      "Berufsfeld Landwirtschaft, Natur und Umwelt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
     "prefLabel": {
       "de": "Berufsbilder"
-    },
-    "note": {
-      "de": "Berufsbilder; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

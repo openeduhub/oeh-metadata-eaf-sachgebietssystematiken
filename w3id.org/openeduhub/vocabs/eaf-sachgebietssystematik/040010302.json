@@ -7,14 +7,14 @@
     "de": "Tierernährung"
   },
   "note": {
-    "de": "Tierernährung; Futtermittel"
+    "de": [
+      "Futtermittel",
+      "Tierernährung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400103",
     "prefLabel": {
-      "de": "Tierische Produktion"
-    },
-    "note": {
       "de": "Tierische Produktion"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

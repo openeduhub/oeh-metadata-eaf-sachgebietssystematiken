@@ -7,15 +7,17 @@
     "de": "Berufsbereiche Holz und Kunststoff"
   },
   "note": {
-    "de": "Berufsbereiche Holz und Kunststoff; Berufe mit Holz; Berufe mit Kunststoff; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe mit Holz",
+      "Berufe mit Kunststoff",
+      "Berufsbereiche Holz und Kunststoff"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/020020201",
     "prefLabel": {
       "de": "Berufe im naturwissenschaftlich-technischen Bereich"
-    },
-    "note": {
-      "de": "Berufe im naturwissenschaftlich-technischen Bereich; Berufsfeld Naturwissenschaften; Berufsfeld Technik und Technologiefelder; Berufe in den Naturwissenschaften; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

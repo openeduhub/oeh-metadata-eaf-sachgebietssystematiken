@@ -7,7 +7,14 @@
     "de": "Verkehrsgeographie"
   },
   "note": {
-    "de": "Verkehrsgeographie; Verkehrsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Verkehrsgeografie",
+      "Verkehrsgeographie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,14 @@
         "de": "Verkehrswege, Transportmittel"
       },
       "note": {
-        "de": "Verkehrswege; Transportmittel; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Transportmittel",
+          "Verkehrswege"
+        ]
       }
     },
     {
@@ -25,7 +39,14 @@
         "de": "Verkehrsknoten, Transportverbund"
       },
       "note": {
-        "de": "Verkehrsknoten; Transportverbund; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Transportverbund",
+          "Verkehrsknoten"
+        ]
       }
     }
   ],
@@ -33,9 +54,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +110,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

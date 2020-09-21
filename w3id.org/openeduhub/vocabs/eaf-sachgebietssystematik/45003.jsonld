@@ -7,7 +7,9 @@
     "de": "Philosophische Gegenwartsfragen"
   },
   "note": {
-    "de": "Philosophische Gegenwartsfragen"
+    "de": [
+      "Philosophische Gegenwartsfragen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Wissenschaftstheorie"
       },
       "note": {
-        "de": "Wissenschaftstheorie"
+        "de": [
+          "Wissenschaftstheorie"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Religionskritik"
       },
       "note": {
-        "de": "Religionskritik"
+        "de": [
+          "Religionskritik"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Naturphilosophie"
       },
       "note": {
-        "de": "Naturphilosophie"
+        "de": [
+          "Naturphilosophie"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Technikphilosophie"
       },
       "note": {
-        "de": "Technikphilosophie"
+        "de": [
+          "Technikphilosophie"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Medienphilosophie"
       },
       "note": {
-        "de": "Medienphilosophie"
+        "de": [
+          "Medienphilosophie"
+        ]
       }
     },
     {
@@ -61,7 +73,9 @@
         "de": "Philosophie des Geistes"
       },
       "note": {
-        "de": "Philosophie des Geistes"
+        "de": [
+          "Philosophie des Geistes"
+        ]
       }
     },
     {
@@ -70,7 +84,9 @@
         "de": "Ethische Grundfragen"
       },
       "note": {
-        "de": "Ethische Grundfragen"
+        "de": [
+          "Ethische Grundfragen"
+        ]
       }
     }
   ],
@@ -78,9 +94,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/450",
     "prefLabel": {
       "de": "PHILOSOPHIE"
-    },
-    "note": {
-      "de": "Philosophie"
     }
   },
   "inScheme": {
@@ -137,10 +150,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

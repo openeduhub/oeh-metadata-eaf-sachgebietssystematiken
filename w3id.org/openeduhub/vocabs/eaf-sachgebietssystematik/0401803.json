@@ -7,15 +7,15 @@
     "de": "Callcenter"
   },
   "note": {
-    "de": "Callcenter; Direktmarketing"
+    "de": [
+      "Callcenter",
+      "Direktmarketing"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04018",
     "prefLabel": {
       "de": "Dienstleistung"
-    },
-    "note": {
-      "de": "Dienstleistungen"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

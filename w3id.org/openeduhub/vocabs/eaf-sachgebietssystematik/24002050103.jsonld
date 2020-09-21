@@ -7,15 +7,17 @@
     "de": "Bundesrepublik Deutschland 1949 - 1990"
   },
   "note": {
-    "de": "Bundesrepublik Deutschland 1949 - 1990; BRD 1949 bis 1990; Geschichte; Geschichtsunterricht"
+    "de": [
+      "BRD 1949 bis 1990",
+      "Bundesrepublik Deutschland 1949 - 1990",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020501",
     "prefLabel": {
       "de": "Deutschland"
-    },
-    "note": {
-      "de": "Deutschland; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

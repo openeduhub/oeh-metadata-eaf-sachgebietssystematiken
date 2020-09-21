@@ -7,7 +7,9 @@
     "de": "VERKEHRSERZIEHUNG"
   },
   "note": {
-    "de": "Verkehrserziehung"
+    "de": [
+      "Verkehrserziehung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Verkehrsverhalten"
       },
       "note": {
-        "de": "Verkehrsverhalten; Verkehrserziehung"
+        "de": [
+          "Verkehrserziehung",
+          "Verkehrsverhalten"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Verkehrsmittel"
       },
       "note": {
-        "de": "Verkehrsmittel; Verkehrserziehung"
+        "de": [
+          "Verkehrserziehung",
+          "Verkehrsmittel"
+        ]
       }
     },
     {
@@ -34,7 +42,13 @@
         "de": "Verkehrswege"
       },
       "note": {
-        "de": "Verkehrswege; Autobahn; Flughafen; Hafen; Verkehrserziehung"
+        "de": [
+          "Autobahn",
+          "Flughafen",
+          "Hafen",
+          "Verkehrserziehung",
+          "Verkehrswege"
+        ]
       }
     },
     {
@@ -43,7 +57,10 @@
         "de": "Verkehrsrecht"
       },
       "note": {
-        "de": "Verkehrsrecht; Verkehrserziehung"
+        "de": [
+          "Verkehrserziehung",
+          "Verkehrsrecht"
+        ]
       }
     },
     {
@@ -52,7 +69,11 @@
         "de": "Verkehrspolitik"
       },
       "note": {
-        "de": "Verkehrspolitik; Politikwissenschaft; Verkehrserziehung"
+        "de": [
+          "Politikwissenschaft",
+          "Verkehrserziehung",
+          "Verkehrspolitik"
+        ]
       }
     },
     {
@@ -61,7 +82,11 @@
         "de": "Sicherheitstechnik, Fahrphysik"
       },
       "note": {
-        "de": "Sicherheitstechnik; Fahrphysik; Verkehrserziehung"
+        "de": [
+          "Fahrphysik",
+          "Sicherheitstechnik",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -70,7 +95,11 @@
         "de": "Verkehrspsychologie, Verkehrssoziologie"
       },
       "note": {
-        "de": "Verkehrspsychologie; Verkehrssoziologie; Verkehrserziehung"
+        "de": [
+          "Verkehrserziehung",
+          "Verkehrspsychologie",
+          "Verkehrssoziologie"
+        ]
       }
     },
     {
@@ -79,7 +108,10 @@
         "de": "Verkehrsmedizin"
       },
       "note": {
-        "de": "Verkehrsmedizin; Verkehrserziehung"
+        "de": [
+          "Verkehrserziehung",
+          "Verkehrsmedizin"
+        ]
       }
     },
     {
@@ -88,7 +120,10 @@
         "de": "Verkehr und Wetter"
       },
       "note": {
-        "de": "Verkehr und Wetter; Verkehrserziehung"
+        "de": [
+          "Verkehr und Wetter",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -97,7 +132,10 @@
         "de": "Verkehr und Umweltschutz"
       },
       "note": {
-        "de": "Verkehr und Umweltschutz; Verkehrserziehung"
+        "de": [
+          "Verkehr und Umweltschutz",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -106,7 +144,10 @@
         "de": "Verkehrsunfall"
       },
       "note": {
-        "de": "Verkehrsunfall; Verkehrserziehung"
+        "de": [
+          "Verkehrserziehung",
+          "Verkehrsunfall"
+        ]
       }
     }
   ],
@@ -167,10 +208,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

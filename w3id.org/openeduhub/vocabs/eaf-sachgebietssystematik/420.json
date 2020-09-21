@@ -7,7 +7,10 @@
     "de": "MUSIK"
   },
   "note": {
-    "de": "Musik; Musikunterricht"
+    "de": [
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Außereuropäische Musik"
       },
       "note": {
-        "de": "Außereuropäische Musik; Musik; Musikunterricht"
+        "de": [
+          "Außereuropäische Musik",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Europäische Zeitstile"
       },
       "note": {
-        "de": "Europäische Zeitstile; Musik; Musikunterricht"
+        "de": [
+          "Europäische Zeitstile",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,11 @@
         "de": "Musikarten"
       },
       "note": {
-        "de": "Musikarten; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikarten",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +58,11 @@
         "de": "Interpretation"
       },
       "note": {
-        "de": "Interpretation; Musik; Musikunterricht"
+        "de": [
+          "Interpretation",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -52,7 +71,11 @@
         "de": "Musik und Gesellschaft"
       },
       "note": {
-        "de": "Musik und Gesellschaft; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musik und Gesellschaft",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -61,7 +84,11 @@
         "de": "Musik und Technik"
       },
       "note": {
-        "de": "Musik und Technik; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musik und Technik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -70,7 +97,11 @@
         "de": "Musiktheorie"
       },
       "note": {
-        "de": "Musiktheorie; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musiktheorie",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -79,7 +110,11 @@
         "de": "Unterrichtsorientierte Zusammenstellungen"
       },
       "note": {
-        "de": "Unterrichtsorientierte Zusammenstellungen; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Unterrichtsorientierte Zusammenstellungen"
+        ]
       }
     },
     {
@@ -88,7 +123,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Bilingualer Musikunterricht; Musik"
+        "de": [
+          "Bilingualer Musikunterricht",
+          "Bilingualer Unterricht",
+          "Musik"
+        ]
       }
     }
   ],
@@ -149,10 +188,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

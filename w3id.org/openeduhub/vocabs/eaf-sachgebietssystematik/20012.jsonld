@@ -7,7 +7,10 @@
     "de": "Tschechisch"
   },
   "note": {
-    "de": "Tschechisch; Tschechischunterricht"
+    "de": [
+      "Tschechisch",
+      "Tschechischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Tschechisch; Tschechischunterricht"
+        "de": [
+          "Sprachliche Fertigkeiten",
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Tschechiens; Tschechisch; Tschechischunterricht"
+        "de": [
+          "Landeskunde Tschechiens",
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Tschechiens; Medien; Tschechisch; Tschechischunterricht"
+        "de": [
+          "Literatur Tschechiens",
+          "Medien",
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Tschechisch; Tschechischunterricht"
+        "de": [
+          "Spielfilm",
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Tschechisch; Tschechischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

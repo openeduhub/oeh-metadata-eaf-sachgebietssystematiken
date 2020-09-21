@@ -7,7 +7,11 @@
     "de": "Grundlagen künstlerischen Schaffens"
   },
   "note": {
-    "de": "künstlerisches Schaffen; Kunst; Kunstunterricht"
+    "de": [
+      "Kunst",
+      "Kunstunterricht",
+      "künstlerisches Schaffen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,13 @@
         "de": "Form, Komposition, Perspektive"
       },
       "note": {
-        "de": "Form; Komposition; Perspektive; Kunst; Kunstunterricht"
+        "de": [
+          "Form",
+          "Komposition",
+          "Kunst",
+          "Kunstunterricht",
+          "Perspektive"
+        ]
       }
     },
     {
@@ -25,7 +35,12 @@
         "de": "Farblehre, Licht"
       },
       "note": {
-        "de": "Farblehre; Licht; Kunst; Kunstunterricht"
+        "de": [
+          "Farblehre",
+          "Kunst",
+          "Kunstunterricht",
+          "Licht"
+        ]
       }
     },
     {
@@ -34,7 +49,12 @@
         "de": "Techniken, Werkstoffe"
       },
       "note": {
-        "de": "Techniken; Werkstoffe; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "Techniken",
+          "Werkstoffe"
+        ]
       }
     },
     {
@@ -43,7 +63,11 @@
         "de": "Anwendungsbeispiele"
       },
       "note": {
-        "de": "Anwendungsbeispiele; Kunst; Kunstunterricht"
+        "de": [
+          "Anwendungsbeispiele",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +75,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/060",
     "prefLabel": {
       "de": "BILDENDE KUNST"
-    },
-    "note": {
-      "de": "Bildende Kunst; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +131,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

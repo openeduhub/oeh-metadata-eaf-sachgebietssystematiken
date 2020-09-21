@@ -7,7 +7,11 @@
     "de": "Instrumentalmusik"
   },
   "note": {
-    "de": "Instrumentalmusik; Musik; Musikunterricht"
+    "de": [
+      "Instrumentalmusik",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Orchestermusik"
       },
       "note": {
-        "de": "Orchestermusik; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Orchestermusik"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Kammermusik"
       },
       "note": {
-        "de": "Kammermusik; Musik; Musikunterricht"
+        "de": [
+          "Kammermusik",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     }
   ],
@@ -33,9 +45,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
     "prefLabel": {
       "de": "Musikarten"
-    },
-    "note": {
-      "de": "Musikarten; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +101,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,9 @@
     "de": "Pflanzliche Produktion"
   },
   "note": {
-    "de": "Pflanzliche Produktion"
+    "de": [
+      "Pflanzliche Produktion"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,11 @@
         "de": "Acker- und Pflanzenbau"
       },
       "note": {
-        "de": "Ackerbau; Pflanzenbau; Pflanzenproduktion"
+        "de": [
+          "Ackerbau",
+          "Pflanzenbau",
+          "Pflanzenproduktion"
+        ]
       }
     },
     {
@@ -25,7 +31,9 @@
         "de": "Pflanzenzüchtung"
       },
       "note": {
-        "de": "Pflanzenzüchtung"
+        "de": [
+          "Pflanzenzüchtung"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Pflanzenernährung"
       },
       "note": {
-        "de": "Pflanzenernährung"
+        "de": [
+          "Pflanzenernährung"
+        ]
       }
     },
     {
@@ -43,7 +53,10 @@
         "de": "Pflanzenschutz"
       },
       "note": {
-        "de": "Pflanzenschutz; Phytomedizin"
+        "de": [
+          "Pflanzenschutz",
+          "Phytomedizin"
+        ]
       }
     },
     {
@@ -52,7 +65,9 @@
         "de": "Grünland"
       },
       "note": {
-        "de": "Grünland"
+        "de": [
+          "Grünland"
+        ]
       }
     },
     {
@@ -61,7 +76,9 @@
         "de": "Sonderkulturen"
       },
       "note": {
-        "de": "Sonderkultur"
+        "de": [
+          "Sonderkultur"
+        ]
       }
     }
   ],
@@ -69,9 +86,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001",
     "prefLabel": {
       "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
-    },
-    "note": {
-      "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
     }
   },
   "inScheme": {
@@ -128,10 +142,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Privater Haushalt"
   },
   "note": {
-    "de": "Privater Haushalt; Privathaushalt"
+    "de": [
+      "Privater Haushalt",
+      "Privathaushalt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Umgang mit Geld"
       },
       "note": {
-        "de": "Umgang mit Geld"
+        "de": [
+          "Umgang mit Geld"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Verbrauchererziehung, Verbraucherschutz"
       },
       "note": {
-        "de": "Verbrauchererziehung; Verbraucherschutz"
+        "de": [
+          "Verbrauchererziehung",
+          "Verbraucherschutz"
+        ]
       }
     }
   ],
@@ -33,9 +41,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/700",
     "prefLabel": {
       "de": "WIRTSCHAFTSKUNDE"
-    },
-    "note": {
-      "de": "Wirtschaftskunde; Wirtschaftswissenschaft"
     }
   },
   "inScheme": {
@@ -92,10 +97,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

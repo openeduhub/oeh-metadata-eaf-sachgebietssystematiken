@@ -7,7 +7,10 @@
     "de": "Sozialarbeit und Erziehung"
   },
   "note": {
-    "de": "Sozialarbeit; Erziehung"
+    "de": [
+      "Erziehung",
+      "Sozialarbeit"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Erziehung, Aus- und Weiterbildung"
       },
       "note": {
-        "de": "Ausbildung; Weiterbildung"
+        "de": [
+          "Ausbildung",
+          "Weiterbildung"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Gesundheit- und Sozialmanagement"
       },
       "note": {
-        "de": "Gesundheitsmanagement; Sozialmanagement"
+        "de": [
+          "Gesundheitsmanagement",
+          "Sozialmanagement"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Sozialarbeit, Sozialpflege"
       },
       "note": {
-        "de": "Sozialarbeit; Sozialpflege"
+        "de": [
+          "Sozialarbeit",
+          "Sozialpflege"
+        ]
       }
     }
   ],
@@ -42,9 +54,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -101,10 +110,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

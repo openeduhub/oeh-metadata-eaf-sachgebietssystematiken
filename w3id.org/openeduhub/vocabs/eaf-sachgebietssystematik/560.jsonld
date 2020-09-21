@@ -7,7 +7,11 @@
     "de": "SEXUALERZIEHUNG"
   },
   "note": {
-    "de": "Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+    "de": [
+      "Sexualerziehung",
+      "Sexualkunde",
+      "Sexualkundeunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Sexualität"
       },
       "note": {
-        "de": "Sexualität; Bisexualität; Homosexualität; Transsexualität"
+        "de": [
+          "Bisexualität",
+          "Homosexualität",
+          "Sexualität",
+          "Transsexualität"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Pubertät"
       },
       "note": {
-        "de": "Pubertät; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+        "de": [
+          "Pubertät",
+          "Sexualerziehung",
+          "Sexualkunde",
+          "Sexualkundeunterricht"
+        ]
       }
     },
     {
@@ -34,7 +48,13 @@
         "de": "Partnerschaft, Beziehungen"
       },
       "note": {
-        "de": "Partnerschaft; Beziehungen; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+        "de": [
+          "Beziehungen",
+          "Partnerschaft",
+          "Sexualerziehung",
+          "Sexualkunde",
+          "Sexualkundeunterricht"
+        ]
       }
     },
     {
@@ -43,7 +63,13 @@
         "de": "Schwangerschaft und Geburt"
       },
       "note": {
-        "de": "Schwangerschaft; Geburt; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+        "de": [
+          "Geburt",
+          "Schwangerschaft",
+          "Sexualerziehung",
+          "Sexualkunde",
+          "Sexualkundeunterricht"
+        ]
       }
     },
     {
@@ -52,7 +78,12 @@
         "de": "Empfängnisverhütung"
       },
       "note": {
-        "de": "Empfängnisverhütung; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+        "de": [
+          "Empfängnisverhütung",
+          "Sexualerziehung",
+          "Sexualkunde",
+          "Sexualkundeunterricht"
+        ]
       }
     },
     {
@@ -61,7 +92,12 @@
         "de": "Sexueller Missbrauch"
       },
       "note": {
-        "de": "Sexueller Missbrauch; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+        "de": [
+          "Sexualerziehung",
+          "Sexualkunde",
+          "Sexualkundeunterricht",
+          "Sexueller Missbrauch"
+        ]
       }
     },
     {
@@ -70,7 +106,13 @@
         "de": "Sexuell übertragbare Krankheiten"
       },
       "note": {
-        "de": "Sexuell übertragbare Krankheiten; Geschlechtskrankheiten; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+        "de": [
+          "Geschlechtskrankheiten",
+          "Sexualerziehung",
+          "Sexualkunde",
+          "Sexualkundeunterricht",
+          "Sexuell übertragbare Krankheiten"
+        ]
       }
     }
   ],
@@ -131,10 +173,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

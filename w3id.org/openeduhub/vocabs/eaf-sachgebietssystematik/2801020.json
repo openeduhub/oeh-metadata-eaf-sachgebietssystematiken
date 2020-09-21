@@ -7,15 +7,24 @@
     "de": "Zeiterfahrungen"
   },
   "note": {
-    "de": "Zeiterfahrung; Zeitmessung; Uhrzeiten; Jahreszeiten; Kalender; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Jahreszeiten",
+      "Kalender",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht",
+      "Uhrzeiten",
+      "Zeiterfahrung",
+      "Zeitmessung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +81,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,9 @@
     "de": "Holztechnik"
   },
   "note": {
-    "de": "Holztechnik"
+    "de": [
+      "Holztechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Holzbearbeitung"
       },
       "note": {
-        "de": "Holzbearbeitung"
+        "de": [
+          "Holzbearbeitung"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Holzverarbeitung"
       },
       "note": {
-        "de": "Holzverarbeitung"
+        "de": [
+          "Holzverarbeitung"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Grundlagen der Holztechnik"
       },
       "note": {
-        "de": "Holztechnik"
+        "de": [
+          "Holztechnik"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Technische Kommunikation"
       },
       "note": {
-        "de": "Technische Kommunikation"
+        "de": [
+          "Technische Kommunikation"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Holzschäden"
       },
       "note": {
-        "de": "Holzschäden"
+        "de": [
+          "Holzschäden"
+        ]
       }
     },
     {
@@ -61,7 +73,9 @@
         "de": "Werkstoffe"
       },
       "note": {
-        "de": "Werkstoffe"
+        "de": [
+          "Werkstoffe"
+        ]
       }
     }
   ],
@@ -69,9 +83,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -128,10 +139,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

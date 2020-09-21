@@ -7,15 +7,15 @@
     "de": "Autofahrer"
   },
   "note": {
-    "de": "Autofahrer; Verkehrserziehung"
+    "de": [
+      "Autofahrer",
+      "Verkehrserziehung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66001",
     "prefLabel": {
       "de": "Verkehrsverhalten"
-    },
-    "note": {
-      "de": "Verkehrsverhalten; Verkehrserziehung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

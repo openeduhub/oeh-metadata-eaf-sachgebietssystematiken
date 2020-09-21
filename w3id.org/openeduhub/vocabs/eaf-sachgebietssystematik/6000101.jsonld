@@ -7,15 +7,21 @@
     "de": "Trainings- und Bewegungslehre"
   },
   "note": {
-    "de": "Trainingslehre; Sporttraining; Aufwärmprogramm; Trainingswissenschaft; Bewegungslehre; Bewegungswissenschaft; Sport; Sportunterricht"
+    "de": [
+      "Aufwärmprogramm",
+      "Bewegungslehre",
+      "Bewegungswissenschaft",
+      "Sport",
+      "Sporttraining",
+      "Sportunterricht",
+      "Trainingslehre",
+      "Trainingswissenschaft"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60001",
     "prefLabel": {
       "de": "Sportwissenschaft"
-    },
-    "note": {
-      "de": "Sportwissenschaft; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

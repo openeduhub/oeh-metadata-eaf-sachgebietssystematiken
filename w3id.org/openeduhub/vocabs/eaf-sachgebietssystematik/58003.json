@@ -7,7 +7,9 @@
     "de": "Zielgruppenfilm"
   },
   "note": {
-    "de": "NaN"
+    "de": [
+      "NaN"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Kinderfilm"
       },
       "note": {
-        "de": "Kinderfilm"
+        "de": [
+          "Kinderfilm"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Jugendfilm"
       },
       "note": {
-        "de": "Jugendfilm"
+        "de": [
+          "Jugendfilm"
+        ]
       }
     }
   ],
@@ -33,9 +39,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/580",
     "prefLabel": {
       "de": "SPIEL- UND DOKUMENTARFILM"
-    },
-    "note": {
-      "de": "NaN"
     }
   },
   "inScheme": {
@@ -92,10 +95,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

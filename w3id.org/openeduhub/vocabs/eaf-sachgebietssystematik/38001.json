@@ -7,15 +7,18 @@
     "de": "Zahlen, Algebra"
   },
   "note": {
-    "de": "Zahlen; Algebra; Mathematik; Mathematikunterricht; Matheunterricht"
+    "de": [
+      "Algebra",
+      "Mathematik",
+      "Mathematikunterricht",
+      "Matheunterricht",
+      "Zahlen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/380",
     "prefLabel": {
       "de": "MATHEMATIK"
-    },
-    "note": {
-      "de": "Mathematik; Mathematikunterricht; Matheunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

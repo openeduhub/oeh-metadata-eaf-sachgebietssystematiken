@@ -7,7 +7,10 @@
     "de": "Entwickeln und Produzieren"
   },
   "note": {
-    "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Produzieren und Präsentieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Mehrere technische Bearbeitungswerkzeuge kennen und anwenden"
       },
       "note": {
-        "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Produzieren und Präsentieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Eine Produktion planen und in verschiedenen Formaten gestalten, präsentieren, veröffentlichen oder teilen"
       },
       "note": {
-        "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Produzieren und Präsentieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -33,9 +42,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000403",
     "prefLabel": {
       "de": "Produzieren und Präsentieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -92,10 +98,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,11 @@
     "de": "Praktische Informatik"
   },
   "note": {
-    "de": "Informatik; Informatikunterricht; Praktische Informatik"
+    "de": [
+      "Informatik",
+      "Informatikunterricht",
+      "Praktische Informatik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,13 @@
         "de": "Algorithmen und Datenstrukturen"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Algorithmus; Datenstruktur; Algorithmen"
+        "de": [
+          "Algorithmen",
+          "Algorithmus",
+          "Datenstruktur",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +35,11 @@
         "de": "Betriebssysteme"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Betriebssystem"
+        "de": [
+          "Betriebssystem",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +48,11 @@
         "de": "Programmiersprachen"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Programmiersprache"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Programmiersprache"
+        ]
       }
     },
     {
@@ -43,7 +61,11 @@
         "de": "Programmierung"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Programmierung"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Programmierung"
+        ]
       }
     },
     {
@@ -52,7 +74,11 @@
         "de": "Software-Projekte"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Software-Projekt"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Software-Projekt"
+        ]
       }
     }
   ],
@@ -60,9 +86,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32002",
     "prefLabel": {
       "de": "Informatik"
-    },
-    "note": {
-      "de": "Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +142,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

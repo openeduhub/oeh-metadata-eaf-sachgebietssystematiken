@@ -7,7 +7,10 @@
     "de": "DEUTSCH"
   },
   "note": {
-    "de": "Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Literatur"
       },
       "note": {
-        "de": "Literatur; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Literatur"
+        ]
       }
     },
     {
@@ -25,7 +32,12 @@
         "de": "Darstellendes Spiel, Schultheater"
       },
       "note": {
-        "de": "Darstellendes Spiel; Schultheater; Deutsch; Deutschunterricht"
+        "de": [
+          "Darstellendes Spiel",
+          "Deutsch",
+          "Deutschunterricht",
+          "Schultheater"
+        ]
       }
     },
     {
@@ -34,7 +46,14 @@
         "de": "Nichtliterarische Texte"
       },
       "note": {
-        "de": "Nichtliterarische Texte; Jounalistik; wissenschaftliche Texte; Reden; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Jounalistik",
+          "Nichtliterarische Texte",
+          "Reden",
+          "wissenschaftliche Texte"
+        ]
       }
     },
     {
@@ -43,7 +62,11 @@
         "de": "Kommunikation"
       },
       "note": {
-        "de": "Kommunikation; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Kommunikation"
+        ]
       }
     },
     {
@@ -52,7 +75,12 @@
         "de": "Deutsch als Zweit- und Fremdsprache"
       },
       "note": {
-        "de": "Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache"
+        ]
       }
     },
     {
@@ -61,7 +89,11 @@
         "de": "Grammatik, Rechtschreiben"
       },
       "note": {
-        "de": "Grammatik; Rechtschreiben; Rechtschreibung"
+        "de": [
+          "Grammatik",
+          "Rechtschreiben",
+          "Rechtschreibung"
+        ]
       }
     },
     {
@@ -70,7 +102,11 @@
         "de": "Lesen, Lesetechnik, Umgang mit Texten"
       },
       "note": {
-        "de": "Lesen; Lesetechnik; Umgang mit Texten"
+        "de": [
+          "Lesen",
+          "Lesetechnik",
+          "Umgang mit Texten"
+        ]
       }
     }
   ],
@@ -131,10 +167,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

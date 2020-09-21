@@ -7,15 +7,16 @@
     "de": "Landeskunde"
   },
   "note": {
-    "de": "Landeskunde Chinas; Chinesisch; Chinesischunterricht"
+    "de": [
+      "Chinesisch",
+      "Chinesischunterricht",
+      "Landeskunde Chinas"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20041",
     "prefLabel": {
       "de": "Chinesisch"
-    },
-    "note": {
-      "de": "Chinesisch; Chinesischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

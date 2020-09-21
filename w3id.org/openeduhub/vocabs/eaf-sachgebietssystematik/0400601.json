@@ -7,7 +7,9 @@
     "de": "Gastronomie"
   },
   "note": {
-    "de": "Gastronomie"
+    "de": [
+      "Gastronomie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Service"
       },
       "note": {
-        "de": "Gastronomieservice; Gastroservice"
+        "de": [
+          "Gastronomieservice",
+          "Gastroservice"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Küche"
       },
       "note": {
-        "de": "Gastroküchen; Gastronomiebedarf"
+        "de": [
+          "Gastroküchen",
+          "Gastronomiebedarf"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Housekeeping"
       },
       "note": {
-        "de": "Housekeeping"
+        "de": [
+          "Housekeeping"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Verwaltung"
       },
       "note": {
-        "de": "Verwaltung"
+        "de": [
+          "Verwaltung"
+        ]
       }
     },
     {
@@ -52,7 +64,10 @@
         "de": "Rezeption"
       },
       "note": {
-        "de": "Rezeption; Empfang"
+        "de": [
+          "Empfang",
+          "Rezeption"
+        ]
       }
     },
     {
@@ -61,7 +76,9 @@
         "de": "Sonstige Bereiche"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     }
   ],
@@ -69,9 +86,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04006",
     "prefLabel": {
       "de": "Gastgewerbe und Hauswirtschaft"
-    },
-    "note": {
-      "de": "Gastgewerbe; Hauswirtschaft"
     }
   },
   "inScheme": {
@@ -128,10 +142,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

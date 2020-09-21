@@ -7,15 +7,16 @@
     "de": "Spielfilm"
   },
   "note": {
-    "de": "Spielfilm; Türkisch; Türkischunterricht"
+    "de": [
+      "Spielfilm",
+      "Türkisch",
+      "Türkischunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20008",
     "prefLabel": {
       "de": "Türkisch"
-    },
-    "note": {
-      "de": "Türkisch; Türkischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

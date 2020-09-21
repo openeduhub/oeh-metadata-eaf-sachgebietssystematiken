@@ -7,7 +7,10 @@
     "de": "Medienpädagogische Handlungsfelder"
   },
   "note": {
-    "de": "Medienpädagogische Handlungsfelder; Medienpädagogik"
+    "de": [
+      "Medienpädagogik",
+      "Medienpädagogische Handlungsfelder"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Druckmedien"
       },
       "note": {
-        "de": "Druckmedien; Medienpädagogik"
+        "de": [
+          "Druckmedien",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Fotografie"
       },
       "note": {
-        "de": "Fotografie; Medienpädagogik"
+        "de": [
+          "Fotografie",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -34,7 +43,11 @@
         "de": "Auditive Medien, Hörfunk"
       },
       "note": {
-        "de": "Auditive Medien; Hörfunk; Medienpädagogik"
+        "de": [
+          "Auditive Medien",
+          "Hörfunk",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -43,7 +56,11 @@
         "de": "Film, Video"
       },
       "note": {
-        "de": "Film; Video; Medienpädagogik"
+        "de": [
+          "Film",
+          "Medienpädagogik",
+          "Video"
+        ]
       }
     },
     {
@@ -52,13 +69,20 @@
         "de": "Fernsehen"
       },
       "note": {
-        "de": "Fernsehen; Medienpädagogik"
+        "de": [
+          "Fernsehen",
+          "Medienpädagogik"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000206",
       "note": {
-        "de": "Computer; Multimedia; Medienpädagogik"
+        "de": [
+          "Computer",
+          "Medienpädagogik",
+          "Multimedia"
+        ]
       }
     },
     {
@@ -67,7 +91,10 @@
         "de": "Theater"
       },
       "note": {
-        "de": "Theater; Medienpädagogik"
+        "de": [
+          "Medienpädagogik",
+          "Theater"
+        ]
       }
     }
   ],
@@ -75,9 +102,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400",
     "prefLabel": {
       "de": "MEDIENPÄDAGOGIK"
-    },
-    "note": {
-      "de": "Medienpädagogik"
     }
   },
   "inScheme": {
@@ -134,10 +158,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

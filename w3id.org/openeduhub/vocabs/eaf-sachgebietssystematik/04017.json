@@ -7,7 +7,11 @@
     "de": "Klima-, Heizungs- und Sanitärtechnik"
   },
   "note": {
-    "de": "Klimatechnik; Heizungstechnik; Sanitärtechnik"
+    "de": [
+      "Heizungstechnik",
+      "Klimatechnik",
+      "Sanitärtechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,9 @@
         "de": "Wassertechnik"
       },
       "note": {
-        "de": "Wassertechnik"
+        "de": [
+          "Wassertechnik"
+        ]
       }
     },
     {
@@ -25,7 +31,9 @@
         "de": "Lüftungstechnik"
       },
       "note": {
-        "de": "Lüftungstechnik"
+        "de": [
+          "Lüftungstechnik"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Wärmetechnik"
       },
       "note": {
-        "de": "Wärmetechnik"
+        "de": [
+          "Wärmetechnik"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Ressourcenschonende Techniken"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     }
   ],
@@ -51,9 +63,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -110,10 +119,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

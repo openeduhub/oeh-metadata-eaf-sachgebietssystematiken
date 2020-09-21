@@ -7,7 +7,13 @@
     "de": "Tierzucht und Tierhaltung, Tierpflege"
   },
   "note": {
-    "de": "Tierzucht; Tierhaltung; Tierpflege; Massentierhaltung; artgerechte Haltung"
+    "de": [
+      "Massentierhaltung",
+      "Tierhaltung",
+      "Tierpflege",
+      "Tierzucht",
+      "artgerechte Haltung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,9 @@
         "de": "Geflügel"
       },
       "note": {
-        "de": "Geflügelhaltung"
+        "de": [
+          "Geflügelhaltung"
+        ]
       }
     },
     {
@@ -25,7 +33,10 @@
         "de": "Pferde"
       },
       "note": {
-        "de": "Pferdehaltung; Pferdezucht"
+        "de": [
+          "Pferdehaltung",
+          "Pferdezucht"
+        ]
       }
     },
     {
@@ -34,7 +45,9 @@
         "de": "Rinder"
       },
       "note": {
-        "de": "Rinderhaltung"
+        "de": [
+          "Rinderhaltung"
+        ]
       }
     },
     {
@@ -43,7 +56,10 @@
         "de": "Schafe"
       },
       "note": {
-        "de": "Schafhaltung; Schafzucht"
+        "de": [
+          "Schafhaltung",
+          "Schafzucht"
+        ]
       }
     },
     {
@@ -52,7 +68,11 @@
         "de": "Schweine"
       },
       "note": {
-        "de": "Schweinezucht; Schweinemast; Schweineproduktion"
+        "de": [
+          "Schweinemast",
+          "Schweineproduktion",
+          "Schweinezucht"
+        ]
       }
     },
     {
@@ -61,7 +81,11 @@
         "de": "Fische"
       },
       "note": {
-        "de": "Fischzucht; Aquakultur; Fischerei"
+        "de": [
+          "Aquakultur",
+          "Fischerei",
+          "Fischzucht"
+        ]
       }
     },
     {
@@ -70,16 +94,15 @@
         "de": "Allgemein"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400103",
     "prefLabel": {
-      "de": "Tierische Produktion"
-    },
-    "note": {
       "de": "Tierische Produktion"
     }
   },
@@ -137,10 +160,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

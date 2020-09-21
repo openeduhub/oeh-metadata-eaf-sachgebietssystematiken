@@ -7,7 +7,12 @@
     "de": "POLITISCHE BILDUNG"
   },
   "note": {
-    "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,13 @@
         "de": "Politische Theorien"
       },
       "note": {
-        "de": "Politische Theorien; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Politische Theorien",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +36,13 @@
         "de": "Politisches System der Bundesrepublik Deutschland"
       },
       "note": {
-        "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Politisches System",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +51,14 @@
         "de": "Politische Systeme anderer Länder"
       },
       "note": {
-        "de": "Politische Systeme anderer Länder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Politische Systeme anderer Länder",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -43,7 +67,14 @@
         "de": "Politikfelder"
       },
       "note": {
-        "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikfelder",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -52,7 +83,14 @@
         "de": "Gesellschaftspolitische Gegenwartsfragen"
       },
       "note": {
-        "de": "Gesellschaftspolitische Gegenwartsfragen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Gesellschaftspolitische Gegenwartsfragen",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -61,7 +99,13 @@
         "de": "Individuum und Gesellschaft"
       },
       "note": {
-        "de": "Individuum und Gesellschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Individuum und Gesellschaft",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -70,7 +114,13 @@
         "de": "Politische Persönlichkeiten"
       },
       "note": {
-        "de": "Politische Persönlichkeiten; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Politische Persönlichkeiten",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -79,7 +129,14 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Politikunterricht; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Bilingualer Politikunterricht",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -140,10 +197,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

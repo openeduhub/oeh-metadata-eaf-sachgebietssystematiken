@@ -7,15 +7,22 @@
     "de": "Kirchenjahr"
   },
   "note": {
-    "de": "Kirchenjahr; Advent; Ostern; Passion; Pfingsten; Weihnachten; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Advent",
+      "Kirchenjahr",
+      "Ostern",
+      "Passion",
+      "Pfingsten",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht",
+      "Weihnachten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52004",
     "prefLabel": {
       "de": "Kult und Frömmigkeit"
-    },
-    "note": {
-      "de": "Kult und Frömmigkeit; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

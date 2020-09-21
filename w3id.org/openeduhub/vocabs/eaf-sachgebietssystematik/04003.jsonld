@@ -7,7 +7,10 @@
     "de": "Naturwissenschaften und Mathematik"
   },
   "note": {
-    "de": "Naturwissenschaften; Mathematik"
+    "de": [
+      "Mathematik",
+      "Naturwissenschaften"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Labor"
       },
       "note": {
-        "de": "Labor; Labortechnik; Labortechnologie"
+        "de": [
+          "Labor",
+          "Labortechnik",
+          "Labortechnologie"
+        ]
       }
     },
     {
@@ -25,7 +32,12 @@
         "de": "Produktionstechnik"
       },
       "note": {
-        "de": "Produktionstechnik; Energietechnik; Fertigungstechnik; Verfahrenstechnik"
+        "de": [
+          "Energietechnik",
+          "Fertigungstechnik",
+          "Produktionstechnik",
+          "Verfahrenstechnik"
+        ]
       }
     },
     {
@@ -34,7 +46,9 @@
         "de": "Chemie"
       },
       "note": {
-        "de": "Chemie"
+        "de": [
+          "Chemie"
+        ]
       }
     },
     {
@@ -43,7 +57,9 @@
         "de": "Geowissenschaften"
       },
       "note": {
-        "de": "Geowissenschaften"
+        "de": [
+          "Geowissenschaften"
+        ]
       }
     },
     {
@@ -52,7 +68,12 @@
         "de": "Mathematik und Statistik"
       },
       "note": {
-        "de": "Mathematik; Statistik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Statistik"
+        ]
       }
     },
     {
@@ -61,7 +82,9 @@
         "de": "Pharmazie"
       },
       "note": {
-        "de": "Pharmazie"
+        "de": [
+          "Pharmazie"
+        ]
       }
     }
   ],
@@ -69,9 +92,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -128,10 +148,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

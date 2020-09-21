@@ -4,15 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400112",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0400112",
   "note": {
-    "de": "Agrargeschichte"
+    "de": [
+      "Agrargeschichte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001",
     "prefLabel": {
       "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
-    },
-    "note": {
-      "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
     }
   },
   "inScheme": {
@@ -69,10 +68,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

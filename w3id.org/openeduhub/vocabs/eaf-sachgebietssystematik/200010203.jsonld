@@ -7,15 +7,17 @@
     "de": "Australien, Neuseeland"
   },
   "note": {
-    "de": "Australien; Neuseeland; Englisch; Englischunterricht"
+    "de": [
+      "Australien",
+      "Englisch",
+      "Englischunterricht",
+      "Neuseeland"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2000102",
     "prefLabel": {
       "de": "Landeskunde"
-    },
-    "note": {
-      "de": "Landeskunde; Englisch; Englischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

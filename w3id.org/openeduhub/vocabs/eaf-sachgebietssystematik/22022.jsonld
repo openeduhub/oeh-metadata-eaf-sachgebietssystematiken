@@ -7,7 +7,13 @@
     "de": "Afrika"
   },
   "note": {
-    "de": "Afrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Afrika",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,13 @@
         "de": "Nordafrika"
       },
       "note": {
-        "de": "Nordafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Nordafrika"
+        ]
       }
     },
     {
@@ -25,7 +37,13 @@
         "de": "Westafrika"
       },
       "note": {
-        "de": "Westafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Westafrika"
+        ]
       }
     },
     {
@@ -34,7 +52,13 @@
         "de": "Zentralafrika"
       },
       "note": {
-        "de": "Zentralafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Zentralafrika"
+        ]
       }
     },
     {
@@ -43,7 +67,13 @@
         "de": "Ostafrika"
       },
       "note": {
-        "de": "Ostafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Ostafrika"
+        ]
       }
     },
     {
@@ -52,7 +82,13 @@
         "de": "Südafrika"
       },
       "note": {
-        "de": "Südafrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Südafrika"
+        ]
       }
     },
     {
@@ -61,7 +97,12 @@
         "de": "Allgemeines"
       },
       "note": {
-        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -69,9 +110,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -128,10 +166,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

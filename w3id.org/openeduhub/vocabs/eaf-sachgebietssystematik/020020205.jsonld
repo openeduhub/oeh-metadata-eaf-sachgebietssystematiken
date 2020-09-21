@@ -7,15 +7,17 @@
     "de": "Berufe im pädagogischen Bereich"
   },
   "note": {
-    "de": "Berufe im pädagogischen Bereich; Berufsfeld Soziales und Pädagogik; Berufe in der Sozialarbeit und Erziehung; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe im pädagogischen Bereich",
+      "Berufe in der Sozialarbeit und Erziehung",
+      "Berufsfeld Soziales und Pädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
     "prefLabel": {
       "de": "Berufsbilder"
-    },
-    "note": {
-      "de": "Berufsbilder; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

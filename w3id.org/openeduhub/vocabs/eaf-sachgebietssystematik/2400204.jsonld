@@ -7,7 +7,11 @@
     "de": "Neuere Geschichte"
   },
   "note": {
-    "de": "Neuere Geschichte; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Neuere Geschichte"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,13 @@
         "de": "Zeitalter der Entdeckungen, Eroberungen und Erfindungen"
       },
       "note": {
-        "de": "Zeitalter der Entdeckungen; Eroberungen; Erfindungen; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Erfindungen",
+          "Eroberungen",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Zeitalter der Entdeckungen"
+        ]
       }
     },
     {
@@ -25,7 +35,12 @@
         "de": "Humanismus und Renaissance"
       },
       "note": {
-        "de": "Humanismus; Renaissance; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Humanismus",
+          "Renaissance"
+        ]
       }
     },
     {
@@ -34,7 +49,13 @@
         "de": "Reformation, Bauernkriege, Glaubenskämpfe"
       },
       "note": {
-        "de": "Reformation; Bauernkriege; Glaubenskämpfe; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Bauernkriege",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Glaubenskämpfe",
+          "Reformation"
+        ]
       }
     },
     {
@@ -43,7 +64,13 @@
         "de": "Absolutismus, Aufklärung, Parlamentarismus"
       },
       "note": {
-        "de": "Absolutismus; Aufklärung; Parlamentarismus; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Absolutismus",
+          "Aufklärung",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Parlamentarismus"
+        ]
       }
     },
     {
@@ -52,7 +79,11 @@
         "de": "Bürgerliche Revolutionen des 18. Jahrhunderts"
       },
       "note": {
-        "de": "Bürgerliche Revolutionen des 18. Jahrhunderts; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Bürgerliche Revolutionen des 18. Jahrhunderts",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -61,7 +92,12 @@
         "de": "Napoleon, Napoleonisches Zeitalter"
       },
       "note": {
-        "de": "Napoleon; Napoleonisches Zeitalter; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Napoleon",
+          "Napoleonisches Zeitalter"
+        ]
       }
     },
     {
@@ -70,7 +106,13 @@
         "de": "Restauration, Revolutionen des 19. Jahrhunderts"
       },
       "note": {
-        "de": "Restauration; Revolutionen des 19. Jahrhunderts; Liberalismus; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Liberalismus",
+          "Restauration",
+          "Revolutionen des 19. Jahrhunderts"
+        ]
       }
     },
     {
@@ -79,7 +121,12 @@
         "de": "Industrialisierung und soziale Frage"
       },
       "note": {
-        "de": "Industrialisierung; soziale Frage; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Industrialisierung",
+          "soziale Frage"
+        ]
       }
     },
     {
@@ -88,7 +135,12 @@
         "de": "Nationale Bewegungen und Deutsches Kaiserreich"
       },
       "note": {
-        "de": "Nationale Bewegungen; Deutsches Kaiserreich; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Deutsches Kaiserreich",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Nationale Bewegungen"
+        ]
       }
     },
     {
@@ -97,7 +149,12 @@
         "de": "Imperialismus und Erster Weltkrieg"
       },
       "note": {
-        "de": "Imperialismus; Erster Weltkrieg; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Erster Weltkrieg",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Imperialismus"
+        ]
       }
     },
     {
@@ -106,7 +163,11 @@
         "de": "Weimarer Republik"
       },
       "note": {
-        "de": "Weimarer Republik; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Weimarer Republik"
+        ]
       }
     },
     {
@@ -115,7 +176,12 @@
         "de": "Faschismus und Nationalsozialismus"
       },
       "note": {
-        "de": "Faschismus; Nationalsozialismus; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Faschismus",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Nationalsozialismus"
+        ]
       }
     },
     {
@@ -124,7 +190,11 @@
         "de": "Zweiter Weltkrieg"
       },
       "note": {
-        "de": "Zweiter Weltkrieg; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Zweiter Weltkrieg"
+        ]
       }
     },
     {
@@ -133,7 +203,10 @@
         "de": "Weitere Themen der neueren europäischen Geschichte"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -142,7 +215,11 @@
         "de": "Neuere Geschichte außereuropäischer Staaten und Völker"
       },
       "note": {
-        "de": "Neuere Geschichte außereuropäischer Staaten und Völker; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Neuere Geschichte außereuropäischer Staaten und Völker"
+        ]
       }
     }
   ],
@@ -150,9 +227,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -209,10 +283,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

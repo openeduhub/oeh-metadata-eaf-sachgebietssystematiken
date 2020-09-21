@@ -7,15 +7,15 @@
     "de": "Elektronische Gerätetechnik"
   },
   "note": {
-    "de": "Elektronische Gerätetechnik; Gerätetechnik"
+    "de": [
+      "Elektronische Gerätetechnik",
+      "Gerätetechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400501",
     "prefLabel": {
       "de": "Aufgabenbereiche"
-    },
-    "note": {
-      "de": "NaN"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

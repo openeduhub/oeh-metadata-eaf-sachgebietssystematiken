@@ -7,14 +7,13 @@
     "de": "Wirtschaften im privaten Haushalt"
   },
   "note": {
-    "de": "Wirtschaften im privaten Haushalt"
+    "de": [
+      "Wirtschaften im privaten Haushalt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/50001",
     "prefLabel": {
-      "de": "Hauswirtschaft"
-    },
-    "note": {
       "de": "Hauswirtschaft"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

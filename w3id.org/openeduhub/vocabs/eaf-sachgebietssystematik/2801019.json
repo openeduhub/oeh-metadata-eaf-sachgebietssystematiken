@@ -7,7 +7,15 @@
     "de": "Heimatkunde"
   },
   "note": {
-    "de": "Heimatkunde; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Heimatkunde",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +24,15 @@
         "de": "Heimatgeschichte"
       },
       "note": {
-        "de": "Heimatgeschichte; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Heimatgeschichte",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -25,7 +41,15 @@
         "de": "Orientierung im geographischen Raum"
       },
       "note": {
-        "de": "Orientierung im geographischen Raum; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Orientierung im geographischen Raum",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -34,7 +58,15 @@
         "de": "Brauchtum"
       },
       "note": {
-        "de": "Brauchtum; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Brauchtum",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     }
   ],
@@ -42,9 +74,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +130,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

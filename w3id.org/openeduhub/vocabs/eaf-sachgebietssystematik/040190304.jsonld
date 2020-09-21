@@ -7,14 +7,14 @@
     "de": "Haltbarmachung"
   },
   "note": {
-    "de": "Haltbarmachung; Lebensmittelkonservierung"
+    "de": [
+      "Haltbarmachung",
+      "Lebensmittelkonservierung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401903",
     "prefLabel": {
-      "de": "Lebensmittellehre"
-    },
-    "note": {
       "de": "Lebensmittellehre"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

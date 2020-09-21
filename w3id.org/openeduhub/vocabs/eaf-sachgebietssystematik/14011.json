@@ -7,15 +7,18 @@
     "de": "Sprachförderung"
   },
   "note": {
-    "de": "Sprachförderung; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+    "de": [
+      "Elementarbereich",
+      "Sprachförderung",
+      "Vorschulerziehung",
+      "frühkindliche Bildung",
+      "frühkindliche Erziehung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/140",
     "prefLabel": {
       "de": "ELEMENTARBEREICH, VORSCHULERZIEHUNG"
-    },
-    "note": {
-      "de": "Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

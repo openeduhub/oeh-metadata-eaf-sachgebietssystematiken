@@ -7,15 +7,14 @@
     "de": "Erwachsenenpädagogik"
   },
   "note": {
-    "de": "Erwachsenenpädagogik"
+    "de": [
+      "Erwachsenenpädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/440",
     "prefLabel": {
       "de": "PÄDAGOGIK"
-    },
-    "note": {
-      "de": "Pädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

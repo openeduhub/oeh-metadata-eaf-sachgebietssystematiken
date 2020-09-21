@@ -7,7 +7,10 @@
     "de": "Rechtliche Vorgaben beachten"
   },
   "note": {
-    "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Produzieren und Präsentieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Bedeutung von Urheberrecht und geistigem Eigentum kennen"
       },
       "note": {
-        "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt; Urheberrecht"
+        "de": [
+          "Kompetenzbereich Produzieren und Präsentieren",
+          "Kompetenzen in der digitalen Welt",
+          "Urheberrecht"
+        ]
       }
     },
     {
@@ -25,7 +32,12 @@
         "de": "Urheber- und Nutzungsrechte"
       },
       "note": {
-        "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt; Urheberrecht; Nutzungsrechte"
+        "de": [
+          "Kompetenzbereich Produzieren und Präsentieren",
+          "Kompetenzen in der digitalen Welt",
+          "Nutzungsrechte",
+          "Urheberrecht"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Persönlichkeitsrechte beachten"
       },
       "note": {
-        "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt; Persönlichkeitsrechte"
+        "de": [
+          "Kompetenzbereich Produzieren und Präsentieren",
+          "Kompetenzen in der digitalen Welt",
+          "Persönlichkeitsrechte"
+        ]
       }
     }
   ],
@@ -42,9 +58,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000403",
     "prefLabel": {
       "de": "Produzieren und Präsentieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -101,10 +114,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Physikalische Chemie"
   },
   "note": {
-    "de": "Physikalische Chemie; Chemieunterricht"
+    "de": [
+      "Chemieunterricht",
+      "Physikalische Chemie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,12 @@
         "de": "Atombau, Periodensystem"
       },
       "note": {
-        "de": "Atombau; Periodensystem; Chemieunterricht; Chemie"
+        "de": [
+          "Atombau",
+          "Chemie",
+          "Chemieunterricht",
+          "Periodensystem"
+        ]
       }
     },
     {
@@ -25,7 +33,14 @@
         "de": "Bindung, Struktur, Eigenschaften"
       },
       "note": {
-        "de": "Bindung; Struktur; Eigenschaften; chemische Bindungsarten; Chemieunterricht; Chemie"
+        "de": [
+          "Bindung",
+          "Chemie",
+          "Chemieunterricht",
+          "Eigenschaften",
+          "Struktur",
+          "chemische Bindungsarten"
+        ]
       }
     },
     {
@@ -34,7 +49,11 @@
         "de": "Chemische Thermodynamik"
       },
       "note": {
-        "de": "Chemische Thermodynamik; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Chemische Thermodynamik"
+        ]
       }
     },
     {
@@ -43,7 +62,11 @@
         "de": "Chemische Kinetik"
       },
       "note": {
-        "de": "Chemische Kinetik; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Chemische Kinetik"
+        ]
       }
     },
     {
@@ -52,7 +75,11 @@
         "de": "Elektrochemie"
       },
       "note": {
-        "de": "Elektrochemie; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Elektrochemie"
+        ]
       }
     }
   ],
@@ -60,9 +87,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
-    },
-    "note": {
-      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +143,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,22 @@
     "de": "Müllanfall, Müllbeseitigung, Recycling"
   },
   "note": {
-    "de": "Müllanfall; Müllbeseitigung; Recycling; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Müllanfall",
+      "Müllbeseitigung",
+      "Primarunterricht",
+      "Recycling",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801013",
     "prefLabel": {
       "de": "Umwelterziehung"
-    },
-    "note": {
-      "de": "Umwelterziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

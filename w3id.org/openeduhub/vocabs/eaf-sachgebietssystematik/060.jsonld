@@ -7,7 +7,11 @@
     "de": "BILDENDE KUNST"
   },
   "note": {
-    "de": "Bildende Kunst; Kunst; Kunstunterricht"
+    "de": [
+      "Bildende Kunst",
+      "Kunst",
+      "Kunstunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Grundlagen künstlerischen Schaffens"
       },
       "note": {
-        "de": "künstlerisches Schaffen; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "künstlerisches Schaffen"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Theorien zur Kunst"
       },
       "note": {
-        "de": "Theorien zur Kunst; Kunsttheorie; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunsttheorie",
+          "Kunstunterricht",
+          "Theorien zur Kunst"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Kunstgeschichte"
       },
       "note": {
-        "de": "Kunstgeschichte; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstgeschichte",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,13 @@
         "de": "Angewandte Kunst der Gegenwart"
       },
       "note": {
-        "de": "Angewandte Kunst der Gegenwart; Gegenwartskunst; Zeitgenössische Kunst; Kunst; Kunstunterricht"
+        "de": [
+          "Angewandte Kunst der Gegenwart",
+          "Gegenwartskunst",
+          "Kunst",
+          "Kunstunterricht",
+          "Zeitgenössische Kunst"
+        ]
       }
     },
     {
@@ -52,7 +75,12 @@
         "de": "Erhalten und Restaurieren"
       },
       "note": {
-        "de": "Restaurieren; Restaurierung; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "Restaurieren",
+          "Restaurierung"
+        ]
       }
     },
     {
@@ -61,7 +89,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Kunstunterricht; Kunst; Kunstunterricht"
+        "de": [
+          "Bilingualer Kunstunterricht",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     }
   ],
@@ -122,10 +154,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

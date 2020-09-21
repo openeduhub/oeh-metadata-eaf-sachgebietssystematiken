@@ -7,7 +7,11 @@
     "de": "Sportbereiche"
   },
   "note": {
-    "de": "Sportbereiche; Sport; Sportunterricht"
+    "de": [
+      "Sport",
+      "Sportbereiche",
+      "Sportunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Altensport"
       },
       "note": {
-        "de": "Altensport; Seniorensport; Sport; Sportunterricht"
+        "de": [
+          "Altensport",
+          "Seniorensport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Behindertensport"
       },
       "note": {
-        "de": "Behindertensport; Sport; Sportunterricht"
+        "de": [
+          "Behindertensport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Betriebssport"
       },
       "note": {
-        "de": "Betriebssport; Sport; Sportunterricht"
+        "de": [
+          "Betriebssport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Breitensport"
       },
       "note": {
-        "de": "Breitensport; Sport; Sportunterricht"
+        "de": [
+          "Breitensport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -52,7 +73,12 @@
         "de": "Kinder- und Jugendsport"
       },
       "note": {
-        "de": "Kindersort; Jugendsport; Sport; Sportunterricht"
+        "de": [
+          "Jugendsport",
+          "Kindersort",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -61,7 +87,11 @@
         "de": "Leistungssport"
       },
       "note": {
-        "de": "Leistungssport; Sport; Sportunterricht"
+        "de": [
+          "Leistungssport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -70,7 +100,11 @@
         "de": "Schulsport"
       },
       "note": {
-        "de": "Schulsport; Sport; Sportunterricht"
+        "de": [
+          "Schulsport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -79,7 +113,12 @@
         "de": "Gesundheitssport"
       },
       "note": {
-        "de": "Gesundheitssport; Gesundheit; Sport; Sportunterricht"
+        "de": [
+          "Gesundheit",
+          "Gesundheitssport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -88,7 +127,14 @@
         "de": "Sonstige Sportbereiche"
       },
       "note": {
-        "de": "Frauensport; Militärsport; Amateursport; Profisport; Sport; Sportunterricht"
+        "de": [
+          "Amateursport",
+          "Frauensport",
+          "Militärsport",
+          "Profisport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     }
   ],
@@ -96,9 +142,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
-    },
-    "note": {
-      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -155,10 +198,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

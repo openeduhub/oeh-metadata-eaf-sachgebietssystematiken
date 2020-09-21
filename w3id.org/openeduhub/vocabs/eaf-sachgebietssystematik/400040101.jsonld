@@ -7,7 +7,11 @@
     "de": "Suchen und Filtern"
   },
   "note": {
-    "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt; Suchstrategien"
+    "de": [
+      "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+      "Kompetenzen in der digitalen Welt",
+      "Suchstrategien"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,10 @@
         "de": "Arbeits- und Suchinteressen klären und festlegen"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt, Suchstrategien"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt, Suchstrategien"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Suchstrategien nutzen und weiterentwickeln"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt; Suchstrategien"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt",
+          "Suchstrategien"
+        ]
       }
     },
     {
@@ -34,7 +45,10 @@
         "de": "In verschiedenen digitalen Umgebungen suchen"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt, Suchstrategien"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt, Suchstrategien"
+        ]
       }
     },
     {
@@ -43,7 +57,11 @@
         "de": "Relevante Quellen identifizieren und zusammenführen"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt; Suchstrategien"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt",
+          "Suchstrategien"
+        ]
       }
     }
   ],
@@ -51,9 +69,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000401",
     "prefLabel": {
       "de": "Suchen, Verarbeiten und Aufbewahren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -110,10 +125,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

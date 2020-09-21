@@ -7,15 +7,15 @@
     "de": "Geschichte der Chemie"
   },
   "note": {
-    "de": "Geschichte der Chemie; Chemieunterricht"
+    "de": [
+      "Chemieunterricht",
+      "Geschichte der Chemie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
-    },
-    "note": {
-      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

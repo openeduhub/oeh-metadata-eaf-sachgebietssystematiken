@@ -7,15 +7,15 @@
     "de": "Ethische Prinzipien bei der Kommunikation kennen und berücksichtigen"
   },
   "note": {
-    "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Kommunizieren und Kooperieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040204",
     "prefLabel": {
       "de": "Umgangsregeln kennen und einhalten"
-    },
-    "note": {
-      "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt; Netiquette"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,15 @@
     "de": "Verkehr und Wetter"
   },
   "note": {
-    "de": "Verkehr und Wetter; Verkehrserziehung"
+    "de": [
+      "Verkehr und Wetter",
+      "Verkehrserziehung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/660",
     "prefLabel": {
       "de": "VERKEHRSERZIEHUNG"
-    },
-    "note": {
-      "de": "Verkehrserziehung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

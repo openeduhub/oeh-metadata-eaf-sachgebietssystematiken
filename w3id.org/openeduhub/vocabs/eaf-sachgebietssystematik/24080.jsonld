@@ -7,15 +7,16 @@
     "de": "Bilingualer Unterricht"
   },
   "note": {
-    "de": "Bilingualer Geschichtsunterricht; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Bilingualer Geschichtsunterricht",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240",
     "prefLabel": {
       "de": "GESCHICHTE"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

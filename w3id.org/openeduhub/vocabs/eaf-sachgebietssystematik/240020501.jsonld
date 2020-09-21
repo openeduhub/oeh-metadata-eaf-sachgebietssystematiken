@@ -7,7 +7,11 @@
     "de": "Deutschland"
   },
   "note": {
-    "de": "Deutschland; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Deutschland",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Alliierte Besatzung 1945 -1949"
       },
       "note": {
-        "de": "Alliierte Besatzung 1945 -1949; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Alliierte Besatzung 1945 -1949",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Deutsche Demokratische Republik 1949 - 1990"
       },
       "note": {
-        "de": "Deutsche Demokratische Republik 1949 - 1990; DDR 1949 bis 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "DDR 1949 bis 1990",
+          "Deutsche Demokratische Republik 1949 - 1990",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,12 @@
         "de": "Bundesrepublik Deutschland 1949 - 1990"
       },
       "note": {
-        "de": "Bundesrepublik Deutschland 1949 - 1990; BRD 1949 bis 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "BRD 1949 bis 1990",
+          "Bundesrepublik Deutschland 1949 - 1990",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     }
   ],
@@ -42,9 +60,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400205",
     "prefLabel": {
       "de": "Geschichte von 1945 bis 1990"
-    },
-    "note": {
-      "de": "Geschichte von 1945 bis 1990; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +116,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

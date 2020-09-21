@@ -7,7 +7,10 @@
     "de": "Latein"
   },
   "note": {
-    "de": "Latein; Lateinunterricht"
+    "de": [
+      "Latein",
+      "Lateinunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Latein; Lateinunterricht"
+        "de": [
+          "Latein",
+          "Lateinunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde; Latein; Lateinunterricht"
+        "de": [
+          "Landeskunde",
+          "Latein",
+          "Lateinunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur; Medien; Latein; Lateinunterricht"
+        "de": [
+          "Latein",
+          "Lateinunterricht",
+          "Literatur",
+          "Medien"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Latein; Lateinunterricht"
+        "de": [
+          "Latein",
+          "Lateinunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Latein; Lateinunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Latein",
+          "Lateinunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

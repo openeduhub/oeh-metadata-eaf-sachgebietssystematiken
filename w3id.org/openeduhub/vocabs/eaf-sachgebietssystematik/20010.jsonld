@@ -7,7 +7,10 @@
     "de": "Dänisch"
   },
   "note": {
-    "de": "Dänisch; Dänischunterricht"
+    "de": [
+      "Dänisch",
+      "Dänischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Dänisch; Dänischunterricht"
+        "de": [
+          "Dänisch",
+          "Dänischunterricht"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Dänemarks; Dänisch; Dänischunterricht"
+        "de": [
+          "Dänisch",
+          "Dänischunterricht",
+          "Landeskunde Dänemarks"
+        ]
       }
     },
     {
@@ -34,7 +44,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Dänemarks; Medien; Dänisch; Dänischunterricht"
+        "de": [
+          "Dänisch",
+          "Dänischunterricht",
+          "Literatur Dänemarks",
+          "Medien"
+        ]
       }
     },
     {
@@ -43,7 +58,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Dänisch; Dänischunterricht"
+        "de": [
+          "Dänisch",
+          "Dänischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +71,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Dänisch; Dänischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Dänisch",
+          "Dänischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +83,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +139,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Portugisisch"
   },
   "note": {
-    "de": "Portugisisch; Portugisischunterricht"
+    "de": [
+      "Portugisisch",
+      "Portugisischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Portugisisch; Portugisischunterricht"
+        "de": [
+          "Portugisisch",
+          "Portugisischunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Portugals; Portugisisch; Portugisischunterricht"
+        "de": [
+          "Landeskunde Portugals",
+          "Portugisisch",
+          "Portugisischunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Portugals; Medien; Portugisisch; Portugisischunterricht"
+        "de": [
+          "Literatur Portugals",
+          "Medien",
+          "Portugisisch",
+          "Portugisischunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Portugisisch; Portugisischunterricht"
+        "de": [
+          "Portugisisch",
+          "Portugisischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Portugisisch; Portugisischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Portugisisch",
+          "Portugisischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

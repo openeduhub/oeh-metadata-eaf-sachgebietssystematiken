@@ -7,7 +7,11 @@
     "de": "Drogen"
   },
   "note": {
-    "de": "Drogen; Sucht; Prävention"
+    "de": [
+      "Drogen",
+      "Prävention",
+      "Sucht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Alkohol"
       },
       "note": {
-        "de": "Alkohol; Sucht; Prävention"
+        "de": [
+          "Alkohol",
+          "Prävention",
+          "Sucht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Nikotin"
       },
       "note": {
-        "de": "Nikotin; Sucht; Prävention"
+        "de": [
+          "Nikotin",
+          "Prävention",
+          "Sucht"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Rauschgifte"
       },
       "note": {
-        "de": "Rauschgifte; Sucht; Prävention"
+        "de": [
+          "Prävention",
+          "Rauschgifte",
+          "Sucht"
+        ]
       }
     },
     {
@@ -43,7 +59,10 @@
         "de": "Sonstige Drogen"
       },
       "note": {
-        "de": "Sucht; Prävention"
+        "de": [
+          "Prävention",
+          "Sucht"
+        ]
       }
     },
     {
@@ -52,7 +71,12 @@
         "de": "Medikamente"
       },
       "note": {
-        "de": "Medikamente; Arzneimittel; Sucht; Prävention"
+        "de": [
+          "Arzneimittel",
+          "Medikamente",
+          "Prävention",
+          "Sucht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/620",
     "prefLabel": {
       "de": "SUCHT UND PRÄVENTION"
-    },
-    "note": {
-      "de": "Sucht; Prävention"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

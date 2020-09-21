@@ -7,15 +7,16 @@
     "de": "Betriebssysteme"
   },
   "note": {
-    "de": "Informatik; Informatikunterricht; Betriebssystem"
+    "de": [
+      "Betriebssystem",
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200204",
     "prefLabel": {
       "de": "Praktische Informatik"
-    },
-    "note": {
-      "de": "Informatik; Informatikunterricht; Praktische Informatik"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

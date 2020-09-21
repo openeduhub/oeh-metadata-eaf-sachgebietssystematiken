@@ -7,7 +7,12 @@
     "de": "Literatur, Medien"
   },
   "note": {
-    "de": "Literatur; Medien; Englisch; Englischunterricht"
+    "de": [
+      "Englisch",
+      "Englischunterricht",
+      "Literatur",
+      "Medien"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,13 @@
         "de": "Großbritanniens und Irlands"
       },
       "note": {
-        "de": "Literatur Großbritanniens; Literatur Irlands; Englisch; Englischunterricht; Medien"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "Literatur Großbritanniens",
+          "Literatur Irlands",
+          "Medien"
+        ]
       }
     },
     {
@@ -25,7 +36,12 @@
         "de": "Nordamerikas"
       },
       "note": {
-        "de": "Literatur Nordamerikas; Englisch; Englischunterricht; Medien"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "Literatur Nordamerikas",
+          "Medien"
+        ]
       }
     },
     {
@@ -34,7 +50,12 @@
         "de": "Andere englischsprachiger Länder"
       },
       "note": {
-        "de": "Literatur anderer englischsprachiger Länder; Englisch; Englischunterricht; Medien"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "Literatur anderer englischsprachiger Länder",
+          "Medien"
+        ]
       }
     }
   ],
@@ -42,9 +63,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20001",
     "prefLabel": {
       "de": "Englisch"
-    },
-    "note": {
-      "de": "Englisch; Englischunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +119,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

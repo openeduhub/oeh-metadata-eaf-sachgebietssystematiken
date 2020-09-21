@@ -7,7 +7,10 @@
     "de": "Berufskunde"
   },
   "note": {
-    "de": "Berufskunde; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufskunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,12 @@
         "de": "Berufswahlkriterien"
       },
       "note": {
-        "de": "Berufswahlkriterien; Berufswahl; Berufsvorbereitung; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Berufsvorbereitung",
+          "Berufswahl",
+          "Berufswahlkriterien"
+        ]
       }
     },
     {
@@ -25,7 +33,10 @@
         "de": "Berufsbilder"
       },
       "note": {
-        "de": "Berufsbilder; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Berufsbilder"
+        ]
       }
     },
     {
@@ -34,7 +45,11 @@
         "de": "Wandel von Berufen"
       },
       "note": {
-        "de": "Wandel von Berufen; Berufe im Wandel; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Berufe im Wandel",
+          "Wandel von Berufen"
+        ]
       }
     },
     {
@@ -43,7 +58,14 @@
         "de": "Berufsweg, Fort- und Weiterbildung"
       },
       "note": {
-        "de": "Berufsweg; berufliche Laufbahn; berufliche Entwicklung; Weiterbildung; Fortbildung; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Berufsweg",
+          "Fortbildung",
+          "Weiterbildung",
+          "berufliche Entwicklung",
+          "berufliche Laufbahn"
+        ]
       }
     }
   ],
@@ -51,9 +73,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/020",
     "prefLabel": {
       "de": "ARBEITSLEHRE"
-    },
-    "note": {
-      "de": "Arbeitslehre"
     }
   },
   "inScheme": {
@@ -110,10 +129,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,15 @@
     "de": "Freizeit"
   },
   "note": {
-    "de": "Freizeit; Interkulturelle Bildung"
+    "de": [
+      "Freizeit",
+      "Interkulturelle Bildung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/34002",
     "prefLabel": {
       "de": "Interkulturelles Zusammenleben"
-    },
-    "note": {
-      "de": "Interkulturelles Zusammenleben; Interkulturelle Bildung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

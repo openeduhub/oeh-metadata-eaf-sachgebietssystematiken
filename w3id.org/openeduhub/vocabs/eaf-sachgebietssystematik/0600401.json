@@ -7,15 +7,17 @@
     "de": "Architektur und Landschaftsgestaltung"
   },
   "note": {
-    "de": "Architektur; Landschaftsgestaltung; Kunst; Kunstunterricht"
+    "de": [
+      "Architektur",
+      "Kunst",
+      "Kunstunterricht",
+      "Landschaftsgestaltung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06004",
     "prefLabel": {
       "de": "Angewandte Kunst der Gegenwart"
-    },
-    "note": {
-      "de": "Angewandte Kunst der Gegenwart; Gegenwartskunst; Zeitgenössische Kunst; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

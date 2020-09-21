@@ -7,15 +7,16 @@
     "de": "Neuere Geschichte außereuropäischer Staaten und Völker"
   },
   "note": {
-    "de": "Neuere Geschichte außereuropäischer Staaten und Völker; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Neuere Geschichte außereuropäischer Staaten und Völker"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400204",
     "prefLabel": {
       "de": "Neuere Geschichte"
-    },
-    "note": {
-      "de": "Neuere Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

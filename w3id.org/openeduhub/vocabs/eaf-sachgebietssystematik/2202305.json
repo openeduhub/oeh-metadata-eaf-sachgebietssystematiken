@@ -7,15 +7,18 @@
     "de": "Östliches Südamerika"
   },
   "note": {
-    "de": "Östliches Südamerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Östliches Südamerika"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22023",
     "prefLabel": {
       "de": "Amerika"
-    },
-    "note": {
-      "de": "Amerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

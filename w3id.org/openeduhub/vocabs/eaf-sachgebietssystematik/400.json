@@ -7,7 +7,9 @@
     "de": "MEDIENPÄDAGOGIK"
   },
   "note": {
-    "de": "Medienpädagogik"
+    "de": [
+      "Medienpädagogik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Grundlagen"
       },
       "note": {
-        "de": "Grundlagen; Medienpädagogik"
+        "de": [
+          "Grundlagen",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Medienpädagogische Handlungsfelder"
       },
       "note": {
-        "de": "Medienpädagogische Handlungsfelder; Medienpädagogik"
+        "de": [
+          "Medienpädagogik",
+          "Medienpädagogische Handlungsfelder"
+        ]
       }
     },
     {
@@ -34,7 +42,10 @@
         "de": "Ergebnisse aktiver Medienarbeit"
       },
       "note": {
-        "de": "Ergebnisse aktiver Medienarbeit; Medienpädagogik"
+        "de": [
+          "Ergebnisse aktiver Medienarbeit",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -43,7 +54,11 @@
         "de": "Kompetenzen in der digitalen Welt"
       },
       "note": {
-        "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
+        "de": [
+          "KMK-Kompetenzrahmen",
+          "Kompetenzbereiche",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -104,10 +119,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

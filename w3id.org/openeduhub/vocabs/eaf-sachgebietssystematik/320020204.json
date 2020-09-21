@@ -7,15 +7,17 @@
     "de": "Simulation"
   },
   "note": {
-    "de": "Simulation; Informatik; Informatikunterricht; Computersimulation"
+    "de": [
+      "Computersimulation",
+      "Informatik",
+      "Informatikunterricht",
+      "Simulation"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200202",
     "prefLabel": {
       "de": "Angewandte Informatik"
-    },
-    "note": {
-      "de": "Angewandte Informatik; Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

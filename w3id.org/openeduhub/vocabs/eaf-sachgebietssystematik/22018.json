@@ -7,7 +7,14 @@
     "de": "Bundesrepublik Deutschland"
   },
   "note": {
-    "de": "Bundesrepublik Deutschland; Deutschland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Bundesrepublik Deutschland",
+      "Deutschland",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,15 @@
         "de": "Nordsee, Ostsee und Küsten"
       },
       "note": {
-        "de": "Nordsee; Ostsee; Küste; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Küste",
+          "Nordsee",
+          "Ostsee"
+        ]
       }
     },
     {
@@ -25,7 +40,13 @@
         "de": "Norddeutsches Tiefland"
       },
       "note": {
-        "de": "Norddeutsches Tiefland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Norddeutsches Tiefland"
+        ]
       }
     },
     {
@@ -34,7 +55,13 @@
         "de": "Mittelgebirgsschwelle"
       },
       "note": {
-        "de": "Mittelgebirgsschwelle; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Mittelgebirgsschwelle"
+        ]
       }
     },
     {
@@ -43,7 +70,14 @@
         "de": "Süddeutsches Stufen- und Bergland"
       },
       "note": {
-        "de": "Süddeutsches Stufen- und Bergland; Süddeutsches Stufenland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Süddeutsches Stufen- und Bergland",
+          "Süddeutsches Stufenland"
+        ]
       }
     },
     {
@@ -52,7 +86,15 @@
         "de": "Alpen und Alpenvorland"
       },
       "note": {
-        "de": "Alpen; Alpenvorland; Allgäu; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Allgäu",
+          "Alpen",
+          "Alpenvorland",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -61,7 +103,12 @@
         "de": "Allgemeines"
       },
       "note": {
-        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -69,9 +116,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -128,10 +172,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

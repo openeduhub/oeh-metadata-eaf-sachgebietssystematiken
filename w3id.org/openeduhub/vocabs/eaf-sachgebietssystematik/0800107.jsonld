@@ -7,15 +7,16 @@
     "de": "Zellenlehre"
   },
   "note": {
-    "de": "Zellenlehre; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Zellenlehre"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08001",
     "prefLabel": {
       "de": "Allgemeine Biologie"
-    },
-    "note": {
-      "de": "Allgemeine Biologie; Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Allgemeine Pädagogik"
   },
   "note": {
-    "de": "Allgemeine Pädagogik; Pädagogik"
+    "de": [
+      "Allgemeine Pädagogik",
+      "Pädagogik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Grundfragen"
       },
       "note": {
-        "de": "Grundfragen der Pädagogik; Pädagogik"
+        "de": [
+          "Grundfragen der Pädagogik",
+          "Pädagogik"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Forschungsmethoden"
       },
       "note": {
-        "de": "Forschungsmethoden der Pädagogik; Pädagogik"
+        "de": [
+          "Forschungsmethoden der Pädagogik",
+          "Pädagogik"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Geschichte der Pädagogik"
       },
       "note": {
-        "de": "Geschichte der Pädagogik; Pädagogik"
+        "de": [
+          "Geschichte der Pädagogik",
+          "Pädagogik"
+        ]
       }
     },
     {
@@ -43,7 +55,10 @@
         "de": "Vergleichende Pädagogik"
       },
       "note": {
-        "de": "Vergleichende Pädagogik; Pädagogik"
+        "de": [
+          "Pädagogik",
+          "Vergleichende Pädagogik"
+        ]
       }
     },
     {
@@ -52,7 +67,11 @@
         "de": "Kommunikations- und Interaktionsprozesse"
       },
       "note": {
-        "de": "Kommunikations- und Interaktionsprozesse; Kommunikationsprozesse; Pädagogik"
+        "de": [
+          "Kommunikations- und Interaktionsprozesse",
+          "Kommunikationsprozesse",
+          "Pädagogik"
+        ]
       }
     },
     {
@@ -61,7 +80,11 @@
         "de": "Bildungsökonomie, Bildungsplanung"
       },
       "note": {
-        "de": "Bildungsökonomie; Bildungsplanung; Pädagogik"
+        "de": [
+          "Bildungsplanung",
+          "Bildungsökonomie",
+          "Pädagogik"
+        ]
       }
     }
   ],
@@ -69,9 +92,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/440",
     "prefLabel": {
       "de": "PÄDAGOGIK"
-    },
-    "note": {
-      "de": "Pädagogik"
     }
   },
   "inScheme": {
@@ -128,10 +148,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

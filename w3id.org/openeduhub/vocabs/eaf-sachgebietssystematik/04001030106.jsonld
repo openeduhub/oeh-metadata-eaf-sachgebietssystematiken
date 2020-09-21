@@ -7,15 +7,16 @@
     "de": "Fische"
   },
   "note": {
-    "de": "Fischzucht; Aquakultur; Fischerei"
+    "de": [
+      "Aquakultur",
+      "Fischerei",
+      "Fischzucht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040010301",
     "prefLabel": {
       "de": "Tierzucht und Tierhaltung, Tierpflege"
-    },
-    "note": {
-      "de": "Tierzucht; Tierhaltung; Tierpflege; Massentierhaltung; artgerechte Haltung"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

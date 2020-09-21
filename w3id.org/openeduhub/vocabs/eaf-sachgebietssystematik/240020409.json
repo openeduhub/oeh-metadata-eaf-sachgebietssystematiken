@@ -7,15 +7,17 @@
     "de": "Nationale Bewegungen und Deutsches Kaiserreich"
   },
   "note": {
-    "de": "Nationale Bewegungen; Deutsches Kaiserreich; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Deutsches Kaiserreich",
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Nationale Bewegungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400204",
     "prefLabel": {
       "de": "Neuere Geschichte"
-    },
-    "note": {
-      "de": "Neuere Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

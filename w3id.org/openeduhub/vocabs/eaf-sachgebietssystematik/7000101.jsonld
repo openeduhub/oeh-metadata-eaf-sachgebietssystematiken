@@ -7,15 +7,14 @@
     "de": "Umgang mit Geld"
   },
   "note": {
-    "de": "Umgang mit Geld"
+    "de": [
+      "Umgang mit Geld"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/70001",
     "prefLabel": {
       "de": "Privater Haushalt"
-    },
-    "note": {
-      "de": "Privater Haushalt; Privathaushalt"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

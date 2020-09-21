@@ -7,15 +7,15 @@
     "de": "Als selbstbestimmter Bürger aktiv an der Gesellschaft teilhaben"
   },
   "note": {
-    "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Kommunizieren und Kooperieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040205",
     "prefLabel": {
       "de": "An der Gesellschaft aktiv teilhaben"
-    },
-    "note": {
-      "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Russisch"
   },
   "note": {
-    "de": "Russisch; Russischunterricht"
+    "de": [
+      "Russisch",
+      "Russischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Russisch; Russischunterricht"
+        "de": [
+          "Russisch",
+          "Russischunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Russland; Russisch; Russischunterricht"
+        "de": [
+          "Landeskunde Russland",
+          "Russisch",
+          "Russischunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,13 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Russlands; Literatur der Sowjetunion; Medien; Russisch; Russischunterricht"
+        "de": [
+          "Literatur Russlands",
+          "Literatur der Sowjetunion",
+          "Medien",
+          "Russisch",
+          "Russischunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Russisch; Russischunterricht"
+        "de": [
+          "Russisch",
+          "Russischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +73,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Russisch; Russischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Russisch",
+          "Russischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +85,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +141,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

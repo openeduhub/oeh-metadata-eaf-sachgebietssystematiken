@@ -7,7 +7,9 @@
     "de": "SPIEL- UND DOKUMENTARFILM"
   },
   "note": {
-    "de": "NaN"
+    "de": [
+      "NaN"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Kurzfilm"
       },
       "note": {
-        "de": "Kurzfilm"
+        "de": [
+          "Kurzfilm"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Langfilm"
       },
       "note": {
-        "de": "Langfilm"
+        "de": [
+          "Langfilm"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Zielgruppenfilm"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Dokumentarfilm"
       },
       "note": {
-        "de": "Dokumentarfilm"
+        "de": [
+          "Dokumentarfilm"
+        ]
       }
     }
   ],
@@ -104,10 +114,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

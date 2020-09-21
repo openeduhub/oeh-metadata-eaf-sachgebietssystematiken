@@ -7,15 +7,19 @@
     "de": "Umwelt, Energie"
   },
   "note": {
-    "de": "Umwelt; Energie; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Energie",
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Sozialkunde",
+      "Umwelt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48005",
     "prefLabel": {
       "de": "Gesellschaftspolitische Gegenwartsfragen"
-    },
-    "note": {
-      "de": "Gesellschaftspolitische Gegenwartsfragen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

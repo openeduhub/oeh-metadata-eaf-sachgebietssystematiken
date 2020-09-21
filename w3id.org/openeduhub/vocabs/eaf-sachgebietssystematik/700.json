@@ -7,7 +7,10 @@
     "de": "WIRTSCHAFTSKUNDE"
   },
   "note": {
-    "de": "Wirtschaftskunde; Wirtschaftswissenschaft"
+    "de": [
+      "Wirtschaftskunde",
+      "Wirtschaftswissenschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Privater Haushalt"
       },
       "note": {
-        "de": "Privater Haushalt; Privathaushalt"
+        "de": [
+          "Privater Haushalt",
+          "Privathaushalt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Betriebswirtschaft"
       },
       "note": {
-        "de": "Betriebswirtschaft; Wirtschaftswissenschaft"
+        "de": [
+          "Betriebswirtschaft",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Volkswirtschaft"
       },
       "note": {
-        "de": "Volkswirtschaft; Wirtschaftswissenschaft"
+        "de": [
+          "Volkswirtschaft",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -43,7 +55,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Bilingualer Wirtschaftskundeunterricht; Wirtschaftswissenschaft"
+        "de": [
+          "Bilingualer Unterricht",
+          "Bilingualer Wirtschaftskundeunterricht",
+          "Wirtschaftswissenschaft"
+        ]
       }
     }
   ],
@@ -104,10 +120,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

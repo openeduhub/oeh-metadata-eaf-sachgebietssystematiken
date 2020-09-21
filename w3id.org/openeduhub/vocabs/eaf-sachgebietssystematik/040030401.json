@@ -7,14 +7,16 @@
     "de": "Kartographie"
   },
   "note": {
-    "de": "Kartographie; Geoinformationen; Geodaten; Kartografie"
+    "de": [
+      "Geodaten",
+      "Geoinformationen",
+      "Kartografie",
+      "Kartographie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400304",
     "prefLabel": {
-      "de": "Geowissenschaften"
-    },
-    "note": {
       "de": "Geowissenschaften"
     }
   },
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

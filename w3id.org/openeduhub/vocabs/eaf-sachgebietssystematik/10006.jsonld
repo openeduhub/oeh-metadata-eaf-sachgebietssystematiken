@@ -7,7 +7,11 @@
     "de": "Biochemie"
   },
   "note": {
-    "de": "Biochemie; Chemieunterricht; Chemie"
+    "de": [
+      "Biochemie",
+      "Chemie",
+      "Chemieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Molekulare Grundlagen der Organismen"
       },
       "note": {
-        "de": "Molekulare Grundlagen der Organismen; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Molekulare Grundlagen der Organismen"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Stoffwechselvorgänge"
       },
       "note": {
-        "de": "Stoffwechselvorgänge; Stoffwechsel; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Stoffwechsel",
+          "Stoffwechselvorgänge"
+        ]
       }
     },
     {
@@ -34,7 +47,12 @@
         "de": "Physiologische Wirkungsweise chemischer Substanzen"
       },
       "note": {
-        "de": "Physiologische Wirkungsweise chemischer Substanzen; Wirkung chemischer Substanzen; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Physiologische Wirkungsweise chemischer Substanzen",
+          "Wirkung chemischer Substanzen"
+        ]
       }
     }
   ],
@@ -42,9 +60,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
-    },
-    "note": {
-      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +116,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

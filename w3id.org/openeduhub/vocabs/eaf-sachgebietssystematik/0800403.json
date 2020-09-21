@@ -7,7 +7,11 @@
     "de": "Blütenpflanzen"
   },
   "note": {
-    "de": "Blütenpflanzen; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Blütenpflanzen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Bäume, Sträucher"
       },
       "note": {
-        "de": "Bäume; Sträucher; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Bäume",
+          "Sträucher"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Kräuter und Gräser"
       },
       "note": {
-        "de": "Kräuter; Gräser; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Gräser",
+          "Kräuter"
+        ]
       }
     }
   ],
@@ -33,9 +47,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08004",
     "prefLabel": {
       "de": "Botanik"
-    },
-    "note": {
-      "de": "Botanik; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -92,10 +103,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,9 @@
     "de": "Außereuropäische Philosophie"
   },
   "note": {
-    "de": "Außereuropäische Philosophie"
+    "de": [
+      "Außereuropäische Philosophie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Indische Philosophie"
       },
       "note": {
-        "de": "Indische Philosophie"
+        "de": [
+          "Indische Philosophie"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Chinesische Philosophie"
       },
       "note": {
-        "de": "Chinesische Philosophie"
+        "de": [
+          "Chinesische Philosophie"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Japanische Philosophie"
       },
       "note": {
-        "de": "Japanische Philosophie"
+        "de": [
+          "Japanische Philosophie"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Philosophie des arabisch-islamischen Kulturraums"
       },
       "note": {
-        "de": "Philosophie des arabisch-islamischen Kulturraums"
+        "de": [
+          "Philosophie des arabisch-islamischen Kulturraums"
+        ]
       }
     }
   ],
@@ -51,9 +61,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/450",
     "prefLabel": {
       "de": "PHILOSOPHIE"
-    },
-    "note": {
-      "de": "Philosophie"
     }
   },
   "inScheme": {
@@ -110,10 +117,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

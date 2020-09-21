@@ -7,7 +7,10 @@
     "de": "Geschichtliche Überblicke und thematische Querschnitte"
   },
   "note": {
-    "de": "Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Alltag"
       },
       "note": {
-        "de": "Alltagsgeschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Alltagsgeschichte",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,12 @@
         "de": "Arbeit, Handwerk"
       },
       "note": {
-        "de": "Geschichte des Handwerks; Arbeit im Wandel der Zeit; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Arbeit im Wandel der Zeit",
+          "Geschichte",
+          "Geschichte des Handwerks",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +46,12 @@
         "de": "Bildung und Wissenschaft"
       },
       "note": {
-        "de": "Geschichte der Wissenschaft; Bildungsgeschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Bildungsgeschichte",
+          "Geschichte",
+          "Geschichte der Wissenschaft",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,13 @@
         "de": "Formen der Weltauffassung, Religion"
       },
       "note": {
-        "de": "Formen der Weltauffassung; Weltanschauungen und ihre Geschichte; Geschichte der Religion; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Formen der Weltauffassung",
+          "Geschichte",
+          "Geschichte der Religion",
+          "Geschichtsunterricht",
+          "Weltanschauungen und ihre Geschichte"
+        ]
       }
     },
     {
@@ -52,7 +75,12 @@
         "de": "Gesellschaft"
       },
       "note": {
-        "de": "Geschichte der Gesellschaft; Gesellschaft im Wandel der Zeit; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichte der Gesellschaft",
+          "Geschichtsunterricht",
+          "Gesellschaft im Wandel der Zeit"
+        ]
       }
     },
     {
@@ -61,7 +89,12 @@
         "de": "Staat, Herrschaftsformen"
       },
       "note": {
-        "de": "Herrschaftsformen in der Geschichte; Geschichte eines Staates; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichte eines Staates",
+          "Geschichtsunterricht",
+          "Herrschaftsformen in der Geschichte"
+        ]
       }
     },
     {
@@ -70,7 +103,12 @@
         "de": "Kriegs- und Wehrwesen"
       },
       "note": {
-        "de": "Geschichte des Kriegs- und Wehrwesens; Kriegswesen; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichte des Kriegs- und Wehrwesens",
+          "Geschichtsunterricht",
+          "Kriegswesen"
+        ]
       }
     },
     {
@@ -79,7 +117,12 @@
         "de": "Kultur"
       },
       "note": {
-        "de": "Kulturgeschichte; Kultur und Geschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Kultur und Geschichte",
+          "Kulturgeschichte"
+        ]
       }
     },
     {
@@ -88,7 +131,11 @@
         "de": "Recht"
       },
       "note": {
-        "de": "Geschichte des Rechts; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichte des Rechts",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -97,7 +144,11 @@
         "de": "Siedlungsformen"
       },
       "note": {
-        "de": "Siedlungsgeschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Siedlungsgeschichte"
+        ]
       }
     },
     {
@@ -106,7 +157,12 @@
         "de": "Technik, Verkehr"
       },
       "note": {
-        "de": "Technikgeschichte; Verkehrsgeschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Technikgeschichte",
+          "Verkehrsgeschichte"
+        ]
       }
     },
     {
@@ -115,7 +171,11 @@
         "de": "Wirtschaft"
       },
       "note": {
-        "de": "Wirtschaftsgeschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Wirtschaftsgeschichte"
+        ]
       }
     },
     {
@@ -124,7 +184,10 @@
         "de": "Allgemeine Längs- und Querschnitte"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     }
   ],
@@ -132,9 +195,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240",
     "prefLabel": {
       "de": "GESCHICHTE"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -191,10 +251,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

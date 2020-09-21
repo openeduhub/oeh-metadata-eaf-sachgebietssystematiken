@@ -7,15 +7,16 @@
     "de": "Literatursoziologie"
   },
   "note": {
-    "de": "Literatursoziologie; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Literatursoziologie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12001",
     "prefLabel": {
       "de": "Literatur"
-    },
-    "note": {
-      "de": "Literatur; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

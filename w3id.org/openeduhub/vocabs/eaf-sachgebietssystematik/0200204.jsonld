@@ -7,15 +7,19 @@
     "de": "Berufsweg, Fort- und Weiterbildung"
   },
   "note": {
-    "de": "Berufsweg; berufliche Laufbahn; berufliche Entwicklung; Weiterbildung; Fortbildung; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufsweg",
+      "Fortbildung",
+      "Weiterbildung",
+      "berufliche Entwicklung",
+      "berufliche Laufbahn"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/02002",
     "prefLabel": {
       "de": "Berufskunde"
-    },
-    "note": {
-      "de": "Berufskunde; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

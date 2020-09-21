@@ -7,14 +7,23 @@
     "de": "Krimi, Thriller, Justiz"
   },
   "note": {
-    "de": "Kriminalfilm; Thriller; Justiz; Krimi; Politthriller; Psychotriller; Spionagefilm; Detektivfilm; Gaunerfilm; Gangsterfilm; Gerichtsdrama"
+    "de": [
+      "Detektivfilm",
+      "Gangsterfilm",
+      "Gaunerfilm",
+      "Gerichtsdrama",
+      "Justiz",
+      "Krimi",
+      "Kriminalfilm",
+      "Politthriller",
+      "Psychotriller",
+      "Spionagefilm",
+      "Thriller"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5800203",
     "prefLabel": {
-      "de": "Spielfilm"
-    },
-    "note": {
       "de": "Spielfilm"
     }
   },
@@ -72,10 +81,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

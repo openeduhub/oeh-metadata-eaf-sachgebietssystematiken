@@ -7,15 +7,19 @@
     "de": "Verteidigungspolitik"
   },
   "note": {
-    "de": "Verteidigungspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sozialkunde",
+      "Verteidigungspolitik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
     "prefLabel": {
       "de": "Politikfelder"
-    },
-    "note": {
-      "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

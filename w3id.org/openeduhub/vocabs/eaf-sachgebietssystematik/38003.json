@@ -7,15 +7,17 @@
     "de": "Geometrie"
   },
   "note": {
-    "de": "Geometrie; Mathematik; Mathematikunterricht; Matheunterricht"
+    "de": [
+      "Geometrie",
+      "Mathematik",
+      "Mathematikunterricht",
+      "Matheunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/380",
     "prefLabel": {
       "de": "MATHEMATIK"
-    },
-    "note": {
-      "de": "Mathematik; Mathematikunterricht; Matheunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

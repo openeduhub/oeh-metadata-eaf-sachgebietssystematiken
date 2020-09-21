@@ -7,15 +7,17 @@
     "de": "Christliche und nichtchristliche Religionen"
   },
   "note": {
-    "de": "Christliche und nichtchristliche Religionen; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Christliche und nichtchristliche Religionen",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28009",
     "prefLabel": {
       "de": "Religion"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Produktionstechnik"
   },
   "note": {
-    "de": "Produktionstechnik; Energietechnik; Fertigungstechnik; Verfahrenstechnik"
+    "de": [
+      "Energietechnik",
+      "Fertigungstechnik",
+      "Produktionstechnik",
+      "Verfahrenstechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04003",
     "prefLabel": {
       "de": "Naturwissenschaften und Mathematik"
-    },
-    "note": {
-      "de": "Naturwissenschaften; Mathematik"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

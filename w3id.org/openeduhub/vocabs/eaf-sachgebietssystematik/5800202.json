@@ -7,14 +7,13 @@
     "de": "Halbdokumentarischer Spielfilm"
   },
   "note": {
-    "de": "Spielfilm"
+    "de": [
+      "Spielfilm"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58002",
     "prefLabel": {
-      "de": "Langfilm"
-    },
-    "note": {
       "de": "Langfilm"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

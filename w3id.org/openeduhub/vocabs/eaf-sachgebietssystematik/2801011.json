@@ -7,7 +7,15 @@
     "de": "Arbeit"
   },
   "note": {
-    "de": "Arbeit; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Arbeit",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +24,15 @@
         "de": "Landwirtschaft"
       },
       "note": {
-        "de": "Landwirtschaft; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Landwirtschaft",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -25,7 +41,15 @@
         "de": "Handwerk"
       },
       "note": {
-        "de": "Handwerk; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Handwerk",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -34,7 +58,15 @@
         "de": "Industrie"
       },
       "note": {
-        "de": "Industrie; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Industrie",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -43,7 +75,15 @@
         "de": "Dienstleistungen"
       },
       "note": {
-        "de": "Dienstleistungen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Dienstleistungen",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +91,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +147,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

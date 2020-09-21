@@ -7,7 +7,9 @@
     "de": "FREIZEIT"
   },
   "note": {
-    "de": "Freizeit"
+    "de": [
+      "Freizeit"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Freizeitbetätigung, Hobby"
       },
       "note": {
-        "de": "Freizeitbetätigung; Hobby"
+        "de": [
+          "Freizeitbetätigung",
+          "Hobby"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Freizeitsport"
       },
       "note": {
-        "de": "Freizeitsport"
+        "de": [
+          "Freizeitsport"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Reisen"
       },
       "note": {
-        "de": "Reisen"
+        "de": [
+          "Reisen"
+        ]
       }
     },
     {
@@ -43,7 +52,11 @@
         "de": "Familie, Gemeinschaft, Verein"
       },
       "note": {
-        "de": "Familie; Gemeinschaft; Verein"
+        "de": [
+          "Familie",
+          "Gemeinschaft",
+          "Verein"
+        ]
       }
     }
   ],
@@ -104,10 +117,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,19 @@
     "de": "Öffentliche"
   },
   "note": {
-    "de": "Öffentliche Einrichtungen; Öffentliche Dienstleistungen; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche"
+    "de": [
+      "Elementarbereich",
+      "Vorschulerziehung",
+      "frühkindliche",
+      "frühkindliche Bildung",
+      "Öffentliche Dienstleistungen",
+      "Öffentliche Einrichtungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/14002",
     "prefLabel": {
       "de": "Lebensbereiche"
-    },
-    "note": {
-      "de": "Lebensbereiche; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,12 @@
     "de": "Religionskunde"
   },
   "note": {
-    "de": "Religionskunde; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionskunde",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,14 @@
         "de": "Riten, Symbole"
       },
       "note": {
-        "de": "Riten; Symbole; Rituale; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Riten",
+          "Rituale",
+          "Symbole"
+        ]
       }
     },
     {
@@ -25,7 +37,15 @@
         "de": "Christliche Konfessionen"
       },
       "note": {
-        "de": "Christliche Konfessionen; Katholizismus; Protestantismus; Orthodoxie; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Christliche Konfessionen",
+          "Katholizismus",
+          "Orthodoxie",
+          "Protestantismus",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +54,17 @@
         "de": "Nichtchristliche Religionen"
       },
       "note": {
-        "de": "Nichtchristliche Religionen; Hinduismus; Buddhismus; Islam; Judentum; Stammesreligionen; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Buddhismus",
+          "Hinduismus",
+          "Islam",
+          "Judentum",
+          "Nichtchristliche Religionen",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Stammesreligionen"
+        ]
       }
     },
     {
@@ -43,7 +73,13 @@
         "de": "Sekten, neue religiöse Strömungen"
       },
       "note": {
-        "de": "Sekten; neue religiöse Strömungen; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Sekten",
+          "neue religiöse Strömungen"
+        ]
       }
     },
     {
@@ -52,7 +88,13 @@
         "de": "Weltanschauungen, Ideologien"
       },
       "note": {
-        "de": "Weltanschauungen; Ideologien; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Ideologien",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Weltanschauungen"
+        ]
       }
     },
     {
@@ -61,7 +103,13 @@
         "de": "Magie, Aberglaube"
       },
       "note": {
-        "de": "Magie; Aberglaube; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Aberglaube",
+          "Magie",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -70,7 +118,14 @@
         "de": "Naturreligionen, Animismus, Schamanismus"
       },
       "note": {
-        "de": "Naturreligionen; Animismus; Schamanismus; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Animismus",
+          "Naturreligionen",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Schamanismus"
+        ]
       }
     }
   ],
@@ -78,9 +133,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -137,10 +189,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

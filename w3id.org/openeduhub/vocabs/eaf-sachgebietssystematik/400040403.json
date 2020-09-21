@@ -7,7 +7,10 @@
     "de": "Gesundheit schützen"
   },
   "note": {
-    "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Schützen und sicher Agieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Suchtgefahren vermeiden, sich Selbst und andere vor möglichen Gefahren schützen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Digitale Technologien gesundheitsbewusst nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Digitale Technologien für soziales Wohlergehen und Eingliederung nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -42,9 +54,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000404",
     "prefLabel": {
       "de": "Schützen und sicher Agieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -101,10 +110,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

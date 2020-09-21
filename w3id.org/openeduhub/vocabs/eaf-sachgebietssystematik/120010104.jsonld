@@ -7,15 +7,16 @@
     "de": "Adaption in anderer Form"
   },
   "note": {
-    "de": "Adaption in anderer Form; Deutsch; Deutschunterricht"
+    "de": [
+      "Adaption in anderer Form",
+      "Deutsch",
+      "Deutschunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200101",
     "prefLabel": {
       "de": "Epik"
-    },
-    "note": {
-      "de": "Epik; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

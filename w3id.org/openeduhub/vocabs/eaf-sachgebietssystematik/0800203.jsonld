@@ -7,15 +7,17 @@
     "de": "Pflanzliche und tierische Einzeller"
   },
   "note": {
-    "de": "Pflanzliche Einzeller; Tierische Einzeller; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Pflanzliche Einzeller",
+      "Tierische Einzeller"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08002",
     "prefLabel": {
       "de": "Mikroorganismen"
-    },
-    "note": {
-      "de": "Mikroorganismen; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

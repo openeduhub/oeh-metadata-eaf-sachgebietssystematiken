@@ -7,15 +7,17 @@
     "de": "Radioaktivität, Kernumwandlung"
   },
   "note": {
-    "de": "Radioaktivität; Kernumwandlung; Physik; Physikunterricht"
+    "de": [
+      "Kernumwandlung",
+      "Physik",
+      "Physikunterricht",
+      "Radioaktivität"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46009",
     "prefLabel": {
       "de": "Kernphysik"
-    },
-    "note": {
-      "de": "Kernphysik; Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

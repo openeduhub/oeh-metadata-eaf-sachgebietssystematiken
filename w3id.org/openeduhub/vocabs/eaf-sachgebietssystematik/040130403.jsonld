@@ -7,14 +7,13 @@
     "de": "Bürowirtschaft"
   },
   "note": {
-    "de": "Bürowirtschaft"
+    "de": [
+      "Bürowirtschaft"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401304",
     "prefLabel": {
-      "de": "Informationswirtschaft"
-    },
-    "note": {
       "de": "Informationswirtschaft"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

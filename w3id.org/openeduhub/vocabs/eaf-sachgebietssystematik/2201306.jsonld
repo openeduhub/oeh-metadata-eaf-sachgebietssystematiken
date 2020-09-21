@@ -7,15 +7,18 @@
     "de": "Wasserwirtschaft"
   },
   "note": {
-    "de": "Wasserwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Wasserwirtschaft"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22013",
     "prefLabel": {
       "de": "Wirtschaftsgeographie"
-    },
-    "note": {
-      "de": "Wirtschaftsgeographie; Wirtschaftsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

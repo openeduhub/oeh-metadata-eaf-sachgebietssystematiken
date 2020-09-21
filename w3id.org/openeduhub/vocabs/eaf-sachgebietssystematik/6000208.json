@@ -7,15 +7,17 @@
     "de": "Gesundheitssport"
   },
   "note": {
-    "de": "Gesundheitssport; Gesundheit; Sport; Sportunterricht"
+    "de": [
+      "Gesundheit",
+      "Gesundheitssport",
+      "Sport",
+      "Sportunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60002",
     "prefLabel": {
       "de": "Sportbereiche"
-    },
-    "note": {
-      "de": "Sportbereiche; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

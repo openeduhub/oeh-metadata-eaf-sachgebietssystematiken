@@ -7,15 +7,21 @@
     "de": "Luftverschmutzung, Luftreinhaltung"
   },
   "note": {
-    "de": "Luftverschmutzung; Luftreinhaltung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Luftreinhaltung",
+      "Luftverschmutzung",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801013",
     "prefLabel": {
       "de": "Umwelterziehung"
-    },
-    "note": {
-      "de": "Umwelterziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

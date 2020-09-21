@@ -7,15 +7,17 @@
     "de": "Betriebswirtschaftslehre"
   },
   "note": {
-    "de": "Betriebswirtschaftslehre; Betriebswirtschaft; BWL; Wirtschaftswissenschaft"
+    "de": [
+      "BWL",
+      "Betriebswirtschaft",
+      "Betriebswirtschaftslehre",
+      "Wirtschaftswissenschaft"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001",
     "prefLabel": {
       "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
-    },
-    "note": {
-      "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

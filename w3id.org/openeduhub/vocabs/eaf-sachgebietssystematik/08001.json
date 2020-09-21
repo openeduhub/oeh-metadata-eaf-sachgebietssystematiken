@@ -7,7 +7,11 @@
     "de": "Allgemeine Biologie"
   },
   "note": {
-    "de": "Allgemeine Biologie; Biologie; Biologieunterricht"
+    "de": [
+      "Allgemeine Biologie",
+      "Biologie",
+      "Biologieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Biologische Forschung, biologische Arbeitsmethoden"
       },
       "note": {
-        "de": "Biologische Forschung; biologische Arbeitsmethoden; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Biologische Forschung",
+          "biologische Arbeitsmethoden"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Genetik"
       },
       "note": {
-        "de": "Genetik; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Genetik"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Evolution"
       },
       "note": {
-        "de": "Evolution; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Evolution"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Biochemie"
       },
       "note": {
-        "de": "Biochemie; Biologieunterricht; Biologie"
+        "de": [
+          "Biochemie",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -52,7 +73,12 @@
         "de": "Biologische Regelkreise, Kybernetik"
       },
       "note": {
-        "de": "Biologische Regelkreise; Kybernetik; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Biologische Regelkreise",
+          "Kybernetik"
+        ]
       }
     },
     {
@@ -61,7 +87,12 @@
         "de": "Biophysik, Bionik"
       },
       "note": {
-        "de": "Biophysik; Bionik; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Bionik",
+          "Biophysik"
+        ]
       }
     },
     {
@@ -70,7 +101,11 @@
         "de": "Zellenlehre"
       },
       "note": {
-        "de": "Zellenlehre; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Zellenlehre"
+        ]
       }
     }
   ],
@@ -78,9 +113,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
-    },
-    "note": {
-      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -137,10 +169,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

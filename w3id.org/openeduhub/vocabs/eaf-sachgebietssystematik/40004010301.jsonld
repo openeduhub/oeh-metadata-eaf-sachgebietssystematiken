@@ -7,15 +7,15 @@
     "de": "Informationen und Daten sicher speichern, wiederfinden und von verschiedenen Orten abrufen"
   },
   "note": {
-    "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040103",
     "prefLabel": {
       "de": "Speichern und Abrufen"
-    },
-    "note": {
-      "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

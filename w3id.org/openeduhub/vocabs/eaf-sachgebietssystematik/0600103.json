@@ -7,15 +7,17 @@
     "de": "Techniken, Werkstoffe"
   },
   "note": {
-    "de": "Techniken; Werkstoffe; Kunst; Kunstunterricht"
+    "de": [
+      "Kunst",
+      "Kunstunterricht",
+      "Techniken",
+      "Werkstoffe"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06001",
     "prefLabel": {
       "de": "Grundlagen künstlerischen Schaffens"
-    },
-    "note": {
-      "de": "künstlerisches Schaffen; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

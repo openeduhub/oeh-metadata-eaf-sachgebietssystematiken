@@ -7,15 +7,20 @@
     "de": "Musizieren, Singen, Tanzen"
   },
   "note": {
-    "de": "Musizieren; Singen; Tanzen; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+    "de": [
+      "Elementarbereich",
+      "Musizieren",
+      "Singen",
+      "Tanzen",
+      "Vorschulerziehung",
+      "frühkindliche Bildung",
+      "frühkindliche Erziehung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/140",
     "prefLabel": {
       "de": "ELEMENTARBEREICH, VORSCHULERZIEHUNG"
-    },
-    "note": {
-      "de": "Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

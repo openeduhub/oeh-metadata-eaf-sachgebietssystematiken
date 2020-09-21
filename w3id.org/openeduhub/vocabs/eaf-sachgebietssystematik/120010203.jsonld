@@ -7,15 +7,17 @@
     "de": "Aufzeichnung einer Inszenierung"
   },
   "note": {
-    "de": "Aufzeichnung einer Inszenierung; Deutsch; Deutschunterricht; Inszenierung"
+    "de": [
+      "Aufzeichnung einer Inszenierung",
+      "Deutsch",
+      "Deutschunterricht",
+      "Inszenierung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200102",
     "prefLabel": {
       "de": "Dramatik"
-    },
-    "note": {
-      "de": "Dramatik; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

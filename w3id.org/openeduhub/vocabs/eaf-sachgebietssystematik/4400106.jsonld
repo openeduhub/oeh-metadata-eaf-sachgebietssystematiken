@@ -7,15 +7,16 @@
     "de": "Bildungsökonomie, Bildungsplanung"
   },
   "note": {
-    "de": "Bildungsökonomie; Bildungsplanung; Pädagogik"
+    "de": [
+      "Bildungsplanung",
+      "Bildungsökonomie",
+      "Pädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/44001",
     "prefLabel": {
       "de": "Allgemeine Pädagogik"
-    },
-    "note": {
-      "de": "Allgemeine Pädagogik; Pädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

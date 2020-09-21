@@ -7,7 +7,13 @@
     "de": "Erde"
   },
   "note": {
-    "de": "Erde; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Erde",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,14 @@
         "de": "Erde als Himmelkörper, Astronomie"
       },
       "note": {
-        "de": "Erde als Himmelkörper; Astronomie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Astronomie",
+          "Erde als Himmelkörper",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Orientierung"
       },
       "note": {
-        "de": "Orientierung; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Orientierung"
+        ]
       }
     },
     {
@@ -34,7 +53,15 @@
         "de": "Entdecken und Erforschen"
       },
       "note": {
-        "de": "Entdecken und Erforschen; Entdeckungen; Entdecker; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Entdecken und Erforschen",
+          "Entdecker",
+          "Entdeckungen",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -42,9 +69,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +125,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Islam, Judentum"
   },
   "note": {
-    "de": "Islam; Judentum; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Islam",
+      "Judentum"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400203",
     "prefLabel": {
       "de": "Mittelalterliche Geschichte"
-    },
-    "note": {
-      "de": "Mittelalterliche Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

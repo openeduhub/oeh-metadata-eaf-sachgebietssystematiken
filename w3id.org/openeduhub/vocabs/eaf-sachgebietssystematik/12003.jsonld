@@ -7,15 +7,19 @@
     "de": "Nichtliterarische Texte"
   },
   "note": {
-    "de": "Nichtliterarische Texte; Jounalistik; wissenschaftliche Texte; Reden; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Jounalistik",
+      "Nichtliterarische Texte",
+      "Reden",
+      "wissenschaftliche Texte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120",
     "prefLabel": {
       "de": "DEUTSCH"
-    },
-    "note": {
-      "de": "Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

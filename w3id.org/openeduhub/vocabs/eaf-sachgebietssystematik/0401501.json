@@ -7,15 +7,15 @@
     "de": "Erziehung, Aus- und Weiterbildung"
   },
   "note": {
-    "de": "Ausbildung; Weiterbildung"
+    "de": [
+      "Ausbildung",
+      "Weiterbildung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04015",
     "prefLabel": {
       "de": "Sozialarbeit und Erziehung"
-    },
-    "note": {
-      "de": "Sozialarbeit; Erziehung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

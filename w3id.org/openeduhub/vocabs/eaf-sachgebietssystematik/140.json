@@ -7,7 +7,12 @@
     "de": "ELEMENTARBEREICH, VORSCHULERZIEHUNG"
   },
   "note": {
-    "de": "Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+    "de": [
+      "Elementarbereich",
+      "Vorschulerziehung",
+      "frühkindliche Bildung",
+      "frühkindliche Erziehung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,14 @@
         "de": "Märchen und Geschichten"
       },
       "note": {
-        "de": "Märchen; Geschichten; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Geschichten",
+          "Märchen",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -25,7 +37,13 @@
         "de": "Lebensbereiche"
       },
       "note": {
-        "de": "Lebensbereiche; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Lebensbereiche",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -34,7 +52,13 @@
         "de": "Soziales Verhalten"
       },
       "note": {
-        "de": "Soziales Verhalten; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Soziales Verhalten",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -43,7 +67,17 @@
         "de": "Mathematik, Technik, Naturwissenschaften"
       },
       "note": {
-        "de": "Mathematik; Technik; Naturwissenschaften; Mathematikunterricht; Matheunterricht; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Naturwissenschaften",
+          "Technik",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -52,7 +86,16 @@
         "de": "Religion, Ethik"
       },
       "note": {
-        "de": "Religion; Ethik; Religionsunterricht; Ethikunterricht; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Ethik",
+          "Ethikunterricht",
+          "Religion",
+          "Religionsunterricht",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -61,7 +104,13 @@
         "de": "Fremdsprachen"
       },
       "note": {
-        "de": "Fremdsprachen; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Fremdsprachen",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -70,7 +119,15 @@
         "de": "Musizieren, Singen, Tanzen"
       },
       "note": {
-        "de": "Musizieren; Singen; Tanzen; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Musizieren",
+          "Singen",
+          "Tanzen",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -79,7 +136,14 @@
         "de": "Malen, Basteln"
       },
       "note": {
-        "de": "Malen; Basteln; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Basteln",
+          "Elementarbereich",
+          "Malen",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -88,7 +152,13 @@
         "de": "Unsere Erde entdecken"
       },
       "note": {
-        "de": "Unsere Erde entdecken; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Unsere Erde entdecken",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -97,7 +167,13 @@
         "de": "Verkehrserziehung"
       },
       "note": {
-        "de": "Verkehrserziehung; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Verkehrserziehung",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -106,7 +182,13 @@
         "de": "Sprachförderung"
       },
       "note": {
-        "de": "Sprachförderung; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Sprachförderung",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -115,7 +197,14 @@
         "de": "Bewegungserziehung, Motorik"
       },
       "note": {
-        "de": "Bewegungserziehung; Motorik; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Bewegungserziehung",
+          "Elementarbereich",
+          "Motorik",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -124,7 +213,14 @@
         "de": "Körperwahrnehmung, Sexualerziehung"
       },
       "note": {
-        "de": "Körperwahrnehmung; Sexualerziehung; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Körperwahrnehmung",
+          "Sexualerziehung",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -133,7 +229,13 @@
         "de": "Medienerziehung"
       },
       "note": {
-        "de": "Medienerziehung; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Medienerziehung",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     }
   ],
@@ -194,10 +296,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

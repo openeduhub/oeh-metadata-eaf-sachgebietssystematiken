@@ -7,15 +7,14 @@
     "de": "Praktische Philosophie"
   },
   "note": {
-    "de": "Praktische Philosophie"
+    "de": [
+      "Praktische Philosophie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/450",
     "prefLabel": {
       "de": "PHILOSOPHIE"
-    },
-    "note": {
-      "de": "Philosophie"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

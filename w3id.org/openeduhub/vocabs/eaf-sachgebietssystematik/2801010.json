@@ -7,15 +7,21 @@
     "de": "Öffentliche Einrichtungen und Aufgaben"
   },
   "note": {
-    "de": "Öffentliche Einrichtungen; Öffentliche Aufgaben; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht",
+      "Öffentliche Aufgaben",
+      "Öffentliche Einrichtungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

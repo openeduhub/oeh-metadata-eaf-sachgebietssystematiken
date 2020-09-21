@@ -7,15 +7,21 @@
     "de": "Messen und Größen"
   },
   "note": {
-    "de": "Messung; Messgröße; physikalische Größe; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Mathematikunterricht",
+      "Matheunterricht",
+      "Messgröße",
+      "Messung",
+      "Primarunterricht",
+      "physikalische Größe"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28007",
     "prefLabel": {
       "de": "Mathematik"
-    },
-    "note": {
-      "de": "Mathematik; Rechnen; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

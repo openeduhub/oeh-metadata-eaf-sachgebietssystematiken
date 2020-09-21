@@ -7,15 +7,16 @@
     "de": "Unternehmensformen, Unternehmensstrukturen"
   },
   "note": {
-    "de": "Unternehmensformen; Unternehmensstrukturen; Wirtschaftswissenschaft"
+    "de": [
+      "Unternehmensformen",
+      "Unternehmensstrukturen",
+      "Wirtschaftswissenschaft"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/70002",
     "prefLabel": {
       "de": "Betriebswirtschaft"
-    },
-    "note": {
-      "de": "Betriebswirtschaft; Wirtschaftswissenschaft"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

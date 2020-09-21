@@ -7,7 +7,10 @@
     "de": "Zusammenarbeiten"
   },
   "note": {
-    "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Kommunizieren und Kooperieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Digitale Werkzeuge für die Zusammenarbeit bei der Zusammenführung von Informationen, Daten und Ressourcen nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Digitale Werkzeuge bei der gemeinsamen Erarbeitung von Dokumenten nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -33,9 +42,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000402",
     "prefLabel": {
       "de": "Kommunizieren und Kooperieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -92,10 +98,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

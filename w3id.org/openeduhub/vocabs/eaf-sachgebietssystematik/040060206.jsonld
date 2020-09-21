@@ -7,14 +7,13 @@
     "de": "Haushaltstechnik"
   },
   "note": {
-    "de": "Haushaltstechnik"
+    "de": [
+      "Haushaltstechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400602",
     "prefLabel": {
-      "de": "Hauswirtschaft"
-    },
-    "note": {
       "de": "Hauswirtschaft"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

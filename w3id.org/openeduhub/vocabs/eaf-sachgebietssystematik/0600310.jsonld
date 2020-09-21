@@ -7,15 +7,21 @@
     "de": "Kunst der Jahrhundertwende"
   },
   "note": {
-    "de": "Kunst der Jahrhundertwende; Kunst um die Jahrhundertwende; Symbolismus; Jugendstil; Neoimpressionismus; Pointilismus; Kunst; Kunstunterricht"
+    "de": [
+      "Jugendstil",
+      "Kunst",
+      "Kunst der Jahrhundertwende",
+      "Kunst um die Jahrhundertwende",
+      "Kunstunterricht",
+      "Neoimpressionismus",
+      "Pointilismus",
+      "Symbolismus"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
     "prefLabel": {
       "de": "Kunstgeschichte"
-    },
-    "note": {
-      "de": "Kunstgeschichte; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

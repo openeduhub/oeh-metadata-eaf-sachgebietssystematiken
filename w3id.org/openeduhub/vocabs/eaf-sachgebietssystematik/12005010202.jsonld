@@ -4,15 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12005010202",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F12005010202",
   "note": {
-    "de": "Sehverstehen; Hörverstehen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Hörverstehen",
+      "Sehverstehen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120050102",
     "prefLabel": {
       "de": "Fertigkeitsbezogene Ordnung"
-    },
-    "note": {
-      "de": "Fertigkeitsbezogene Ordnung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -69,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

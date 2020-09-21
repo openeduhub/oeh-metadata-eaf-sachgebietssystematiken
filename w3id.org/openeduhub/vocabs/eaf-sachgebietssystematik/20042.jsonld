@@ -7,7 +7,10 @@
     "de": "Japanisch"
   },
   "note": {
-    "de": "Japanisch; Japanischunterricht"
+    "de": [
+      "Japanisch",
+      "Japanischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Japanisch; Japanischunterricht"
+        "de": [
+          "Japanisch",
+          "Japanischunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Japans; Japanisch; Japanischunterricht"
+        "de": [
+          "Japanisch",
+          "Japanischunterricht",
+          "Landeskunde Japans"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Japans; Medien; Japanisch; Japanischunterricht"
+        "de": [
+          "Japanisch",
+          "Japanischunterricht",
+          "Literatur Japans",
+          "Medien"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Japanisch; Japanischunterricht"
+        "de": [
+          "Japanisch",
+          "Japanischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Japanisch; Japanischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Japanisch",
+          "Japanischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

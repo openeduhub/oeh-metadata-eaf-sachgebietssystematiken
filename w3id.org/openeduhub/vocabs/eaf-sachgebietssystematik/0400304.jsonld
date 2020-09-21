@@ -7,7 +7,9 @@
     "de": "Geowissenschaften"
   },
   "note": {
-    "de": "Geowissenschaften"
+    "de": [
+      "Geowissenschaften"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,12 @@
         "de": "Kartographie"
       },
       "note": {
-        "de": "Kartographie; Geoinformationen; Geodaten; Kartografie"
+        "de": [
+          "Geodaten",
+          "Geoinformationen",
+          "Kartografie",
+          "Kartographie"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Meteorologie"
       },
       "note": {
-        "de": "Meteorologie; Wettervorhersage; Klimatologie"
+        "de": [
+          "Klimatologie",
+          "Meteorologie",
+          "Wettervorhersage"
+        ]
       }
     }
   ],
@@ -33,9 +44,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04003",
     "prefLabel": {
       "de": "Naturwissenschaften und Mathematik"
-    },
-    "note": {
-      "de": "Naturwissenschaften; Mathematik"
     }
   },
   "inScheme": {
@@ -92,10 +100,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

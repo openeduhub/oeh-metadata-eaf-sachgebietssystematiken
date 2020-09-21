@@ -7,7 +7,11 @@
     "de": "Kompetenzen in der digitalen Welt"
   },
   "note": {
-    "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
+    "de": [
+      "KMK-Kompetenzrahmen",
+      "Kompetenzbereiche",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,10 @@
         "de": "Suchen, Verarbeiten und Aufbewahren"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Kommunizieren und Kooperieren"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +44,10 @@
         "de": "Produzieren und Präsentieren"
       },
       "note": {
-        "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Produzieren und Präsentieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +56,10 @@
         "de": "Schützen und sicher Agieren"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -52,7 +68,10 @@
         "de": "Problemlösen und Handeln"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -61,7 +80,10 @@
         "de": "Analysieren und Reflektieren"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -69,9 +91,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400",
     "prefLabel": {
       "de": "MEDIENPÄDAGOGIK"
-    },
-    "note": {
-      "de": "Medienpädagogik"
     }
   },
   "inScheme": {
@@ -128,10 +147,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,16 @@
     "de": "Sprachliche Fertigkeiten"
   },
   "note": {
-    "de": "Sprachliche Fertigkeiten; Griechisch; Griechischunterricht"
+    "de": [
+      "Griechisch",
+      "Griechischunterricht",
+      "Sprachliche Fertigkeiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20003",
     "prefLabel": {
       "de": "Griechisch"
-    },
-    "note": {
-      "de": "Griechisch; Griechischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

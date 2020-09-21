@@ -7,7 +7,14 @@
     "de": "Australien und Ozeanien"
   },
   "note": {
-    "de": "Australien; Ozeanien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Australien",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Ozeanien"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Australien"
       },
       "note": {
-        "de": "Australien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Australien",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +38,15 @@
         "de": "Übrige Gebiete"
       },
       "note": {
-        "de": "Neuseeland; Tasmanien; Neuguinea; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Neuguinea",
+          "Neuseeland",
+          "Tasmanien"
+        ]
       }
     },
     {
@@ -34,7 +55,12 @@
         "de": "Allgemeines"
       },
       "note": {
-        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -42,9 +68,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +124,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

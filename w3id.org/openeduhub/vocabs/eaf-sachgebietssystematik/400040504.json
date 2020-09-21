@@ -7,7 +7,10 @@
     "de": "Digitale Werkzeuge und Medien zum Lernen, Arbeiten und Problemlösen nutzen"
   },
   "note": {
-    "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Problemlösen und Handeln",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Effektive digitale Lernmöglichkeiten finden, bewerten und nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Persönliches System von vernetzten digitalen Lernressourcen selbst organisieren können"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -33,9 +42,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000405",
     "prefLabel": {
       "de": "Problemlösen und Handeln"
-    },
-    "note": {
-      "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -92,10 +98,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

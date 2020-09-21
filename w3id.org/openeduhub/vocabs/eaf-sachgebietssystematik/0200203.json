@@ -7,15 +7,16 @@
     "de": "Wandel von Berufen"
   },
   "note": {
-    "de": "Wandel von Berufen; Berufe im Wandel; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe im Wandel",
+      "Wandel von Berufen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/02002",
     "prefLabel": {
       "de": "Berufskunde"
-    },
-    "note": {
-      "de": "Berufskunde; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

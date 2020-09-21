@@ -7,15 +7,15 @@
     "de": "Arten, Biotope"
   },
   "note": {
-    "de": "Arten; Biotope"
+    "de": [
+      "Arten",
+      "Biotope"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/640",
     "prefLabel": {
       "de": "UMWELTGEFÄHRDUNG, UMWELTSCHUTZ"
-    },
-    "note": {
-      "de": "Umweltgefährdung; Umweltschutz"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

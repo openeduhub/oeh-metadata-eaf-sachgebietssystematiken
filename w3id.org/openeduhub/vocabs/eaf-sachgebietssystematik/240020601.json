@@ -7,15 +7,17 @@
     "de": "Bundesrepublik Deutschland"
   },
   "note": {
-    "de": "Bundesrepublik Deutschland seit 1990; BRD seit 1990; Geschichte; Geschichtsunterricht"
+    "de": [
+      "BRD seit 1990",
+      "Bundesrepublik Deutschland seit 1990",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400206",
     "prefLabel": {
       "de": "Neueste Geschichte seit 1990"
-    },
-    "note": {
-      "de": "Neueste Geschichte seit 1990; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

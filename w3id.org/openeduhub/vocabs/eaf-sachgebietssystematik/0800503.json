@@ -7,7 +7,11 @@
     "de": "Wirbellose"
   },
   "note": {
-    "de": "Wirbellose; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Wirbellose"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,15 @@
         "de": "Gliederfüßer"
       },
       "note": {
-        "de": "Gliederfüßer; Insekten; Tausendfüßer; Spinnentiere; Krebse; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Gliederfüßer",
+          "Insekten",
+          "Krebse",
+          "Spinnentiere",
+          "Tausendfüßer"
+        ]
       }
     },
     {
@@ -25,7 +37,16 @@
         "de": "Stachelhäuter"
       },
       "note": {
-        "de": "Stachelhäuter; Schlangensterne; Haarsterne; Seeigel; Seewalzen; Seegurken; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Haarsterne",
+          "Schlangensterne",
+          "Seegurken",
+          "Seeigel",
+          "Seewalzen",
+          "Stachelhäuter"
+        ]
       }
     },
     {
@@ -34,7 +55,14 @@
         "de": "Weichtiere"
       },
       "note": {
-        "de": "Weichtiere; Schnecken; Muscheln; Kopffüßer; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Kopffüßer",
+          "Muscheln",
+          "Schnecken",
+          "Weichtiere"
+        ]
       }
     },
     {
@@ -43,7 +71,20 @@
         "de": "Platt-, Rund- und Ringelwürmer"
       },
       "note": {
-        "de": "Plattwürmer; Rundwürmer; Ringelwürmer; Strudelwürmer; Saugwürmer; Bandwürmer; Rüsselwürmer; Fadenwürmer; Vielborster; Wenigborster; Biologieunterricht; Biologie"
+        "de": [
+          "Bandwürmer",
+          "Biologie",
+          "Biologieunterricht",
+          "Fadenwürmer",
+          "Plattwürmer",
+          "Ringelwürmer",
+          "Rundwürmer",
+          "Rüsselwürmer",
+          "Saugwürmer",
+          "Strudelwürmer",
+          "Vielborster",
+          "Wenigborster"
+        ]
       }
     },
     {
@@ -52,7 +93,15 @@
         "de": "Hohltiere, Schwämme"
       },
       "note": {
-        "de": "Hohltiere; Schwämme; Schirmquallen; Quallenpolypen; Korallentiere; Nesseltiere; Biologie"
+        "de": [
+          "Biologie",
+          "Hohltiere",
+          "Korallentiere",
+          "Nesseltiere",
+          "Quallenpolypen",
+          "Schirmquallen",
+          "Schwämme"
+        ]
       }
     }
   ],
@@ -60,9 +109,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08005",
     "prefLabel": {
       "de": "Zoologie"
-    },
-    "note": {
-      "de": "Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -119,10 +165,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,20 @@
     "de": "Zahlen, Grundrechenarten"
   },
   "note": {
-    "de": "Zahlen; Grundrechenarten; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundrechenarten",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Mathematikunterricht",
+      "Matheunterricht",
+      "Primarunterricht",
+      "Zahlen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28007",
     "prefLabel": {
       "de": "Mathematik"
-    },
-    "note": {
-      "de": "Mathematik; Rechnen; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

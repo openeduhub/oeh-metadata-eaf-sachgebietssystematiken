@@ -7,15 +7,15 @@
     "de": "Informationen, Inhalte und vorhandene digitale Produkte weiterverarbeiten und in bestehendes Wissen integrieren"
   },
   "note": {
-    "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Produzieren und Präsentieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040302",
     "prefLabel": {
       "de": "Weiterverarbeiten und Integrieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Produzieren und Präsentieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

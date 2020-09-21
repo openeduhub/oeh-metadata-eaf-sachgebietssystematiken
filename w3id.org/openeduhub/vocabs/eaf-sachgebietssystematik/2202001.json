@@ -7,15 +7,18 @@
     "de": "Vorderasien"
   },
   "note": {
-    "de": "Vorderasien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Vorderasien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22020",
     "prefLabel": {
       "de": "Asien"
-    },
-    "note": {
-      "de": "Asien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

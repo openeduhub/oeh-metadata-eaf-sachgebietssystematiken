@@ -7,7 +7,11 @@
     "de": "Säugetiere"
   },
   "note": {
-    "de": "Säugetiere; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Säugetiere"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Haustiere, Nutztiere"
       },
       "note": {
-        "de": "Haustiere; Nutztiere; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Haustiere",
+          "Nutztiere"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Wild lebende Tiere"
       },
       "note": {
-        "de": "Wild lebende Tiere; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Wild lebende Tiere"
+        ]
       }
     }
   ],
@@ -33,9 +46,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800504",
     "prefLabel": {
       "de": "Wirbeltiere"
-    },
-    "note": {
-      "de": "Wirbeltiere; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -92,10 +102,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,13 @@
     "de": "Fachsprachliche Vertiefungen"
   },
   "note": {
-    "de": "Fachsprachliche Vertiefungen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Fachsprachliche Vertiefungen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,13 @@
         "de": "Handwerk"
       },
       "note": {
-        "de": "Handwerk; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Handwerk"
+        ]
       }
     },
     {
@@ -25,7 +37,15 @@
         "de": "Medizin und Pflege"
       },
       "note": {
-        "de": "Medizin und Pflege; Medizin; Pflege; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Medizin",
+          "Medizin und Pflege",
+          "Pflege"
+        ]
       }
     },
     {
@@ -34,7 +54,15 @@
         "de": "Naturwissenschaft und Technik"
       },
       "note": {
-        "de": "Naturwissenschaft und Technik; Naturwissenschaft; Technik; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Naturwissenschaft",
+          "Naturwissenschaft und Technik",
+          "Technik"
+        ]
       }
     },
     {
@@ -43,7 +71,13 @@
         "de": "Recht"
       },
       "note": {
-        "de": "Recht; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Recht"
+        ]
       }
     },
     {
@@ -52,7 +86,13 @@
         "de": "Wirtschaft"
       },
       "note": {
-        "de": "Wirtschaft; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Wirtschaft"
+        ]
       }
     }
   ],
@@ -60,9 +100,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200501",
     "prefLabel": {
       "de": "Sprachliche Fertigkeiten"
-    },
-    "note": {
-      "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -119,10 +156,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

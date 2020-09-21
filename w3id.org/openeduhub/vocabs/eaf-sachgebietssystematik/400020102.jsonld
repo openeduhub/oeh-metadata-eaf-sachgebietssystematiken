@@ -7,15 +7,15 @@
     "de": "Medienpädagogischer Aspekt"
   },
   "note": {
-    "de": "Medienpädagogischer Aspekt; Medienpädagogik"
+    "de": [
+      "Medienpädagogik",
+      "Medienpädagogischer Aspekt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000201",
     "prefLabel": {
       "de": "Druckmedien"
-    },
-    "note": {
-      "de": "Druckmedien; Medienpädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Märchen, Sagen"
   },
   "note": {
-    "de": "Märchen; Sagen; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Märchen",
+      "Sagen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120010102",
     "prefLabel": {
       "de": "Adaption als Verfilmung"
-    },
-    "note": {
-      "de": "Adaption als Verfilmung; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

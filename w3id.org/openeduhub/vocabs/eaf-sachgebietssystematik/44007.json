@@ -7,7 +7,9 @@
     "de": "Sozialpädagogik"
   },
   "note": {
-    "de": "Sozialpädagogik"
+    "de": [
+      "Sozialpädagogik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Pädagogik der Jugendarbeit"
       },
       "note": {
-        "de": "Pädagogik der Jugendarbeit"
+        "de": [
+          "Pädagogik der Jugendarbeit"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Sozialarbeit mit Erwachsenen"
       },
       "note": {
-        "de": "Sozialarbeit mit Erwachsenen"
+        "de": [
+          "Sozialarbeit mit Erwachsenen"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Seniorenarbeit"
       },
       "note": {
-        "de": "Seniorenarbeit"
+        "de": [
+          "Seniorenarbeit"
+        ]
       }
     }
   ],
@@ -42,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/440",
     "prefLabel": {
       "de": "PÄDAGOGIK"
-    },
-    "note": {
-      "de": "Pädagogik"
     }
   },
   "inScheme": {
@@ -101,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

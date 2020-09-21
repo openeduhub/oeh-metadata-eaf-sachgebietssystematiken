@@ -7,7 +7,9 @@
     "de": "Raumgestaltung"
   },
   "note": {
-    "de": "Raumgestaltung"
+    "de": [
+      "Raumgestaltung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Raumgestaltung"
       },
       "note": {
-        "de": "Raumgestaltung"
+        "de": [
+          "Raumgestaltung"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Flächengestaltung"
       },
       "note": {
-        "de": "Flächengestaltung"
+        "de": [
+          "Flächengestaltung"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Wandgestaltung"
       },
       "note": {
-        "de": "Wandgestaltung"
+        "de": [
+          "Wandgestaltung"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Bodengestaltung"
       },
       "note": {
-        "de": "Bodengestaltung"
+        "de": [
+          "Bodengestaltung"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Dekoration"
       },
       "note": {
-        "de": "Dekoration"
+        "de": [
+          "Dekoration"
+        ]
       }
     }
   ],
@@ -60,9 +72,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04007",
     "prefLabel": {
       "de": "Farbtechnik und Raumgestaltung"
-    },
-    "note": {
-      "de": "Farbtechnik; Raumgestaltung"
     }
   },
   "inScheme": {
@@ -119,10 +128,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

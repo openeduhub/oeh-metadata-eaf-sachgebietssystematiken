@@ -7,7 +7,10 @@
     "de": "Problemlösen und Handeln"
   },
   "note": {
-    "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Problemlösen und Handeln",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Technische Probleme lösen"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Werkzeuge bedarfsgerecht einsetzen"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Eigene Defizite ermitteln und nach Lösungen suchen"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +55,10 @@
         "de": "Digitale Werkzeuge und Medien zum Lernen, Arbeiten und Problemlösen nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -52,7 +67,10 @@
         "de": "Algorithmen erkennen und formulieren"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt, Algorithmen"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt, Algorithmen"
+        ]
       }
     }
   ],
@@ -60,9 +78,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004",
     "prefLabel": {
       "de": "Kompetenzen in der digitalen Welt"
-    },
-    "note": {
-      "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
     }
   },
   "inScheme": {
@@ -119,10 +134,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

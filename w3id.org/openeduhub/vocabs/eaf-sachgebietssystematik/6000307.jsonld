@@ -7,7 +7,10 @@
     "de": "Sonstige Sportarten"
   },
   "note": {
-    "de": "Sport; Sportunterricht"
+    "de": [
+      "Sport",
+      "Sportunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Golf"
       },
       "note": {
-        "de": "Golf; Sport; Sportunterricht"
+        "de": [
+          "Golf",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Wurfscheibe"
       },
       "note": {
-        "de": "Wurfscheibe; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Wurfscheibe"
+        ]
       }
     },
     {
@@ -34,7 +45,11 @@
         "de": "Akrobatik"
       },
       "note": {
-        "de": "Akrobatik; Sport; Sportunterricht"
+        "de": [
+          "Akrobatik",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -43,7 +58,11 @@
         "de": "Cheerleading"
       },
       "note": {
-        "de": "Cheerleading; Sport; Sportunterricht"
+        "de": [
+          "Cheerleading",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -52,7 +71,11 @@
         "de": "Luftkissenbahn"
       },
       "note": {
-        "de": "Luftkissenbahn; Sport; Sportunterricht"
+        "de": [
+          "Luftkissenbahn",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -61,7 +84,11 @@
         "de": "Kampfsport"
       },
       "note": {
-        "de": "Kampfsport; Sport; Sportunterricht"
+        "de": [
+          "Kampfsport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -70,7 +97,11 @@
         "de": "Kraftsport"
       },
       "note": {
-        "de": "Kraftsport; Sport; Sportunterricht"
+        "de": [
+          "Kraftsport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -79,7 +110,11 @@
         "de": "Urbansport"
       },
       "note": {
-        "de": "Urbansport; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Urbansport"
+        ]
       }
     },
     {
@@ -88,7 +123,11 @@
         "de": "Klettern"
       },
       "note": {
-        "de": "Klettern; Sport; Sportunterricht"
+        "de": [
+          "Klettern",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -97,7 +136,11 @@
         "de": "Pferdesport"
       },
       "note": {
-        "de": "Pferdesport; Sport; Sportunterricht"
+        "de": [
+          "Pferdesport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -106,7 +149,11 @@
         "de": "Radsport"
       },
       "note": {
-        "de": "Radsport; Sport; Sportunterricht"
+        "de": [
+          "Radsport",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     }
   ],
@@ -114,9 +161,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
     "prefLabel": {
       "de": "Sportarten"
-    },
-    "note": {
-      "de": "Sportarten; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -173,10 +217,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

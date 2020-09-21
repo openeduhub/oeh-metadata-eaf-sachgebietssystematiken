@@ -7,15 +7,18 @@
     "de": "Polargebiete"
   },
   "note": {
-    "de": "Polargebiete; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Polargebiete"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22024",
     "prefLabel": {
       "de": "Pole und Meere"
-    },
-    "note": {
-      "de": "Pole und Meere; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

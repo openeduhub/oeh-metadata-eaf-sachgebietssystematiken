@@ -7,7 +7,10 @@
     "de": "Konstruktionstechnik, Maschinenelemente"
   },
   "note": {
-    "de": "Konstruktionstechnik; Maschinenelemente"
+    "de": [
+      "Konstruktionstechnik",
+      "Maschinenelemente"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Maschinenelemente"
       },
       "note": {
-        "de": "Maschinenelemente"
+        "de": [
+          "Maschinenelemente"
+        ]
       }
     },
     {
@@ -25,16 +30,16 @@
         "de": "Kraftmaschinen, Arbeitsmaschinen"
       },
       "note": {
-        "de": "Kraftmaschinen; Arbeitsmaschinen"
+        "de": [
+          "Arbeitsmaschinen",
+          "Kraftmaschinen"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011",
     "prefLabel": {
-      "de": "Metalltechnik"
-    },
-    "note": {
       "de": "Metalltechnik"
     }
   },
@@ -92,10 +97,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

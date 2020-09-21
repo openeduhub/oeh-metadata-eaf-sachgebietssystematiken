@@ -7,15 +7,16 @@
     "de": "Redoxreaktionen"
   },
   "note": {
-    "de": "Redoxreaktionen; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Redoxreaktionen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10004",
     "prefLabel": {
       "de": "Anorganische Chemie"
-    },
-    "note": {
-      "de": "Anorganische Chemie; Anorganik; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

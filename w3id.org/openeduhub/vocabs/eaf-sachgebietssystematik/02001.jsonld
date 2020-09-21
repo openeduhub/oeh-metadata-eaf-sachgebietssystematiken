@@ -7,7 +7,10 @@
     "de": "Hinführung zur Arbeitswelt"
   },
   "note": {
-    "de": "Arbeitswelt; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Arbeitswelt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Arbeitsbedingungen, Arbeitsabläufe"
       },
       "note": {
-        "de": "Arbeitsbedingungen; Arbeitsabläufe; Arbeitslehre"
+        "de": [
+          "Arbeitsabläufe",
+          "Arbeitsbedingungen",
+          "Arbeitslehre"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Arbeitswert"
       },
       "note": {
-        "de": "Arbeitswert; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Arbeitswert"
+        ]
       }
     },
     {
@@ -34,7 +44,10 @@
         "de": "Arbeitssicherheit"
       },
       "note": {
-        "de": "Arbeitssicherheit; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Arbeitssicherheit"
+        ]
       }
     },
     {
@@ -43,7 +56,10 @@
         "de": "Recht im Betrieb"
       },
       "note": {
-        "de": "Arbeitsrecht; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Arbeitsrecht"
+        ]
       }
     },
     {
@@ -52,7 +68,11 @@
         "de": "Unternehmensformen, Unternehmensstrukturen"
       },
       "note": {
-        "de": "Unternehmensformen; Unternehmensstrukturen; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Unternehmensformen",
+          "Unternehmensstrukturen"
+        ]
       }
     },
     {
@@ -61,7 +81,12 @@
         "de": "Strukturwandel, Rationalisierung, Humanisierung"
       },
       "note": {
-        "de": "Strukturwandel; Rationalisierung; Humanisierung; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Humanisierung",
+          "Rationalisierung",
+          "Strukturwandel"
+        ]
       }
     },
     {
@@ -70,7 +95,10 @@
         "de": "Gesellschaftliche Bedingungen"
       },
       "note": {
-        "de": "Gesellschaftliche Bedingungen; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Gesellschaftliche Bedingungen"
+        ]
       }
     },
     {
@@ -79,7 +107,11 @@
         "de": "Geschichte von Arbeit und Technik"
       },
       "note": {
-        "de": "Technikgeschichte; Geschichte der Arbeit; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Geschichte der Arbeit",
+          "Technikgeschichte"
+        ]
       }
     }
   ],
@@ -87,9 +119,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/020",
     "prefLabel": {
       "de": "ARBEITSLEHRE"
-    },
-    "note": {
-      "de": "Arbeitslehre"
     }
   },
   "inScheme": {
@@ -146,10 +175,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

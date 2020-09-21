@@ -7,15 +7,16 @@
     "de": "Weitere Spielsportarten und Spiele"
   },
   "note": {
-    "de": "Spielsportarten und Spiele; Sport; Sportunterricht"
+    "de": [
+      "Spielsportarten und Spiele",
+      "Sport",
+      "Sportunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000304",
     "prefLabel": {
       "de": "Spielsportarten"
-    },
-    "note": {
-      "de": "Spielsportarten; Sportspiele; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

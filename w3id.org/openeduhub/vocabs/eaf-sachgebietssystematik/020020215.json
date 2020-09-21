@@ -7,15 +7,19 @@
     "de": "Berufe im Nahrungs-, Hotel- und Gaststättenbereich"
   },
   "note": {
-    "de": "Berufe im Nahrungsbereich; Berufe im Hotel- und Gaststättenbereich; Berufe im Gastgewerbe; Berufe in der Nahrungsmittelherstellung; Hotelberufe; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe im Gastgewerbe",
+      "Berufe im Hotel- und Gaststättenbereich",
+      "Berufe im Nahrungsbereich",
+      "Berufe in der Nahrungsmittelherstellung",
+      "Hotelberufe"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
     "prefLabel": {
       "de": "Berufsbilder"
-    },
-    "note": {
-      "de": "Berufsbilder; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

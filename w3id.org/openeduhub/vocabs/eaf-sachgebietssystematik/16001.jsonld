@@ -7,7 +7,12 @@
     "de": "Konflikte und Konfliktregelung"
   },
   "note": {
-    "de": "Konflikte; Konfliktregelung; Ethik; Ethikunterricht"
+    "de": [
+      "Ethik",
+      "Ethikunterricht",
+      "Konflikte",
+      "Konfliktregelung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,11 @@
         "de": "Familiäre Konflikte"
       },
       "note": {
-        "de": "Familiäre Konflikte; Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Familiäre Konflikte"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Außerfamiliäre Konflikte"
       },
       "note": {
-        "de": "Außerfamiliäre Konflikte; Ethik; Ethikunterricht"
+        "de": [
+          "Außerfamiliäre Konflikte",
+          "Ethik",
+          "Ethikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Gesellschaftliche Konflikte"
       },
       "note": {
-        "de": "Gesellschaftliche Konflikte; Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Gesellschaftliche Konflikte"
+        ]
       }
     }
   ],
@@ -42,9 +59,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/160",
     "prefLabel": {
       "de": "ETHIK"
-    },
-    "note": {
-      "de": "Ethik; Ethikunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +115,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

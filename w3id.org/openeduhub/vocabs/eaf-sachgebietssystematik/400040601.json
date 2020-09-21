@@ -7,7 +7,11 @@
     "de": "Medien analysieren und bewerten"
   },
   "note": {
-    "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt; Medienanalyse"
+    "de": [
+      "Kompetenzbereich Analysieren und Reflektieren",
+      "Kompetenzen in der digitalen Welt",
+      "Medienanalyse"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,10 @@
         "de": "Gestaltungsmittel von digitalen Medienangeboten kennen und bewerten"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt;"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Interessengeleitete Setzung, Verbreitung und Dominanz von Themen in digitalen Umgebungen erkennen und beurteilen"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +44,10 @@
         "de": "Wirkungen von Medien in der digitalen Welt"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -42,9 +55,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000406",
     "prefLabel": {
       "de": "Analysieren und Reflektieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -101,10 +111,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

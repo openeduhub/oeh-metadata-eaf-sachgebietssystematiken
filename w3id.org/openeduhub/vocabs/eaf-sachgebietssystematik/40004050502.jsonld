@@ -7,15 +7,16 @@
     "de": "Algorithmische Strukturen in genutzten digitalen Tools erkennen und formulieren"
   },
   "note": {
-    "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt; Algorithmen"
+    "de": [
+      "Algorithmen",
+      "Kompetenzbereich Problemlösen und Handeln",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040505",
     "prefLabel": {
       "de": "Algorithmen erkennen und formulieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt, Algorithmen"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

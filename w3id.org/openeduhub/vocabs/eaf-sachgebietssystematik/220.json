@@ -7,7 +7,13 @@
     "de": "GEOGRAPHIE"
   },
   "note": {
-    "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
+    "de": [
+      "Erdkunde",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,18 @@
         "de": "Geographische Arbeitsmethoden und Darstellungen"
       },
       "note": {
-        "de": "Geographische Arbeitsmethoden; kartographische Darstellungsformen; Kartographie; Geografische Arbeitsmethoden; kartografische Darstellungsformen; Kartografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geografische Arbeitsmethoden",
+          "Geographie",
+          "Geographieunterricht",
+          "Geographische Arbeitsmethoden",
+          "Kartografie",
+          "Kartographie",
+          "kartografische Darstellungsformen",
+          "kartographische Darstellungsformen"
+        ]
       }
     },
     {
@@ -25,7 +42,13 @@
         "de": "Erde"
       },
       "note": {
-        "de": "Erde; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Erde",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -34,7 +57,13 @@
         "de": "Geologie"
       },
       "note": {
-        "de": "Geologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Geologie"
+        ]
       }
     },
     {
@@ -43,7 +72,14 @@
         "de": "Geomorphologie"
       },
       "note": {
-        "de": "Geomorphologie; Morphologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Geomorphologie",
+          "Morphologie"
+        ]
       }
     },
     {
@@ -52,7 +88,13 @@
         "de": "Hydrographie"
       },
       "note": {
-        "de": "Hydrographie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Hydrographie"
+        ]
       }
     },
     {
@@ -61,7 +103,14 @@
         "de": "Klimageographie"
       },
       "note": {
-        "de": "Klimageographie; Klimageografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Klimageografie",
+          "Klimageographie"
+        ]
       }
     },
     {
@@ -70,7 +119,10 @@
         "de": "Biogeographie"
       },
       "note": {
-        "de": "Biogeographie; Biogeografie"
+        "de": [
+          "Biogeografie",
+          "Biogeographie"
+        ]
       }
     },
     {
@@ -79,7 +131,14 @@
         "de": "Geoökologie"
       },
       "note": {
-        "de": "Geoökologie; Ökologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Geoökologie",
+          "Ökologie"
+        ]
       }
     },
     {
@@ -88,7 +147,14 @@
         "de": "Sozialgeographie"
       },
       "note": {
-        "de": "Sozialgeographie; Sozialgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Sozialgeografie",
+          "Sozialgeographie"
+        ]
       }
     },
     {
@@ -97,7 +163,14 @@
         "de": "Bevölkerungsgeographie"
       },
       "note": {
-        "de": "Bevölkerungsgeographie; Bevölkerungsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Bevölkerungsgeografie",
+          "Bevölkerungsgeographie",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -106,7 +179,14 @@
         "de": "Siedlungsgeographie"
       },
       "note": {
-        "de": "Siedlungsgeographie; Siedlungsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Siedlungsgeografie",
+          "Siedlungsgeographie"
+        ]
       }
     },
     {
@@ -115,7 +195,14 @@
         "de": "Politische Geographie"
       },
       "note": {
-        "de": "Politische Geographie; Politische Geografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Politische Geografie",
+          "Politische Geographie"
+        ]
       }
     },
     {
@@ -124,7 +211,14 @@
         "de": "Wirtschaftsgeographie"
       },
       "note": {
-        "de": "Wirtschaftsgeographie; Wirtschaftsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Wirtschaftsgeografie",
+          "Wirtschaftsgeographie"
+        ]
       }
     },
     {
@@ -133,7 +227,14 @@
         "de": "Agrargeographie"
       },
       "note": {
-        "de": "Agrargeographie; Agrargeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Agrargeografie",
+          "Agrargeographie",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -142,7 +243,14 @@
         "de": "Industriegeographie"
       },
       "note": {
-        "de": "Industriegeographie; Industriegeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Industriegeografie",
+          "Industriegeographie"
+        ]
       }
     },
     {
@@ -151,7 +259,14 @@
         "de": "Verkehrsgeographie"
       },
       "note": {
-        "de": "Verkehrsgeographie; Verkehrsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Verkehrsgeografie",
+          "Verkehrsgeographie"
+        ]
       }
     },
     {
@@ -160,7 +275,16 @@
         "de": "Fremdenverkehrsgeographie"
       },
       "note": {
-        "de": "Fremdenverkehrsgeographie; Tourismus; Naherholung; Fremdenverkehrsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Fremdenverkehrsgeografie",
+          "Fremdenverkehrsgeographie",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Naherholung",
+          "Tourismus"
+        ]
       }
     },
     {
@@ -169,7 +293,14 @@
         "de": "Bundesrepublik Deutschland"
       },
       "note": {
-        "de": "Bundesrepublik Deutschland; Deutschland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Bundesrepublik Deutschland",
+          "Deutschland",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -178,7 +309,13 @@
         "de": "Europa"
       },
       "note": {
-        "de": "Europa; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Europa",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -187,7 +324,13 @@
         "de": "Asien"
       },
       "note": {
-        "de": "Asien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Asien",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -196,7 +339,14 @@
         "de": "Australien und Ozeanien"
       },
       "note": {
-        "de": "Australien; Ozeanien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Australien",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Ozeanien"
+        ]
       }
     },
     {
@@ -205,7 +355,13 @@
         "de": "Afrika"
       },
       "note": {
-        "de": "Afrika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Afrika",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -214,7 +370,13 @@
         "de": "Amerika"
       },
       "note": {
-        "de": "Amerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Amerika",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -223,7 +385,13 @@
         "de": "Pole und Meere"
       },
       "note": {
-        "de": "Pole und Meere; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Pole und Meere"
+        ]
       }
     },
     {
@@ -232,7 +400,12 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Geographieunterricht; Bilingualer Erdkundeunterricht; Geografie; Geografieunterricht"
+        "de": [
+          "Bilingualer Erdkundeunterricht",
+          "Bilingualer Geographieunterricht",
+          "Geografie",
+          "Geografieunterricht"
+        ]
       }
     }
   ],
@@ -293,10 +466,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

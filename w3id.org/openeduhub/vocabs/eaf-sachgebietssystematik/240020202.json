@@ -7,15 +7,16 @@
     "de": "Griechische Geschichte"
   },
   "note": {
-    "de": "Griechische Geschichte; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Griechische Geschichte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400202",
     "prefLabel": {
       "de": "Alte Geschichte"
-    },
-    "note": {
-      "de": "Alte Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

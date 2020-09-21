@@ -7,7 +7,10 @@
     "de": "Tiefbau"
   },
   "note": {
-    "de": "Tiefbau; Bauverfahren"
+    "de": [
+      "Bauverfahren",
+      "Tiefbau"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Eisenbahnbau"
       },
       "note": {
-        "de": "Eisenbahnbau"
+        "de": [
+          "Eisenbahnbau"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Erdbau"
       },
       "note": {
-        "de": "Erdbau"
+        "de": [
+          "Erdbau"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Grundbau"
       },
       "note": {
-        "de": "Grundbau"
+        "de": [
+          "Grundbau"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Kanalbau"
       },
       "note": {
-        "de": "Kanalbau"
+        "de": [
+          "Kanalbau"
+        ]
       }
     },
     {
@@ -52,7 +63,10 @@
         "de": "Straßen- und Wegebau"
       },
       "note": {
-        "de": "Straßenbau; Straßen- und Wegebau"
+        "de": [
+          "Straßen- und Wegebau",
+          "Straßenbau"
+        ]
       }
     },
     {
@@ -61,7 +75,9 @@
         "de": "Tunnelbau"
       },
       "note": {
-        "de": "Tunnelbau"
+        "de": [
+          "Tunnelbau"
+        ]
       }
     },
     {
@@ -70,7 +86,9 @@
         "de": "Wasserbau"
       },
       "note": {
-        "de": "Wasserbau"
+        "de": [
+          "Wasserbau"
+        ]
       }
     }
   ],
@@ -78,9 +96,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04002",
     "prefLabel": {
       "de": "Bau, Architektur, Vermessung"
-    },
-    "note": {
-      "de": "Architektur; Vermessung"
     }
   },
   "inScheme": {
@@ -137,10 +152,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

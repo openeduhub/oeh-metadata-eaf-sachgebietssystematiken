@@ -7,15 +7,18 @@
     "de": "Datenbanken"
   },
   "note": {
-    "de": "Datenbank; Informatik; Informatikunterricht; Datenbanksystem; Datenbanken"
+    "de": [
+      "Datenbank",
+      "Datenbanken",
+      "Datenbanksystem",
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200202",
     "prefLabel": {
       "de": "Angewandte Informatik"
-    },
-    "note": {
-      "de": "Angewandte Informatik; Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

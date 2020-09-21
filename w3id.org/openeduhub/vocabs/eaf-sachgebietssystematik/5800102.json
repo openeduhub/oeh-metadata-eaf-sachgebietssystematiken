@@ -7,7 +7,10 @@
     "de": "Kurzspielfilm"
   },
   "note": {
-    "de": "Kurzspielfilm; Spielfilm"
+    "de": [
+      "Kurzspielfilm",
+      "Spielfilm"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Literaturverfilmung"
       },
       "note": {
-        "de": "Literaturverfilmung"
+        "de": [
+          "Literaturverfilmung"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Abenteuer"
       },
       "note": {
-        "de": "Abenteuerfilm"
+        "de": [
+          "Abenteuerfilm"
+        ]
       }
     },
     {
@@ -34,7 +41,10 @@
         "de": "Action"
       },
       "note": {
-        "de": "Action; Actionfilm"
+        "de": [
+          "Action",
+          "Actionfilm"
+        ]
       }
     },
     {
@@ -43,7 +53,12 @@
         "de": "Biografie"
       },
       "note": {
-        "de": "Filmbiographie; Filmbiografie; Biografie; Biographie"
+        "de": [
+          "Biografie",
+          "Biographie",
+          "Filmbiografie",
+          "Filmbiographie"
+        ]
       }
     },
     {
@@ -52,7 +67,10 @@
         "de": "Drama, Schicksal"
       },
       "note": {
-        "de": "Drama; Schicksal"
+        "de": [
+          "Drama",
+          "Schicksal"
+        ]
       }
     },
     {
@@ -61,7 +79,10 @@
         "de": "Experimentalfilm, Avantgarde"
       },
       "note": {
-        "de": "Experimentalfilm; Avantgarde"
+        "de": [
+          "Avantgarde",
+          "Experimentalfilm"
+        ]
       }
     },
     {
@@ -70,7 +91,12 @@
         "de": "Gesellschafts- und sozialkritischer Film"
       },
       "note": {
-        "de": "Geselschaftskritischer Film; Gesellschaftskritik; Sozialkritischer Film; Sozialkritik"
+        "de": [
+          "Gesellschaftskritik",
+          "Geselschaftskritischer Film",
+          "Sozialkritik",
+          "Sozialkritischer Film"
+        ]
       }
     },
     {
@@ -79,7 +105,11 @@
         "de": "Gewalt, Aggression"
       },
       "note": {
-        "de": "Gewalt; Aggression; Actionfilm"
+        "de": [
+          "Actionfilm",
+          "Aggression",
+          "Gewalt"
+        ]
       }
     },
     {
@@ -88,7 +118,9 @@
         "de": "Heimat"
       },
       "note": {
-        "de": "Heimatfilm"
+        "de": [
+          "Heimatfilm"
+        ]
       }
     },
     {
@@ -97,7 +129,9 @@
         "de": "Historienfilm"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -106,7 +140,13 @@
         "de": "Horror"
       },
       "note": {
-        "de": "Horrorfilm; Gruselfilm; Vampirfilm; Monsterfilm; Gespensterfilm"
+        "de": [
+          "Gespensterfilm",
+          "Gruselfilm",
+          "Horrorfilm",
+          "Monsterfilm",
+          "Vampirfilm"
+        ]
       }
     },
     {
@@ -115,7 +155,9 @@
         "de": "Katastrophe"
       },
       "note": {
-        "de": "Katastrophenfilm"
+        "de": [
+          "Katastrophenfilm"
+        ]
       }
     },
     {
@@ -124,7 +166,11 @@
         "de": "Komödie, Satire, Parodie"
       },
       "note": {
-        "de": "Filmkomödie; Satire; Parodie"
+        "de": [
+          "Filmkomödie",
+          "Parodie",
+          "Satire"
+        ]
       }
     },
     {
@@ -133,7 +179,10 @@
         "de": "Kriegsfilm, Antikriegsfilm"
       },
       "note": {
-        "de": "Kriegsfilm; Antikriegsfilm"
+        "de": [
+          "Antikriegsfilm",
+          "Kriegsfilm"
+        ]
       }
     },
     {
@@ -142,7 +191,19 @@
         "de": "Krimi, Thriller, Justiz"
       },
       "note": {
-        "de": "Kriminalfilm; Thriller; Justiz; Krimi; Politthriller; Psychotriller; Spionagefilm; Detektivfilm; Gaunerfilm; Gangsterfilm; Gerichtsdrama"
+        "de": [
+          "Detektivfilm",
+          "Gangsterfilm",
+          "Gaunerfilm",
+          "Gerichtsdrama",
+          "Justiz",
+          "Krimi",
+          "Kriminalfilm",
+          "Politthriller",
+          "Psychotriller",
+          "Spionagefilm",
+          "Thriller"
+        ]
       }
     },
     {
@@ -151,7 +212,10 @@
         "de": "Lebenssinn"
       },
       "note": {
-        "de": "Lebenssinn; Sinn des Lebens"
+        "de": [
+          "Lebenssinn",
+          "Sinn des Lebens"
+        ]
       }
     },
     {
@@ -160,7 +224,9 @@
         "de": "Liebe, Freundschaft"
       },
       "note": {
-        "de": "Liebesfilm"
+        "de": [
+          "Liebesfilm"
+        ]
       }
     },
     {
@@ -169,7 +235,10 @@
         "de": "Macht, Machtmissbrauch"
       },
       "note": {
-        "de": "Macht; Machtmissbrauch"
+        "de": [
+          "Macht",
+          "Machtmissbrauch"
+        ]
       }
     },
     {
@@ -178,7 +247,13 @@
         "de": "Märchen, Sagen, Legenden"
       },
       "note": {
-        "de": "Märchen; Märchenfilm; Fantasyfilm; Sagen; Legenden"
+        "de": [
+          "Fantasyfilm",
+          "Legenden",
+          "Märchen",
+          "Märchenfilm",
+          "Sagen"
+        ]
       }
     },
     {
@@ -187,7 +262,9 @@
         "de": "Milieufilm"
       },
       "note": {
-        "de": "Milieufilm"
+        "de": [
+          "Milieufilm"
+        ]
       }
     },
     {
@@ -196,7 +273,12 @@
         "de": "Musik, Tanz"
       },
       "note": {
-        "de": "Musikfilm; Tanzfilm; Musicalfilm; Revuefilm"
+        "de": [
+          "Musicalfilm",
+          "Musikfilm",
+          "Revuefilm",
+          "Tanzfilm"
+        ]
       }
     },
     {
@@ -205,7 +287,9 @@
         "de": "Politik, Geschichte"
       },
       "note": {
-        "de": "Politikwissenschaft"
+        "de": [
+          "Politikwissenschaft"
+        ]
       }
     },
     {
@@ -214,7 +298,11 @@
         "de": "Sciencefiction, Fantasy"
       },
       "note": {
-        "de": "Sciencefiction; Fantasy; Fantasyfilm"
+        "de": [
+          "Fantasy",
+          "Fantasyfilm",
+          "Sciencefiction"
+        ]
       }
     },
     {
@@ -223,7 +311,9 @@
         "de": "Theaterverfilmung"
       },
       "note": {
-        "de": "Theaterverfilmung"
+        "de": [
+          "Theaterverfilmung"
+        ]
       }
     },
     {
@@ -232,7 +322,9 @@
         "de": "Tierkurzfilm"
       },
       "note": {
-        "de": "Tierspielfilm"
+        "de": [
+          "Tierspielfilm"
+        ]
       }
     },
     {
@@ -241,7 +333,10 @@
         "de": "Tod, Sterben"
       },
       "note": {
-        "de": "Tod; Sterben"
+        "de": [
+          "Sterben",
+          "Tod"
+        ]
       }
     },
     {
@@ -250,7 +345,9 @@
         "de": "Western"
       },
       "note": {
-        "de": "Western"
+        "de": [
+          "Western"
+        ]
       }
     },
     {
@@ -259,16 +356,15 @@
         "de": "Sonstige Gattungen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58001",
     "prefLabel": {
-      "de": "Kurzfilm"
-    },
-    "note": {
       "de": "Kurzfilm"
     }
   },
@@ -326,10 +422,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

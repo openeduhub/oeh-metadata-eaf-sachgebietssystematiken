@@ -7,7 +7,11 @@
     "de": "Grunderfahrungen"
   },
   "note": {
-    "de": "Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Wahrnehmung der Schöpfung"
       },
       "note": {
-        "de": "Wahrnehmung der Schöpfung; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Wahrnehmung der Schöpfung"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Vertrauen"
       },
       "note": {
-        "de": "Vertrauen; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Vertrauen"
+        ]
       }
     },
     {
@@ -34,7 +48,12 @@
         "de": "Gemeinschaft"
       },
       "note": {
-        "de": "Gemeinschaft; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Gemeinschaft",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +62,12 @@
         "de": "Verlust"
       },
       "note": {
-        "de": "Verlust; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Verlust"
+        ]
       }
     },
     {
@@ -52,7 +76,12 @@
         "de": "Tod"
       },
       "note": {
-        "de": "Tod; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Tod"
+        ]
       }
     }
   ],
@@ -60,9 +89,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52005",
     "prefLabel": {
       "de": "Religiöse Lebensgestaltung"
-    },
-    "note": {
-      "de": "Religiöse Lebensgestaltung; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -119,10 +145,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

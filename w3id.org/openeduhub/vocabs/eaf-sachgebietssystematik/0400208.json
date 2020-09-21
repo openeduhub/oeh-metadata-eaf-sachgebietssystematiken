@@ -7,15 +7,14 @@
     "de": "Baupraktische Anwendungen"
   },
   "note": {
-    "de": "Baupraktische Anwendungen"
+    "de": [
+      "Baupraktische Anwendungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04002",
     "prefLabel": {
       "de": "Bau, Architektur, Vermessung"
-    },
-    "note": {
-      "de": "Architektur; Vermessung"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,12 @@
     "de": "Literatur"
   },
   "note": {
-    "de": "Literatur; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Literatur",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,13 @@
         "de": "Märchen, Sagen"
       },
       "note": {
-        "de": "Märchen; Sagen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Märchen",
+          "Primarunterricht",
+          "Sagen"
+        ]
       }
     },
     {
@@ -25,7 +36,13 @@
         "de": "Übrige Kinder- und Jugendliteratur"
       },
       "note": {
-        "de": "Kinderliteratur; Jugendliteratur; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Jugendliteratur",
+          "Kinderliteratur",
+          "Primarunterricht"
+        ]
       }
     }
   ],
@@ -33,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28001",
     "prefLabel": {
       "de": "Deutsch"
-    },
-    "note": {
-      "de": "Deutsch; Deutschunterricht; Deutsch in der Grundschule; Grundschule; Grundschulunterricht; Primarunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

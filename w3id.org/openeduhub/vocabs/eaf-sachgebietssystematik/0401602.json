@@ -7,15 +7,15 @@
     "de": "Auto- und Straßenverkehr"
   },
   "note": {
-    "de": "Autoverkehr; Straßenverkehr"
+    "de": [
+      "Autoverkehr",
+      "Straßenverkehr"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04016",
     "prefLabel": {
       "de": "Verkehr und Logistik"
-    },
-    "note": {
-      "de": "Verkehr; Logistik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

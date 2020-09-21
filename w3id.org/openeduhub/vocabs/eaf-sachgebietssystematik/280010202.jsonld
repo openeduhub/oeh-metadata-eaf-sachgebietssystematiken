@@ -7,15 +7,18 @@
     "de": "Übrige Kinder- und Jugendliteratur"
   },
   "note": {
-    "de": "Kinderliteratur; Jugendliteratur; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Jugendliteratur",
+      "Kinderliteratur",
+      "Primarunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800102",
     "prefLabel": {
       "de": "Literatur"
-    },
-    "note": {
-      "de": "Literatur; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

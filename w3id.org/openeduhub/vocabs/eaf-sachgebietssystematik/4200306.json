@@ -7,15 +7,16 @@
     "de": "Funktionelle Musik"
   },
   "note": {
-    "de": "Funktionelle Musik; Musik; Musikunterricht"
+    "de": [
+      "Funktionelle Musik",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
     "prefLabel": {
       "de": "Musikarten"
-    },
-    "note": {
-      "de": "Musikarten; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

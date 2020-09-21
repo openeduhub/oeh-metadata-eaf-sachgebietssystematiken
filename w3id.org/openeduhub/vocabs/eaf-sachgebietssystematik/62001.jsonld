@@ -7,15 +7,16 @@
     "de": "Suchtursachen"
   },
   "note": {
-    "de": "Suchtursachen; Sucht; Prävention"
+    "de": [
+      "Prävention",
+      "Sucht",
+      "Suchtursachen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/620",
     "prefLabel": {
       "de": "SUCHT UND PRÄVENTION"
-    },
-    "note": {
-      "de": "Sucht; Prävention"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

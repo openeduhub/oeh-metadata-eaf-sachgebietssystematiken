@@ -7,15 +7,16 @@
     "de": "Gewalt, Aggression"
   },
   "note": {
-    "de": "Gewalt; Aggression; Actionfilm"
+    "de": [
+      "Actionfilm",
+      "Aggression",
+      "Gewalt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5800102",
     "prefLabel": {
       "de": "Kurzspielfilm"
-    },
-    "note": {
-      "de": "Kurzspielfilm; Spielfilm"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

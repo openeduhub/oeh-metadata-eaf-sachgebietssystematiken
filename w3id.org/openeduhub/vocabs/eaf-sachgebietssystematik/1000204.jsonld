@@ -7,15 +7,17 @@
     "de": "Arbeitsmethoden, Untersuchungsmethoden"
   },
   "note": {
-    "de": "chemische Arbeitsmethoden; chemische Untersuchungsmethoden; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "chemische Arbeitsmethoden",
+      "chemische Untersuchungsmethoden"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10002",
     "prefLabel": {
       "de": "Allgemeine Chemie"
-    },
-    "note": {
-      "de": "Allgemeine Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

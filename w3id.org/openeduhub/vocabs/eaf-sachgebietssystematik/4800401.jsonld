@@ -7,15 +7,20 @@
     "de": "Bildung, Kultur, Forschung"
   },
   "note": {
-    "de": "Bildungspolitik; Kulturpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Bildungspolitik",
+      "Gesellschaftslehre",
+      "Kulturpolitik",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
     "prefLabel": {
       "de": "Politikfelder"
-    },
-    "note": {
-      "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

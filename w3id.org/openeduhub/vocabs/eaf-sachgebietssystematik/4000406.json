@@ -7,7 +7,10 @@
     "de": "Analysieren und Reflektieren"
   },
   "note": {
-    "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Analysieren und Reflektieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Medien analysieren und bewerten"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt; Medienanalyse"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt",
+          "Medienanalyse"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Medien in der digitalen Welt verstehen und reflektieren"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -33,9 +43,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004",
     "prefLabel": {
       "de": "Kompetenzen in der digitalen Welt"
-    },
-    "note": {
-      "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
     }
   },
   "inScheme": {
@@ -92,10 +99,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

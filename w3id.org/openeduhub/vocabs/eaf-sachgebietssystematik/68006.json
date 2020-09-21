@@ -7,15 +7,14 @@
     "de": "Wirtschaftliche Weiterbildung"
   },
   "note": {
-    "de": "Wirtschaftliche Weiterbildung"
+    "de": [
+      "Wirtschaftliche Weiterbildung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/680",
     "prefLabel": {
       "de": "WEITERBILDUNG"
-    },
-    "note": {
-      "de": "Weiterbildung"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

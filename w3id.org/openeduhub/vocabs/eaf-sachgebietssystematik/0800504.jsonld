@@ -7,7 +7,11 @@
     "de": "Wirbeltiere"
   },
   "note": {
-    "de": "Wirbeltiere; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Wirbeltiere"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Fische"
       },
       "note": {
-        "de": "Fische; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Fische"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Lurche"
       },
       "note": {
-        "de": "Lurche; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Lurche"
+        ]
       }
     },
     {
@@ -34,7 +46,12 @@
         "de": "Kriechtiere"
       },
       "note": {
-        "de": "Kriechtiere; Reptilien; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Kriechtiere",
+          "Reptilien"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Vögel"
       },
       "note": {
-        "de": "Vögel; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Vögel"
+        ]
       }
     },
     {
@@ -52,7 +73,11 @@
         "de": "Säugetiere"
       },
       "note": {
-        "de": "Säugetiere; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Säugetiere"
+        ]
       }
     }
   ],
@@ -60,9 +85,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08005",
     "prefLabel": {
       "de": "Zoologie"
-    },
-    "note": {
-      "de": "Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -119,10 +141,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

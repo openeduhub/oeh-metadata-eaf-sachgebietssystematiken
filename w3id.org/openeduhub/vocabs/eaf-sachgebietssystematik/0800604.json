@@ -7,15 +7,16 @@
     "de": "Fortpflanzung und Entwicklung"
   },
   "note": {
-    "de": "Fortpflanzung; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Fortpflanzung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08006",
     "prefLabel": {
       "de": "Menschenkunde"
-    },
-    "note": {
-      "de": "Menschenkunde; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,9 @@
     "de": "Farbtechnik"
   },
   "note": {
-    "de": "Farbtechnik"
+    "de": [
+      "Farbtechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Optik, Farbenlehre"
       },
       "note": {
-        "de": "Optik; Farbenlehre"
+        "de": [
+          "Farbenlehre",
+          "Optik"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Untergründe"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Beschichtungstechniken"
       },
       "note": {
-        "de": "Beschichtungstechnik"
+        "de": [
+          "Beschichtungstechnik"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Mit Farbe gestalten"
       },
       "note": {
-        "de": "Farbgestaltung"
+        "de": [
+          "Farbgestaltung"
+        ]
       }
     }
   ],
@@ -51,9 +62,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04007",
     "prefLabel": {
       "de": "Farbtechnik und Raumgestaltung"
-    },
-    "note": {
-      "de": "Farbtechnik; Raumgestaltung"
     }
   },
   "inScheme": {
@@ -110,10 +118,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

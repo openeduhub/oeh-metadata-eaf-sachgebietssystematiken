@@ -7,7 +7,9 @@
     "de": "INFORMATIONSTECHNISCHE BILDUNG"
   },
   "note": {
-    "de": "Informationstechnische Bildung"
+    "de": [
+      "Informationstechnische Bildung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Informationstechnische Grundbildung"
       },
       "note": {
-        "de": "Informationstechnische Grundbildung"
+        "de": [
+          "Informationstechnische Grundbildung"
+        ]
       }
     },
     {
@@ -25,7 +29,10 @@
         "de": "Informatik"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +41,11 @@
         "de": "Berufsbezogene informationstechnische Bildung"
       },
       "note": {
-        "de": "Berufsbezogene informationstechnische Bildung; Informatik; Informatikunterricht"
+        "de": [
+          "Berufsbezogene informationstechnische Bildung",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +54,11 @@
         "de": "Algorithmische Verfahren"
       },
       "note": {
-        "de": "Algorithmische Verfahren; Informatik; Informatikunterricht"
+        "de": [
+          "Algorithmische Verfahren",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     }
   ],
@@ -104,10 +119,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

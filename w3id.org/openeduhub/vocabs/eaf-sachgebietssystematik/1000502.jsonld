@@ -7,15 +7,22 @@
     "de": "Stoffe mit funktionellen Gruppen"
   },
   "note": {
-    "de": "Stoffe mit funktionellen Gruppen; Funktionelle Gruppe; Alkohole; Aldehyde; Ketone; Karbonsäuren; Aminoverbindungen; Chemieunterricht; Chemie"
+    "de": [
+      "Aldehyde",
+      "Alkohole",
+      "Aminoverbindungen",
+      "Chemie",
+      "Chemieunterricht",
+      "Funktionelle Gruppe",
+      "Karbonsäuren",
+      "Ketone",
+      "Stoffe mit funktionellen Gruppen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10005",
     "prefLabel": {
       "de": "Organische Chemie"
-    },
-    "note": {
-      "de": "Organische Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

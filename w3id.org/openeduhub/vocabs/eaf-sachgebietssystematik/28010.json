@@ -7,7 +7,14 @@
     "de": "Sachkunde"
   },
   "note": {
-    "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,15 @@
         "de": "Soziales Lernen"
       },
       "note": {
-        "de": "Soziales Lernen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Soziales Lernen"
+        ]
       }
     },
     {
@@ -25,7 +40,15 @@
         "de": "Ausländische Arbeitnehmer und ihre Familien"
       },
       "note": {
-        "de": "Ausländische Arbeitnehmer und ihre Familien; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Ausländische Arbeitnehmer und ihre Familien",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -34,7 +57,15 @@
         "de": "Behinderte"
       },
       "note": {
-        "de": "Behinderte; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Behinderte",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -43,7 +74,15 @@
         "de": "Familie"
       },
       "note": {
-        "de": "Familie; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Familie",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -52,7 +91,15 @@
         "de": "Schule"
       },
       "note": {
-        "de": "Schule; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Schule"
+        ]
       }
     },
     {
@@ -61,7 +108,15 @@
         "de": "Wohnen"
       },
       "note": {
-        "de": "Wohnen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Wohnen"
+        ]
       }
     },
     {
@@ -70,7 +125,15 @@
         "de": "Grunderfahrungen aus Naturwissenschaft und Technik"
       },
       "note": {
-        "de": "Grunderfahrungen aus Naturwissenschaft und Technik; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grunderfahrungen aus Naturwissenschaft und Technik",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -79,7 +142,15 @@
         "de": "Konsum"
       },
       "note": {
-        "de": "Konsum; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Konsum",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -88,7 +159,15 @@
         "de": "Freizeit"
       },
       "note": {
-        "de": "Freizeit; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Freizeit",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -97,7 +176,16 @@
         "de": "Öffentliche Einrichtungen und Aufgaben"
       },
       "note": {
-        "de": "Öffentliche Einrichtungen; Öffentliche Aufgaben; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Öffentliche Aufgaben",
+          "Öffentliche Einrichtungen"
+        ]
       }
     },
     {
@@ -106,7 +194,15 @@
         "de": "Arbeit"
       },
       "note": {
-        "de": "Arbeit; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Arbeit",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -115,7 +211,15 @@
         "de": "Verkehrserziehung"
       },
       "note": {
-        "de": "Verkehrserziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -124,7 +228,15 @@
         "de": "Umwelterziehung"
       },
       "note": {
-        "de": "Umwelterziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Umwelterziehung"
+        ]
       }
     },
     {
@@ -133,7 +245,15 @@
         "de": "Wetter"
       },
       "note": {
-        "de": "Wetter; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Wetter"
+        ]
       }
     },
     {
@@ -142,7 +262,15 @@
         "de": "Pflanzen"
       },
       "note": {
-        "de": "Pflanzen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Pflanzen",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -151,7 +279,15 @@
         "de": "Tiere"
       },
       "note": {
-        "de": "Tiere; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Tiere"
+        ]
       }
     },
     {
@@ -160,7 +296,15 @@
         "de": "Mensch"
       },
       "note": {
-        "de": "Mensch; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mensch",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -169,7 +313,16 @@
         "de": "Sucht und Prävention"
       },
       "note": {
-        "de": "Sucht; Prävention; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Prävention",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Sucht"
+        ]
       }
     },
     {
@@ -178,7 +331,15 @@
         "de": "Heimatkunde"
       },
       "note": {
-        "de": "Heimatkunde; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Heimatkunde",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -187,7 +348,19 @@
         "de": "Zeiterfahrungen"
       },
       "note": {
-        "de": "Zeiterfahrung; Zeitmessung; Uhrzeiten; Jahreszeiten; Kalender; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Jahreszeiten",
+          "Kalender",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Uhrzeiten",
+          "Zeiterfahrung",
+          "Zeitmessung"
+        ]
       }
     },
     {
@@ -196,7 +369,16 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht in der Grundschule; Sachkunde; Sachkundeunterricht; Bilingualer Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Bilingualer Sachkundeunterricht",
+          "Bilingualer Unterricht in der Grundschule",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     }
   ],
@@ -204,9 +386,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -263,10 +442,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

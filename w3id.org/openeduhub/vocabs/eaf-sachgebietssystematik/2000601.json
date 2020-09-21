@@ -7,15 +7,16 @@
     "de": "Sprachliche Fertigkeiten"
   },
   "note": {
-    "de": "Sprachliche Fertigkeiten; Russisch; Russischunterricht"
+    "de": [
+      "Russisch",
+      "Russischunterricht",
+      "Sprachliche Fertigkeiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20006",
     "prefLabel": {
       "de": "Russisch"
-    },
-    "note": {
-      "de": "Russisch; Russischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

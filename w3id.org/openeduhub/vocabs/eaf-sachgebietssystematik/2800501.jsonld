@@ -7,15 +7,18 @@
     "de": "Englisch"
   },
   "note": {
-    "de": "Englisch; Englischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Englisch",
+      "Englischunterricht",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28005",
     "prefLabel": {
       "de": "Fremdsprachen"
-    },
-    "note": {
-      "de": "Fremdsprachen; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

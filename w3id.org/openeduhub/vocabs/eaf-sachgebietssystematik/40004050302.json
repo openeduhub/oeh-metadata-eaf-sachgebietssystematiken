@@ -7,15 +7,15 @@
     "de": "Eigene Strategien zur Problemlösung mit anderen teilen"
   },
   "note": {
-    "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Problemlösen und Handeln",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040503",
     "prefLabel": {
       "de": "Eigene Defizite ermitteln und nach Lösungen suchen"
-    },
-    "note": {
-      "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

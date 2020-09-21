@@ -7,7 +7,11 @@
     "de": "RELIGION"
   },
   "note": {
-    "de": "Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Religionskunde"
       },
       "note": {
-        "de": "Religionskunde; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionskunde",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Bibel"
       },
       "note": {
-        "de": "Bibel; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Bibel",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +48,12 @@
         "de": "Kirche und Gesellschaft"
       },
       "note": {
-        "de": "Kirche und Gesellschaft; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirche und Gesellschaft",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +62,12 @@
         "de": "Kult und Frömmigkeit"
       },
       "note": {
-        "de": "Kult und Frömmigkeit; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kult und Frömmigkeit",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -52,7 +76,12 @@
         "de": "Religiöse Lebensgestaltung"
       },
       "note": {
-        "de": "Religiöse Lebensgestaltung; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Religiöse Lebensgestaltung"
+        ]
       }
     },
     {
@@ -61,7 +90,12 @@
         "de": "Religiöse Kunst"
       },
       "note": {
-        "de": "Religiöse Kunst; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Religiöse Kunst"
+        ]
       }
     }
   ],
@@ -122,10 +156,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

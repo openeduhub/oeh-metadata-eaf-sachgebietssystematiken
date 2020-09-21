@@ -7,7 +7,10 @@
     "de": "Persönliche Daten und Privatsphäre schützen"
   },
   "note": {
-    "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Schützen und sicher Agieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,12 @@
         "de": "Maßnahmen für Datensicherheit und gegen Datenmissbrauch berücksichtigen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt; Datenschutz; datenmissbrauch"
+        "de": [
+          "Datenschutz",
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt",
+          "datenmissbrauch"
+        ]
       }
     },
     {
@@ -25,7 +33,10 @@
         "de": "Privatsphäre in digitalen Umgebungen durch geeignete Maßnahmen schützen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +45,10 @@
         "de": "Sicherheitseinstellungen ständig aktualisieren"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +57,12 @@
         "de": "Jugendschutz- und Verbraucherschutzmaßnahmen berücksichtigen"
       },
       "note": {
-        "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt; Jugendschutz; Verbraucherschutz"
+        "de": [
+          "Jugendschutz",
+          "Kompetenzbereich Schützen und sicher Agieren",
+          "Kompetenzen in der digitalen Welt",
+          "Verbraucherschutz"
+        ]
       }
     }
   ],
@@ -51,9 +70,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000404",
     "prefLabel": {
       "de": "Schützen und sicher Agieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -110,10 +126,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

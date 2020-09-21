@@ -7,7 +7,10 @@
     "de": "Medien in der digitalen Welt verstehen und reflektieren"
   },
   "note": {
-    "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Analysieren und Reflektieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Vielfalt der digitalen Medienlandschaft kennen"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Chancen und Risiken des Mediengebrauchs in unterschiedlichen Lebensbereichen erkennen, eigenen Mediengebrauch reflektieren und ggf. modifizieren"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt; Mediennutzung"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt",
+          "Mediennutzung"
+        ]
       }
     },
     {
@@ -34,7 +44,10 @@
         "de": "Vorteile und Risiken von Geschäftsaktivitäten und Services im Internet analysieren und beurteilen"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +56,10 @@
         "de": "Wirtschaftliche Bedeutung der digitalen Medien und digitaler Technologien kennen und sie für eigene Geschäftsideen nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -52,7 +68,11 @@
         "de": "Die Bedeutung von digitalen Medien für die politische Meinungsbildung und Entscheidungsfindung kennen und nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt; Medienwirkung"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt",
+          "Medienwirkung"
+        ]
       }
     },
     {
@@ -61,7 +81,10 @@
         "de": "Potenziale der Digitalisierung im Sinne sozialer Integration und sozialer Teilhabe erkennen, analysieren und reflektieren"
       },
       "note": {
-        "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Analysieren und Reflektieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -69,9 +92,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000406",
     "prefLabel": {
       "de": "Analysieren und Reflektieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -128,10 +148,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

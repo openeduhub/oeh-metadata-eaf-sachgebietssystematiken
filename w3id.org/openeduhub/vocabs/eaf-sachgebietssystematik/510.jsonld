@@ -7,7 +7,9 @@
     "de": "PSYCHOLOGIE"
   },
   "note": {
-    "de": "Psychologie"
+    "de": [
+      "Psychologie"
+    ]
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
@@ -66,10 +68,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

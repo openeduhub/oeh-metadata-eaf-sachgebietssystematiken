@@ -7,15 +7,15 @@
     "de": "Gesellschaftliche Bedingungen"
   },
   "note": {
-    "de": "Gesellschaftliche Bedingungen; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Gesellschaftliche Bedingungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/02001",
     "prefLabel": {
       "de": "Hinführung zur Arbeitswelt"
-    },
-    "note": {
-      "de": "Arbeitswelt; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

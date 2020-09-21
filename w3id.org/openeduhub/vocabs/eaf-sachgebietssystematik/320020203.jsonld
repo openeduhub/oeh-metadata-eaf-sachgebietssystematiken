@@ -7,15 +7,17 @@
     "de": "Internet und Telekommunikation"
   },
   "note": {
-    "de": "Internet; Telekommunikation; Informatik; Informatikunterricht"
+    "de": [
+      "Informatik",
+      "Informatikunterricht",
+      "Internet",
+      "Telekommunikation"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200202",
     "prefLabel": {
       "de": "Angewandte Informatik"
-    },
-    "note": {
-      "de": "Angewandte Informatik; Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

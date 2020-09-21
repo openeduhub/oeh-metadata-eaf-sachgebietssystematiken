@@ -7,7 +7,10 @@
     "de": "Lebensbewältigung"
   },
   "note": {
-    "de": "Lebensbewältigung von Kindern; Lebensbewältigung von Jugendlichen"
+    "de": [
+      "Lebensbewältigung von Jugendlichen",
+      "Lebensbewältigung von Kindern"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Beziehungen und Beziehungskonflikte"
       },
       "note": {
-        "de": "Beziehungen; Beziehungskonflikte"
+        "de": [
+          "Beziehungen",
+          "Beziehungskonflikte"
+        ]
       }
     },
     {
@@ -25,7 +31,9 @@
         "de": "Lebenskrisen"
       },
       "note": {
-        "de": "Lebenskrisen"
+        "de": [
+          "Lebenskrisen"
+        ]
       }
     }
   ],
@@ -33,9 +41,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/360",
     "prefLabel": {
       "de": "KINDER- UND JUGENDBILDUNG"
-    },
-    "note": {
-      "de": "Kinder- und Jugendbildung"
     }
   },
   "inScheme": {
@@ -92,10 +97,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

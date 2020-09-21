@@ -7,7 +7,10 @@
     "de": "Grundlagen"
   },
   "note": {
-    "de": "Grundlagen; Medienpädagogik"
+    "de": [
+      "Grundlagen",
+      "Medienpädagogik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Kommunikationslehre"
       },
       "note": {
-        "de": "Kommunikationslehre; Medienpädagogik"
+        "de": [
+          "Kommunikationslehre",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Mediennutzung, Medienwirkung"
       },
       "note": {
-        "de": "Mediennutzung; Medienwirkung; Medienpädagogik"
+        "de": [
+          "Mediennutzung",
+          "Medienpädagogik",
+          "Medienwirkung"
+        ]
       }
     },
     {
@@ -34,7 +44,10 @@
         "de": "Medien im gesellschaftlichen System"
       },
       "note": {
-        "de": "Medien im gesellschaftlichen System; Medienpädagogik"
+        "de": [
+          "Medien im gesellschaftlichen System",
+          "Medienpädagogik"
+        ]
       }
     }
   ],
@@ -42,9 +55,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400",
     "prefLabel": {
       "de": "MEDIENPÄDAGOGIK"
-    },
-    "note": {
-      "de": "Medienpädagogik"
     }
   },
   "inScheme": {
@@ -101,10 +111,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

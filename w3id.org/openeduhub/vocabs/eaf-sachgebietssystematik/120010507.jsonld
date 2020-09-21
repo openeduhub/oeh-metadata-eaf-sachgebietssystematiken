@@ -7,15 +7,19 @@
     "de": "Biographien"
   },
   "note": {
-    "de": "Biographien; Biographien bekannter Autoren und Schriftsteller; Biografien; Biografien bekannter Autoren und Schriftsteller; Deutsch; Deutschunterricht"
+    "de": [
+      "Biografien",
+      "Biografien bekannter Autoren und Schriftsteller",
+      "Biographien",
+      "Biographien bekannter Autoren und Schriftsteller",
+      "Deutsch",
+      "Deutschunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200105",
     "prefLabel": {
       "de": "Literaturgeschichte"
-    },
-    "note": {
-      "de": "Literaturgeschichte; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

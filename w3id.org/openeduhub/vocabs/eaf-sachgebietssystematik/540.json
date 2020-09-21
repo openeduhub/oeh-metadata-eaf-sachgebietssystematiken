@@ -7,7 +7,11 @@
     "de": "RETTEN, HELFEN, SCHÜTZEN"
   },
   "note": {
-    "de": "Retten; Helfen; Schützen"
+    "de": [
+      "Helfen",
+      "Retten",
+      "Schützen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,9 @@
         "de": "Unfallverhütung"
       },
       "note": {
-        "de": "Unfallverhütung"
+        "de": [
+          "Unfallverhütung"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Brandschutz, Brandbekämpfung"
       },
       "note": {
-        "de": "Brandschutz; Brandbekämpfung"
+        "de": [
+          "Brandbekämpfung",
+          "Brandschutz"
+        ]
       }
     },
     {
@@ -34,7 +43,9 @@
         "de": "Katastrophenschutz"
       },
       "note": {
-        "de": "Katastrophenschutz"
+        "de": [
+          "Katastrophenschutz"
+        ]
       }
     },
     {
@@ -43,7 +54,10 @@
         "de": "Hilfsdienste, Rettungsdienste"
       },
       "note": {
-        "de": "Hilfsdienste; Rettungsdienste"
+        "de": [
+          "Hilfsdienste",
+          "Rettungsdienste"
+        ]
       }
     },
     {
@@ -52,7 +66,9 @@
         "de": "Erste Hilfe"
       },
       "note": {
-        "de": "Erste Hilfe"
+        "de": [
+          "Erste Hilfe"
+        ]
       }
     }
   ],
@@ -113,10 +129,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

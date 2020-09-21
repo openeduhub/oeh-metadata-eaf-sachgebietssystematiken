@@ -4,15 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040050107",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040050107",
   "note": {
-    "de": "Gebäudetechnik; Haustechnik"
+    "de": [
+      "Gebäudetechnik",
+      "Haustechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400501",
     "prefLabel": {
       "de": "Aufgabenbereiche"
-    },
-    "note": {
-      "de": "NaN"
     }
   },
   "inScheme": {
@@ -69,10 +69,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

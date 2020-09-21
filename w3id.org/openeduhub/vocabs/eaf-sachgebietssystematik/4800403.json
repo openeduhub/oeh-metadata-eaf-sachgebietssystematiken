@@ -7,7 +7,14 @@
     "de": "Internationale Beziehungen"
   },
   "note": {
-    "de": "Internationale Beziehungen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Internationale Beziehungen",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,14 @@
         "de": "Europäische Union"
       },
       "note": {
-        "de": "Europäische Union; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Europäische Union",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +39,13 @@
         "de": "Sonstige europäische Aspekte"
       },
       "note": {
-        "de": "Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +54,14 @@
         "de": "Außereuropäische Beziehungen"
       },
       "note": {
-        "de": "Außereuropäische Beziehungen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Außereuropäische Beziehungen",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -43,7 +70,15 @@
         "de": "Dritte Welt, Entwicklungspolitik"
       },
       "note": {
-        "de": "Dritte Welt; Entwicklungspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Dritte Welt",
+          "Entwicklungspolitik",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -52,7 +87,16 @@
         "de": "Konflikte"
       },
       "note": {
-        "de": "Konflikte; Krisenherd; Krisenregion; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Konflikte",
+          "Krisenherd",
+          "Krisenregion",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -61,7 +105,15 @@
         "de": "Friedenspolitik, Sicherheitspolitik"
       },
       "note": {
-        "de": "Friedenspolitik; Sicherheitspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Friedenspolitik",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sicherheitspolitik",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -70,7 +122,13 @@
         "de": "Internationale Hilfsorganisationen und Interessensvertretungen"
       },
       "note": {
-        "de": "Internationale Hilfsorganisationen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Internationale Hilfsorganisationen",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -79,7 +137,13 @@
         "de": "Globalisierung"
       },
       "note": {
-        "de": "Globalisierung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Globalisierung",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -87,9 +151,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
     "prefLabel": {
       "de": "Politikfelder"
-    },
-    "note": {
-      "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -146,10 +207,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

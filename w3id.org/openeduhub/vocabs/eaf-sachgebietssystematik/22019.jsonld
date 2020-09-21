@@ -7,7 +7,13 @@
     "de": "Europa"
   },
   "note": {
-    "de": "Europa; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Europa",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,13 @@
         "de": "Nordeuropa"
       },
       "note": {
-        "de": "Nordeuropa; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Nordeuropa"
+        ]
       }
     },
     {
@@ -25,7 +37,13 @@
         "de": "Westeuropa"
       },
       "note": {
-        "de": "Westeuropa; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Westeuropa"
+        ]
       }
     },
     {
@@ -34,7 +52,13 @@
         "de": "Alpenländer"
       },
       "note": {
-        "de": "Alpenländer; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Alpenländer",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -43,7 +67,14 @@
         "de": "Osteuropa und Ostmitteleuropa"
       },
       "note": {
-        "de": "Osteuropa; Ostmitteleuropa; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Osteuropa",
+          "Ostmitteleuropa"
+        ]
       }
     },
     {
@@ -52,7 +83,14 @@
         "de": "Südeuropa und Südosteuropa"
       },
       "note": {
-        "de": "Südeuropa; Südosteuropa; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Südeuropa",
+          "Südosteuropa"
+        ]
       }
     },
     {
@@ -61,7 +99,12 @@
         "de": "Allgemeines"
       },
       "note": {
-        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -69,9 +112,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -128,10 +168,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

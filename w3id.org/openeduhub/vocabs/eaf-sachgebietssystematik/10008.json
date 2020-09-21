@@ -7,15 +7,17 @@
     "de": "Biographien"
   },
   "note": {
-    "de": "Biographien; Biografien; Chemieunterricht; Chemie"
+    "de": [
+      "Biografien",
+      "Biographien",
+      "Chemie",
+      "Chemieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
-    },
-    "note": {
-      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

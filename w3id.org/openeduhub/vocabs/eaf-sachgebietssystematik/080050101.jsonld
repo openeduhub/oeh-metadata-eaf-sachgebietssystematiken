@@ -7,15 +7,19 @@
     "de": "Gestalt und Bau"
   },
   "note": {
-    "de": "Gestalt und Bau; Anatomie; Tieranatomie; Körperbau; Biologieunterricht; Biologie"
+    "de": [
+      "Anatomie",
+      "Biologie",
+      "Biologieunterricht",
+      "Gestalt und Bau",
+      "Körperbau",
+      "Tieranatomie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800501",
     "prefLabel": {
       "de": "Allgemeine Zoologie"
-    },
-    "note": {
-      "de": "Allgemeine Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

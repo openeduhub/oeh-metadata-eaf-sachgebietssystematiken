@@ -7,15 +7,15 @@
     "de": "Weitere Themen der neueren europäischen Geschichte"
   },
   "note": {
-    "de": "Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400204",
     "prefLabel": {
       "de": "Neuere Geschichte"
-    },
-    "note": {
-      "de": "Neuere Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

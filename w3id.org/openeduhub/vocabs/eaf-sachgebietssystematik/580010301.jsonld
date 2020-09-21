@@ -7,14 +7,14 @@
     "de": "Zeichentrick"
   },
   "note": {
-    "de": "Zeichentrick; Zeichentrickfilm"
+    "de": [
+      "Zeichentrick",
+      "Zeichentrickfilm"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5800103",
     "prefLabel": {
-      "de": "Trickfilm"
-    },
-    "note": {
       "de": "Trickfilm"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

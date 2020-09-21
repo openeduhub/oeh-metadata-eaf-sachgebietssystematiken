@@ -7,15 +7,22 @@
     "de": "Polymere Stoffe, Naturstoffe"
   },
   "note": {
-    "de": "Polymere Stoffe; Naturstoffe; Kohlehydrate; Fette; Proteine; Kunststoffe; Nukleinsäuren; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Fette",
+      "Kohlehydrate",
+      "Kunststoffe",
+      "Naturstoffe",
+      "Nukleinsäuren",
+      "Polymere Stoffe",
+      "Proteine"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10005",
     "prefLabel": {
       "de": "Organische Chemie"
-    },
-    "note": {
-      "de": "Organische Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

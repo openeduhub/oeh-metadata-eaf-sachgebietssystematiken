@@ -7,7 +7,10 @@
     "de": "Gesundheit und Pflege"
   },
   "note": {
-    "de": "Gesundheit; Pflege"
+    "de": [
+      "Gesundheit",
+      "Pflege"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Medizinische Grundlagen"
       },
       "note": {
-        "de": "Medizinische Grundlagen"
+        "de": [
+          "Medizinische Grundlagen"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Gesunderhaltung"
       },
       "note": {
-        "de": "Gesunderhaltung"
+        "de": [
+          "Gesunderhaltung"
+        ]
       }
     },
     {
@@ -34,7 +41,10 @@
         "de": "Vorbeugung"
       },
       "note": {
-        "de": "Vorbeugung; Prävention"
+        "de": [
+          "Prävention",
+          "Vorbeugung"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Erste Hilfe"
       },
       "note": {
-        "de": "Erste Hilfe"
+        "de": [
+          "Erste Hilfe"
+        ]
       }
     },
     {
@@ -52,7 +64,10 @@
         "de": "Therapie"
       },
       "note": {
-        "de": "Therapie; Heilpädagogik"
+        "de": [
+          "Heilpädagogik",
+          "Therapie"
+        ]
       }
     },
     {
@@ -61,7 +76,9 @@
         "de": "Rehabilitation"
       },
       "note": {
-        "de": "Rehabilitation"
+        "de": [
+          "Rehabilitation"
+        ]
       }
     },
     {
@@ -70,7 +87,9 @@
         "de": "Ernährung"
       },
       "note": {
-        "de": "Ernährung"
+        "de": [
+          "Ernährung"
+        ]
       }
     },
     {
@@ -79,7 +98,9 @@
         "de": "Pflege"
       },
       "note": {
-        "de": "Pflege"
+        "de": [
+          "Pflege"
+        ]
       }
     }
   ],
@@ -87,9 +108,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -146,10 +164,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

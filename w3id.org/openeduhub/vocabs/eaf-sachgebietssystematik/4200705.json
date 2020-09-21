@@ -7,15 +7,18 @@
     "de": "Notation"
   },
   "note": {
-    "de": "Notation; Notation in der Musik; Notenschrift; Musik; Musikunterricht"
+    "de": [
+      "Musik",
+      "Musikunterricht",
+      "Notation",
+      "Notation in der Musik",
+      "Notenschrift"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42007",
     "prefLabel": {
       "de": "Musiktheorie"
-    },
-    "note": {
-      "de": "Musiktheorie; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

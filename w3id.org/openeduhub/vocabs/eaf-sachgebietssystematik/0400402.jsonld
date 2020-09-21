@@ -7,7 +7,10 @@
     "de": "Druck und Medien"
   },
   "note": {
-    "de": "Drucktechnik; Medientechnik"
+    "de": [
+      "Drucktechnik",
+      "Medientechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Medientechnologie"
       },
       "note": {
-        "de": "Medientechnologie"
+        "de": [
+          "Medientechnologie"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Mediengestaltung"
       },
       "note": {
-        "de": "Mediengestaltung"
+        "de": [
+          "Mediengestaltung"
+        ]
       }
     }
   ],
@@ -33,9 +40,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04004",
     "prefLabel": {
       "de": "IT- und Medientechnik"
-    },
-    "note": {
-      "de": "Informationstechnik; Medientechnik; Informationstechnologie; Mediengestaltung; IT-Technik"
     }
   },
   "inScheme": {
@@ -92,10 +96,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

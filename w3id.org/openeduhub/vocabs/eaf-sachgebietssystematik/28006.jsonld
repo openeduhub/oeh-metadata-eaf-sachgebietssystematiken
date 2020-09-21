@@ -7,15 +7,19 @@
     "de": "Kunst, Werken, Textiles Gestalten"
   },
   "note": {
-    "de": "Kunst; Werken; Textiles Gestalten; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Kunst",
+      "Primarunterricht",
+      "Textiles Gestalten",
+      "Werken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

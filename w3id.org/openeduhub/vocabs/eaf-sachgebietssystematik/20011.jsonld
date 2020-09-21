@@ -7,7 +7,10 @@
     "de": "Polnisch"
   },
   "note": {
-    "de": "Polnisch; Polnischunterricht"
+    "de": [
+      "Polnisch",
+      "Polnischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Polnisch; Polnischunterricht"
+        "de": [
+          "Polnisch",
+          "Polnischunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Polens; Polnisch; Polnischunterricht"
+        "de": [
+          "Landeskunde Polens",
+          "Polnisch",
+          "Polnischunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Polens; Medien; Polnisch; Polnischunterricht"
+        "de": [
+          "Literatur Polens",
+          "Medien",
+          "Polnisch",
+          "Polnischunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Polnisch; Polnischunterricht"
+        "de": [
+          "Polnisch",
+          "Polnischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Polnisch; Polnischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Polnisch",
+          "Polnischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

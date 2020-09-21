@@ -7,15 +7,16 @@
     "de": "Chemische Kinetik"
   },
   "note": {
-    "de": "Chemische Kinetik; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Chemische Kinetik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10003",
     "prefLabel": {
       "de": "Physikalische Chemie"
-    },
-    "note": {
-      "de": "Physikalische Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

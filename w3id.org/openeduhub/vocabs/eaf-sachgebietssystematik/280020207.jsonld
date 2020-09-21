@@ -7,15 +7,17 @@
     "de": "Übersetzen"
   },
   "note": {
-    "de": "Übersetzen; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Übersetzen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800202",
     "prefLabel": {
       "de": "Fertigkeitsbezogene Ordnung"
-    },
-    "note": {
-      "de": "Fertigkeitsbezogene Ordnung; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

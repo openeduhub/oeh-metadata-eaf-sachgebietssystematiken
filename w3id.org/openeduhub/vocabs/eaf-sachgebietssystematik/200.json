@@ -7,7 +7,9 @@
     "de": "FREMDSPRACHEN"
   },
   "note": {
-    "de": "Fremdsprachen"
+    "de": [
+      "Fremdsprachen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Englisch"
       },
       "note": {
-        "de": "Englisch; Englischunterricht"
+        "de": [
+          "Englisch",
+          "Englischunterricht"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Französisch"
       },
       "note": {
-        "de": "Französisch; Französischunterricht"
+        "de": [
+          "Französisch",
+          "Französischunterricht"
+        ]
       }
     },
     {
@@ -34,7 +42,10 @@
         "de": "Griechisch"
       },
       "note": {
-        "de": "Griechisch; Griechischunterricht"
+        "de": [
+          "Griechisch",
+          "Griechischunterricht"
+        ]
       }
     },
     {
@@ -43,7 +54,10 @@
         "de": "Italienisch"
       },
       "note": {
-        "de": "Italienisch; Italienischunterricht"
+        "de": [
+          "Italienisch",
+          "Italienischunterricht"
+        ]
       }
     },
     {
@@ -52,7 +66,10 @@
         "de": "Latein"
       },
       "note": {
-        "de": "Latein; Lateinunterricht"
+        "de": [
+          "Latein",
+          "Lateinunterricht"
+        ]
       }
     },
     {
@@ -61,7 +78,10 @@
         "de": "Russisch"
       },
       "note": {
-        "de": "Russisch; Russischunterricht"
+        "de": [
+          "Russisch",
+          "Russischunterricht"
+        ]
       }
     },
     {
@@ -70,7 +90,10 @@
         "de": "Spanisch"
       },
       "note": {
-        "de": "Spanisch; Spanischunterricht"
+        "de": [
+          "Spanisch",
+          "Spanischunterricht"
+        ]
       }
     },
     {
@@ -79,7 +102,10 @@
         "de": "Türkisch"
       },
       "note": {
-        "de": "Türkisch; Türkischunterricht"
+        "de": [
+          "Türkisch",
+          "Türkischunterricht"
+        ]
       }
     },
     {
@@ -88,7 +114,10 @@
         "de": "Sorbisch"
       },
       "note": {
-        "de": "Sorbisch; Sorbischunterricht"
+        "de": [
+          "Sorbisch",
+          "Sorbischunterricht"
+        ]
       }
     },
     {
@@ -97,7 +126,10 @@
         "de": "Dänisch"
       },
       "note": {
-        "de": "Dänisch; Dänischunterricht"
+        "de": [
+          "Dänisch",
+          "Dänischunterricht"
+        ]
       }
     },
     {
@@ -106,7 +138,10 @@
         "de": "Polnisch"
       },
       "note": {
-        "de": "Polnisch; Polnischunterricht"
+        "de": [
+          "Polnisch",
+          "Polnischunterricht"
+        ]
       }
     },
     {
@@ -115,7 +150,10 @@
         "de": "Tschechisch"
       },
       "note": {
-        "de": "Tschechisch; Tschechischunterricht"
+        "de": [
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     },
     {
@@ -124,7 +162,10 @@
         "de": "Niederländisch"
       },
       "note": {
-        "de": "Niederländisch; Niederländischunterricht"
+        "de": [
+          "Niederländisch",
+          "Niederländischunterricht"
+        ]
       }
     },
     {
@@ -133,7 +174,10 @@
         "de": "Portugisisch"
       },
       "note": {
-        "de": "Portugisisch; Portugisischunterricht"
+        "de": [
+          "Portugisisch",
+          "Portugisischunterricht"
+        ]
       }
     },
     {
@@ -142,7 +186,9 @@
         "de": "Weitere europäische Fremdsprachen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -151,7 +197,10 @@
         "de": "Chinesisch"
       },
       "note": {
-        "de": "Chinesisch; Chinesischunterricht"
+        "de": [
+          "Chinesisch",
+          "Chinesischunterricht"
+        ]
       }
     },
     {
@@ -160,7 +209,10 @@
         "de": "Japanisch"
       },
       "note": {
-        "de": "Japanisch; Japanischunterricht"
+        "de": [
+          "Japanisch",
+          "Japanischunterricht"
+        ]
       }
     },
     {
@@ -169,7 +221,9 @@
         "de": "Weitere außereuropäische Fremdsprachen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -178,7 +232,9 @@
         "de": "Esperanto"
       },
       "note": {
-        "de": "Esperanto"
+        "de": [
+          "Esperanto"
+        ]
       }
     }
   ],
@@ -239,10 +295,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,16 @@
     "de": "Quantentheorie"
   },
   "note": {
-    "de": "Quantentheorie; Physik; Physikunterricht"
+    "de": [
+      "Physik",
+      "Physikunterricht",
+      "Quantentheorie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
-    },
-    "note": {
-      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

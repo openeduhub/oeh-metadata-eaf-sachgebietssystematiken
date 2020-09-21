@@ -7,15 +7,18 @@
     "de": "Verhalten"
   },
   "note": {
-    "de": "Verhalten; Verhaltensbiologie; Verhalten des Menschen; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Verhalten",
+      "Verhalten des Menschen",
+      "Verhaltensbiologie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08006",
     "prefLabel": {
       "de": "Menschenkunde"
-    },
-    "note": {
-      "de": "Menschenkunde; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

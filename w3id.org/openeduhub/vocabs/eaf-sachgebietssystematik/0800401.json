@@ -7,15 +7,16 @@
     "de": "Allgemeine Botanik"
   },
   "note": {
-    "de": "Allgemeine Botanik; Biologieunterricht; Biologie"
+    "de": [
+      "Allgemeine Botanik",
+      "Biologie",
+      "Biologieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08004",
     "prefLabel": {
       "de": "Botanik"
-    },
-    "note": {
-      "de": "Botanik; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

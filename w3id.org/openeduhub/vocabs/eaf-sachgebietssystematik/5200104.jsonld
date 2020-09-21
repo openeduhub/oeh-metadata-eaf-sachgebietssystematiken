@@ -7,15 +7,18 @@
     "de": "Sekten, neue religiöse Strömungen"
   },
   "note": {
-    "de": "Sekten; neue religiöse Strömungen; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht",
+      "Sekten",
+      "neue religiöse Strömungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52001",
     "prefLabel": {
       "de": "Religionskunde"
-    },
-    "note": {
-      "de": "Religionskunde; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

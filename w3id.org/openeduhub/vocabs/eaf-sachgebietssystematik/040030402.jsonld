@@ -7,14 +7,15 @@
     "de": "Meteorologie"
   },
   "note": {
-    "de": "Meteorologie; Wettervorhersage; Klimatologie"
+    "de": [
+      "Klimatologie",
+      "Meteorologie",
+      "Wettervorhersage"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400304",
     "prefLabel": {
-      "de": "Geowissenschaften"
-    },
-    "note": {
       "de": "Geowissenschaften"
     }
   },
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

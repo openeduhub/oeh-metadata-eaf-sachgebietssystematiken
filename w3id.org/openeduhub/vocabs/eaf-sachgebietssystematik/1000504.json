@@ -7,15 +7,17 @@
     "de": "Reaktionsmechanismen"
   },
   "note": {
-    "de": "Reaktionsmechanismen; Reaktionsmechanismus; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Reaktionsmechanismen",
+      "Reaktionsmechanismus"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10005",
     "prefLabel": {
       "de": "Organische Chemie"
-    },
-    "note": {
-      "de": "Organische Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

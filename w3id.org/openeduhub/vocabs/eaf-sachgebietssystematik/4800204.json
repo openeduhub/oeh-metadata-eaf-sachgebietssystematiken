@@ -7,7 +7,14 @@
     "de": "Politische Ordnung des Bundes"
   },
   "note": {
-    "de": "Politische Ordnung des Bundes; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Politische Ordnung des Bundes",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,14 @@
         "de": "Bundestagswahl"
       },
       "note": {
-        "de": "Bundestagswahl; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Bundestagswahl",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +39,15 @@
         "de": "Parlamentarisches Regierungssystem"
       },
       "note": {
-        "de": "Parlamentarisches Regierungssystem; Regierung; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Parlamentarisches Regierungssystem",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Regierung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +56,14 @@
         "de": "Bundesgesetzgebung"
       },
       "note": {
-        "de": "Bundesgesetzgebung; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Bundesgesetzgebung",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -43,7 +72,14 @@
         "de": "Zusammenwirken von Bund und Ländern"
       },
       "note": {
-        "de": "Zusammenwirken von Bund und Ländern; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde",
+          "Zusammenwirken von Bund und Ländern"
+        ]
       }
     }
   ],
@@ -51,9 +87,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48002",
     "prefLabel": {
       "de": "Politisches System der Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -110,10 +143,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

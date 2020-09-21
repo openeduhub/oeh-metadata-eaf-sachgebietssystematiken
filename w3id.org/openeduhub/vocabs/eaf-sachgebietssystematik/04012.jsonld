@@ -7,7 +7,10 @@
     "de": "Textiltechnik und Bekleidung"
   },
   "note": {
-    "de": "Textiltechnik; Bekleidung"
+    "de": [
+      "Bekleidung",
+      "Textiltechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Textilrohstoffe"
       },
       "note": {
-        "de": "Textilrohstoffe"
+        "de": [
+          "Textilrohstoffe"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Textilherstellung"
       },
       "note": {
-        "de": "Textilherstellung"
+        "de": [
+          "Textilherstellung"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Textilmaschinen"
       },
       "note": {
-        "de": "Textilmaschinen"
+        "de": [
+          "Textilmaschinen"
+        ]
       }
     },
     {
@@ -43,7 +52,10 @@
         "de": "extilveredlung und -verzierung"
       },
       "note": {
-        "de": "Textilveredlung; Textilverzierung"
+        "de": [
+          "Textilveredlung",
+          "Textilverzierung"
+        ]
       }
     },
     {
@@ -52,7 +64,9 @@
         "de": "Textliverarbeitung"
       },
       "note": {
-        "de": "Textilverarbeitung"
+        "de": [
+          "Textilverarbeitung"
+        ]
       }
     },
     {
@@ -61,7 +75,9 @@
         "de": "Leder"
       },
       "note": {
-        "de": "Leder"
+        "de": [
+          "Leder"
+        ]
       }
     },
     {
@@ -70,7 +86,9 @@
         "de": "Textilpflege"
       },
       "note": {
-        "de": "Textilpflege"
+        "de": [
+          "Textilpflege"
+        ]
       }
     }
   ],
@@ -78,9 +96,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -137,10 +152,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

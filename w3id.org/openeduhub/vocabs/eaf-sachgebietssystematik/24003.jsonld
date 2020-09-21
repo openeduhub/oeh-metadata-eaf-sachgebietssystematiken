@@ -7,7 +7,12 @@
     "de": "Landes- und Regionalgeschichte"
   },
   "note": {
-    "de": "Landesgeschichte; Regionalgeschichte; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Landesgeschichte",
+      "Regionalgeschichte"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,10 @@
         "de": "Landesgeschichte"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,10 @@
         "de": "Regionalgeschichte, Lokalgeschichte"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     }
   ],
@@ -33,9 +44,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240",
     "prefLabel": {
       "de": "GESCHICHTE"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +100,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

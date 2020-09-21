@@ -7,15 +7,17 @@
     "de": "Literatur, Medien"
   },
   "note": {
-    "de": "Literatur; Medien; Latein; Lateinunterricht"
+    "de": [
+      "Latein",
+      "Lateinunterricht",
+      "Literatur",
+      "Medien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20005",
     "prefLabel": {
       "de": "Latein"
-    },
-    "note": {
-      "de": "Latein; Lateinunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

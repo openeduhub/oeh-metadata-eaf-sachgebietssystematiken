@@ -7,7 +7,9 @@
     "de": "Aufgabenbereiche"
   },
   "note": {
-    "de": "NaN"
+    "de": [
+      "NaN"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Energietechnik"
       },
       "note": {
-        "de": "Energietechnik"
+        "de": [
+          "Energietechnik"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Antriebstechnik"
       },
       "note": {
-        "de": "Antriebstechnik"
+        "de": [
+          "Antriebstechnik"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Nachrichtentechnik"
       },
       "note": {
-        "de": "Nachrichtentechnik"
+        "de": [
+          "Nachrichtentechnik"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Elektronik"
       },
       "note": {
-        "de": "Elektronik"
+        "de": [
+          "Elektronik"
+        ]
       }
     },
     {
@@ -52,7 +62,10 @@
         "de": "Mechatronik, Automatisierungstechnik"
       },
       "note": {
-        "de": "Mechatronik; Automatisierungstechnik"
+        "de": [
+          "Automatisierungstechnik",
+          "Mechatronik"
+        ]
       }
     },
     {
@@ -61,13 +74,19 @@
         "de": "Elektronische Gerätetechnik"
       },
       "note": {
-        "de": "Elektronische Gerätetechnik; Gerätetechnik"
+        "de": [
+          "Elektronische Gerätetechnik",
+          "Gerätetechnik"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040050107",
       "note": {
-        "de": "Gebäudetechnik; Haustechnik"
+        "de": [
+          "Gebäudetechnik",
+          "Haustechnik"
+        ]
       }
     },
     {
@@ -76,7 +95,9 @@
         "de": "Theoretische Elektrotechnik"
       },
       "note": {
-        "de": "Theoretische Elektrotechnik"
+        "de": [
+          "Theoretische Elektrotechnik"
+        ]
       }
     }
   ],
@@ -84,9 +105,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04005",
     "prefLabel": {
       "de": "Elektrotechnik"
-    },
-    "note": {
-      "de": "Elektrotechnik; elektrische Energietechnik"
     }
   },
   "inScheme": {
@@ -143,10 +161,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

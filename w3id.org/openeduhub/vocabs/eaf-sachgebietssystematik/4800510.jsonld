@@ -7,15 +7,20 @@
     "de": "Verhältnis der Generationen"
   },
   "note": {
-    "de": "Verhältnis der Generationen; Generationenverhältnis; Generationenbeziehungen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Generationenbeziehungen",
+      "Generationenverhältnis",
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Sozialkunde",
+      "Verhältnis der Generationen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48005",
     "prefLabel": {
       "de": "Gesellschaftspolitische Gegenwartsfragen"
-    },
-    "note": {
-      "de": "Gesellschaftspolitische Gegenwartsfragen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,16 @@
     "de": "Chancen und Risiken des Mediengebrauchs in unterschiedlichen Lebensbereichen erkennen, eigenen Mediengebrauch reflektieren und ggf. modifizieren"
   },
   "note": {
-    "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt; Mediennutzung"
+    "de": [
+      "Kompetenzbereich Analysieren und Reflektieren",
+      "Kompetenzen in der digitalen Welt",
+      "Mediennutzung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040602",
     "prefLabel": {
       "de": "Medien in der digitalen Welt verstehen und reflektieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,21 @@
     "de": "Stachelhäuter"
   },
   "note": {
-    "de": "Stachelhäuter; Schlangensterne; Haarsterne; Seeigel; Seewalzen; Seegurken; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Haarsterne",
+      "Schlangensterne",
+      "Seegurken",
+      "Seeigel",
+      "Seewalzen",
+      "Stachelhäuter"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800503",
     "prefLabel": {
       "de": "Wirbellose"
-    },
-    "note": {
-      "de": "Wirbellose; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

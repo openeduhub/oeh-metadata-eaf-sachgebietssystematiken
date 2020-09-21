@@ -7,15 +7,22 @@
     "de": "Rollen, Interessen, Konflikte"
   },
   "note": {
-    "de": "Rollen; Interessen; Konflikte; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterrich"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Interessen",
+      "Konflikte",
+      "Primarunterricht",
+      "Rollen",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterrich"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801001",
     "prefLabel": {
       "de": "Soziales Lernen"
-    },
-    "note": {
-      "de": "Soziales Lernen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

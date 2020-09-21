@@ -7,13 +7,17 @@
     "de": "Kunst der Gegenwart"
   },
   "note": {
-    "de": "Kunst der Gegenwart; Gegenwartskunst; Zeitgenössische Kunst; Videokunst; Kunst; Kunstunterricht"
+    "de": [
+      "Gegenwartskunst",
+      "Kunst",
+      "Kunst der Gegenwart",
+      "Kunstunterricht",
+      "Videokunst",
+      "Zeitgenössische Kunst"
+    ]
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311",
-    "note": {
-      "de": "Jahrhundert; Kunst der Moderne; Kunst; Kunstunterricht"
-    }
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311"
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
@@ -69,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

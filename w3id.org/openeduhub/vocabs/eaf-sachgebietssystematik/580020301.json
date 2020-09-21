@@ -7,14 +7,17 @@
     "de": "Abenteuer"
   },
   "note": {
-    "de": "Abenteuerfilm; Mantel-und-Degen-Film; Piratenfilm; Karatefilm; Ritterfilm"
+    "de": [
+      "Abenteuerfilm",
+      "Karatefilm",
+      "Mantel-und-Degen-Film",
+      "Piratenfilm",
+      "Ritterfilm"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5800203",
     "prefLabel": {
-      "de": "Spielfilm"
-    },
-    "note": {
       "de": "Spielfilm"
     }
   },
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

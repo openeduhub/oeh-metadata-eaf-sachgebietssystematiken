@@ -7,15 +7,14 @@
     "de": "Pharmazie"
   },
   "note": {
-    "de": "Pharmazie"
+    "de": [
+      "Pharmazie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04003",
     "prefLabel": {
       "de": "Naturwissenschaften und Mathematik"
-    },
-    "note": {
-      "de": "Naturwissenschaften; Mathematik"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

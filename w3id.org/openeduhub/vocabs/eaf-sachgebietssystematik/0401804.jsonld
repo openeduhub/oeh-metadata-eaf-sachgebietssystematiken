@@ -7,7 +7,9 @@
     "de": "Körperpflege"
   },
   "note": {
-    "de": "Körperpflege"
+    "de": [
+      "Körperpflege"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Frisieurtechnik"
       },
       "note": {
-        "de": "Frieseurtechnik"
+        "de": [
+          "Frieseurtechnik"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Kosmetik"
       },
       "note": {
-        "de": "Kosmetik"
+        "de": [
+          "Kosmetik"
+        ]
       }
     }
   ],
@@ -33,9 +39,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04018",
     "prefLabel": {
       "de": "Dienstleistung"
-    },
-    "note": {
-      "de": "Dienstleistungen"
     }
   },
   "inScheme": {
@@ -92,10 +95,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

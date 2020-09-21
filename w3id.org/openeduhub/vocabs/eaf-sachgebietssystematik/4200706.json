@@ -7,15 +7,16 @@
     "de": "Arrangement"
   },
   "note": {
-    "de": "Arrangement; Musik; Musikunterricht"
+    "de": [
+      "Arrangement",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42007",
     "prefLabel": {
       "de": "Musiktheorie"
-    },
-    "note": {
-      "de": "Musiktheorie; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

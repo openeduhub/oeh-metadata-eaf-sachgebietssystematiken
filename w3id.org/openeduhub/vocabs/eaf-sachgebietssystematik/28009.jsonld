@@ -7,7 +7,13 @@
     "de": "Religion"
   },
   "note": {
-    "de": "Religion; Religionsunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Religion",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,12 @@
         "de": "Bibel"
       },
       "note": {
-        "de": "Bibel; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Bibel",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -25,7 +36,12 @@
         "de": "Kirchenjahr"
       },
       "note": {
-        "de": "Kirchenjahr; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Kirchenjahr",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -34,7 +50,14 @@
         "de": "Glaube, Ethik"
       },
       "note": {
-        "de": "Glaube; Ethik; Ethikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Glaube",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -43,7 +66,13 @@
         "de": "Vorbilder, Heilige"
       },
       "note": {
-        "de": "Vorbilder; Heilige; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Heilige",
+          "Primarunterricht",
+          "Vorbilder"
+        ]
       }
     },
     {
@@ -52,7 +81,12 @@
         "de": "Christliche und nichtchristliche Religionen"
       },
       "note": {
-        "de": "Christliche und nichtchristliche Religionen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Christliche und nichtchristliche Religionen",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +94,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +150,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

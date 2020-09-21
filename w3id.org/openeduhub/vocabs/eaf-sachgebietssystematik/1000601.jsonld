@@ -7,15 +7,16 @@
     "de": "Molekulare Grundlagen der Organismen"
   },
   "note": {
-    "de": "Molekulare Grundlagen der Organismen; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Molekulare Grundlagen der Organismen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10006",
     "prefLabel": {
       "de": "Biochemie"
-    },
-    "note": {
-      "de": "Biochemie; Chemieunterricht; Chemie"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

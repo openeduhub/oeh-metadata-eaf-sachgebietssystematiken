@@ -7,14 +7,14 @@
     "de": "Küche"
   },
   "note": {
-    "de": "Gastroküchen; Gastronomiebedarf"
+    "de": [
+      "Gastroküchen",
+      "Gastronomiebedarf"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400601",
     "prefLabel": {
-      "de": "Gastronomie"
-    },
-    "note": {
       "de": "Gastronomie"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,15 @@
     "de": "Geschichte der Pädagogik"
   },
   "note": {
-    "de": "Geschichte der Pädagogik; Pädagogik"
+    "de": [
+      "Geschichte der Pädagogik",
+      "Pädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/44001",
     "prefLabel": {
       "de": "Allgemeine Pädagogik"
-    },
-    "note": {
-      "de": "Allgemeine Pädagogik; Pädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

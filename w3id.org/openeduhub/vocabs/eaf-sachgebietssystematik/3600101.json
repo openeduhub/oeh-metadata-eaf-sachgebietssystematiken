@@ -7,15 +7,15 @@
     "de": "Beziehungen und Beziehungskonflikte"
   },
   "note": {
-    "de": "Beziehungen; Beziehungskonflikte"
+    "de": [
+      "Beziehungen",
+      "Beziehungskonflikte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/36001",
     "prefLabel": {
       "de": "Lebensbewältigung"
-    },
-    "note": {
-      "de": "Lebensbewältigung von Kindern; Lebensbewältigung von Jugendlichen"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

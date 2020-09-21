@@ -7,15 +7,16 @@
     "de": "Widerstand"
   },
   "note": {
-    "de": "Widerstand; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Widerstand"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020412",
     "prefLabel": {
       "de": "Faschismus und Nationalsozialismus"
-    },
-    "note": {
-      "de": "Faschismus; Nationalsozialismus; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

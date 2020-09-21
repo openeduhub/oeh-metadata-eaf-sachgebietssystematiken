@@ -7,15 +7,17 @@
     "de": "Vor- und frühgeschichtliche Kulturen"
   },
   "note": {
-    "de": "Vor- und frühgeschichtliche Kulturen; Vorgeschichtliche und frühgeschichtliche Kulturen; Kunst; Kunstunterricht, Vor- und Frühgeschichte"
+    "de": [
+      "Kunst",
+      "Kunstunterricht, Vor- und Frühgeschichte",
+      "Vor- und frühgeschichtliche Kulturen",
+      "Vorgeschichtliche und frühgeschichtliche Kulturen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
     "prefLabel": {
       "de": "Kunstgeschichte"
-    },
-    "note": {
-      "de": "Kunstgeschichte; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,18 @@
     "de": "Politische Persönlichkeiten"
   },
   "note": {
-    "de": "Politische Persönlichkeiten; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Politische Persönlichkeiten",
+      "Sozialkunde"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

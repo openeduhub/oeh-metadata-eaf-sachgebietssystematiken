@@ -7,15 +7,17 @@
     "de": "Kriegs- und Wehrwesen"
   },
   "note": {
-    "de": "Geschichte des Kriegs- und Wehrwesens; Kriegswesen; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichte des Kriegs- und Wehrwesens",
+      "Geschichtsunterricht",
+      "Kriegswesen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24004",
     "prefLabel": {
       "de": "Geschichtliche Überblicke und thematische Querschnitte"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

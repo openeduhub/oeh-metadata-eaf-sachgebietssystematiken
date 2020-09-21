@@ -7,7 +7,9 @@
     "de": "GESUNDHEIT"
   },
   "note": {
-    "de": "Gesundheit"
+    "de": [
+      "Gesundheit"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Gesunderhaltung"
       },
       "note": {
-        "de": "Gesunderhaltung; Gesundheit"
+        "de": [
+          "Gesunderhaltung",
+          "Gesundheit"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Krankheit"
       },
       "note": {
-        "de": "Krankheit; Gesundheit"
+        "de": [
+          "Gesundheit",
+          "Krankheit"
+        ]
       }
     },
     {
@@ -34,13 +42,21 @@
         "de": "Behinderung"
       },
       "note": {
-        "de": "Behinderung; Handicap; Gesundheit"
+        "de": [
+          "Behinderung",
+          "Gesundheit",
+          "Handicap"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/26004",
       "note": {
-        "de": "Psychologie; Psychiatrie; Gesundheit"
+        "de": [
+          "Gesundheit",
+          "Psychiatrie",
+          "Psychologie"
+        ]
       }
     },
     {
@@ -49,7 +65,13 @@
         "de": "Medizinische Versorgung"
       },
       "note": {
-        "de": "Medizinische Versorgung; Rehabilitation; Versicherung; ärztliche Grundversorgung; Gesundheit"
+        "de": [
+          "Gesundheit",
+          "Medizinische Versorgung",
+          "Rehabilitation",
+          "Versicherung",
+          "ärztliche Grundversorgung"
+        ]
       }
     }
   ],
@@ -110,10 +132,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

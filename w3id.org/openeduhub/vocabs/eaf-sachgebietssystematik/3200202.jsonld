@@ -7,7 +7,11 @@
     "de": "Angewandte Informatik"
   },
   "note": {
-    "de": "Angewandte Informatik; Informatik; Informatikunterricht"
+    "de": [
+      "Angewandte Informatik",
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,10 @@
         "de": "Computergrafik"
       },
       "note": {
-        "de": "Computergrafik, Informatik; Informatikunterricht"
+        "de": [
+          "Computergrafik, Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,13 @@
         "de": "Datenbanken"
       },
       "note": {
-        "de": "Datenbank; Informatik; Informatikunterricht; Datenbanksystem; Datenbanken"
+        "de": [
+          "Datenbank",
+          "Datenbanken",
+          "Datenbanksystem",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,12 @@
         "de": "Internet und Telekommunikation"
       },
       "note": {
-        "de": "Internet; Telekommunikation; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Internet",
+          "Telekommunikation"
+        ]
       }
     },
     {
@@ -43,7 +61,12 @@
         "de": "Simulation"
       },
       "note": {
-        "de": "Simulation; Informatik; Informatikunterricht; Computersimulation"
+        "de": [
+          "Computersimulation",
+          "Informatik",
+          "Informatikunterricht",
+          "Simulation"
+        ]
       }
     }
   ],
@@ -51,9 +74,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32002",
     "prefLabel": {
       "de": "Informatik"
-    },
-    "note": {
-      "de": "Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +130,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

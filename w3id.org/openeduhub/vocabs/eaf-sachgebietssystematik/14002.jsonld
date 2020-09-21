@@ -7,7 +7,13 @@
     "de": "Lebensbereiche"
   },
   "note": {
-    "de": "Lebensbereiche; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+    "de": [
+      "Elementarbereich",
+      "Lebensbereiche",
+      "Vorschulerziehung",
+      "frühkindliche Bildung",
+      "frühkindliche Erziehung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,15 @@
         "de": "Familie, Nachbarschaft, Freunde"
       },
       "note": {
-        "de": "Familie; Nachbarschaft; Freunde; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehungf"
+        "de": [
+          "Elementarbereich",
+          "Familie",
+          "Freunde",
+          "Nachbarschaft",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehungf"
+        ]
       }
     },
     {
@@ -25,7 +39,13 @@
         "de": "Gesundheit"
       },
       "note": {
-        "de": "Gesundheit; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Gesundheit",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -34,7 +54,13 @@
         "de": "Natur"
       },
       "note": {
-        "de": "Natur; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Elementarbereich",
+          "Natur",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     },
     {
@@ -43,7 +69,14 @@
         "de": "Öffentliche"
       },
       "note": {
-        "de": "Öffentliche Einrichtungen; Öffentliche Dienstleistungen; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche"
+        "de": [
+          "Elementarbereich",
+          "Vorschulerziehung",
+          "frühkindliche",
+          "frühkindliche Bildung",
+          "Öffentliche Dienstleistungen",
+          "Öffentliche Einrichtungen"
+        ]
       }
     },
     {
@@ -52,7 +85,13 @@
         "de": "Berufe"
       },
       "note": {
-        "de": "Berufe; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+        "de": [
+          "Berufe",
+          "Elementarbereich",
+          "Vorschulerziehung",
+          "frühkindliche Bildung",
+          "frühkindliche Erziehung"
+        ]
       }
     }
   ],
@@ -60,9 +99,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/140",
     "prefLabel": {
       "de": "ELEMENTARBEREICH, VORSCHULERZIEHUNG"
-    },
-    "note": {
-      "de": "Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -119,10 +155,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

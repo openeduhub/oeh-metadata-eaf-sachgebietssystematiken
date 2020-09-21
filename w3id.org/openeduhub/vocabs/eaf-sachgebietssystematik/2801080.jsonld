@@ -7,15 +7,21 @@
     "de": "Bilingualer Unterricht"
   },
   "note": {
-    "de": "Bilingualer Unterricht in der Grundschule; Sachkunde; Sachkundeunterricht; Bilingualer Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Bilingualer Sachkundeunterricht",
+      "Bilingualer Unterricht in der Grundschule",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

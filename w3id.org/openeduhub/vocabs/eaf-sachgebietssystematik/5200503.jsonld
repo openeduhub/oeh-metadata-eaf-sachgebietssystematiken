@@ -7,15 +7,15 @@
     "de": "Ethik"
   },
   "note": {
-    "de": "Ethik; Ethikunterricht"
+    "de": [
+      "Ethik",
+      "Ethikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52005",
     "prefLabel": {
       "de": "Religiöse Lebensgestaltung"
-    },
-    "note": {
-      "de": "Religiöse Lebensgestaltung; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

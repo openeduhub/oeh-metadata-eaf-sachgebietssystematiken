@@ -7,7 +7,10 @@
     "de": "ETHIK"
   },
   "note": {
-    "de": "Ethik; Ethikunterricht"
+    "de": [
+      "Ethik",
+      "Ethikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,12 @@
         "de": "Konflikte und Konfliktregelung"
       },
       "note": {
-        "de": "Konflikte; Konfliktregelung; Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Konflikte",
+          "Konfliktregelung"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Soziale Bindungen"
       },
       "note": {
-        "de": "Soziale Bindungen; Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Soziale Bindungen"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Werte und Normen"
       },
       "note": {
-        "de": "Werte und Normen; Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Werte und Normen"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Anthropologie"
       },
       "note": {
-        "de": "Anthropologie; Ethik; Ethikunterricht"
+        "de": [
+          "Anthropologie",
+          "Ethik",
+          "Ethikunterricht"
+        ]
       }
     },
     {
@@ -52,7 +72,12 @@
         "de": "Religionen, Weltanschauungen"
       },
       "note": {
-        "de": "Religionen; Weltanschauungen; Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Religionen",
+          "Weltanschauungen"
+        ]
       }
     },
     {
@@ -61,7 +86,10 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Ethikunterricht; Ethik"
+        "de": [
+          "Bilingualer Ethikunterricht",
+          "Ethik"
+        ]
       }
     }
   ],
@@ -122,10 +150,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

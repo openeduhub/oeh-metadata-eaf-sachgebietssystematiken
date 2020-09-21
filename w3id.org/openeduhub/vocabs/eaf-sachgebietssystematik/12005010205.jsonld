@@ -7,15 +7,18 @@
     "de": "Schreiben"
   },
   "note": {
-    "de": "Schreiben; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DA"
+    "de": [
+      "DA",
+      "DAF",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Schreiben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120050102",
     "prefLabel": {
       "de": "Fertigkeitsbezogene Ordnung"
-    },
-    "note": {
-      "de": "Fertigkeitsbezogene Ordnung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

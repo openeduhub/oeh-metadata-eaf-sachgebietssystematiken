@@ -7,15 +7,17 @@
     "de": "Osteuropäische Länder"
   },
   "note": {
-    "de": "Osteuropäische Länder von 1945 bis 1990; Osteuropa von 1945 bis 1990; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Osteuropa von 1945 bis 1990",
+      "Osteuropäische Länder von 1945 bis 1990"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400205",
     "prefLabel": {
       "de": "Geschichte von 1945 bis 1990"
-    },
-    "note": {
-      "de": "Geschichte von 1945 bis 1990; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

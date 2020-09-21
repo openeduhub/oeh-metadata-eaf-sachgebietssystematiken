@@ -7,15 +7,15 @@
     "de": "Marketing, Werbung"
   },
   "note": {
-    "de": "Marketing; Werbung"
+    "de": [
+      "Marketing",
+      "Werbung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04013",
     "prefLabel": {
       "de": "Wirtschaft und Verwaltung"
-    },
-    "note": {
-      "de": "Wirtschaft; Verwaltung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

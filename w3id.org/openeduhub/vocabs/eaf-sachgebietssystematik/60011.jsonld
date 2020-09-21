@@ -7,15 +7,17 @@
     "de": "Sport und Ernährung"
   },
   "note": {
-    "de": "Sport und Ernährung; Sporternährung; Sport; Sportunterricht"
+    "de": [
+      "Sport",
+      "Sport und Ernährung",
+      "Sporternährung",
+      "Sportunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
-    },
-    "note": {
-      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

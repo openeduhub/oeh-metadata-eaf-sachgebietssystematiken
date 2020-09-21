@@ -7,7 +7,13 @@
     "de": "Amerika"
   },
   "note": {
-    "de": "Amerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Amerika",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,14 @@
         "de": "Grönland, Kanada"
       },
       "note": {
-        "de": "Grönland; Kanada; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Grönland",
+          "Kanada"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "USA"
       },
       "note": {
-        "de": "USA; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "USA"
+        ]
       }
     },
     {
@@ -34,7 +53,13 @@
         "de": "Mittelamerika"
       },
       "note": {
-        "de": "Mittelamerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Mittelamerika"
+        ]
       }
     },
     {
@@ -43,7 +68,13 @@
         "de": "Andenländer"
       },
       "note": {
-        "de": "Andenländer; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Andenländer",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -52,7 +83,13 @@
         "de": "Östliches Südamerika"
       },
       "note": {
-        "de": "Östliches Südamerika; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Östliches Südamerika"
+        ]
       }
     },
     {
@@ -61,7 +98,12 @@
         "de": "Allgemeines"
       },
       "note": {
-        "de": "Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -69,9 +111,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -128,10 +167,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

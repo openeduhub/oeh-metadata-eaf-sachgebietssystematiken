@@ -7,15 +7,20 @@
     "de": "Innere Sicherheit"
   },
   "note": {
-    "de": "Innere Sicherheit; Sicherheitspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Innere Sicherheit",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sicherheitspolitik",
+      "Sozialkunde"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
     "prefLabel": {
       "de": "Politikfelder"
-    },
-    "note": {
-      "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

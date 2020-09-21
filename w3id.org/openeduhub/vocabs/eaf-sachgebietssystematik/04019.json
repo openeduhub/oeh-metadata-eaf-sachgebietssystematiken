@@ -7,7 +7,9 @@
     "de": "Lebensmittel"
   },
   "note": {
-    "de": "Lebensmittel"
+    "de": [
+      "Lebensmittel"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Lebensmitteltechnik"
       },
       "note": {
-        "de": "Lebensmitteltechnik"
+        "de": [
+          "Lebensmitteltechnik"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Lebensmittelproduktion"
       },
       "note": {
-        "de": "Lebensmittelproduktion"
+        "de": [
+          "Lebensmittelproduktion"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Lebensmittellehre"
       },
       "note": {
-        "de": "Lebensmittellehre"
+        "de": [
+          "Lebensmittellehre"
+        ]
       }
     }
   ],
@@ -42,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -101,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

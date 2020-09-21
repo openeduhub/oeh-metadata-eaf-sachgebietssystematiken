@@ -7,14 +7,13 @@
     "de": "Frisieurtechnik"
   },
   "note": {
-    "de": "Frieseurtechnik"
+    "de": [
+      "Frieseurtechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401804",
     "prefLabel": {
-      "de": "Körperpflege"
-    },
-    "note": {
       "de": "Körperpflege"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

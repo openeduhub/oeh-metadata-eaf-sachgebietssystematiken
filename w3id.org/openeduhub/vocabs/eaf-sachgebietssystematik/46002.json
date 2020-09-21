@@ -7,7 +7,11 @@
     "de": "Wärmelehre"
   },
   "note": {
-    "de": "Wärmelehre; Physik; Physikunterricht"
+    "de": [
+      "Physik",
+      "Physikunterricht",
+      "Wärmelehre"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Temperatur, Wärmemenge"
       },
       "note": {
-        "de": "Temperatur; Wärmemenge; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Temperatur",
+          "Wärmemenge"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Aggregatzustände, Lösungen"
       },
       "note": {
-        "de": "Aggregatzustände; Lösungen; Physik; Physikunterricht"
+        "de": [
+          "Aggregatzustände",
+          "Lösungen",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +48,11 @@
         "de": "Wärmetheorie"
       },
       "note": {
-        "de": "Wärmetheorie; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Wärmetheorie"
+        ]
       }
     },
     {
@@ -43,7 +61,10 @@
         "de": "Technische Anwendungen"
       },
       "note": {
-        "de": "Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +72,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
-    },
-    "note": {
-      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +128,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

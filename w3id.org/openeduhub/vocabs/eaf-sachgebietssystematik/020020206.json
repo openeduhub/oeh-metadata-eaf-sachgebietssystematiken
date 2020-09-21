@@ -7,15 +7,16 @@
     "de": "Berufe im kaufmännischen Bereich"
   },
   "note": {
-    "de": "Berufe im kaufmännischen Bereich; Kaufmännische Berufe; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe im kaufmännischen Bereich",
+      "Kaufmännische Berufe"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
     "prefLabel": {
       "de": "Berufsbilder"
-    },
-    "note": {
-      "de": "Berufsbilder; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

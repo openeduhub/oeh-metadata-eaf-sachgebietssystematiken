@@ -7,7 +7,9 @@
     "de": "BERUFLICHE BILDUNG"
   },
   "note": {
-    "de": "Berufliche Bildung"
+    "de": [
+      "Berufliche Bildung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,11 @@
         "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
       },
       "note": {
-        "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
+        "de": [
+          "Gartenbau",
+          "Landwirtschaft",
+          "Natur und Umwelt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Bau, Architektur, Vermessung"
       },
       "note": {
-        "de": "Architektur; Vermessung"
+        "de": [
+          "Architektur",
+          "Vermessung"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Naturwissenschaften und Mathematik"
       },
       "note": {
-        "de": "Naturwissenschaften; Mathematik"
+        "de": [
+          "Mathematik",
+          "Naturwissenschaften"
+        ]
       }
     },
     {
@@ -43,7 +55,13 @@
         "de": "IT- und Medientechnik"
       },
       "note": {
-        "de": "Informationstechnik; Medientechnik; Informationstechnologie; Mediengestaltung; IT-Technik"
+        "de": [
+          "IT-Technik",
+          "Informationstechnik",
+          "Informationstechnologie",
+          "Mediengestaltung",
+          "Medientechnik"
+        ]
       }
     },
     {
@@ -52,7 +70,10 @@
         "de": "Elektrotechnik"
       },
       "note": {
-        "de": "Elektrotechnik; elektrische Energietechnik"
+        "de": [
+          "Elektrotechnik",
+          "elektrische Energietechnik"
+        ]
       }
     },
     {
@@ -61,7 +82,10 @@
         "de": "Gastgewerbe und Hauswirtschaft"
       },
       "note": {
-        "de": "Gastgewerbe; Hauswirtschaft"
+        "de": [
+          "Gastgewerbe",
+          "Hauswirtschaft"
+        ]
       }
     },
     {
@@ -70,7 +94,10 @@
         "de": "Farbtechnik und Raumgestaltung"
       },
       "note": {
-        "de": "Farbtechnik; Raumgestaltung"
+        "de": [
+          "Farbtechnik",
+          "Raumgestaltung"
+        ]
       }
     },
     {
@@ -79,7 +106,10 @@
         "de": "Gesundheit und Pflege"
       },
       "note": {
-        "de": "Gesundheit; Pflege"
+        "de": [
+          "Gesundheit",
+          "Pflege"
+        ]
       }
     },
     {
@@ -88,7 +118,9 @@
         "de": "Holztechnik"
       },
       "note": {
-        "de": "Holztechnik"
+        "de": [
+          "Holztechnik"
+        ]
       }
     },
     {
@@ -97,7 +129,10 @@
         "de": "Fahrzeugtechnik, Mechatronik"
       },
       "note": {
-        "de": "Fahrzeugtechnik; Mechatronik"
+        "de": [
+          "Fahrzeugtechnik",
+          "Mechatronik"
+        ]
       }
     },
     {
@@ -106,7 +141,9 @@
         "de": "Metalltechnik"
       },
       "note": {
-        "de": "Metalltechnik"
+        "de": [
+          "Metalltechnik"
+        ]
       }
     },
     {
@@ -115,7 +152,10 @@
         "de": "Textiltechnik und Bekleidung"
       },
       "note": {
-        "de": "Textiltechnik; Bekleidung"
+        "de": [
+          "Bekleidung",
+          "Textiltechnik"
+        ]
       }
     },
     {
@@ -124,7 +164,10 @@
         "de": "Wirtschaft und Verwaltung"
       },
       "note": {
-        "de": "Wirtschaft; Verwaltung"
+        "de": [
+          "Verwaltung",
+          "Wirtschaft"
+        ]
       }
     },
     {
@@ -133,7 +176,9 @@
         "de": "Arbeitssicherheit"
       },
       "note": {
-        "de": "Arbeitssicherheit"
+        "de": [
+          "Arbeitssicherheit"
+        ]
       }
     },
     {
@@ -142,7 +187,10 @@
         "de": "Sozialarbeit und Erziehung"
       },
       "note": {
-        "de": "Sozialarbeit; Erziehung"
+        "de": [
+          "Erziehung",
+          "Sozialarbeit"
+        ]
       }
     },
     {
@@ -151,7 +199,10 @@
         "de": "Verkehr und Logistik"
       },
       "note": {
-        "de": "Verkehr; Logistik"
+        "de": [
+          "Logistik",
+          "Verkehr"
+        ]
       }
     },
     {
@@ -160,7 +211,11 @@
         "de": "Klima-, Heizungs- und Sanitärtechnik"
       },
       "note": {
-        "de": "Klimatechnik; Heizungstechnik; Sanitärtechnik"
+        "de": [
+          "Heizungstechnik",
+          "Klimatechnik",
+          "Sanitärtechnik"
+        ]
       }
     },
     {
@@ -169,7 +224,9 @@
         "de": "Dienstleistung"
       },
       "note": {
-        "de": "Dienstleistungen"
+        "de": [
+          "Dienstleistungen"
+        ]
       }
     },
     {
@@ -178,7 +235,9 @@
         "de": "Lebensmittel"
       },
       "note": {
-        "de": "Lebensmittel"
+        "de": [
+          "Lebensmittel"
+        ]
       }
     },
     {
@@ -187,7 +246,11 @@
         "de": "Kunst, Kultur, Gestaltung"
       },
       "note": {
-        "de": "Kunst; Kultur; Gestaltung"
+        "de": [
+          "Gestaltung",
+          "Kultur",
+          "Kunst"
+        ]
       }
     }
   ],
@@ -248,10 +311,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,14 @@
     "de": "Siedlungsgeographie"
   },
   "note": {
-    "de": "Siedlungsgeographie; Siedlungsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Siedlungsgeografie",
+      "Siedlungsgeographie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Ländliche Siedlungen und Prozesse"
       },
       "note": {
-        "de": "Ländliche Siedlungen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Ländliche Siedlungen"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Städtische Strukturen und Prozesse"
       },
       "note": {
-        "de": "Städtische Strukturen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Städtische Strukturen"
+        ]
       }
     }
   ],
@@ -33,9 +52,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +108,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

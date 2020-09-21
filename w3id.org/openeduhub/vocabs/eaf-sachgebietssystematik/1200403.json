@@ -7,15 +7,16 @@
     "de": "Kommunikationsanregung"
   },
   "note": {
-    "de": "Kommunikationsanregung; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Kommunikationsanregung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12004",
     "prefLabel": {
       "de": "Kommunikation"
-    },
-    "note": {
-      "de": "Kommunikation; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

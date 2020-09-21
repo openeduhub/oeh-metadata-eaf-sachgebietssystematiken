@@ -7,7 +7,9 @@
     "de": "Lebensmittellehre"
   },
   "note": {
-    "de": "Lebensmittellehre"
+    "de": [
+      "Lebensmittellehre"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Nahrungsmittel"
       },
       "note": {
-        "de": "Nahrungsmittel"
+        "de": [
+          "Nahrungsmittel"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Genussmittel"
       },
       "note": {
-        "de": "Genussmittel"
+        "de": [
+          "Genussmittel"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Lebensmittelzubereitung"
       },
       "note": {
-        "de": "Lebensmittelzubereitung"
+        "de": [
+          "Lebensmittelzubereitung"
+        ]
       }
     },
     {
@@ -43,7 +51,10 @@
         "de": "Haltbarmachung"
       },
       "note": {
-        "de": "Haltbarmachung; Lebensmittelkonservierung"
+        "de": [
+          "Haltbarmachung",
+          "Lebensmittelkonservierung"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Vorratshaltung"
       },
       "note": {
-        "de": "Vorratshaltung"
+        "de": [
+          "Vorratshaltung"
+        ]
       }
     },
     {
@@ -61,7 +74,9 @@
         "de": "Lebensmittelhygiene"
       },
       "note": {
-        "de": "Lebensmittelhygiene"
+        "de": [
+          "Lebensmittelhygiene"
+        ]
       }
     },
     {
@@ -70,16 +85,15 @@
         "de": "Lebensmittelrecht"
       },
       "note": {
-        "de": "Lebensmittelrecht"
+        "de": [
+          "Lebensmittelrecht"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04019",
     "prefLabel": {
-      "de": "Lebensmittel"
-    },
-    "note": {
       "de": "Lebensmittel"
     }
   },
@@ -137,10 +151,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

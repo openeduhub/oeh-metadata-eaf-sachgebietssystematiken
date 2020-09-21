@@ -7,15 +7,17 @@
     "de": "Einwirkende Interaktionen"
   },
   "note": {
-    "de": "Einwirkende Interaktionen; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Einwirkende Interaktionen",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2800201",
     "prefLabel": {
       "de": "Szenarien- bzw. dialogbezogene Ordnung"
-    },
-    "note": {
-      "de": "Szenarien- bzw. dialogbezogene Ordnung; Szenarienbezogene Ordnung; Dialogbezogene Ordnung; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

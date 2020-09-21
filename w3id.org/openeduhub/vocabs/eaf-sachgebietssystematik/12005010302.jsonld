@@ -7,15 +7,20 @@
     "de": "Medizin und Pflege"
   },
   "note": {
-    "de": "Medizin und Pflege; Medizin; Pflege; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Medizin",
+      "Medizin und Pflege",
+      "Pflege"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120050103",
     "prefLabel": {
       "de": "Fachsprachliche Vertiefungen"
-    },
-    "note": {
-      "de": "Fachsprachliche Vertiefungen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

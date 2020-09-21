@@ -7,7 +7,12 @@
     "de": "Theater- und Filmmusik"
   },
   "note": {
-    "de": "Theatermusik; Filmmusik; Musik; Musikunterricht"
+    "de": [
+      "Filmmusik",
+      "Musik",
+      "Musikunterricht",
+      "Theatermusik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,11 @@
         "de": "Oper"
       },
       "note": {
-        "de": "Oper; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Oper"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Operette"
       },
       "note": {
-        "de": "Operette; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Operette"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Musical"
       },
       "note": {
-        "de": "Musical; Musik; Musikunterricht"
+        "de": [
+          "Musical",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Ballett"
       },
       "note": {
-        "de": "Ballett; Musik; Musikunterricht"
+        "de": [
+          "Ballett",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -52,7 +73,11 @@
         "de": "Filmmusik"
       },
       "note": {
-        "de": "Filmmusik; Musik; Musikunterricht"
+        "de": [
+          "Filmmusik",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -61,7 +86,11 @@
         "de": "Musikvideo"
       },
       "note": {
-        "de": "Musikvideo; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Musikvideo"
+        ]
       }
     }
   ],
@@ -69,9 +98,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
     "prefLabel": {
       "de": "Musikarten"
-    },
-    "note": {
-      "de": "Musikarten; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -128,10 +154,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

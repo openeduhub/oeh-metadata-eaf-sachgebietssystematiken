@@ -7,7 +7,11 @@
     "de": "Zoologie"
   },
   "note": {
-    "de": "Zoologie; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Zoologie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Allgemeine Zoologie"
       },
       "note": {
-        "de": "Allgemeine Zoologie; Biologieunterricht; Biologie"
+        "de": [
+          "Allgemeine Zoologie",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,13 @@
         "de": "Angewandte Zoologie"
       },
       "note": {
-        "de": "Angewandte Zoologie; Tierzucht; Tierhaltung; Biologieunterricht; Biologie"
+        "de": [
+          "Angewandte Zoologie",
+          "Biologie",
+          "Biologieunterricht",
+          "Tierhaltung",
+          "Tierzucht"
+        ]
       }
     },
     {
@@ -34,7 +48,11 @@
         "de": "Wirbellose"
       },
       "note": {
-        "de": "Wirbellose; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Wirbellose"
+        ]
       }
     },
     {
@@ -43,7 +61,11 @@
         "de": "Wirbeltiere"
       },
       "note": {
-        "de": "Wirbeltiere; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Wirbeltiere"
+        ]
       }
     }
   ],
@@ -51,9 +73,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
-    },
-    "note": {
-      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +129,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

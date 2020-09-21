@@ -7,7 +7,14 @@
     "de": "Sozialgeographie"
   },
   "note": {
-    "de": "Sozialgeographie; Sozialgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Sozialgeografie",
+      "Sozialgeographie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Sozialstrukturen"
       },
       "note": {
-        "de": "Sozialstrukturen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Sozialstrukturen"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Daseinsgrundfunktionen"
       },
       "note": {
-        "de": "Daseinsgrundfunktionen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Daseinsgrundfunktionen",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -33,9 +52,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +108,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

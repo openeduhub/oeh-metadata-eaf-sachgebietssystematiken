@@ -7,7 +7,10 @@
     "de": "Gesunderhaltung"
   },
   "note": {
-    "de": "Gesunderhaltung; Gesundheit"
+    "de": [
+      "Gesunderhaltung",
+      "Gesundheit"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Ernährung"
       },
       "note": {
-        "de": "Ernährung; Gesundheit"
+        "de": [
+          "Ernährung",
+          "Gesundheit"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Zahnpflege"
       },
       "note": {
-        "de": "Zahnpflege; Gesundheit"
+        "de": [
+          "Gesundheit",
+          "Zahnpflege"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Körperpflege"
       },
       "note": {
-        "de": "Körperpflege; Gesundheit"
+        "de": [
+          "Gesundheit",
+          "Körperpflege"
+        ]
       }
     },
     {
@@ -43,7 +55,10 @@
         "de": "Bewegung"
       },
       "note": {
-        "de": "Bewegung; Gesundheit"
+        "de": [
+          "Bewegung",
+          "Gesundheit"
+        ]
       }
     },
     {
@@ -52,7 +67,10 @@
         "de": "Regeneration"
       },
       "note": {
-        "de": "Regeneration; Gesundheit"
+        "de": [
+          "Gesundheit",
+          "Regeneration"
+        ]
       }
     },
     {
@@ -61,7 +79,12 @@
         "de": "Krankheitsvorsorge und Früherkennung"
       },
       "note": {
-        "de": "Krankheitsvorsorge; Früherkennung; Prävention; Gesundheit"
+        "de": [
+          "Früherkennung",
+          "Gesundheit",
+          "Krankheitsvorsorge",
+          "Prävention"
+        ]
       }
     }
   ],
@@ -69,9 +92,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/260",
     "prefLabel": {
       "de": "GESUNDHEIT"
-    },
-    "note": {
-      "de": "Gesundheit"
     }
   },
   "inScheme": {
@@ -128,10 +148,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

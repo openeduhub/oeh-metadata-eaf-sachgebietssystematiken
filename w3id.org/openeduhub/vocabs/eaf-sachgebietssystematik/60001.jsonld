@@ -7,7 +7,11 @@
     "de": "Sportwissenschaft"
   },
   "note": {
-    "de": "Sportwissenschaft; Sport; Sportunterricht"
+    "de": [
+      "Sport",
+      "Sportunterricht",
+      "Sportwissenschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,16 @@
         "de": "Trainings- und Bewegungslehre"
       },
       "note": {
-        "de": "Trainingslehre; Sporttraining; Aufwärmprogramm; Trainingswissenschaft; Bewegungslehre; Bewegungswissenschaft; Sport; Sportunterricht"
+        "de": [
+          "Aufwärmprogramm",
+          "Bewegungslehre",
+          "Bewegungswissenschaft",
+          "Sport",
+          "Sporttraining",
+          "Sportunterricht",
+          "Trainingslehre",
+          "Trainingswissenschaft"
+        ]
       }
     },
     {
@@ -25,7 +38,12 @@
         "de": "Sportgeschichte"
       },
       "note": {
-        "de": "Geschichte des Sports; Sportgeschichte; Sport; Sportunterricht"
+        "de": [
+          "Geschichte des Sports",
+          "Sport",
+          "Sportgeschichte",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -34,7 +52,11 @@
         "de": "Sportpädagogik"
       },
       "note": {
-        "de": "Pädagogik des Sports Sportpädagogik; Sport; Sportunterricht"
+        "de": [
+          "Pädagogik des Sports Sportpädagogik",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -43,7 +65,12 @@
         "de": "Sportpsychologie"
       },
       "note": {
-        "de": "Psychologie des Sports; Sportpsychologie; Sport; Sportunterricht"
+        "de": [
+          "Psychologie des Sports",
+          "Sport",
+          "Sportpsychologie",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -52,7 +79,12 @@
         "de": "Sportsoziologie"
       },
       "note": {
-        "de": "Soziologie des Sports; Sportsoziologie; Sport; Sportunterricht"
+        "de": [
+          "Soziologie des Sports",
+          "Sport",
+          "Sportsoziologie",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -61,7 +93,11 @@
         "de": "Sportmedizin"
       },
       "note": {
-        "de": "Sportmedizin; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportmedizin",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -70,7 +106,12 @@
         "de": "Sportdidaktik"
       },
       "note": {
-        "de": "Sportdidaktik; Sportpädagogik; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportdidaktik",
+          "Sportpädagogik",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -79,7 +120,11 @@
         "de": "Biomechanik"
       },
       "note": {
-        "de": "Biomechanik; Sport; Sportunterricht"
+        "de": [
+          "Biomechanik",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     }
   ],
@@ -87,9 +132,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
-    },
-    "note": {
-      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -146,10 +188,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

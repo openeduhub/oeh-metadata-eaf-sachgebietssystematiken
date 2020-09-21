@@ -7,7 +7,11 @@
     "de": "Optik"
   },
   "note": {
-    "de": "Optik; Physik; Physikunterricht"
+    "de": [
+      "Optik",
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Geometrische Optik"
       },
       "note": {
-        "de": "Geometrische Optik; Physik; Physikunterricht"
+        "de": [
+          "Geometrische Optik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Wellenoptik"
       },
       "note": {
-        "de": "Wellenoptik; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Wellenoptik"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Fotometrie"
       },
       "note": {
-        "de": "Fotometrie; Physik; Physikunterricht"
+        "de": [
+          "Fotometrie",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Farbenlehre"
       },
       "note": {
-        "de": "Farbenlehre; Physik; Physikunterricht"
+        "de": [
+          "Farbenlehre",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -52,7 +72,10 @@
         "de": "Technische Anwendungen"
       },
       "note": {
-        "de": "Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +83,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
-    },
-    "note": {
-      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +139,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

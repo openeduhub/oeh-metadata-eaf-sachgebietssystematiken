@@ -7,7 +7,11 @@
     "de": "Kunst, Kultur, Gestaltung"
   },
   "note": {
-    "de": "Kunst; Kultur; Gestaltung"
+    "de": [
+      "Gestaltung",
+      "Kultur",
+      "Kunst"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,10 @@
         "de": "Musik"
       },
       "note": {
-        "de": "Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,9 @@
         "de": "Schmuck"
       },
       "note": {
-        "de": "Schmuck"
+        "de": [
+          "Schmuck"
+        ]
       }
     },
     {
@@ -34,7 +43,9 @@
         "de": "Kunsthandwerk"
       },
       "note": {
-        "de": "Kunsthandwerk"
+        "de": [
+          "Kunsthandwerk"
+        ]
       }
     },
     {
@@ -43,7 +54,11 @@
         "de": "Museen, Restaurierung, Denkmalschutz"
       },
       "note": {
-        "de": "Museum; Restaurierung; Denkmalschutz"
+        "de": [
+          "Denkmalschutz",
+          "Museum",
+          "Restaurierung"
+        ]
       }
     },
     {
@@ -52,7 +67,10 @@
         "de": "Design, Gestaltung"
       },
       "note": {
-        "de": "Design; Gestaltung"
+        "de": [
+          "Design",
+          "Gestaltung"
+        ]
       }
     },
     {
@@ -61,7 +79,10 @@
         "de": "Bühne, Theater"
       },
       "note": {
-        "de": "Bühne; Theater"
+        "de": [
+          "Bühne",
+          "Theater"
+        ]
       }
     }
   ],
@@ -69,9 +90,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -128,10 +146,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,18 @@
     "de": "Magie, Aberglaube"
   },
   "note": {
-    "de": "Magie; Aberglaube; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Aberglaube",
+      "Magie",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52001",
     "prefLabel": {
       "de": "Religionskunde"
-    },
-    "note": {
-      "de": "Religionskunde; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

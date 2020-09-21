@@ -7,15 +7,17 @@
     "de": "Künstliche Intelligenz"
   },
   "note": {
-    "de": "Informatik; Informatikunterricht; KI; Künstliche Intelligenz"
+    "de": [
+      "Informatik",
+      "Informatikunterricht",
+      "KI",
+      "Künstliche Intelligenz"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32002",
     "prefLabel": {
       "de": "Informatik"
-    },
-    "note": {
-      "de": "Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

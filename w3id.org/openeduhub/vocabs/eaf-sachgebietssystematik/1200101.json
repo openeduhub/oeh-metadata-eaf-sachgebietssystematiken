@@ -7,7 +7,11 @@
     "de": "Epik"
   },
   "note": {
-    "de": "Epik; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Epik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Lesung"
       },
       "note": {
-        "de": "Lesung; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Lesung"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Adaption als Verfilmung"
       },
       "note": {
-        "de": "Adaption als Verfilmung; Deutsch; Deutschunterricht"
+        "de": [
+          "Adaption als Verfilmung",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Adaption als Hörspiel"
       },
       "note": {
-        "de": "Adaption als Hörspiel; Deutsch; Deutschunterricht"
+        "de": [
+          "Adaption als Hörspiel",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Adaption in anderer Form"
       },
       "note": {
-        "de": "Adaption in anderer Form; Deutsch; Deutschunterricht"
+        "de": [
+          "Adaption in anderer Form",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +71,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12001",
     "prefLabel": {
       "de": "Literatur"
-    },
-    "note": {
-      "de": "Literatur; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +127,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

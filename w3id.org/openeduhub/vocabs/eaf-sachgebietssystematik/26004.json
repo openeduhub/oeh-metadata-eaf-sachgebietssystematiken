@@ -4,15 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F26004",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F26004",
   "note": {
-    "de": "Psychologie; Psychiatrie; Gesundheit"
+    "de": [
+      "Gesundheit",
+      "Psychiatrie",
+      "Psychologie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/260",
     "prefLabel": {
       "de": "GESUNDHEIT"
-    },
-    "note": {
-      "de": "Gesundheit"
     }
   },
   "inScheme": {
@@ -69,10 +70,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

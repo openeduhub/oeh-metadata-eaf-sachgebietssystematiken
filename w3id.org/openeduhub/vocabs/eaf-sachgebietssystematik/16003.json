@@ -7,15 +7,16 @@
     "de": "Werte und Normen"
   },
   "note": {
-    "de": "Werte und Normen; Ethik; Ethikunterricht"
+    "de": [
+      "Ethik",
+      "Ethikunterricht",
+      "Werte und Normen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/160",
     "prefLabel": {
       "de": "ETHIK"
-    },
-    "note": {
-      "de": "Ethik; Ethikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

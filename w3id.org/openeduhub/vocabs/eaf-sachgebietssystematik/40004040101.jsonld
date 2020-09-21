@@ -7,15 +7,15 @@
     "de": "Risiken und Gefahren in digitalen Umgebungen kennen, reflektieren und berücksichtigen"
   },
   "note": {
-    "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Schützen und sicher Agieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040401",
     "prefLabel": {
       "de": "Sicher in digitalen Umgebungen agieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Schützen und sicher Agieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

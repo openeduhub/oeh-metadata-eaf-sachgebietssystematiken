@@ -7,7 +7,9 @@
     "de": "INTERKULTURELLE BILDUNG"
   },
   "note": {
-    "de": "Interkulturelle Bildung"
+    "de": [
+      "Interkulturelle Bildung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Situation in den Herkunftsländern"
       },
       "note": {
-        "de": "Situation in den Herkunftsländern; Interkulturelle Bildung"
+        "de": [
+          "Interkulturelle Bildung",
+          "Situation in den Herkunftsländern"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Interkulturelles Zusammenleben"
       },
       "note": {
-        "de": "Interkulturelles Zusammenleben; Interkulturelle Bildung"
+        "de": [
+          "Interkulturelle Bildung",
+          "Interkulturelles Zusammenleben"
+        ]
       }
     }
   ],
@@ -86,10 +94,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

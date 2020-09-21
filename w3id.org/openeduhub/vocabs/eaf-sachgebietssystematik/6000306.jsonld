@@ -7,15 +7,17 @@
     "de": "Wintersport, Schneesport"
   },
   "note": {
-    "de": "Wintersport; Schneesport; Sport; Sportunterricht"
+    "de": [
+      "Schneesport",
+      "Sport",
+      "Sportunterricht",
+      "Wintersport"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
     "prefLabel": {
       "de": "Sportarten"
-    },
-    "note": {
-      "de": "Sportarten; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

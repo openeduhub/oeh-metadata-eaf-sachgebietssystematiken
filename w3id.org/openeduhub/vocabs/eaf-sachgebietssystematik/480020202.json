@@ -7,15 +7,20 @@
     "de": "Kommunale Institutionen"
   },
   "note": {
-    "de": "Kommunale Institutionen; Institutionen der Kommunen; kommunale Institutionen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Institutionen der Kommunen",
+      "Kommunale Institutionen",
+      "Politik",
+      "Politische Bildung",
+      "Sozialkunde",
+      "kommunale Institutionen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800202",
     "prefLabel": {
       "de": "Kommunale Ebene"
-    },
-    "note": {
-      "de": "Kommunale Ebene; Kommunalverwaltung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

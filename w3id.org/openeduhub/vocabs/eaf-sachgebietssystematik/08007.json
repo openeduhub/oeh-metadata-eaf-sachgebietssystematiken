@@ -7,7 +7,11 @@
     "de": "Ökologie"
   },
   "note": {
-    "de": "Ökologie; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Ökologie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Ökologische Grundlagen"
       },
       "note": {
-        "de": "Ökologische Grundlagen; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Ökologische Grundlagen"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Stoffkreisläufe"
       },
       "note": {
-        "de": "Stoffkreisläufe; Stoffkreislauf; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Stoffkreislauf",
+          "Stoffkreisläufe"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Ökosysteme"
       },
       "note": {
-        "de": "Ökosysteme; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Ökosysteme"
+        ]
       }
     },
     {
@@ -43,7 +60,12 @@
         "de": "Biodiversität, Artenvielfalt"
       },
       "note": {
-        "de": "Biodiversität; Artenvielfalt; Biologieunterricht; Biologie"
+        "de": [
+          "Artenvielfalt",
+          "Biodiversität",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +73,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
-    },
-    "note": {
-      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +129,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

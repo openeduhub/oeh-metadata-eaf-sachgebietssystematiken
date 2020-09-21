@@ -7,15 +7,14 @@
     "de": "Leben anderswo"
   },
   "note": {
-    "de": "Leben anderswo"
+    "de": [
+      "Leben anderswo"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/360",
     "prefLabel": {
       "de": "KINDER- UND JUGENDBILDUNG"
-    },
-    "note": {
-      "de": "Kinder- und Jugendbildung"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

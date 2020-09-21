@@ -7,15 +7,17 @@
     "de": "Astrophysik, Geophysik"
   },
   "note": {
-    "de": "Astrophysik; Geophysik; Physik; Physikunterricht"
+    "de": [
+      "Astrophysik",
+      "Geophysik",
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46014",
     "prefLabel": {
       "de": "Astronomie"
-    },
-    "note": {
-      "de": "Astronomie; Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

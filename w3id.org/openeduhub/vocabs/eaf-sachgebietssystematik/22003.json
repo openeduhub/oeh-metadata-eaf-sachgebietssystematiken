@@ -7,7 +7,13 @@
     "de": "Geologie"
   },
   "note": {
-    "de": "Geologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Geologie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,13 @@
         "de": "Erdgeschichte"
       },
       "note": {
-        "de": "Erdgeschichte; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Erdgeschichte",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +37,14 @@
         "de": "Tektonik, Vulkanismus"
       },
       "note": {
-        "de": "Tektonik; Vulkanismus; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Tektonik",
+          "Vulkanismus"
+        ]
       }
     }
   ],
@@ -33,9 +52,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +108,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

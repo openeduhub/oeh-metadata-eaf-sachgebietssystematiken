@@ -7,7 +7,11 @@
     "de": "Berufsbezogene informationstechnische Bildung"
   },
   "note": {
-    "de": "Berufsbezogene informationstechnische Bildung; Informatik; Informatikunterricht"
+    "de": [
+      "Berufsbezogene informationstechnische Bildung",
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Wirtschaftsinformatik"
       },
       "note": {
-        "de": "Wirtschaftsinformatik; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Wirtschaftsinformatik"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Technische Kommunikation"
       },
       "note": {
-        "de": "Technische Kommunikation; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Technische Kommunikation"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Prozessdatenverarbeitung"
       },
       "note": {
-        "de": "Prozessdatenverarbeitung; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Prozessdatenverarbeitung"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "CNC-Fertigung"
       },
       "note": {
-        "de": "CNC-Fertigung; Informatik; Informatikunterricht"
+        "de": [
+          "CNC-Fertigung",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +71,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320",
     "prefLabel": {
       "de": "INFORMATIONSTECHNISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Informationstechnische Bildung"
     }
   },
   "inScheme": {
@@ -110,10 +127,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

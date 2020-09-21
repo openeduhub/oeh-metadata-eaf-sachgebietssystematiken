@@ -4,7 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0600311",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F0600311",
   "note": {
-    "de": "Jahrhundert; Kunst der Moderne; Kunst; Kunstunterricht"
+    "de": [
+      "Jahrhundert",
+      "Kunst",
+      "Kunst der Moderne",
+      "Kunstunterricht"
+    ]
   },
   "narrower": [
     {
@@ -13,7 +18,21 @@
         "de": "Kunst bis 1945"
       },
       "note": {
-        "de": "Kunst bis 1945; Kunst vor 1945; Expressionismus; Cubismus; Fauvismus; Konstruktivismus; Neue Sachlichkeit; Futurismus; Surrealismus; Dada; Bauhaus; Kunst; Kunstunterricht"
+        "de": [
+          "Bauhaus",
+          "Cubismus",
+          "Dada",
+          "Expressionismus",
+          "Fauvismus",
+          "Futurismus",
+          "Konstruktivismus",
+          "Kunst",
+          "Kunst bis 1945",
+          "Kunst vor 1945",
+          "Kunstunterricht",
+          "Neue Sachlichkeit",
+          "Surrealismus"
+        ]
       }
     },
     {
@@ -22,7 +41,18 @@
         "de": "Kunst bis 1980"
       },
       "note": {
-        "de": "Kunst bis 1980; Kunst nach 1945; Tachismus; abstrakter Expressionismus; Op-art; Pop-art; Minimal art; Action-painting; Kunst; Kunstunterricht"
+        "de": [
+          "Action-painting",
+          "Kunst",
+          "Kunst bis 1980",
+          "Kunst nach 1945",
+          "Kunstunterricht",
+          "Minimal art",
+          "Op-art",
+          "Pop-art",
+          "Tachismus",
+          "abstrakter Expressionismus"
+        ]
       }
     },
     {
@@ -31,7 +61,14 @@
         "de": "Kunst der Gegenwart"
       },
       "note": {
-        "de": "Kunst der Gegenwart; Gegenwartskunst; Zeitgenössische Kunst; Videokunst; Kunst; Kunstunterricht"
+        "de": [
+          "Gegenwartskunst",
+          "Kunst",
+          "Kunst der Gegenwart",
+          "Kunstunterricht",
+          "Videokunst",
+          "Zeitgenössische Kunst"
+        ]
       }
     }
   ],
@@ -39,9 +76,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
     "prefLabel": {
       "de": "Kunstgeschichte"
-    },
-    "note": {
-      "de": "Kunstgeschichte; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -98,10 +132,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

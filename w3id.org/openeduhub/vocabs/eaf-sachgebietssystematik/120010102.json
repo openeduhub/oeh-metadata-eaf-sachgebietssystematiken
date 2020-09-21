@@ -7,7 +7,11 @@
     "de": "Adaption als Verfilmung"
   },
   "note": {
-    "de": "Adaption als Verfilmung; Deutsch; Deutschunterricht"
+    "de": [
+      "Adaption als Verfilmung",
+      "Deutsch",
+      "Deutschunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Märchen, Sagen"
       },
       "note": {
-        "de": "Märchen; Sagen; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Märchen",
+          "Sagen"
+        ]
       }
     },
     {
@@ -25,7 +34,13 @@
         "de": "Romane, Novellen, Erzählungen"
       },
       "note": {
-        "de": "Romane; Novellen; Erzählungen; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Erzählungen",
+          "Novellen",
+          "Romane"
+        ]
       }
     }
   ],
@@ -33,9 +48,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200101",
     "prefLabel": {
       "de": "Epik"
-    },
-    "note": {
-      "de": "Epik; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +104,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

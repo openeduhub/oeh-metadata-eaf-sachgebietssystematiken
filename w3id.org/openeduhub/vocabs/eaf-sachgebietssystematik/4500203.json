@@ -7,15 +7,14 @@
     "de": "Frühneuzeitliche Philosophie"
   },
   "note": {
-    "de": "Frühneuzeitliche Philosophie"
+    "de": [
+      "Frühneuzeitliche Philosophie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/45002",
     "prefLabel": {
       "de": "Epochen"
-    },
-    "note": {
-      "de": "NaN"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

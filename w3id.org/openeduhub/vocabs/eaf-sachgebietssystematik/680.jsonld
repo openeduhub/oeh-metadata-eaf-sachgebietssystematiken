@@ -7,7 +7,9 @@
     "de": "WEITERBILDUNG"
   },
   "note": {
-    "de": "Weiterbildung"
+    "de": [
+      "Weiterbildung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Grundlagen der Weiterbildung"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Politische Weiterbildung"
       },
       "note": {
-        "de": "Politische Weiterbildung"
+        "de": [
+          "Politische Weiterbildung"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Kulturelle Weiterbildung"
       },
       "note": {
-        "de": "Kulturelle Weiterbildung"
+        "de": [
+          "Kulturelle Weiterbildung"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Kreative Weiterbildung"
       },
       "note": {
-        "de": "Kreative Weiterbildung"
+        "de": [
+          "Kreative Weiterbildung"
+        ]
       }
     },
     {
@@ -52,7 +62,10 @@
         "de": "Elternbildung, Familienbildung"
       },
       "note": {
-        "de": "Elternbildung; Familienbildung"
+        "de": [
+          "Elternbildung",
+          "Familienbildung"
+        ]
       }
     },
     {
@@ -61,7 +74,9 @@
         "de": "Wirtschaftliche Weiterbildung"
       },
       "note": {
-        "de": "Wirtschaftliche Weiterbildung"
+        "de": [
+          "Wirtschaftliche Weiterbildung"
+        ]
       }
     },
     {
@@ -70,7 +85,9 @@
         "de": "Mathematisch-naturwissenschaftliche Weiterbildung"
       },
       "note": {
-        "de": "Mathematisch-naturwissenschaftliche Weiterbildung"
+        "de": [
+          "Mathematisch-naturwissenschaftliche Weiterbildung"
+        ]
       }
     },
     {
@@ -79,7 +96,9 @@
         "de": "Sprachliche Weiterbildung"
       },
       "note": {
-        "de": "Sprachliche Weiterbildung"
+        "de": [
+          "Sprachliche Weiterbildung"
+        ]
       }
     },
     {
@@ -88,7 +107,10 @@
         "de": "Gesundheitliche und sportliche Weiterbildung"
       },
       "note": {
-        "de": "Gesundheitliche Weiterbildung; sportliche Weiterbildung"
+        "de": [
+          "Gesundheitliche Weiterbildung",
+          "sportliche Weiterbildung"
+        ]
       }
     },
     {
@@ -97,7 +119,10 @@
         "de": "Schulische Weiterbildung, Zweiter Bildungsweg"
       },
       "note": {
-        "de": "Schulische Weiterbildung; Zweiter Bildungsweg"
+        "de": [
+          "Schulische Weiterbildung",
+          "Zweiter Bildungsweg"
+        ]
       }
     },
     {
@@ -106,7 +131,9 @@
         "de": "Zielgruppenangebot"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     }
   ],
@@ -167,10 +194,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

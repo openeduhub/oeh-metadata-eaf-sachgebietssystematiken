@@ -7,7 +7,10 @@
     "de": "UMWELTGEFÄHRDUNG, UMWELTSCHUTZ"
   },
   "note": {
-    "de": "Umweltgefährdung; Umweltschutz"
+    "de": [
+      "Umweltgefährdung",
+      "Umweltschutz"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Wasser"
       },
       "note": {
-        "de": "Wasser"
+        "de": [
+          "Wasser"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Boden"
       },
       "note": {
-        "de": "Boden"
+        "de": [
+          "Boden"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Luft"
       },
       "note": {
-        "de": "Luft"
+        "de": [
+          "Luft"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Klima"
       },
       "note": {
-        "de": "Klima"
+        "de": [
+          "Klima"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Wald"
       },
       "note": {
-        "de": "Wald"
+        "de": [
+          "Wald"
+        ]
       }
     },
     {
@@ -61,7 +74,10 @@
         "de": "Arten, Biotope"
       },
       "note": {
-        "de": "Arten; Biotope"
+        "de": [
+          "Arten",
+          "Biotope"
+        ]
       }
     },
     {
@@ -70,7 +86,9 @@
         "de": "Landschaft"
       },
       "note": {
-        "de": "Landschaft"
+        "de": [
+          "Landschaft"
+        ]
       }
     },
     {
@@ -79,7 +97,9 @@
         "de": "Landwirtschaft und Nahrungsmittelproduktion"
       },
       "note": {
-        "de": "Landwirtschaft und Nahrungsmittelproduktion"
+        "de": [
+          "Landwirtschaft und Nahrungsmittelproduktion"
+        ]
       }
     },
     {
@@ -88,7 +108,10 @@
         "de": "Abfall"
       },
       "note": {
-        "de": "Abfall; Müll"
+        "de": [
+          "Abfall",
+          "Müll"
+        ]
       }
     },
     {
@@ -97,7 +120,9 @@
         "de": "Energie"
       },
       "note": {
-        "de": "Energie"
+        "de": [
+          "Energie"
+        ]
       }
     },
     {
@@ -106,7 +131,9 @@
         "de": "Lärm"
       },
       "note": {
-        "de": "Lärm"
+        "de": [
+          "Lärm"
+        ]
       }
     },
     {
@@ -115,7 +142,9 @@
         "de": "Verkehr"
       },
       "note": {
-        "de": "Verkehr"
+        "de": [
+          "Verkehr"
+        ]
       }
     },
     {
@@ -124,7 +153,9 @@
         "de": "Freizeit und Tourismus"
       },
       "note": {
-        "de": "Freizeit und Tourismus"
+        "de": [
+          "Freizeit und Tourismus"
+        ]
       }
     },
     {
@@ -133,7 +164,9 @@
         "de": "Bauen und Wohnen"
       },
       "note": {
-        "de": "Bauen und Wohnen"
+        "de": [
+          "Bauen und Wohnen"
+        ]
       }
     },
     {
@@ -142,7 +175,10 @@
         "de": "Umwelt in Politik und Wirtschaft"
       },
       "note": {
-        "de": "Umwelt in Politik und Wirtschaft; Politikwissenschaft"
+        "de": [
+          "Politikwissenschaft",
+          "Umwelt in Politik und Wirtschaft"
+        ]
       }
     },
     {
@@ -151,7 +187,9 @@
         "de": "Umweltbewusstes Handeln"
       },
       "note": {
-        "de": "Umweltbewusstes Handeln"
+        "de": [
+          "Umweltbewusstes Handeln"
+        ]
       }
     },
     {
@@ -160,7 +198,9 @@
         "de": "Themenübergreifende Darstellungen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     }
   ],
@@ -221,10 +261,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,18 @@
     "de": "Nordamerika"
   },
   "note": {
-    "de": "Nordamerika; USA; Kanada; Englisch; Englischunterricht"
+    "de": [
+      "Englisch",
+      "Englischunterricht",
+      "Kanada",
+      "Nordamerika",
+      "USA"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2000102",
     "prefLabel": {
       "de": "Landeskunde"
-    },
-    "note": {
-      "de": "Landeskunde; Englisch; Englischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

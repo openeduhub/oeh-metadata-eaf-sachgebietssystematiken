@@ -7,15 +7,20 @@
     "de": "Nordsee, Ostsee und Küsten"
   },
   "note": {
-    "de": "Nordsee; Ostsee; Küste; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Küste",
+      "Nordsee",
+      "Ostsee"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22018",
     "prefLabel": {
       "de": "Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Bundesrepublik Deutschland; Deutschland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

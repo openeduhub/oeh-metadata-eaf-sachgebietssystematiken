@@ -7,7 +7,9 @@
     "de": "Fertigungstechnik"
   },
   "note": {
-    "de": "Fertigungstechnik"
+    "de": [
+      "Fertigungstechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Urformen"
       },
       "note": {
-        "de": "Urformen"
+        "de": [
+          "Urformen"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Umformen"
       },
       "note": {
-        "de": "Umformen"
+        "de": [
+          "Umformen"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Trennen"
       },
       "note": {
-        "de": "Trennen"
+        "de": [
+          "Trennen"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Fügen"
       },
       "note": {
-        "de": "Fügen"
+        "de": [
+          "Fügen"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Stoffeigenschaften ändern"
       },
       "note": {
-        "de": "Stoffeigenschaften"
+        "de": [
+          "Stoffeigenschaften"
+        ]
       }
     },
     {
@@ -61,16 +73,16 @@
         "de": "Galvanik und Oberflächenbearbeitung"
       },
       "note": {
-        "de": "Galvanik; Oberflächenbearbeitung"
+        "de": [
+          "Galvanik",
+          "Oberflächenbearbeitung"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401104",
     "prefLabel": {
-      "de": "Produktionstechnik"
-    },
-    "note": {
       "de": "Produktionstechnik"
     }
   },
@@ -128,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

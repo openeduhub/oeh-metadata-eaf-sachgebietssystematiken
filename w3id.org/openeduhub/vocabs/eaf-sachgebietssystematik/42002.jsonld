@@ -7,7 +7,11 @@
     "de": "Europäische Zeitstile"
   },
   "note": {
-    "de": "Europäische Zeitstile; Musik; Musikunterricht"
+    "de": [
+      "Europäische Zeitstile",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Anfänge der abendländischen Musik"
       },
       "note": {
-        "de": "Anfänge der abendländischen Musik; Musik; Musikunterricht"
+        "de": [
+          "Anfänge der abendländischen Musik",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Mittelalterliche Ein- und Mehrstimmigkeit"
       },
       "note": {
-        "de": "Mittelalterliche Einstimmigkeit; Mittelalterliche Mehrstimmigkeit; Musik; Musikunterricht"
+        "de": [
+          "Mittelalterliche Einstimmigkeit",
+          "Mittelalterliche Mehrstimmigkeit",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Renaissance"
       },
       "note": {
-        "de": "Renaissance; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Renaissance"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Barock"
       },
       "note": {
-        "de": "Barock; Musik; Musikunterricht"
+        "de": [
+          "Barock",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -52,7 +73,11 @@
         "de": "Klassik"
       },
       "note": {
-        "de": "Klassik; Musik; Musikunterricht"
+        "de": [
+          "Klassik",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -61,7 +86,11 @@
         "de": "Romantik"
       },
       "note": {
-        "de": "Romantik; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Romantik"
+        ]
       }
     },
     {
@@ -70,7 +99,11 @@
         "de": "Impressionismus"
       },
       "note": {
-        "de": "Impressionismus; Musik; Musikunterricht"
+        "de": [
+          "Impressionismus",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -79,7 +112,11 @@
         "de": "Moderne"
       },
       "note": {
-        "de": "Moderne; Musik; Musikunterricht"
+        "de": [
+          "Moderne",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     }
   ],
@@ -87,9 +124,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420",
     "prefLabel": {
       "de": "MUSIK"
-    },
-    "note": {
-      "de": "Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -146,10 +180,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

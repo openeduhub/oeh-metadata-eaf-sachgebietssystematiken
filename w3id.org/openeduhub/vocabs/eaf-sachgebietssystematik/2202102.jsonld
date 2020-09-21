@@ -7,15 +7,20 @@
     "de": "Übrige Gebiete"
   },
   "note": {
-    "de": "Neuseeland; Tasmanien; Neuguinea; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Neuguinea",
+      "Neuseeland",
+      "Tasmanien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22021",
     "prefLabel": {
       "de": "Australien und Ozeanien"
-    },
-    "note": {
-      "de": "Australien; Ozeanien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

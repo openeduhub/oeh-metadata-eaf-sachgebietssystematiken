@@ -7,7 +7,10 @@
     "de": "Spanisch"
   },
   "note": {
-    "de": "Spanisch; Spanischunterricht"
+    "de": [
+      "Spanisch",
+      "Spanischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Spanisch; Spanischunterricht"
+        "de": [
+          "Spanisch",
+          "Spanischunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Spanien; Spanisch; Spanischunterricht"
+        "de": [
+          "Landeskunde Spanien",
+          "Spanisch",
+          "Spanischunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Spaniens; Medien; Spanisch; Spanischunterricht"
+        "de": [
+          "Literatur Spaniens",
+          "Medien",
+          "Spanisch",
+          "Spanischunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Spanisch; Spanischunterricht"
+        "de": [
+          "Spanisch",
+          "Spanischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Spanisch; Spanischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Spanisch",
+          "Spanischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

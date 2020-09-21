@@ -7,15 +7,17 @@
     "de": "Physiologische Wirkungsweise chemischer Substanzen"
   },
   "note": {
-    "de": "Physiologische Wirkungsweise chemischer Substanzen; Wirkung chemischer Substanzen; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Physiologische Wirkungsweise chemischer Substanzen",
+      "Wirkung chemischer Substanzen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10006",
     "prefLabel": {
       "de": "Biochemie"
-    },
-    "note": {
-      "de": "Biochemie; Chemieunterricht; Chemie"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

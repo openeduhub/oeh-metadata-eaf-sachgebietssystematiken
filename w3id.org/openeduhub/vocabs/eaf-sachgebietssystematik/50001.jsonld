@@ -7,7 +7,9 @@
     "de": "Hauswirtschaft"
   },
   "note": {
-    "de": "Hauswirtschaft"
+    "de": [
+      "Hauswirtschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Ernährungslehre"
       },
       "note": {
-        "de": "Ernährungslehre"
+        "de": [
+          "Ernährungslehre"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Kochen"
       },
       "note": {
-        "de": "Kochen"
+        "de": [
+          "Kochen"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Wirtschaften im privaten Haushalt"
       },
       "note": {
-        "de": "Wirtschaften im privaten Haushalt"
+        "de": [
+          "Wirtschaften im privaten Haushalt"
+        ]
       }
     },
     {
@@ -43,7 +51,10 @@
         "de": "Haushalt und Umwelt"
       },
       "note": {
-        "de": "Haushalt; Umwelt"
+        "de": [
+          "Haushalt",
+          "Umwelt"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Wohnung"
       },
       "note": {
-        "de": "Wohnung"
+        "de": [
+          "Wohnung"
+        ]
       }
     },
     {
@@ -61,7 +74,9 @@
         "de": "Unfallverhütung"
       },
       "note": {
-        "de": "Unfallverhütung"
+        "de": [
+          "Unfallverhütung"
+        ]
       }
     }
   ],
@@ -69,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/500",
     "prefLabel": {
       "de": "PRAXISORIENTIERTE FÄCHER"
-    },
-    "note": {
-      "de": "Praxisorientierte Fächer"
     }
   },
   "inScheme": {
@@ -128,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,22 @@
     "de": "Anlässe zum Sprechen, Lesen, Schreiben"
   },
   "note": {
-    "de": "Anlässe zum Sprechen; Lesen; Schreiben; Grundschule; Grundschulunterricht; Deutsch; Deutschunterricht; Deutsch in der Grundschule; Primarunterricht"
+    "de": [
+      "Anlässe zum Sprechen",
+      "Deutsch",
+      "Deutsch in der Grundschule",
+      "Deutschunterricht",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Lesen",
+      "Primarunterricht",
+      "Schreiben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28001",
     "prefLabel": {
       "de": "Deutsch"
-    },
-    "note": {
-      "de": "Deutsch; Deutschunterricht; Deutsch in der Grundschule; Grundschule; Grundschulunterricht; Primarunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

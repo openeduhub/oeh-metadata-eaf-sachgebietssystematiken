@@ -7,15 +7,18 @@
     "de": "Bevölkerungsstruktur"
   },
   "note": {
-    "de": "Bevölkerungsstruktur; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Bevölkerungsstruktur",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22010",
     "prefLabel": {
       "de": "Bevölkerungsgeographie"
-    },
-    "note": {
-      "de": "Bevölkerungsgeographie; Bevölkerungsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

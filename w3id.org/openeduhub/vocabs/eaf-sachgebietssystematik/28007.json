@@ -7,7 +7,15 @@
     "de": "Mathematik"
   },
   "note": {
-    "de": "Mathematik; Rechnen; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Mathematik",
+      "Mathematikunterricht",
+      "Matheunterricht",
+      "Primarunterricht",
+      "Rechnen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +24,15 @@
         "de": "Zahlen, Grundrechenarten"
       },
       "note": {
-        "de": "Zahlen; Grundrechenarten; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundrechenarten",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Primarunterricht",
+          "Zahlen"
+        ]
       }
     },
     {
@@ -25,7 +41,16 @@
         "de": "Messen und Größen"
       },
       "note": {
-        "de": "Messung; Messgröße; physikalische Größe; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Messgröße",
+          "Messung",
+          "Primarunterricht",
+          "physikalische Größe"
+        ]
       }
     },
     {
@@ -34,7 +59,15 @@
         "de": "Raum und Ebenen"
       },
       "note": {
-        "de": "Raum; Ebene; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Ebene",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Primarunterricht",
+          "Raum"
+        ]
       }
     },
     {
@@ -43,7 +76,15 @@
         "de": "Daten und Zufall"
       },
       "note": {
-        "de": "Daten; Zufall; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Daten",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Primarunterricht",
+          "Zufall"
+        ]
       }
     }
   ],
@@ -51,9 +92,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +148,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Verkehr und Logistik"
   },
   "note": {
-    "de": "Verkehr; Logistik"
+    "de": [
+      "Logistik",
+      "Verkehr"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Seefahrt"
       },
       "note": {
-        "de": "Seefahrt"
+        "de": [
+          "Seefahrt"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Auto- und Straßenverkehr"
       },
       "note": {
-        "de": "Autoverkehr; Straßenverkehr"
+        "de": [
+          "Autoverkehr",
+          "Straßenverkehr"
+        ]
       }
     },
     {
@@ -34,7 +42,10 @@
         "de": "Bahn- und Schienenverkehr"
       },
       "note": {
-        "de": "Bahnverkehr; Schienenverkehr"
+        "de": [
+          "Bahnverkehr",
+          "Schienenverkehr"
+        ]
       }
     },
     {
@@ -43,7 +54,10 @@
         "de": "Flugzeug und Luftfahrt"
       },
       "note": {
-        "de": "Flugzeug; Luftfahrt"
+        "de": [
+          "Flugzeug",
+          "Luftfahrt"
+        ]
       }
     },
     {
@@ -52,7 +66,10 @@
         "de": "Transport und Logistik"
       },
       "note": {
-        "de": "Transport; Logistik"
+        "de": [
+          "Logistik",
+          "Transport"
+        ]
       }
     }
   ],
@@ -60,9 +77,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -119,10 +133,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

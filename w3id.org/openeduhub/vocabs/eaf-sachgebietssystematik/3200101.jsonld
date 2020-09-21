@@ -7,14 +7,15 @@
     "de": "Geschichte der IuK-Techniken"
   },
   "note": {
-    "de": "Geschichte der IuK-Techniken; Neuronale Netze; Fuzzy Logic"
+    "de": [
+      "Fuzzy Logic",
+      "Geschichte der IuK-Techniken",
+      "Neuronale Netze"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32001",
     "prefLabel": {
-      "de": "Informationstechnische Grundbildung"
-    },
-    "note": {
       "de": "Informationstechnische Grundbildung"
     }
   },
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

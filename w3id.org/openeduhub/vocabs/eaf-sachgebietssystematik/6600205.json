@@ -7,15 +7,15 @@
     "de": "Schiff"
   },
   "note": {
-    "de": "Schiff; Verkehrserziehung"
+    "de": [
+      "Schiff",
+      "Verkehrserziehung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/66002",
     "prefLabel": {
       "de": "Verkehrsmittel"
-    },
-    "note": {
-      "de": "Verkehrsmittel; Verkehrserziehung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

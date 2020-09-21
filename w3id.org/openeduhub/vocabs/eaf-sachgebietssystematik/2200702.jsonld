@@ -7,15 +7,19 @@
     "de": "Vegetationsgeographie"
   },
   "note": {
-    "de": "Vegetationsgeographie; Vegetationsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Vegetationsgeografie",
+      "Vegetationsgeographie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22007",
     "prefLabel": {
       "de": "Biogeographie"
-    },
-    "note": {
-      "de": "Biogeographie; Biogeografie"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Literatur, Medien"
   },
   "note": {
-    "de": "Literatur Japans; Medien; Japanisch; Japanischunterricht"
+    "de": [
+      "Japanisch",
+      "Japanischunterricht",
+      "Literatur Japans",
+      "Medien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20042",
     "prefLabel": {
       "de": "Japanisch"
-    },
-    "note": {
-      "de": "Japanisch; Japanischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

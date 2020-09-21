@@ -7,7 +7,15 @@
     "de": "Umwelterziehung"
   },
   "note": {
-    "de": "Umwelterziehung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht",
+      "Umwelterziehung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +24,16 @@
         "de": "Wasser und Abwasser"
       },
       "note": {
-        "de": "Wasser; Abwasser; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Abwasser",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Wasser"
+        ]
       }
     },
     {
@@ -25,7 +42,16 @@
         "de": "Landschaftsschutz, Landschaftspflege"
       },
       "note": {
-        "de": "Landschaftsschutz; Landschaftspflege; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Landschaftspflege",
+          "Landschaftsschutz",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -34,7 +60,16 @@
         "de": "Luftverschmutzung, Luftreinhaltung"
       },
       "note": {
-        "de": "Luftverschmutzung; Luftreinhaltung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Luftreinhaltung",
+          "Luftverschmutzung",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -43,7 +78,17 @@
         "de": "Müllanfall, Müllbeseitigung, Recycling"
       },
       "note": {
-        "de": "Müllanfall; Müllbeseitigung; Recycling; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Müllanfall",
+          "Müllbeseitigung",
+          "Primarunterricht",
+          "Recycling",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -52,7 +97,15 @@
         "de": "Lärm"
       },
       "note": {
-        "de": "Lärm; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Lärm",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +113,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +169,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

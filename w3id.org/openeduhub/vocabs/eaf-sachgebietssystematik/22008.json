@@ -7,7 +7,14 @@
     "de": "Geoökologie"
   },
   "note": {
-    "de": "Geoökologie; Ökologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Geoökologie",
+      "Ökologie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Ökosystem"
       },
       "note": {
-        "de": "Ökosystem; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Ökosystem"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Umweltprobleme"
       },
       "note": {
-        "de": "Umweltprobleme; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Umweltprobleme"
+        ]
       }
     }
   ],
@@ -33,9 +52,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +108,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

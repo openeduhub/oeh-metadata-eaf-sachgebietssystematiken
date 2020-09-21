@@ -7,7 +7,10 @@
     "de": "GESCHICHTE"
   },
   "note": {
-    "de": "Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Quellenkunde"
       },
       "note": {
-        "de": "Quellenkunde; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Quellenkunde"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Epochen"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +44,12 @@
         "de": "Landes- und Regionalgeschichte"
       },
       "note": {
-        "de": "Landesgeschichte; Regionalgeschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Landesgeschichte",
+          "Regionalgeschichte"
+        ]
       }
     },
     {
@@ -43,7 +58,10 @@
         "de": "Geschichtliche Überblicke und thematische Querschnitte"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -52,7 +70,13 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Persönlichkeiten der Geschichte; Biografien; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Biografien",
+          "Biographien",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Persönlichkeiten der Geschichte"
+        ]
       }
     },
     {
@@ -61,7 +85,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Geschichtsunterricht; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Bilingualer Geschichtsunterricht",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     }
   ],
@@ -122,10 +150,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

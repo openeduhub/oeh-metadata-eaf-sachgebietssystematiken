@@ -4,7 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000206",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4000206",
   "note": {
-    "de": "Computer; Multimedia; Medienpädagogik"
+    "de": [
+      "Computer",
+      "Medienpädagogik",
+      "Multimedia"
+    ]
   },
   "narrower": [
     {
@@ -13,7 +17,10 @@
         "de": "Medienkundlicher Aspekt"
       },
       "note": {
-        "de": "Medienkundlicher Aspekt; Medienpädagogik"
+        "de": [
+          "Medienkundlicher Aspekt",
+          "Medienpädagogik"
+        ]
       }
     },
     {
@@ -22,7 +29,10 @@
         "de": "Medienpädagogischer Aspekt"
       },
       "note": {
-        "de": "Medienpädagogischer Aspekt; Medienpädagogik"
+        "de": [
+          "Medienpädagogik",
+          "Medienpädagogischer Aspekt"
+        ]
       }
     }
   ],
@@ -30,9 +40,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40002",
     "prefLabel": {
       "de": "Medienpädagogische Handlungsfelder"
-    },
-    "note": {
-      "de": "Medienpädagogische Handlungsfelder; Medienpädagogik"
     }
   },
   "inScheme": {
@@ -89,10 +96,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

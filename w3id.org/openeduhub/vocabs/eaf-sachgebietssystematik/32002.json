@@ -7,7 +7,10 @@
     "de": "Informatik"
   },
   "note": {
-    "de": "Informatik; Informatikunterricht"
+    "de": [
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Technische Informatik"
       },
       "note": {
-        "de": "Technische Informatik; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Technische Informatik"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Angewandte Informatik"
       },
       "note": {
-        "de": "Angewandte Informatik; Informatik; Informatikunterricht"
+        "de": [
+          "Angewandte Informatik",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +45,11 @@
         "de": "Theoretische Informatik"
       },
       "note": {
-        "de": "Theoretische Informatik; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Theoretische Informatik"
+        ]
       }
     },
     {
@@ -43,7 +58,11 @@
         "de": "Praktische Informatik"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Praktische Informatik"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Praktische Informatik"
+        ]
       }
     },
     {
@@ -52,7 +71,10 @@
         "de": "Informatik und andere Wissenschaften"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -61,7 +83,11 @@
         "de": "Informatik und Gesellschaft"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Gesellschaft"
+        "de": [
+          "Gesellschaft",
+          "Informatik",
+          "Informatikunterricht"
+        ]
       }
     },
     {
@@ -70,7 +96,12 @@
         "de": "Künstliche Intelligenz"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; KI; Künstliche Intelligenz"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "KI",
+          "Künstliche Intelligenz"
+        ]
       }
     },
     {
@@ -79,7 +110,12 @@
         "de": "Didaktik und Methodik des Informationsunterrichts"
       },
       "note": {
-        "de": "Informatik; Informatikunterricht; Didaktik; Methodik"
+        "de": [
+          "Didaktik",
+          "Informatik",
+          "Informatikunterricht",
+          "Methodik"
+        ]
       }
     }
   ],
@@ -87,9 +123,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320",
     "prefLabel": {
       "de": "INFORMATIONSTECHNISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Informationstechnische Bildung"
     }
   },
   "inScheme": {
@@ -146,10 +179,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

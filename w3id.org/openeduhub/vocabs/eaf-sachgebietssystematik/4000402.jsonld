@@ -7,7 +7,10 @@
     "de": "Kommunizieren und Kooperieren"
   },
   "note": {
-    "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Kommunizieren und Kooperieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Interagieren"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Teilen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Zusammenarbeiten"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +55,11 @@
         "de": "Umgangsregeln kennen und einhalten"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt; Netiquette"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt",
+          "Netiquette"
+        ]
       }
     },
     {
@@ -52,7 +68,10 @@
         "de": "An der Gesellschaft aktiv teilhaben"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -60,9 +79,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40004",
     "prefLabel": {
       "de": "Kompetenzen in der digitalen Welt"
-    },
-    "note": {
-      "de": "KMK-Kompetenzrahmen; Kompetenzen in der digitalen Welt; Kompetenzbereiche"
     }
   },
   "inScheme": {
@@ -119,10 +135,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

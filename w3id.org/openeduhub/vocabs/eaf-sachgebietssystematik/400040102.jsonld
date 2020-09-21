@@ -7,7 +7,10 @@
     "de": "Auswerten und Bewerten"
   },
   "note": {
-    "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Informationen und Daten analysieren, interpretieren und kritisch bewerten"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Informationsquellen analysieren und kritisch bewerten"
       },
       "note": {
-        "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -33,9 +42,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000401",
     "prefLabel": {
       "de": "Suchen, Verarbeiten und Aufbewahren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -92,10 +98,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

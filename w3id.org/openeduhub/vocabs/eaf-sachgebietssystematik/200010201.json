@@ -7,15 +7,17 @@
     "de": "Großbritannien, Irland"
   },
   "note": {
-    "de": "Großbritannien; Irland; Englisch; Englischunterricht"
+    "de": [
+      "Englisch",
+      "Englischunterricht",
+      "Großbritannien",
+      "Irland"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2000102",
     "prefLabel": {
       "de": "Landeskunde"
-    },
-    "note": {
-      "de": "Landeskunde; Englisch; Englischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

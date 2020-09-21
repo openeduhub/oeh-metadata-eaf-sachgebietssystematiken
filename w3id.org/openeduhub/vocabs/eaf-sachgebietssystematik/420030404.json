@@ -7,15 +7,18 @@
     "de": "Chanson, Liedermacher, Kleinkunst"
   },
   "note": {
-    "de": "Chanson; Liedermacher; Kleinkunst; Musik; Musikunterricht"
+    "de": [
+      "Chanson",
+      "Kleinkunst",
+      "Liedermacher",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200304",
     "prefLabel": {
       "de": "Populäre Musik"
-    },
-    "note": {
-      "de": "Populäre Musik; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

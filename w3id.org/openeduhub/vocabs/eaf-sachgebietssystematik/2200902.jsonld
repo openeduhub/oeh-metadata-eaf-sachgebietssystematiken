@@ -7,15 +7,18 @@
     "de": "Daseinsgrundfunktionen"
   },
   "note": {
-    "de": "Daseinsgrundfunktionen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Daseinsgrundfunktionen",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22009",
     "prefLabel": {
       "de": "Sozialgeographie"
-    },
-    "note": {
-      "de": "Sozialgeographie; Sozialgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

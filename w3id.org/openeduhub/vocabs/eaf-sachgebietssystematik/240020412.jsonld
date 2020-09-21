@@ -7,7 +7,12 @@
     "de": "Faschismus und Nationalsozialismus"
   },
   "note": {
-    "de": "Faschismus; Nationalsozialismus; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Faschismus",
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Nationalsozialismus"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,10 @@
         "de": "Politische und gesellschaftliche Entwicklung"
       },
       "note": {
-        "de": "Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Verfolgung"
       },
       "note": {
-        "de": "Verfolgung; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Verfolgung"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Widerstand"
       },
       "note": {
-        "de": "Widerstand; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Widerstand"
+        ]
       }
     }
   ],
@@ -42,9 +58,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400204",
     "prefLabel": {
       "de": "Neuere Geschichte"
-    },
-    "note": {
-      "de": "Neuere Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +114,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

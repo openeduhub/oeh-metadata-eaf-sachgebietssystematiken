@@ -7,7 +7,10 @@
     "de": "Volkswirtschaft"
   },
   "note": {
-    "de": "Volkswirtschaft; Wirtschaftswissenschaft"
+    "de": [
+      "Volkswirtschaft",
+      "Wirtschaftswissenschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Markt und Preis"
       },
       "note": {
-        "de": "Markt und Preis; Wirtschaftswissenschaft"
+        "de": [
+          "Markt und Preis",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Geld und Kredit"
       },
       "note": {
-        "de": "Geld und Kredit; Wirtschaftswissenschaft"
+        "de": [
+          "Geld und Kredit",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -34,7 +43,11 @@
         "de": "Arbeit und Lohn"
       },
       "note": {
-        "de": "Arbeit und Lohn; Arbeitsentgelt; Einkommen"
+        "de": [
+          "Arbeit und Lohn",
+          "Arbeitsentgelt",
+          "Einkommen"
+        ]
       }
     },
     {
@@ -43,7 +56,12 @@
         "de": "Sozialpolitik, Wirtschaftspolitik"
       },
       "note": {
-        "de": "Sozialpolitik; Wirtschaftspolitik; Politikwissenschaft; Wirtschaftswissenschaft"
+        "de": [
+          "Politikwissenschaft",
+          "Sozialpolitik",
+          "Wirtschaftspolitik",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -52,7 +70,10 @@
         "de": "Öffentliche Finanzwirtschaft, Steuern"
       },
       "note": {
-        "de": "Öffentliche Finanzwirtschaft; Steuern"
+        "de": [
+          "Steuern",
+          "Öffentliche Finanzwirtschaft"
+        ]
       }
     },
     {
@@ -61,7 +82,10 @@
         "de": "Weltwirtschaft"
       },
       "note": {
-        "de": "Weltwirtschaft; Wirtschaftswissenschaft"
+        "de": [
+          "Weltwirtschaft",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -70,7 +94,10 @@
         "de": "Wirtschaftssysteme"
       },
       "note": {
-        "de": "Wirtschaftssysteme; Wirtschaftswissenschaft"
+        "de": [
+          "Wirtschaftssysteme",
+          "Wirtschaftswissenschaft"
+        ]
       }
     }
   ],
@@ -78,9 +105,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/700",
     "prefLabel": {
       "de": "WIRTSCHAFTSKUNDE"
-    },
-    "note": {
-      "de": "Wirtschaftskunde; Wirtschaftswissenschaft"
     }
   },
   "inScheme": {
@@ -137,10 +161,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

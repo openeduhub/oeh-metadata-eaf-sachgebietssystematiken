@@ -7,15 +7,15 @@
     "de": "Kraft- und Bewegungsübertragung"
   },
   "note": {
-    "de": "Kraftübertragung; Bewegungsübertragung"
+    "de": [
+      "Bewegungsübertragung",
+      "Kraftübertragung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04010",
     "prefLabel": {
       "de": "Fahrzeugtechnik, Mechatronik"
-    },
-    "note": {
-      "de": "Fahrzeugtechnik; Mechatronik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,11 @@
     "de": "Umgangsregeln kennen und einhalten"
   },
   "note": {
-    "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt; Netiquette"
+    "de": [
+      "Kompetenzbereich Kommunizieren und Kooperieren",
+      "Kompetenzen in der digitalen Welt",
+      "Netiquette"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,10 @@
         "de": "Verhaltensregeln bei digitaler Interaktion und Kooperation kennen und anwenden"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Kommunikation der jeweiligen Umgebung anpassen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +44,10 @@
         "de": "Ethische Prinzipien bei der Kommunikation kennen und berücksichtigen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -43,7 +56,10 @@
         "de": "Kulturelle Vielfalt in digitalen Umgebungen berücksichtigen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -51,9 +67,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000402",
     "prefLabel": {
       "de": "Kommunizieren und Kooperieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -110,10 +123,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

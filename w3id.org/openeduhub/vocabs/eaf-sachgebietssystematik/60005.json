@@ -7,15 +7,17 @@
     "de": "Olympische Spiele"
   },
   "note": {
-    "de": "Olympische Spiele; Olympiade; Sport; Sportunterricht"
+    "de": [
+      "Olympiade",
+      "Olympische Spiele",
+      "Sport",
+      "Sportunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
-    },
-    "note": {
-      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

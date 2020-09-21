@@ -7,7 +7,9 @@
     "de": "ARBEITSLEHRE"
   },
   "note": {
-    "de": "Arbeitslehre"
+    "de": [
+      "Arbeitslehre"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Hinführung zur Arbeitswelt"
       },
       "note": {
-        "de": "Arbeitswelt; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Arbeitswelt"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Berufskunde"
       },
       "note": {
-        "de": "Berufskunde; Arbeitslehre"
+        "de": [
+          "Arbeitslehre",
+          "Berufskunde"
+        ]
       }
     }
   ],
@@ -86,10 +94,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

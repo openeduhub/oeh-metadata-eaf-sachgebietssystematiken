@@ -7,7 +7,11 @@
     "de": "Alte Geschichte"
   },
   "note": {
-    "de": "Alte Geschichte; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Alte Geschichte",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,14 @@
         "de": "Frühe Hochkulturen"
       },
       "note": {
-        "de": "Frühe Hochkulturen; Sumerer; Babylonier; Ägypter; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Babylonier",
+          "Frühe Hochkulturen",
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Sumerer",
+          "Ägypter"
+        ]
       }
     },
     {
@@ -25,7 +36,11 @@
         "de": "Griechische Geschichte"
       },
       "note": {
-        "de": "Griechische Geschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Griechische Geschichte"
+        ]
       }
     },
     {
@@ -34,7 +49,12 @@
         "de": "Römische Geschichte, etruskische Geschichte"
       },
       "note": {
-        "de": "Römische Geschichte; etruskische Geschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Römische Geschichte",
+          "etruskische Geschichte"
+        ]
       }
     },
     {
@@ -43,7 +63,12 @@
         "de": "Völkerwanderung, germanische Geschichte"
       },
       "note": {
-        "de": "Völkerwanderung; germanische Geschichte; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Völkerwanderung",
+          "germanische Geschichte"
+        ]
       }
     }
   ],
@@ -51,9 +76,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +132,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

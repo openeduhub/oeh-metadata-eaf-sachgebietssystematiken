@@ -7,7 +7,16 @@
     "de": "Haustiere, Nutztiere"
   },
   "note": {
-    "de": "Haustiere; Nutztiere; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Haustiere",
+      "Nutztiere",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +25,15 @@
         "de": "Tiermonographie"
       },
       "note": {
-        "de": "Tiermonographie; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Tiermonographie"
+        ]
       }
     },
     {
@@ -25,7 +42,16 @@
         "de": "Haltung und Pflege"
       },
       "note": {
-        "de": "Tierhaltung; Tierpflege; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Tierhaltung",
+          "Tierpflege"
+        ]
       }
     }
   ],
@@ -33,9 +59,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2801016",
     "prefLabel": {
       "de": "Tiere"
-    },
-    "note": {
-      "de": "Tiere; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +115,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Volkswirtschaft"
   },
   "note": {
-    "de": "Volkswirtschaft; Wirtschaftswissenschaft"
+    "de": [
+      "Volkswirtschaft",
+      "Wirtschaftswissenschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Grundlagen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Volkswirtschaftliche Gesamtrechnung"
       },
       "note": {
-        "de": "Volkswirtschaftliche Gesamtrechnung"
+        "de": [
+          "Volkswirtschaftliche Gesamtrechnung"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Markt und Preis"
       },
       "note": {
-        "de": "Markt und Preis"
+        "de": [
+          "Markt und Preis"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Geld"
       },
       "note": {
-        "de": "Geld"
+        "de": [
+          "Geld"
+        ]
       }
     },
     {
@@ -52,7 +63,11 @@
         "de": "Wirtschaftspolitik"
       },
       "note": {
-        "de": "Wirtschaftspolitik; Politikwissenschaft; Wirtschaftswissenschaft"
+        "de": [
+          "Politikwissenschaft",
+          "Wirtschaftspolitik",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -61,7 +76,10 @@
         "de": "Wirtschaftsformen"
       },
       "note": {
-        "de": "Wirtschaftsformen; Wirtschaftswissenschaft"
+        "de": [
+          "Wirtschaftsformen",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -70,7 +88,11 @@
         "de": "Wirtschaftsgeographie"
       },
       "note": {
-        "de": "Wirtschaftsgeographie; Wirtschaftsgeografie; Wirtschaftswissenschaft"
+        "de": [
+          "Wirtschaftsgeografie",
+          "Wirtschaftsgeographie",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -79,7 +101,10 @@
         "de": "Wirtschafts- und Sozialgeschichte"
       },
       "note": {
-        "de": "Wirtschaftsgeschichte; Sozialgeschichte"
+        "de": [
+          "Sozialgeschichte",
+          "Wirtschaftsgeschichte"
+        ]
       }
     }
   ],
@@ -87,9 +112,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04013",
     "prefLabel": {
       "de": "Wirtschaft und Verwaltung"
-    },
-    "note": {
-      "de": "Wirtschaft; Verwaltung"
     }
   },
   "inScheme": {
@@ -146,10 +168,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

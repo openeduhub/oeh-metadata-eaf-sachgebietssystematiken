@@ -7,7 +7,14 @@
     "de": "Geomorphologie"
   },
   "note": {
-    "de": "Geomorphologie; Morphologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Geomorphologie",
+      "Morphologie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,15 @@
         "de": "Erdgestaltende Kräfte"
       },
       "note": {
-        "de": "Erdgestaltende Kräfte; exogene Kräfte; endogene Kräfte; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Erdgestaltende Kräfte",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "endogene Kräfte",
+          "exogene Kräfte"
+        ]
       }
     },
     {
@@ -25,7 +40,16 @@
         "de": "Oberflächenformen"
       },
       "note": {
-        "de": "Oberflächenformen; Oberflächengestalt; Relief; Landschaftsformen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Landschaftsformen",
+          "Oberflächenformen",
+          "Oberflächengestalt",
+          "Relief"
+        ]
       }
     }
   ],
@@ -33,9 +57,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +113,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

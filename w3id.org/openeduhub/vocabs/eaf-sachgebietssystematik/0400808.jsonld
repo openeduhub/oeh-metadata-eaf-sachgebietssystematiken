@@ -7,7 +7,9 @@
     "de": "Pflege"
   },
   "note": {
-    "de": "Pflege"
+    "de": [
+      "Pflege"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Altenpflege"
       },
       "note": {
-        "de": "Altenpflege"
+        "de": [
+          "Altenpflege"
+        ]
       }
     },
     {
@@ -25,7 +29,10 @@
         "de": "Gesundheits- und Krankenpflege"
       },
       "note": {
-        "de": "Gesundheitspflege; Krankenpflege"
+        "de": [
+          "Gesundheitspflege",
+          "Krankenpflege"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Entbindungspflege"
       },
       "note": {
-        "de": "Entbindungspflege"
+        "de": [
+          "Entbindungspflege"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Heilerziehungspflege"
       },
       "note": {
-        "de": "Heilerziehungspflege"
+        "de": [
+          "Heilerziehungspflege"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Kinderpflege"
       },
       "note": {
-        "de": "Kinderpflege"
+        "de": [
+          "Kinderpflege"
+        ]
       }
     }
   ],
@@ -60,9 +73,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04008",
     "prefLabel": {
       "de": "Gesundheit und Pflege"
-    },
-    "note": {
-      "de": "Gesundheit; Pflege"
     }
   },
   "inScheme": {
@@ -119,10 +129,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

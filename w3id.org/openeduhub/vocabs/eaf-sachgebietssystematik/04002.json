@@ -7,7 +7,10 @@
     "de": "Bau, Architektur, Vermessung"
   },
   "note": {
-    "de": "Architektur; Vermessung"
+    "de": [
+      "Architektur",
+      "Vermessung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Tiefbau"
       },
       "note": {
-        "de": "Tiefbau; Bauverfahren"
+        "de": [
+          "Bauverfahren",
+          "Tiefbau"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Hochbau"
       },
       "note": {
-        "de": "Hochbau; Bauwerk; Bauwesen"
+        "de": [
+          "Bauwerk",
+          "Bauwesen",
+          "Hochbau"
+        ]
       }
     },
     {
@@ -34,7 +44,9 @@
         "de": "Ausbau"
       },
       "note": {
-        "de": "Innenausbau"
+        "de": [
+          "Innenausbau"
+        ]
       }
     },
     {
@@ -43,7 +55,11 @@
         "de": "Baubetrieb"
       },
       "note": {
-        "de": "Baubetrieb; Bauwirtschaft; Bauingenieurwesen"
+        "de": [
+          "Baubetrieb",
+          "Bauingenieurwesen",
+          "Bauwirtschaft"
+        ]
       }
     },
     {
@@ -52,7 +68,11 @@
         "de": "Architektur, Bautechnik"
       },
       "note": {
-        "de": "Architektur; Bautechnik; Baukunde"
+        "de": [
+          "Architektur",
+          "Baukunde",
+          "Bautechnik"
+        ]
       }
     },
     {
@@ -61,7 +81,10 @@
         "de": "Vermessung"
       },
       "note": {
-        "de": "Vermessung; Geodäsie"
+        "de": [
+          "Geodäsie",
+          "Vermessung"
+        ]
       }
     },
     {
@@ -70,7 +93,9 @@
         "de": "Baugrundlagen"
       },
       "note": {
-        "de": "Baugrundlagen"
+        "de": [
+          "Baugrundlagen"
+        ]
       }
     },
     {
@@ -79,7 +104,9 @@
         "de": "Baupraktische Anwendungen"
       },
       "note": {
-        "de": "Baupraktische Anwendungen"
+        "de": [
+          "Baupraktische Anwendungen"
+        ]
       }
     },
     {
@@ -88,7 +115,9 @@
         "de": "Bauschäden"
       },
       "note": {
-        "de": "Bauschäden"
+        "de": [
+          "Bauschäden"
+        ]
       }
     },
     {
@@ -97,7 +126,10 @@
         "de": "Baustoffe"
       },
       "note": {
-        "de": "Baustoffe; Werkstoffe"
+        "de": [
+          "Baustoffe",
+          "Werkstoffe"
+        ]
       }
     }
   ],
@@ -105,9 +137,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -164,10 +193,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

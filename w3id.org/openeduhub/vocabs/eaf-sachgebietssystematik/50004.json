@@ -7,7 +7,9 @@
     "de": "Textiles Gestalten"
   },
   "note": {
-    "de": "Textiles Gestalten"
+    "de": [
+      "Textiles Gestalten"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Materialien"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Techniken"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Maschinenkunde"
       },
       "note": {
-        "de": "Maschinenkunde"
+        "de": [
+          "Maschinenkunde"
+        ]
       }
     }
   ],
@@ -42,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/500",
     "prefLabel": {
       "de": "PRAXISORIENTIERTE FÄCHER"
-    },
-    "note": {
-      "de": "Praxisorientierte Fächer"
     }
   },
   "inScheme": {
@@ -101,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

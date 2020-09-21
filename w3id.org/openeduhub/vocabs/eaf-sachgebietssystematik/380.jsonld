@@ -7,7 +7,11 @@
     "de": "MATHEMATIK"
   },
   "note": {
-    "de": "Mathematik; Mathematikunterricht; Matheunterricht"
+    "de": [
+      "Mathematik",
+      "Mathematikunterricht",
+      "Matheunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,13 @@
         "de": "Zahlen, Algebra"
       },
       "note": {
-        "de": "Zahlen; Algebra; Mathematik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Algebra",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Zahlen"
+        ]
       }
     },
     {
@@ -25,7 +35,13 @@
         "de": "Analysis, Analytische Geometrie"
       },
       "note": {
-        "de": "Analysis; Analytische Geometrie; Mathematik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Analysis",
+          "Analytische Geometrie",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht"
+        ]
       }
     },
     {
@@ -34,7 +50,12 @@
         "de": "Geometrie"
       },
       "note": {
-        "de": "Geometrie; Mathematik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Geometrie",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht"
+        ]
       }
     },
     {
@@ -43,7 +64,13 @@
         "de": "Endliche Mathematik, Stochastik"
       },
       "note": {
-        "de": "Endliche Mathematik; Stochastik; Mathematik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Endliche Mathematik",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Stochastik"
+        ]
       }
     },
     {
@@ -52,7 +79,14 @@
         "de": "Mathematik und Chaos"
       },
       "note": {
-        "de": "Mathematik und Chaos; Chaostheorie; Chaosforschung; Mathematik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Chaosforschung",
+          "Chaostheorie",
+          "Mathematik",
+          "Mathematik und Chaos",
+          "Mathematikunterricht",
+          "Matheunterricht"
+        ]
       }
     },
     {
@@ -61,7 +95,11 @@
         "de": "Mathematische Anwendungen in anderen Gebieten"
       },
       "note": {
-        "de": "Mathematik; Mathematikunterricht; Matheunterricht"
+        "de": [
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht"
+        ]
       }
     }
   ],
@@ -122,10 +160,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

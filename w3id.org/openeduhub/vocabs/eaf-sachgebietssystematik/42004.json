@@ -7,15 +7,16 @@
     "de": "Interpretation"
   },
   "note": {
-    "de": "Interpretation; Musik; Musikunterricht"
+    "de": [
+      "Interpretation",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420",
     "prefLabel": {
       "de": "MUSIK"
-    },
-    "note": {
-      "de": "Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

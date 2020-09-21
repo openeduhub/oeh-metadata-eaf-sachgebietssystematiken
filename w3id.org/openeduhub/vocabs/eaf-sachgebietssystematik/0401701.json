@@ -7,15 +7,14 @@
     "de": "Wassertechnik"
   },
   "note": {
-    "de": "Wassertechnik"
+    "de": [
+      "Wassertechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04017",
     "prefLabel": {
       "de": "Klima-, Heizungs- und Sanitärtechnik"
-    },
-    "note": {
-      "de": "Klimatechnik; Heizungstechnik; Sanitärtechnik"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

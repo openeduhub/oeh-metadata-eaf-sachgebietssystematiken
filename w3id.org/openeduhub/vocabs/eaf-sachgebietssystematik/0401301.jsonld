@@ -7,7 +7,9 @@
     "de": "Betriebswirtschaft"
   },
   "note": {
-    "de": "Betriebswirtschaft"
+    "de": [
+      "Betriebswirtschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Beschaffung"
       },
       "note": {
-        "de": "Beschaffung"
+        "de": [
+          "Beschaffung"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Produktion"
       },
       "note": {
-        "de": "Produktion"
+        "de": [
+          "Produktion"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Absatz"
       },
       "note": {
-        "de": "Absatz"
+        "de": [
+          "Absatz"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Organisation"
       },
       "note": {
-        "de": "Organisation"
+        "de": [
+          "Organisation"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Personalwesen"
       },
       "note": {
-        "de": "Personalwesen"
+        "de": [
+          "Personalwesen"
+        ]
       }
     },
     {
@@ -61,7 +73,9 @@
         "de": "Rechnungswesen"
       },
       "note": {
-        "de": "Rechnungswesen"
+        "de": [
+          "Rechnungswesen"
+        ]
       }
     },
     {
@@ -70,7 +84,9 @@
         "de": "Finanzbereich"
       },
       "note": {
-        "de": "Finanzbereich"
+        "de": [
+          "Finanzbereich"
+        ]
       }
     },
     {
@@ -79,7 +95,9 @@
         "de": "EDV"
       },
       "note": {
-        "de": "EDV"
+        "de": [
+          "EDV"
+        ]
       }
     },
     {
@@ -88,7 +106,10 @@
         "de": "Spezielle Betriebsarten"
       },
       "note": {
-        "de": "Betrieb; Betriebsart"
+        "de": [
+          "Betrieb",
+          "Betriebsart"
+        ]
       }
     }
   ],
@@ -96,9 +117,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04013",
     "prefLabel": {
       "de": "Wirtschaft und Verwaltung"
-    },
-    "note": {
-      "de": "Wirtschaft; Verwaltung"
     }
   },
   "inScheme": {
@@ -155,10 +173,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

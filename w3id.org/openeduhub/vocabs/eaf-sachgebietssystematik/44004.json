@@ -7,7 +7,9 @@
     "de": "Schulpädagogik"
   },
   "note": {
-    "de": "Schulpädagogik"
+    "de": [
+      "Schulpädagogik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Grundfragen"
       },
       "note": {
-        "de": "Grundfragen der Schulpädagogik"
+        "de": [
+          "Grundfragen der Schulpädagogik"
+        ]
       }
     },
     {
@@ -25,7 +29,10 @@
         "de": "Methodik, Didaktik"
       },
       "note": {
-        "de": "Methodik; Didaktik"
+        "de": [
+          "Didaktik",
+          "Methodik"
+        ]
       }
     }
   ],
@@ -33,9 +40,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/440",
     "prefLabel": {
       "de": "PÄDAGOGIK"
-    },
-    "note": {
-      "de": "Pädagogik"
     }
   },
   "inScheme": {
@@ -92,10 +96,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

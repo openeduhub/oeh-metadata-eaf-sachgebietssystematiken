@@ -7,15 +7,14 @@
     "de": "Textilmaschinen"
   },
   "note": {
-    "de": "Textilmaschinen"
+    "de": [
+      "Textilmaschinen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04012",
     "prefLabel": {
       "de": "Textiltechnik und Bekleidung"
-    },
-    "note": {
-      "de": "Textiltechnik; Bekleidung"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

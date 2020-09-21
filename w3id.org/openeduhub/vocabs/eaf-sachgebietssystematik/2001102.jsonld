@@ -7,15 +7,16 @@
     "de": "Landeskunde"
   },
   "note": {
-    "de": "Landeskunde Polens; Polnisch; Polnischunterricht"
+    "de": [
+      "Landeskunde Polens",
+      "Polnisch",
+      "Polnischunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20011",
     "prefLabel": {
       "de": "Polnisch"
-    },
-    "note": {
-      "de": "Polnisch; Polnischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

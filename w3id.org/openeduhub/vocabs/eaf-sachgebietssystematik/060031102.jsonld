@@ -7,13 +7,21 @@
     "de": "Kunst bis 1980"
   },
   "note": {
-    "de": "Kunst bis 1980; Kunst nach 1945; Tachismus; abstrakter Expressionismus; Op-art; Pop-art; Minimal art; Action-painting; Kunst; Kunstunterricht"
+    "de": [
+      "Action-painting",
+      "Kunst",
+      "Kunst bis 1980",
+      "Kunst nach 1945",
+      "Kunstunterricht",
+      "Minimal art",
+      "Op-art",
+      "Pop-art",
+      "Tachismus",
+      "abstrakter Expressionismus"
+    ]
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311",
-    "note": {
-      "de": "Jahrhundert; Kunst der Moderne; Kunst; Kunstunterricht"
-    }
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311"
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
@@ -69,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

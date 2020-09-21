@@ -7,7 +7,9 @@
     "de": "Werkstofftechnik"
   },
   "note": {
-    "de": "Werkstofftechnik"
+    "de": [
+      "Werkstofftechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Rohstoffe"
       },
       "note": {
-        "de": "Rohstoffe"
+        "de": [
+          "Rohstoffe"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Werkstoffe"
       },
       "note": {
-        "de": "Werkstoffe"
+        "de": [
+          "Werkstoffe"
+        ]
       }
     },
     {
@@ -34,16 +40,15 @@
         "de": "Korrosion"
       },
       "note": {
-        "de": "Korrosion"
+        "de": [
+          "Korrosion"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04011",
     "prefLabel": {
-      "de": "Metalltechnik"
-    },
-    "note": {
       "de": "Metalltechnik"
     }
   },
@@ -101,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

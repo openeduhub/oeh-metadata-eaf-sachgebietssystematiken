@@ -7,15 +7,18 @@
     "de": "Algorithmen und Datenstrukturen"
   },
   "note": {
-    "de": "Informatik; Informatikunterricht; Algorithmus; Datenstruktur; Algorithmen"
+    "de": [
+      "Algorithmen",
+      "Algorithmus",
+      "Datenstruktur",
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/3200204",
     "prefLabel": {
       "de": "Praktische Informatik"
-    },
-    "note": {
-      "de": "Informatik; Informatikunterricht; Praktische Informatik"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

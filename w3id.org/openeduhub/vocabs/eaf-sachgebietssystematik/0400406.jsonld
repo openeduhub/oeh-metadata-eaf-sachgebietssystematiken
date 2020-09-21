@@ -7,7 +7,10 @@
     "de": "IT, Computer"
   },
   "note": {
-    "de": "IT; Computer"
+    "de": [
+      "Computer",
+      "IT"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Hard- und Softwareentwicklung"
       },
       "note": {
-        "de": "Hardwareentwicklung; Softwareentwicklung"
+        "de": [
+          "Hardwareentwicklung",
+          "Softwareentwicklung"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Administration"
       },
       "note": {
-        "de": "IT-Administration; Systemadministration"
+        "de": [
+          "IT-Administration",
+          "Systemadministration"
+        ]
       }
     },
     {
@@ -34,7 +43,9 @@
         "de": "Kundenbetreuung"
       },
       "note": {
-        "de": "IT-Kundenbetreuung"
+        "de": [
+          "IT-Kundenbetreuung"
+        ]
       }
     }
   ],
@@ -42,9 +53,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04004",
     "prefLabel": {
       "de": "IT- und Medientechnik"
-    },
-    "note": {
-      "de": "Informationstechnik; Medientechnik; Informationstechnologie; Mediengestaltung; IT-Technik"
     }
   },
   "inScheme": {
@@ -101,10 +109,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

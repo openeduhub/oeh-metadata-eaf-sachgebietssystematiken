@@ -7,15 +7,23 @@
     "de": "Geographische Arbeitsmethoden und Darstellungen"
   },
   "note": {
-    "de": "Geographische Arbeitsmethoden; kartographische Darstellungsformen; Kartographie; Geografische Arbeitsmethoden; kartografische Darstellungsformen; Kartografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geografische Arbeitsmethoden",
+      "Geographie",
+      "Geographieunterricht",
+      "Geographische Arbeitsmethoden",
+      "Kartografie",
+      "Kartographie",
+      "kartografische Darstellungsformen",
+      "kartographische Darstellungsformen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +80,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

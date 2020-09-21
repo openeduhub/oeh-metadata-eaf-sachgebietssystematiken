@@ -7,7 +7,10 @@
     "de": "Farbtechnik und Raumgestaltung"
   },
   "note": {
-    "de": "Farbtechnik; Raumgestaltung"
+    "de": [
+      "Farbtechnik",
+      "Raumgestaltung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Farbtechnik"
       },
       "note": {
-        "de": "Farbtechnik"
+        "de": [
+          "Farbtechnik"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Raumgestaltung"
       },
       "note": {
-        "de": "Raumgestaltung"
+        "de": [
+          "Raumgestaltung"
+        ]
       }
     }
   ],
@@ -33,9 +40,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -92,10 +96,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,11 @@
     "de": "Sportarten"
   },
   "note": {
-    "de": "Sportarten; Sport; Sportunterricht"
+    "de": [
+      "Sport",
+      "Sportarten",
+      "Sportunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Gerätturnen"
       },
       "note": {
-        "de": "Gerätturnen; Sport; Sportunterricht"
+        "de": [
+          "Gerätturnen",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Gymnastik, Tanz"
       },
       "note": {
-        "de": "Gymnastik; Tanz; Sport; Sportunterricht"
+        "de": [
+          "Gymnastik",
+          "Sport",
+          "Sportunterricht",
+          "Tanz"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Leichtathletik"
       },
       "note": {
-        "de": "Leichtathletik; Sport; Sportunterricht"
+        "de": [
+          "Leichtathletik",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,12 @@
         "de": "Spielsportarten"
       },
       "note": {
-        "de": "Spielsportarten; Sportspiele; Sport; Sportunterricht"
+        "de": [
+          "Spielsportarten",
+          "Sport",
+          "Sportspiele",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -52,7 +74,11 @@
         "de": "Wassersport"
       },
       "note": {
-        "de": "Wassersport; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Wassersport"
+        ]
       }
     },
     {
@@ -61,7 +87,12 @@
         "de": "Wintersport, Schneesport"
       },
       "note": {
-        "de": "Wintersport; Schneesport; Sport; Sportunterricht"
+        "de": [
+          "Schneesport",
+          "Sport",
+          "Sportunterricht",
+          "Wintersport"
+        ]
       }
     },
     {
@@ -70,7 +101,10 @@
         "de": "Sonstige Sportarten"
       },
       "note": {
-        "de": "Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     }
   ],
@@ -78,9 +112,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/600",
     "prefLabel": {
       "de": "SPORT"
-    },
-    "note": {
-      "de": "Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -137,10 +168,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

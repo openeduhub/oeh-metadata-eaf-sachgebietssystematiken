@@ -7,14 +7,13 @@
     "de": "Elektrotechnik"
   },
   "note": {
-    "de": "Elektrotechnik"
+    "de": [
+      "Elektrotechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/50005",
     "prefLabel": {
-      "de": "Werken"
-    },
-    "note": {
       "de": "Werken"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

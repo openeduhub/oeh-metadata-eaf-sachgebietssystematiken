@@ -7,7 +7,10 @@
     "de": "PHYSIK"
   },
   "note": {
-    "de": "Physik; Physikunterricht"
+    "de": [
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Klassische Mechanik"
       },
       "note": {
-        "de": "Klassische Mechanik; Physik; Physikunterricht"
+        "de": [
+          "Klassische Mechanik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Wärmelehre"
       },
       "note": {
-        "de": "Wärmelehre; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Wärmelehre"
+        ]
       }
     },
     {
@@ -34,7 +45,11 @@
         "de": "Optik"
       },
       "note": {
-        "de": "Optik; Physik; Physikunterricht"
+        "de": [
+          "Optik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +58,11 @@
         "de": "Magnetismus"
       },
       "note": {
-        "de": "Magnetismus; Physik; Physikunterricht"
+        "de": [
+          "Magnetismus",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -52,7 +71,11 @@
         "de": "Elektrizitätslehre"
       },
       "note": {
-        "de": "Elektrizitätslehre; Physik; Physikunterricht"
+        "de": [
+          "Elektrizitätslehre",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -61,7 +84,11 @@
         "de": "Relativitätstheorie"
       },
       "note": {
-        "de": "Relativitätstheorie; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Relativitätstheorie"
+        ]
       }
     },
     {
@@ -70,7 +97,11 @@
         "de": "Quantentheorie"
       },
       "note": {
-        "de": "Quantentheorie; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Quantentheorie"
+        ]
       }
     },
     {
@@ -79,7 +110,11 @@
         "de": "Atomphysik"
       },
       "note": {
-        "de": "Atomphysik; Physik; Physikunterricht"
+        "de": [
+          "Atomphysik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -88,7 +123,11 @@
         "de": "Kernphysik"
       },
       "note": {
-        "de": "Kernphysik; Physik; Physikunterricht"
+        "de": [
+          "Kernphysik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -97,7 +136,11 @@
         "de": "Chaostheorie"
       },
       "note": {
-        "de": "Chaostheorie; Physik; Physikunterricht"
+        "de": [
+          "Chaostheorie",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -106,7 +149,11 @@
         "de": "Elementarteilchenphysik"
       },
       "note": {
-        "de": "Elementarteilchenphysik; Physik; Physikunterricht"
+        "de": [
+          "Elementarteilchenphysik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -115,7 +162,11 @@
         "de": "Festkörperphysik"
       },
       "note": {
-        "de": "Festkörperphysik; Physik; Physikunterricht"
+        "de": [
+          "Festkörperphysik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -124,7 +175,11 @@
         "de": "Biophysik"
       },
       "note": {
-        "de": "Biophysik; Physik; Physikunterricht"
+        "de": [
+          "Biophysik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -133,7 +188,11 @@
         "de": "Astronomie"
       },
       "note": {
-        "de": "Astronomie; Physik; Physikunterricht"
+        "de": [
+          "Astronomie",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -142,7 +201,10 @@
         "de": "Technologie"
       },
       "note": {
-        "de": "Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -151,7 +213,12 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Biografien; Physik; Physikunterricht"
+        "de": [
+          "Biografien",
+          "Biographien",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -160,7 +227,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Physikunterricht; Physik; Physikunterricht"
+        "de": [
+          "Bilingualer Physikunterricht",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     }
   ],
@@ -221,10 +292,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

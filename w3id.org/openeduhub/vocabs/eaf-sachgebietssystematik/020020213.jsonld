@@ -7,15 +7,15 @@
     "de": "Handwerksberufe"
   },
   "note": {
-    "de": "Handwerksberufe; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Handwerksberufe"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
     "prefLabel": {
       "de": "Berufsbilder"
-    },
-    "note": {
-      "de": "Berufsbilder; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

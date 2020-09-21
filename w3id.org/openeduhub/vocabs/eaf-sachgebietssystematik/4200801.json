@@ -7,15 +7,16 @@
     "de": "Musikalische Elementarbildung"
   },
   "note": {
-    "de": "Musikalische Elementarbildung; Musik; Musikunterricht"
+    "de": [
+      "Musik",
+      "Musikalische Elementarbildung",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42008",
     "prefLabel": {
       "de": "Unterrichtsorientierte Zusammenstellungen"
-    },
-    "note": {
-      "de": "Unterrichtsorientierte Zusammenstellungen; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

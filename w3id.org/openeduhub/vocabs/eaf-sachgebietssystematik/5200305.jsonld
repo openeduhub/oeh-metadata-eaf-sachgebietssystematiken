@@ -7,15 +7,18 @@
     "de": "Orden, Kommunitäten"
   },
   "note": {
-    "de": "Orden; Kommunitäten; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Kommunitäten",
+      "Orden",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52003",
     "prefLabel": {
       "de": "Kirche und Gesellschaft"
-    },
-    "note": {
-      "de": "Kirche und Gesellschaft; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

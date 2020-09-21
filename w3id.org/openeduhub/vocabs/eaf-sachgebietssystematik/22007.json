@@ -7,7 +7,10 @@
     "de": "Biogeographie"
   },
   "note": {
-    "de": "Biogeographie; Biogeografie"
+    "de": [
+      "Biogeografie",
+      "Biogeographie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,14 @@
         "de": "Tiergeographie"
       },
       "note": {
-        "de": "Tiergeographie; Tiergeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Tiergeografie",
+          "Tiergeographie"
+        ]
       }
     },
     {
@@ -25,7 +35,14 @@
         "de": "Vegetationsgeographie"
       },
       "note": {
-        "de": "Vegetationsgeographie; Vegetationsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Vegetationsgeografie",
+          "Vegetationsgeographie"
+        ]
       }
     }
   ],
@@ -33,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

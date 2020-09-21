@@ -7,7 +7,13 @@
     "de": "IT- und Medientechnik"
   },
   "note": {
-    "de": "Informationstechnik; Medientechnik; Informationstechnologie; Mediengestaltung; IT-Technik"
+    "de": [
+      "IT-Technik",
+      "Informationstechnik",
+      "Informationstechnologie",
+      "Mediengestaltung",
+      "Medientechnik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,11 @@
         "de": "Archiv, Bibliothek, Dokumentation"
       },
       "note": {
-        "de": "Archiv; Bibliothek; Dokumentation"
+        "de": [
+          "Archiv",
+          "Bibliothek",
+          "Dokumentation"
+        ]
       }
     },
     {
@@ -25,7 +35,10 @@
         "de": "Druck und Medien"
       },
       "note": {
-        "de": "Drucktechnik; Medientechnik"
+        "de": [
+          "Drucktechnik",
+          "Medientechnik"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Film, Funk und Fernsehen"
       },
       "note": {
-        "de": "Film; Funk; Fernsehen"
+        "de": [
+          "Fernsehen",
+          "Film",
+          "Funk"
+        ]
       }
     },
     {
@@ -43,7 +60,10 @@
         "de": "Foto"
       },
       "note": {
-        "de": "Foto; Bildverarbeitung"
+        "de": [
+          "Bildverarbeitung",
+          "Foto"
+        ]
       }
     },
     {
@@ -52,7 +72,9 @@
         "de": "Verlagswesen"
       },
       "note": {
-        "de": "Verlagswesen"
+        "de": [
+          "Verlagswesen"
+        ]
       }
     },
     {
@@ -61,7 +83,10 @@
         "de": "IT, Computer"
       },
       "note": {
-        "de": "IT; Computer"
+        "de": [
+          "Computer",
+          "IT"
+        ]
       }
     }
   ],
@@ -69,9 +94,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -128,10 +150,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

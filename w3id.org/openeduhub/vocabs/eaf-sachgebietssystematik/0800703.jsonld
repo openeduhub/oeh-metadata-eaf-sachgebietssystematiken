@@ -7,15 +7,16 @@
     "de": "Ökosysteme"
   },
   "note": {
-    "de": "Ökosysteme; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Ökosysteme"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08007",
     "prefLabel": {
       "de": "Ökologie"
-    },
-    "note": {
-      "de": "Ökologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

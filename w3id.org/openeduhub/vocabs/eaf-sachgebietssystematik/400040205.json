@@ -7,7 +7,10 @@
     "de": "An der Gesellschaft aktiv teilhaben"
   },
   "note": {
-    "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Kommunizieren und Kooperieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Öffentliche und private Dienste nutzen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Medienerfahrungen weitergeben und in kommunikative Prozesse einbringen"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Als selbstbestimmter Bürger aktiv an der Gesellschaft teilhaben"
       },
       "note": {
-        "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Kommunizieren und Kooperieren",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     }
   ],
@@ -42,9 +54,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000402",
     "prefLabel": {
       "de": "Kommunizieren und Kooperieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Kommunizieren und Kooperieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -101,10 +110,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

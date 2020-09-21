@@ -7,15 +7,15 @@
     "de": "Wirtschaftliche Bedeutung der digitalen Medien und digitaler Technologien kennen und sie für eigene Geschäftsideen nutzen"
   },
   "note": {
-    "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
+    "de": [
+      "Kompetenzbereich Analysieren und Reflektieren",
+      "Kompetenzen in der digitalen Welt"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400040602",
     "prefLabel": {
       "de": "Medien in der digitalen Welt verstehen und reflektieren"
-    },
-    "note": {
-      "de": "Kompetenzbereich Analysieren und Reflektieren; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

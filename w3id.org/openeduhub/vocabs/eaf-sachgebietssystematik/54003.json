@@ -7,15 +7,14 @@
     "de": "Katastrophenschutz"
   },
   "note": {
-    "de": "Katastrophenschutz"
+    "de": [
+      "Katastrophenschutz"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/540",
     "prefLabel": {
       "de": "RETTEN, HELFEN, SCHÜTZEN"
-    },
-    "note": {
-      "de": "Retten; Helfen; Schützen"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

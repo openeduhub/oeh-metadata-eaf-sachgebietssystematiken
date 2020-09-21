@@ -7,15 +7,16 @@
     "de": "Chemie in Alltag und Umwelt"
   },
   "note": {
-    "de": "Chemie in Alltag und Umwelt; Chemie im Alltag; Chemieunterricht"
+    "de": [
+      "Chemie im Alltag",
+      "Chemie in Alltag und Umwelt",
+      "Chemieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10007",
     "prefLabel": {
       "de": "Angewandte Chemie"
-    },
-    "note": {
-      "de": "Angewandte Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

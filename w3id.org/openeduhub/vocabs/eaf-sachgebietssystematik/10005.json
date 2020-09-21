@@ -7,7 +7,10 @@
     "de": "Organische Chemie"
   },
   "note": {
-    "de": "Organische Chemie; Chemieunterricht"
+    "de": [
+      "Chemieunterricht",
+      "Organische Chemie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Kohlenwasserstoffe"
       },
       "note": {
-        "de": "Kohlenwasserstoffe; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Kohlenwasserstoffe"
+        ]
       }
     },
     {
@@ -25,7 +32,17 @@
         "de": "Stoffe mit funktionellen Gruppen"
       },
       "note": {
-        "de": "Stoffe mit funktionellen Gruppen; Funktionelle Gruppe; Alkohole; Aldehyde; Ketone; Karbonsäuren; Aminoverbindungen; Chemieunterricht; Chemie"
+        "de": [
+          "Aldehyde",
+          "Alkohole",
+          "Aminoverbindungen",
+          "Chemie",
+          "Chemieunterricht",
+          "Funktionelle Gruppe",
+          "Karbonsäuren",
+          "Ketone",
+          "Stoffe mit funktionellen Gruppen"
+        ]
       }
     },
     {
@@ -34,7 +51,17 @@
         "de": "Polymere Stoffe, Naturstoffe"
       },
       "note": {
-        "de": "Polymere Stoffe; Naturstoffe; Kohlehydrate; Fette; Proteine; Kunststoffe; Nukleinsäuren; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Fette",
+          "Kohlehydrate",
+          "Kunststoffe",
+          "Naturstoffe",
+          "Nukleinsäuren",
+          "Polymere Stoffe",
+          "Proteine"
+        ]
       }
     },
     {
@@ -43,7 +70,12 @@
         "de": "Reaktionsmechanismen"
       },
       "note": {
-        "de": "Reaktionsmechanismen; Reaktionsmechanismus; Chemieunterricht; Chemie"
+        "de": [
+          "Chemie",
+          "Chemieunterricht",
+          "Reaktionsmechanismen",
+          "Reaktionsmechanismus"
+        ]
       }
     }
   ],
@@ -51,9 +83,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/100",
     "prefLabel": {
       "de": "CHEMIE"
-    },
-    "note": {
-      "de": "Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +139,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

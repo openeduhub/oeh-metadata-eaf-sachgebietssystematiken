@@ -4,15 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420030401",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F420030401",
   "note": {
-    "de": "Unterhaltungsmusik; Schlager; Musik; Musikunterricht"
+    "de": [
+      "Musik",
+      "Musikunterricht",
+      "Schlager",
+      "Unterhaltungsmusik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200304",
     "prefLabel": {
       "de": "Populäre Musik"
-    },
-    "note": {
-      "de": "Populäre Musik; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -69,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

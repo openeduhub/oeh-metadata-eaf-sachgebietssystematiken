@@ -7,7 +7,9 @@
     "de": "Informationswirtschaft"
   },
   "note": {
-    "de": "Informationswirtschaft"
+    "de": [
+      "Informationswirtschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Wirtschaftsinformation"
       },
       "note": {
-        "de": "Wirtschaftsinformation"
+        "de": [
+          "Wirtschaftsinformation"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Textverarbeitung"
       },
       "note": {
-        "de": "Textverarbeitung"
+        "de": [
+          "Textverarbeitung"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Bürowirtschaft"
       },
       "note": {
-        "de": "Bürowirtschaft"
+        "de": [
+          "Bürowirtschaft"
+        ]
       }
     }
   ],
@@ -42,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04013",
     "prefLabel": {
       "de": "Wirtschaft und Verwaltung"
-    },
-    "note": {
-      "de": "Wirtschaft; Verwaltung"
     }
   },
   "inScheme": {
@@ -101,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

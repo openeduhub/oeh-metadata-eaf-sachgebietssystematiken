@@ -7,15 +7,16 @@
     "de": "Alltagsleben, Alltagskultur"
   },
   "note": {
-    "de": "Alltagsleben; Alltagskultur; Interkulturelle Bildung"
+    "de": [
+      "Alltagskultur",
+      "Alltagsleben",
+      "Interkulturelle Bildung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/34001",
     "prefLabel": {
       "de": "Situation in den Herkunftsländern"
-    },
-    "note": {
-      "de": "Situation in den Herkunftsländern; Interkulturelle Bildung"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,14 @@
     "de": "Geld"
   },
   "note": {
-    "de": "Geld"
+    "de": [
+      "Geld"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401302",
     "prefLabel": {
       "de": "Volkswirtschaft"
-    },
-    "note": {
-      "de": "Volkswirtschaft; Wirtschaftswissenschaft"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

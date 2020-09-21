@@ -7,7 +7,10 @@
     "de": "Algorithmen erkennen und formulieren"
   },
   "note": {
-    "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt, Algorithmen"
+    "de": [
+      "Kompetenzbereich Problemlösen und Handeln",
+      "Kompetenzen in der digitalen Welt, Algorithmen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Funktionsweisen und grundlegende Prinzipien der digitalen Welt kennen und verstehen"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Algorithmische Strukturen in genutzten digitalen Tools erkennen und formulieren"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt; Algorithmen"
+        "de": [
+          "Algorithmen",
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt"
+        ]
       }
     },
     {
@@ -34,7 +44,11 @@
         "de": "Eine strukturierte, algorithmische Sequenz zur Lösung eines Problems planen und verwenden"
       },
       "note": {
-        "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt; algorithmen"
+        "de": [
+          "Kompetenzbereich Problemlösen und Handeln",
+          "Kompetenzen in der digitalen Welt",
+          "algorithmen"
+        ]
       }
     }
   ],
@@ -42,9 +56,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000405",
     "prefLabel": {
       "de": "Problemlösen und Handeln"
-    },
-    "note": {
-      "de": "Kompetenzbereich Problemlösen und Handeln; Kompetenzen in der digitalen Welt"
     }
   },
   "inScheme": {
@@ -101,10 +112,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

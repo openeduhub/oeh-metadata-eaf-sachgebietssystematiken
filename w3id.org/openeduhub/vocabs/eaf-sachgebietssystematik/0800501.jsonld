@@ -7,7 +7,11 @@
     "de": "Allgemeine Zoologie"
   },
   "note": {
-    "de": "Allgemeine Zoologie; Biologieunterricht; Biologie"
+    "de": [
+      "Allgemeine Zoologie",
+      "Biologie",
+      "Biologieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,14 @@
         "de": "Gestalt und Bau"
       },
       "note": {
-        "de": "Gestalt und Bau; Anatomie; Tieranatomie; Körperbau; Biologieunterricht; Biologie"
+        "de": [
+          "Anatomie",
+          "Biologie",
+          "Biologieunterricht",
+          "Gestalt und Bau",
+          "Körperbau",
+          "Tieranatomie"
+        ]
       }
     },
     {
@@ -25,7 +36,11 @@
         "de": "Fortpflanzung und Entwicklung"
       },
       "note": {
-        "de": "Fortpflanzung; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Fortpflanzung"
+        ]
       }
     },
     {
@@ -34,7 +49,11 @@
         "de": "Stoffwechsel"
       },
       "note": {
-        "de": "Stoffwechsel; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Stoffwechsel"
+        ]
       }
     },
     {
@@ -43,7 +62,13 @@
         "de": "Verhalten"
       },
       "note": {
-        "de": "Verhalten; Ethologie; Verhaltensbiologie; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Ethologie",
+          "Verhalten",
+          "Verhaltensbiologie"
+        ]
       }
     }
   ],
@@ -51,9 +76,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/08005",
     "prefLabel": {
       "de": "Zoologie"
-    },
-    "note": {
-      "de": "Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -110,10 +132,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

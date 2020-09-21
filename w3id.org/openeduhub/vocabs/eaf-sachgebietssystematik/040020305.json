@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040020305",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F040020305",
   "note": {
-    "de": "Gebäudetechnik; Klimatisierung; Lüftung; Heizungsarbeiten; Sanitärarbeiten"
+    "de": [
+      "Gebäudetechnik",
+      "Heizungsarbeiten",
+      "Klimatisierung",
+      "Lüftung",
+      "Sanitärarbeiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400203",
     "prefLabel": {
       "de": "Ausbau"
-    },
-    "note": {
-      "de": "Innenausbau"
     }
   },
   "inScheme": {
@@ -69,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

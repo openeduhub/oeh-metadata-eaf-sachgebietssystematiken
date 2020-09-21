@@ -7,15 +7,16 @@
     "de": "Gesellschaft, Öffentlichkeit"
   },
   "note": {
-    "de": "Gesellschaft; Öffentlichkeit; Interkulturelle Bildung"
+    "de": [
+      "Gesellschaft",
+      "Interkulturelle Bildung",
+      "Öffentlichkeit"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/34002",
     "prefLabel": {
       "de": "Interkulturelles Zusammenleben"
-    },
-    "note": {
-      "de": "Interkulturelles Zusammenleben; Interkulturelle Bildung"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

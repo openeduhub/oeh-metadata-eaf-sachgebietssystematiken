@@ -7,15 +7,20 @@
     "de": "Dritte Welt, Entwicklungspolitik"
   },
   "note": {
-    "de": "Dritte Welt; Entwicklungspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Dritte Welt",
+      "Entwicklungspolitik",
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800403",
     "prefLabel": {
       "de": "Internationale Beziehungen"
-    },
-    "note": {
-      "de": "Internationale Beziehungen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,22 @@
     "de": "Nichtchristliche Religionen"
   },
   "note": {
-    "de": "Nichtchristliche Religionen; Hinduismus; Buddhismus; Islam; Judentum; Stammesreligionen; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Buddhismus",
+      "Hinduismus",
+      "Islam",
+      "Judentum",
+      "Nichtchristliche Religionen",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht",
+      "Stammesreligionen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52001",
     "prefLabel": {
       "de": "Religionskunde"
-    },
-    "note": {
-      "de": "Religionskunde; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +79,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,16 @@
     "de": "Geschichte von Arbeit und Technik"
   },
   "note": {
-    "de": "Technikgeschichte; Geschichte der Arbeit; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Geschichte der Arbeit",
+      "Technikgeschichte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/02001",
     "prefLabel": {
       "de": "Hinführung zur Arbeitswelt"
-    },
-    "note": {
-      "de": "Arbeitswelt; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

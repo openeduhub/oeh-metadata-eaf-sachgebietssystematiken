@@ -7,7 +7,13 @@
     "de": "Musik"
   },
   "note": {
-    "de": "Musik; Musikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Musik",
+      "Musikunterricht",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,15 @@
         "de": "Singen, Musizieren"
       },
       "note": {
-        "de": "Singen; Musizieren; Musik; Musikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Musik",
+          "Musikunterricht",
+          "Musizieren",
+          "Primarunterricht",
+          "Singen"
+        ]
       }
     },
     {
@@ -25,7 +39,14 @@
         "de": "Tanzen"
       },
       "note": {
-        "de": "Tanzen; Musik; Musikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Musik",
+          "Musikunterricht",
+          "Primarunterricht",
+          "Tanzen"
+        ]
       }
     }
   ],
@@ -33,9 +54,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +110,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

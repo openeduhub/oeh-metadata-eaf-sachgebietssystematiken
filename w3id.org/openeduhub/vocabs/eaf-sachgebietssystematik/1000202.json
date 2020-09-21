@@ -7,15 +7,16 @@
     "de": "Chemisches Gleichgewicht und seine Beeinflussung"
   },
   "note": {
-    "de": "Chemisches Gleichgewicht; Chemieunterricht; Chemie"
+    "de": [
+      "Chemie",
+      "Chemieunterricht",
+      "Chemisches Gleichgewicht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/10002",
     "prefLabel": {
       "de": "Allgemeine Chemie"
-    },
-    "note": {
-      "de": "Allgemeine Chemie; Chemieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,14 +7,14 @@
     "de": "Gesundheits- und Krankenpflege"
   },
   "note": {
-    "de": "Gesundheitspflege; Krankenpflege"
+    "de": [
+      "Gesundheitspflege",
+      "Krankenpflege"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400808",
     "prefLabel": {
-      "de": "Pflege"
-    },
-    "note": {
       "de": "Pflege"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

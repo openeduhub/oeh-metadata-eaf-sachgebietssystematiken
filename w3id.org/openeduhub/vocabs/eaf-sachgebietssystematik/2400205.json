@@ -7,7 +7,11 @@
     "de": "Geschichte von 1945 bis 1990"
   },
   "note": {
-    "de": "Geschichte von 1945 bis 1990; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Geschichte",
+      "Geschichte von 1945 bis 1990",
+      "Geschichtsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Deutschland"
       },
       "note": {
-        "de": "Deutschland; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Deutschland",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Osteuropäische Länder"
       },
       "note": {
-        "de": "Osteuropäische Länder von 1945 bis 1990; Osteuropa von 1945 bis 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Osteuropa von 1945 bis 1990",
+          "Osteuropäische Länder von 1945 bis 1990"
+        ]
       }
     },
     {
@@ -34,7 +47,12 @@
         "de": "Westeuropäische Länder"
       },
       "note": {
-        "de": "Westeuropäische Länder von 1945 bis 1990; Westeuropa von 1945 bis 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Westeuropa von 1945 bis 1990",
+          "Westeuropäische Länder von 1945 bis 1990"
+        ]
       }
     },
     {
@@ -43,7 +61,11 @@
         "de": "Außereuropäische Staaten und Völker"
       },
       "note": {
-        "de": "Außereuropäische Staaten und Völker; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Außereuropäische Staaten und Völker",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
       }
     },
     {
@@ -52,7 +74,11 @@
         "de": "Internationale Entwicklungen"
       },
       "note": {
-        "de": "Internationale Entwicklungen von 1945 bis 1990; Geschichte; Geschichtsunterricht"
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Internationale Entwicklungen von 1945 bis 1990"
+        ]
       }
     }
   ],
@@ -60,9 +86,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24002",
     "prefLabel": {
       "de": "Epochen"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +142,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

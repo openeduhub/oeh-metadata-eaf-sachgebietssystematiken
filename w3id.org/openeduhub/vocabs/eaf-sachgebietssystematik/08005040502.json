@@ -7,15 +7,16 @@
     "de": "Wild lebende Tiere"
   },
   "note": {
-    "de": "Wild lebende Tiere; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Wild lebende Tiere"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080050405",
     "prefLabel": {
       "de": "Säugetiere"
-    },
-    "note": {
-      "de": "Säugetiere; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

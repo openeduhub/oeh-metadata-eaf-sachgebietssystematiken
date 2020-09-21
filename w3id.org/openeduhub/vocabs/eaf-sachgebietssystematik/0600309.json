@@ -7,7 +7,11 @@
     "de": "19. Jahrhundert"
   },
   "note": {
-    "de": "Kunst des 19. Jahrhunderts; Kunst; Kunstunterricht"
+    "de": [
+      "Kunst",
+      "Kunst des 19. Jahrhunderts",
+      "Kunstunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Romantik"
       },
       "note": {
-        "de": "Romantik; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "Romantik"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Realismus"
       },
       "note": {
-        "de": "Realismus; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "Realismus"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Impressionismus"
       },
       "note": {
-        "de": "Impressionismus; Kunst; Kunstunterricht"
+        "de": [
+          "Impressionismus",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,12 @@
         "de": "Weitere Stilrichtungen des 19. Jahrhunderts"
       },
       "note": {
-        "de": "Historismus; Naturalismus; Kunst; Kunstunterricht"
+        "de": [
+          "Historismus",
+          "Kunst",
+          "Kunstunterricht",
+          "Naturalismus"
+        ]
       }
     }
   ],
@@ -51,9 +72,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
     "prefLabel": {
       "de": "Kunstgeschichte"
-    },
-    "note": {
-      "de": "Kunstgeschichte; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +128,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

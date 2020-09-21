@@ -7,7 +7,11 @@
     "de": "Atomphysik"
   },
   "note": {
-    "de": "Atomphysik; Physik; Physikunterricht"
+    "de": [
+      "Atomphysik",
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Atombau, Spektren"
       },
       "note": {
-        "de": "Atombau; Spektren; Physik; Physikunterricht"
+        "de": [
+          "Atombau",
+          "Physik",
+          "Physikunterricht",
+          "Spektren"
+        ]
       }
     },
     {
@@ -25,7 +34,10 @@
         "de": "Nachweismethoden"
       },
       "note": {
-        "de": "Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +46,10 @@
         "de": "Technische Anwendungen"
       },
       "note": {
-        "de": "Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     }
   ],
@@ -42,9 +57,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
-    },
-    "note": {
-      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +113,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

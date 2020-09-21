@@ -7,15 +7,20 @@
     "de": "Alpen und Alpenvorland"
   },
   "note": {
-    "de": "Alpen; Alpenvorland; Allgäu; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Allgäu",
+      "Alpen",
+      "Alpenvorland",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22018",
     "prefLabel": {
       "de": "Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Bundesrepublik Deutschland; Deutschland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

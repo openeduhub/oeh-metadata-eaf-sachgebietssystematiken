@@ -7,7 +7,13 @@
     "de": "Sprachliche Fertigkeiten"
   },
   "note": {
-    "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Sprachliche Fertigkeiten"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,14 @@
         "de": "Szenarien- bzw. dialogbezogene Ordnung"
       },
       "note": {
-        "de": "Szenarienbezogene Ordnung; dialogbezogene Ordnung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Szenarienbezogene Ordnung",
+          "dialogbezogene Ordnung"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Fertigkeitsbezogene Ordnung"
       },
       "note": {
-        "de": "Fertigkeitsbezogene Ordnung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Fertigkeitsbezogene Ordnung"
+        ]
       }
     },
     {
@@ -34,7 +53,13 @@
         "de": "Fachsprachliche Vertiefungen"
       },
       "note": {
-        "de": "Fachsprachliche Vertiefungen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Fachsprachliche Vertiefungen"
+        ]
       }
     }
   ],
@@ -42,9 +67,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005",
     "prefLabel": {
       "de": "Deutsch als Zweit- und Fremdsprache"
-    },
-    "note": {
-      "de": "Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -101,10 +123,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

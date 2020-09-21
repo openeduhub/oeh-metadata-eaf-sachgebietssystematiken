@@ -7,7 +7,9 @@
     "de": "Tierische Produktion"
   },
   "note": {
-    "de": "Tierische Produktion"
+    "de": [
+      "Tierische Produktion"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,13 @@
         "de": "Tierzucht und Tierhaltung, Tierpflege"
       },
       "note": {
-        "de": "Tierzucht; Tierhaltung; Tierpflege; Massentierhaltung; artgerechte Haltung"
+        "de": [
+          "Massentierhaltung",
+          "Tierhaltung",
+          "Tierpflege",
+          "Tierzucht",
+          "artgerechte Haltung"
+        ]
       }
     },
     {
@@ -25,7 +33,10 @@
         "de": "Tierernährung"
       },
       "note": {
-        "de": "Tierernährung; Futtermittel"
+        "de": [
+          "Futtermittel",
+          "Tierernährung"
+        ]
       }
     }
   ],
@@ -33,9 +44,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001",
     "prefLabel": {
       "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
-    },
-    "note": {
-      "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
     }
   },
   "inScheme": {
@@ -92,10 +100,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

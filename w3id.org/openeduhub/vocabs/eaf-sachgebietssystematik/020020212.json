@@ -7,15 +7,23 @@
     "de": "Berufe im journalistischen und Medienbereich"
   },
   "note": {
-    "de": "Berufe im journalistischen und Medienbereich; Berufsfeld Medien; Berufe rund um Archiv, Bibliothek und Dokumentation; Berufe rund um Druck und Medien; Berufe rund um Film; Funk und Fernsehen; Berufe rund um Journalismus; Redaktion; Berufe rund ums Foto; Arbeitslehre"
+    "de": [
+      "Arbeitslehre",
+      "Berufe im journalistischen und Medienbereich",
+      "Berufe rund um Archiv, Bibliothek und Dokumentation",
+      "Berufe rund um Druck und Medien",
+      "Berufe rund um Film",
+      "Berufe rund um Journalismus",
+      "Berufe rund ums Foto",
+      "Berufsfeld Medien",
+      "Funk und Fernsehen",
+      "Redaktion"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0200202",
     "prefLabel": {
       "de": "Berufsbilder"
-    },
-    "note": {
-      "de": "Berufsbilder; Arbeitslehre"
     }
   },
   "inScheme": {
@@ -72,10 +80,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

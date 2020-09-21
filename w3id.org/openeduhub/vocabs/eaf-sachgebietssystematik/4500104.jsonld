@@ -7,14 +7,13 @@
     "de": "Philosophie des arabisch-islamischen Kulturraums"
   },
   "note": {
-    "de": "Philosophie des arabisch-islamischen Kulturraums"
+    "de": [
+      "Philosophie des arabisch-islamischen Kulturraums"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/45001",
     "prefLabel": {
-      "de": "Außereuropäische Philosophie"
-    },
-    "note": {
       "de": "Außereuropäische Philosophie"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

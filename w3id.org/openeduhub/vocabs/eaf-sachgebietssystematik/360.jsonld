@@ -7,7 +7,9 @@
     "de": "KINDER- UND JUGENDBILDUNG"
   },
   "note": {
-    "de": "Kinder- und Jugendbildung"
+    "de": [
+      "Kinder- und Jugendbildung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Lebensbewältigung"
       },
       "note": {
-        "de": "Lebensbewältigung von Kindern; Lebensbewältigung von Jugendlichen"
+        "de": [
+          "Lebensbewältigung von Jugendlichen",
+          "Lebensbewältigung von Kindern"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Lebensformen, Lebensvorstellungen"
       },
       "note": {
-        "de": "Lebensformen; Lebensvorstellungen"
+        "de": [
+          "Lebensformen",
+          "Lebensvorstellungen"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Leben miteinander"
       },
       "note": {
-        "de": "Leben miteinander"
+        "de": [
+          "Leben miteinander"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Leben anderswo"
       },
       "note": {
-        "de": "Leben anderswo"
+        "de": [
+          "Leben anderswo"
+        ]
       }
     },
     {
@@ -52,7 +64,11 @@
         "de": "Beeinflussung durch Subkulturen, Ideologien, Jugendsekten"
       },
       "note": {
-        "de": "Beeinflussung durch Subkulturen; Ideologien; Jugendsekten"
+        "de": [
+          "Beeinflussung durch Subkulturen",
+          "Ideologien",
+          "Jugendsekten"
+        ]
       }
     },
     {
@@ -61,7 +77,10 @@
         "de": "Kreatives, künstlerisches Lernen"
       },
       "note": {
-        "de": "Kreatives; künstlerisches Lernen"
+        "de": [
+          "Kreatives",
+          "künstlerisches Lernen"
+        ]
       }
     },
     {
@@ -70,7 +89,9 @@
         "de": "Spiele"
       },
       "note": {
-        "de": "Spiele"
+        "de": [
+          "Spiele"
+        ]
       }
     }
   ],
@@ -131,10 +152,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

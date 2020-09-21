@@ -7,15 +7,18 @@
     "de": "Großbritanniens und Irlands"
   },
   "note": {
-    "de": "Literatur Großbritanniens; Literatur Irlands; Englisch; Englischunterricht; Medien"
+    "de": [
+      "Englisch",
+      "Englischunterricht",
+      "Literatur Großbritanniens",
+      "Literatur Irlands",
+      "Medien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2000103",
     "prefLabel": {
       "de": "Literatur, Medien"
-    },
-    "note": {
-      "de": "Literatur; Medien; Englisch; Englischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

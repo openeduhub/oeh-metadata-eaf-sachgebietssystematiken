@@ -7,7 +7,11 @@
     "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
   },
   "note": {
-    "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
+    "de": [
+      "Gartenbau",
+      "Landwirtschaft",
+      "Natur und Umwelt"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,9 @@
         "de": "Pflanzliche Produktion"
       },
       "note": {
-        "de": "Pflanzliche Produktion"
+        "de": [
+          "Pflanzliche Produktion"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Bodenkunde und Kulturtechnik"
       },
       "note": {
-        "de": "Bodenkunde; Kulturtechnik"
+        "de": [
+          "Bodenkunde",
+          "Kulturtechnik"
+        ]
       }
     },
     {
@@ -34,7 +43,9 @@
         "de": "Tierische Produktion"
       },
       "note": {
-        "de": "Tierische Produktion"
+        "de": [
+          "Tierische Produktion"
+        ]
       }
     },
     {
@@ -43,7 +54,9 @@
         "de": "Landtechnik"
       },
       "note": {
-        "de": "Landtechnik"
+        "de": [
+          "Landtechnik"
+        ]
       }
     },
     {
@@ -52,7 +65,12 @@
         "de": "Betriebswirtschaftslehre"
       },
       "note": {
-        "de": "Betriebswirtschaftslehre; Betriebswirtschaft; BWL; Wirtschaftswissenschaft"
+        "de": [
+          "BWL",
+          "Betriebswirtschaft",
+          "Betriebswirtschaftslehre",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -61,7 +79,10 @@
         "de": "Agrarpolitik"
       },
       "note": {
-        "de": "Agrarpolitik; Politikwissenschaft"
+        "de": [
+          "Agrarpolitik",
+          "Politikwissenschaft"
+        ]
       }
     },
     {
@@ -70,7 +91,10 @@
         "de": "Umweltschutz und Naturschutz"
       },
       "note": {
-        "de": "Umweltschutz; Naturschutz"
+        "de": [
+          "Naturschutz",
+          "Umweltschutz"
+        ]
       }
     },
     {
@@ -79,7 +103,9 @@
         "de": "Forstwirtschaft"
       },
       "note": {
-        "de": "Forstwirtschaft"
+        "de": [
+          "Forstwirtschaft"
+        ]
       }
     },
     {
@@ -88,13 +114,18 @@
         "de": "Gartenbau, Floristik"
       },
       "note": {
-        "de": "Gartenbau; Floristik"
+        "de": [
+          "Floristik",
+          "Gartenbau"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400112",
       "note": {
-        "de": "Agrargeschichte"
+        "de": [
+          "Agrargeschichte"
+        ]
       }
     }
   ],
@@ -102,9 +133,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -161,10 +189,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

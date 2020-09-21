@@ -7,15 +7,15 @@
     "de": "Medien im gesellschaftlichen System"
   },
   "note": {
-    "de": "Medien im gesellschaftlichen System; Medienpädagogik"
+    "de": [
+      "Medien im gesellschaftlichen System",
+      "Medienpädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/40001",
     "prefLabel": {
       "de": "Grundlagen"
-    },
-    "note": {
-      "de": "Grundlagen; Medienpädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,12 @@
     "de": "Kirche und Gesellschaft"
   },
   "note": {
-    "de": "Kirche und Gesellschaft; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Kirche und Gesellschaft",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,12 @@
         "de": "Kirchengeschichte"
       },
       "note": {
-        "de": "Kirchengeschichte; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirchengeschichte",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +35,12 @@
         "de": "Kirchliche Strukturen"
       },
       "note": {
-        "de": "Kirchliche Strukturen; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirchliche Strukturen",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +49,12 @@
         "de": "Gemeindeleben"
       },
       "note": {
-        "de": "Gemeindeleben; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Gemeindeleben",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +63,13 @@
         "de": "Kirchliche Gruppen, Verbände"
       },
       "note": {
-        "de": "Kirchliche Gruppen; Kirchliche Verbände; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirchliche Gruppen",
+          "Kirchliche Verbände",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -52,7 +78,13 @@
         "de": "Orden, Kommunitäten"
       },
       "note": {
-        "de": "Orden; Kommunitäten; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kommunitäten",
+          "Orden",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -61,7 +93,12 @@
         "de": "Kirchliche Berufe"
       },
       "note": {
-        "de": "Kirchliche Berufe; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirchliche Berufe",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -70,7 +107,14 @@
         "de": "Kirchliche Sozialarbeit"
       },
       "note": {
-        "de": "Kirchliche Sozialarbeit; Diakonie; Caritas; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Caritas",
+          "Diakonie",
+          "Kirchliche Sozialarbeit",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -79,7 +123,12 @@
         "de": "Kirche und Staat"
       },
       "note": {
-        "de": "Kirche und Staat; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirche und Staat",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -88,7 +137,12 @@
         "de": "Kirche und säkularisiertes Leben"
       },
       "note": {
-        "de": "Kirche und säkularisiertes Leben; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirche und säkularisiertes Leben",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -97,7 +151,12 @@
         "de": "Kirche und Entwicklungsländer"
       },
       "note": {
-        "de": "Kirche und Entwicklungsländer; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Kirche und Entwicklungsländer",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -106,7 +165,12 @@
         "de": "Mission"
       },
       "note": {
-        "de": "Mission; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Mission",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -115,7 +179,12 @@
         "de": "Ökumene"
       },
       "note": {
-        "de": "Ökumene; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Ökumene"
+        ]
       }
     }
   ],
@@ -123,9 +192,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -182,10 +248,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

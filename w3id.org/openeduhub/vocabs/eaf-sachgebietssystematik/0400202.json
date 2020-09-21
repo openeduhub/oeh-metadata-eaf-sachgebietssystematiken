@@ -7,7 +7,11 @@
     "de": "Hochbau"
   },
   "note": {
-    "de": "Hochbau; Bauwerk; Bauwesen"
+    "de": [
+      "Bauwerk",
+      "Bauwesen",
+      "Hochbau"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,9 @@
         "de": "Betonbau"
       },
       "note": {
-        "de": "Betonbau"
+        "de": [
+          "Betonbau"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Dachbau"
       },
       "note": {
-        "de": "Dachbau; Dachkonstruktion; Dachdeckung"
+        "de": [
+          "Dachbau",
+          "Dachdeckung",
+          "Dachkonstruktion"
+        ]
       }
     },
     {
@@ -34,7 +44,9 @@
         "de": "Fassadenbau"
       },
       "note": {
-        "de": "Fassadenbau"
+        "de": [
+          "Fassadenbau"
+        ]
       }
     },
     {
@@ -43,7 +55,9 @@
         "de": "Mauerwerksbau"
       },
       "note": {
-        "de": "Mauerwerksbau"
+        "de": [
+          "Mauerwerksbau"
+        ]
       }
     },
     {
@@ -52,7 +66,9 @@
         "de": "Stahlbau"
       },
       "note": {
-        "de": "Stahlbau"
+        "de": [
+          "Stahlbau"
+        ]
       }
     },
     {
@@ -61,7 +77,10 @@
         "de": "Stahlbetonbau"
       },
       "note": {
-        "de": "Stahlbetonbau; Betonbau"
+        "de": [
+          "Betonbau",
+          "Stahlbetonbau"
+        ]
       }
     }
   ],
@@ -69,9 +88,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04002",
     "prefLabel": {
       "de": "Bau, Architektur, Vermessung"
-    },
-    "note": {
-      "de": "Architektur; Vermessung"
     }
   },
   "inScheme": {
@@ -128,10 +144,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

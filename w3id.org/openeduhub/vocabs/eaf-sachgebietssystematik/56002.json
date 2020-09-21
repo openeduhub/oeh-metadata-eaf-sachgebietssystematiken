@@ -7,15 +7,17 @@
     "de": "Pubertät"
   },
   "note": {
-    "de": "Pubertät; Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
+    "de": [
+      "Pubertät",
+      "Sexualerziehung",
+      "Sexualkunde",
+      "Sexualkundeunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/560",
     "prefLabel": {
       "de": "SEXUALERZIEHUNG"
-    },
-    "note": {
-      "de": "Sexualerziehung; Sexualkundeunterricht; Sexualkunde"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

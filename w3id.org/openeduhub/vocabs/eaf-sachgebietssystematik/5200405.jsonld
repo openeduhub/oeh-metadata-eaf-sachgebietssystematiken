@@ -7,15 +7,17 @@
     "de": "Sakramente"
   },
   "note": {
-    "de": "Sakramente; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht",
+      "Sakramente"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52004",
     "prefLabel": {
       "de": "Kult und Frömmigkeit"
-    },
-    "note": {
-      "de": "Kult und Frömmigkeit; Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

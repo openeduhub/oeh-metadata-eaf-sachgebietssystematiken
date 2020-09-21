@@ -7,7 +7,10 @@
     "de": "Gastgewerbe und Hauswirtschaft"
   },
   "note": {
-    "de": "Gastgewerbe; Hauswirtschaft"
+    "de": [
+      "Gastgewerbe",
+      "Hauswirtschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Gastronomie"
       },
       "note": {
-        "de": "Gastronomie"
+        "de": [
+          "Gastronomie"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Hauswirtschaft"
       },
       "note": {
-        "de": "Hauswirtschaft"
+        "de": [
+          "Hauswirtschaft"
+        ]
       }
     }
   ],
@@ -33,9 +40,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -92,10 +96,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

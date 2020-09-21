@@ -7,7 +7,14 @@
     "de": "Szenarien- bzw. dialogbezogene Ordnung"
   },
   "note": {
-    "de": "Szenarienbezogene Ordnung; dialogbezogene Ordnung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Szenarienbezogene Ordnung",
+      "dialogbezogene Ordnung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Einwirkende Interaktion"
       },
       "note": {
-        "de": "Einwirkende Interaktion; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Einwirkende Interaktion"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Informationsaustausch"
       },
       "note": {
-        "de": "Informationsaustausch; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Informationsaustausch"
+        ]
       }
     },
     {
@@ -34,7 +53,13 @@
         "de": "Meinungsaustausch"
       },
       "note": {
-        "de": "Meinungsaustausch; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Meinungsaustausch"
+        ]
       }
     },
     {
@@ -43,7 +68,13 @@
         "de": "Soziale Kontakte"
       },
       "note": {
-        "de": "Soziale Kontakte; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Soziale Kontakte"
+        ]
       }
     }
   ],
@@ -51,9 +82,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200501",
     "prefLabel": {
       "de": "Sprachliche Fertigkeiten"
-    },
-    "note": {
-      "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -110,10 +138,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

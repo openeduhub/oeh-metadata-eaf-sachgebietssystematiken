@@ -7,15 +7,19 @@
     "de": "Weichtiere"
   },
   "note": {
-    "de": "Weichtiere; Schnecken; Muscheln; Kopffüßer; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Kopffüßer",
+      "Muscheln",
+      "Schnecken",
+      "Weichtiere"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800503",
     "prefLabel": {
       "de": "Wirbellose"
-    },
-    "note": {
-      "de": "Wirbellose; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

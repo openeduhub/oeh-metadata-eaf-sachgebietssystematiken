@@ -7,15 +7,18 @@
     "de": "Verhalten"
   },
   "note": {
-    "de": "Verhalten; Ethologie; Verhaltensbiologie; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Ethologie",
+      "Verhalten",
+      "Verhaltensbiologie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0800501",
     "prefLabel": {
       "de": "Allgemeine Zoologie"
-    },
-    "note": {
-      "de": "Allgemeine Zoologie; Biologieunterricht; Biologie"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Verkehrsverhalten"
   },
   "note": {
-    "de": "Verkehrsverhalten; Verkehrserziehung"
+    "de": [
+      "Verkehrserziehung",
+      "Verkehrsverhalten"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Fußgänger"
       },
       "note": {
-        "de": "Fußgänger; Verkehrserziehung"
+        "de": [
+          "Fußgänger",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Radfahrer"
       },
       "note": {
-        "de": "Radfahrer; Verkehrserziehung"
+        "de": [
+          "Radfahrer",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Motorisierter Zweiradfahrer"
       },
       "note": {
-        "de": "Motorisierter Zweiradfahrer; Verkehrserziehung"
+        "de": [
+          "Motorisierter Zweiradfahrer",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -43,7 +55,10 @@
         "de": "Autofahrer"
       },
       "note": {
-        "de": "Autofahrer; Verkehrserziehung"
+        "de": [
+          "Autofahrer",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -52,7 +67,12 @@
         "de": "Sonstige"
       },
       "note": {
-        "de": "Inline-Skater; Skateboardfahrer; Kickboarder; Verkehrserziehung"
+        "de": [
+          "Inline-Skater",
+          "Kickboarder",
+          "Skateboardfahrer",
+          "Verkehrserziehung"
+        ]
       }
     }
   ],
@@ -60,9 +80,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/660",
     "prefLabel": {
       "de": "VERKEHRSERZIEHUNG"
-    },
-    "note": {
-      "de": "Verkehrserziehung"
     }
   },
   "inScheme": {
@@ -119,10 +136,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

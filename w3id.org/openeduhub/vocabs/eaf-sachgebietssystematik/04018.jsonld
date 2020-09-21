@@ -7,7 +7,9 @@
     "de": "Dienstleistung"
   },
   "note": {
-    "de": "Dienstleistungen"
+    "de": [
+      "Dienstleistungen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,11 @@
         "de": "Messe- und Veranstaltungsmanagement"
       },
       "note": {
-        "de": "Eventmanagement; Messemanagement; Veranstaltungsmanagement"
+        "de": [
+          "Eventmanagement",
+          "Messemanagement",
+          "Veranstaltungsmanagement"
+        ]
       }
     },
     {
@@ -25,7 +31,9 @@
         "de": "Veranstaltungstechnik"
       },
       "note": {
-        "de": "Veranstaltungstechnik"
+        "de": [
+          "Veranstaltungstechnik"
+        ]
       }
     },
     {
@@ -34,7 +42,10 @@
         "de": "Callcenter"
       },
       "note": {
-        "de": "Callcenter; Direktmarketing"
+        "de": [
+          "Callcenter",
+          "Direktmarketing"
+        ]
       }
     },
     {
@@ -43,7 +54,9 @@
         "de": "Körperpflege"
       },
       "note": {
-        "de": "Körperpflege"
+        "de": [
+          "Körperpflege"
+        ]
       }
     },
     {
@@ -52,7 +65,10 @@
         "de": "Ver- und Entsorgung"
       },
       "note": {
-        "de": "Versorgung; Entsorgung"
+        "de": [
+          "Entsorgung",
+          "Versorgung"
+        ]
       }
     },
     {
@@ -61,7 +77,9 @@
         "de": "Fremdsprachen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -70,7 +88,9 @@
         "de": "Bestattungswesen"
       },
       "note": {
-        "de": "Bestattungswesen"
+        "de": [
+          "Bestattungswesen"
+        ]
       }
     },
     {
@@ -79,7 +99,9 @@
         "de": "Schutz und Sicherheit"
       },
       "note": {
-        "de": "Sicherheit"
+        "de": [
+          "Sicherheit"
+        ]
       }
     },
     {
@@ -88,7 +110,10 @@
         "de": "Sauberkeit und Hygiene"
       },
       "note": {
-        "de": "Sauberkeit; Hygiene"
+        "de": [
+          "Hygiene",
+          "Sauberkeit"
+        ]
       }
     },
     {
@@ -97,7 +122,10 @@
         "de": "Tourismus und Freizeitwirtschaft"
       },
       "note": {
-        "de": "Tourismus; Freizeitwirtschaft"
+        "de": [
+          "Freizeitwirtschaft",
+          "Tourismus"
+        ]
       }
     }
   ],
@@ -105,9 +133,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -164,10 +189,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

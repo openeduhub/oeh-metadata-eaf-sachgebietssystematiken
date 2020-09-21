@@ -7,7 +7,11 @@
     "de": "Kunstgeschichte"
   },
   "note": {
-    "de": "Kunstgeschichte; Kunst; Kunstunterricht"
+    "de": [
+      "Kunst",
+      "Kunstgeschichte",
+      "Kunstunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Vor- und frühgeschichtliche Kulturen"
       },
       "note": {
-        "de": "Vor- und frühgeschichtliche Kulturen; Vorgeschichtliche und frühgeschichtliche Kulturen; Kunst; Kunstunterricht, Vor- und Frühgeschichte"
+        "de": [
+          "Kunst",
+          "Kunstunterricht, Vor- und Frühgeschichte",
+          "Vor- und frühgeschichtliche Kulturen",
+          "Vorgeschichtliche und frühgeschichtliche Kulturen"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Frühe Hochkulturen"
       },
       "note": {
-        "de": "Frühe Hochkulturen; Kunst; Kunstunterricht"
+        "de": [
+          "Frühe Hochkulturen",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Klassisches Altertum"
       },
       "note": {
-        "de": "Klassisches Altertum; Kunst; Kunstunterricht"
+        "de": [
+          "Klassisches Altertum",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Frühchristliche und byzantinische Kunst"
       },
       "note": {
-        "de": "Frühchristliche Kunst, Byzantinische Kunst; Kunst; Kunstunterricht"
+        "de": [
+          "Frühchristliche Kunst, Byzantinische Kunst",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -52,7 +73,13 @@
         "de": "Kunst des Mittelalters"
       },
       "note": {
-        "de": "Kunst des Mittelalters; Kunst im Mittelalter; mittelalterliche Kunst; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunst des Mittelalters",
+          "Kunst im Mittelalter",
+          "Kunstunterricht",
+          "mittelalterliche Kunst"
+        ]
       }
     },
     {
@@ -61,7 +88,11 @@
         "de": "Renaissance"
       },
       "note": {
-        "de": "Renaissance; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "Renaissance"
+        ]
       }
     },
     {
@@ -70,7 +101,12 @@
         "de": "Barock, Rokoko"
       },
       "note": {
-        "de": "Barock; Rokoko; Kunst; Kunstunterricht"
+        "de": [
+          "Barock",
+          "Kunst",
+          "Kunstunterricht",
+          "Rokoko"
+        ]
       }
     },
     {
@@ -79,7 +115,11 @@
         "de": "Klassizismus"
       },
       "note": {
-        "de": "Klassizismus; Kunst; Kunstunterricht"
+        "de": [
+          "Klassizismus",
+          "Kunst",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -88,7 +128,11 @@
         "de": "19. Jahrhundert"
       },
       "note": {
-        "de": "Kunst des 19. Jahrhunderts; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunst des 19. Jahrhunderts",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -97,13 +141,27 @@
         "de": "Kunst der Jahrhundertwende"
       },
       "note": {
-        "de": "Kunst der Jahrhundertwende; Kunst um die Jahrhundertwende; Symbolismus; Jugendstil; Neoimpressionismus; Pointilismus; Kunst; Kunstunterricht"
+        "de": [
+          "Jugendstil",
+          "Kunst",
+          "Kunst der Jahrhundertwende",
+          "Kunst um die Jahrhundertwende",
+          "Kunstunterricht",
+          "Neoimpressionismus",
+          "Pointilismus",
+          "Symbolismus"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0600311",
       "note": {
-        "de": "Jahrhundert; Kunst der Moderne; Kunst; Kunstunterricht"
+        "de": [
+          "Jahrhundert",
+          "Kunst",
+          "Kunst der Moderne",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -112,7 +170,11 @@
         "de": "Kunstgeschichtliche Überblicksdarstellungen"
       },
       "note": {
-        "de": "Kunstgeschichte im Überblick; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstgeschichte im Überblick",
+          "Kunstunterricht"
+        ]
       }
     },
     {
@@ -121,7 +183,12 @@
         "de": "Museen, Galerien"
       },
       "note": {
-        "de": "Museen; Galerien; Kunst; Kunstunterricht"
+        "de": [
+          "Galerien",
+          "Kunst",
+          "Kunstunterricht",
+          "Museen"
+        ]
       }
     },
     {
@@ -130,7 +197,14 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Künstlerbiographien; Biografien; Künsterbiografien; Kunst; Kunstunterricht"
+        "de": [
+          "Biografien",
+          "Biographien",
+          "Kunst",
+          "Kunstunterricht",
+          "Künsterbiografien",
+          "Künstlerbiographien"
+        ]
       }
     }
   ],
@@ -138,9 +212,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/060",
     "prefLabel": {
       "de": "BILDENDE KUNST"
-    },
-    "note": {
-      "de": "Bildende Kunst; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -197,10 +268,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

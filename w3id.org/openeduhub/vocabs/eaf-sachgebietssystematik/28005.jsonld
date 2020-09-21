@@ -7,7 +7,12 @@
     "de": "Fremdsprachen"
   },
   "note": {
-    "de": "Fremdsprachen; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Fremdsprachen",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,13 @@
         "de": "Englisch"
       },
       "note": {
-        "de": "Englisch; Englischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -25,7 +36,13 @@
         "de": "Französisch"
       },
       "note": {
-        "de": "Französisch; Französischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Französisch",
+          "Französischunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -34,7 +51,13 @@
         "de": "Italienisch"
       },
       "note": {
-        "de": "Italienisch; Italienischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Italienisch",
+          "Italienischunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -43,7 +66,13 @@
         "de": "Türkisch"
       },
       "note": {
-        "de": "Türkisch; Türkischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Türkisch",
+          "Türkischunterricht"
+        ]
       }
     },
     {
@@ -52,7 +81,13 @@
         "de": "Sorbisch"
       },
       "note": {
-        "de": "Sorbisch; Sorbischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sorbisch",
+          "Sorbischunterricht"
+        ]
       }
     },
     {
@@ -61,7 +96,13 @@
         "de": "Polnisch"
       },
       "note": {
-        "de": "Polnisch; Polnischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Polnisch",
+          "Polnischunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -70,7 +111,13 @@
         "de": "Russisch"
       },
       "note": {
-        "de": "Russisch; Russischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Russisch",
+          "Russischunterricht"
+        ]
       }
     },
     {
@@ -79,7 +126,13 @@
         "de": "Spanisch"
       },
       "note": {
-        "de": "Spanisch; Spanischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Spanisch",
+          "Spanischunterricht"
+        ]
       }
     },
     {
@@ -88,7 +141,13 @@
         "de": "Tschechisch"
       },
       "note": {
-        "de": "Tschechisch; Tschechischunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Tschechisch",
+          "Tschechischunterricht"
+        ]
       }
     },
     {
@@ -97,7 +156,12 @@
         "de": "Weitere Fremdsprachen"
       },
       "note": {
-        "de": "Weitere Fremdsprachen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Weitere Fremdsprachen"
+        ]
       }
     }
   ],
@@ -105,9 +169,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -164,10 +225,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

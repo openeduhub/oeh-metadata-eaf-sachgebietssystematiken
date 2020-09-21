@@ -7,15 +7,19 @@
     "de": "Staat, Gemeinde"
   },
   "note": {
-    "de": "Staat; Gemeinde; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Gemeinde",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Staat"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22012",
     "prefLabel": {
       "de": "Politische Geographie"
-    },
-    "note": {
-      "de": "Politische Geographie; Politische Geografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

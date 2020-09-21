@@ -7,15 +7,16 @@
     "de": "Handball"
   },
   "note": {
-    "de": "Handball; Sport; Sportunterricht"
+    "de": [
+      "Handball",
+      "Sport",
+      "Sportunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/6000304",
     "prefLabel": {
       "de": "Spielsportarten"
-    },
-    "note": {
-      "de": "Spielsportarten; Sportspiele; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

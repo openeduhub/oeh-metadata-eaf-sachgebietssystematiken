@@ -7,7 +7,13 @@
     "de": "Fertigkeitsbezogene Ordnung"
   },
   "note": {
-    "de": "Fertigkeitsbezogene Ordnung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Fertigkeitsbezogene Ordnung"
+    ]
   },
   "narrower": [
     {
@@ -16,13 +22,26 @@
         "de": "Alphabetisierung"
       },
       "note": {
-        "de": "Alphabetisierung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "Alphabetisierung",
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010202",
       "note": {
-        "de": "Sehverstehen; Hörverstehen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Hörverstehen",
+          "Sehverstehen"
+        ]
       }
     },
     {
@@ -31,7 +50,13 @@
         "de": "Interkulturelles Verstehen"
       },
       "note": {
-        "de": "Interkulturelles Verstehen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Interkulturelles Verstehen"
+        ]
       }
     },
     {
@@ -40,7 +65,13 @@
         "de": "Leseverstehen"
       },
       "note": {
-        "de": "Leseverstehen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Leseverstehen"
+        ]
       }
     },
     {
@@ -49,7 +80,13 @@
         "de": "Schreiben"
       },
       "note": {
-        "de": "Schreiben; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DA"
+        "de": [
+          "DA",
+          "DAF",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Schreiben"
+        ]
       }
     },
     {
@@ -58,7 +95,13 @@
         "de": "Sprechen"
       },
       "note": {
-        "de": "Sprechen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DA"
+        "de": [
+          "DA",
+          "DAF",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Sprechen"
+        ]
       }
     },
     {
@@ -67,13 +110,26 @@
         "de": "Übersetzen"
       },
       "note": {
-        "de": "Übersetzen; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Übersetzen"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010208",
       "note": {
-        "de": "Grammatik; Systematisierung; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Grammatik",
+          "Systematisierung"
+        ]
       }
     }
   ],
@@ -81,9 +137,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200501",
     "prefLabel": {
       "de": "Sprachliche Fertigkeiten"
-    },
-    "note": {
-      "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
     }
   },
   "inScheme": {
@@ -140,10 +193,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,16 @@
     "de": "Kunstgeschichtliche Überblicksdarstellungen"
   },
   "note": {
-    "de": "Kunstgeschichte im Überblick; Kunst; Kunstunterricht"
+    "de": [
+      "Kunst",
+      "Kunstgeschichte im Überblick",
+      "Kunstunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/06003",
     "prefLabel": {
       "de": "Kunstgeschichte"
-    },
-    "note": {
-      "de": "Kunstgeschichte; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

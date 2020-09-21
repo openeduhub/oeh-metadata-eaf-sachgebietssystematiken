@@ -7,7 +7,9 @@
     "de": "Hauswirtschaft"
   },
   "note": {
-    "de": "Hauswirtschaft"
+    "de": [
+      "Hauswirtschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Ernährungslehre"
       },
       "note": {
-        "de": "Ernährungslehre"
+        "de": [
+          "Ernährungslehre"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Lebensmittellehre"
       },
       "note": {
-        "de": "Lebensmittellehre"
+        "de": [
+          "Lebensmittellehre"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Servierkunde"
       },
       "note": {
-        "de": "Servierkunde"
+        "de": [
+          "Servierkunde"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Verkaufskunde"
       },
       "note": {
-        "de": "Verkaufskunde"
+        "de": [
+          "Verkaufskunde"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Sozioökonomie"
       },
       "note": {
-        "de": "Sozioökonomie"
+        "de": [
+          "Sozioökonomie"
+        ]
       }
     },
     {
@@ -61,7 +73,9 @@
         "de": "Haushaltstechnik"
       },
       "note": {
-        "de": "Haushaltstechnik"
+        "de": [
+          "Haushaltstechnik"
+        ]
       }
     },
     {
@@ -70,7 +84,9 @@
         "de": "Wohnökologie"
       },
       "note": {
-        "de": "Wohnökologie"
+        "de": [
+          "Wohnökologie"
+        ]
       }
     },
     {
@@ -79,7 +95,9 @@
         "de": "Textilgestaltung"
       },
       "note": {
-        "de": "Textilgestaltung"
+        "de": [
+          "Textilgestaltung"
+        ]
       }
     },
     {
@@ -88,7 +106,9 @@
         "de": "Gesundheitslehre"
       },
       "note": {
-        "de": "Gesundheitslehre"
+        "de": [
+          "Gesundheitslehre"
+        ]
       }
     },
     {
@@ -97,7 +117,10 @@
         "de": "Erziehungslehre"
       },
       "note": {
-        "de": "Erziehungslehre; Pädagogik"
+        "de": [
+          "Erziehungslehre",
+          "Pädagogik"
+        ]
       }
     },
     {
@@ -106,7 +129,9 @@
         "de": "Hausgarten"
       },
       "note": {
-        "de": "Hausgarten"
+        "de": [
+          "Hausgarten"
+        ]
       }
     }
   ],
@@ -114,9 +139,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04006",
     "prefLabel": {
       "de": "Gastgewerbe und Hauswirtschaft"
-    },
-    "note": {
-      "de": "Gastgewerbe; Hauswirtschaft"
     }
   },
   "inScheme": {
@@ -173,10 +195,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

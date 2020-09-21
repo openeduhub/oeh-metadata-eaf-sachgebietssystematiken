@@ -7,7 +7,12 @@
     "de": "Deutsch für Kinder anderer Muttersprache"
   },
   "note": {
-    "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Deutsch für Kinder anderer Muttersprache",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,14 @@
         "de": "Szenarien- bzw. dialogbezogene Ordnung"
       },
       "note": {
-        "de": "Szenarien- bzw. dialogbezogene Ordnung; Szenarienbezogene Ordnung; Dialogbezogene Ordnung; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Dialogbezogene Ordnung",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Szenarien- bzw. dialogbezogene Ordnung",
+          "Szenarienbezogene Ordnung"
+        ]
       }
     },
     {
@@ -25,7 +37,12 @@
         "de": "Fertigkeitsbezogene Ordnung"
       },
       "note": {
-        "de": "Fertigkeitsbezogene Ordnung; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Fertigkeitsbezogene Ordnung",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     }
   ],
@@ -33,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

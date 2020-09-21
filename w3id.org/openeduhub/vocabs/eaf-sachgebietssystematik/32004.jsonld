@@ -7,15 +7,16 @@
     "de": "Algorithmische Verfahren"
   },
   "note": {
-    "de": "Algorithmische Verfahren; Informatik; Informatikunterricht"
+    "de": [
+      "Algorithmische Verfahren",
+      "Informatik",
+      "Informatikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320",
     "prefLabel": {
       "de": "INFORMATIONSTECHNISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Informationstechnische Bildung"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

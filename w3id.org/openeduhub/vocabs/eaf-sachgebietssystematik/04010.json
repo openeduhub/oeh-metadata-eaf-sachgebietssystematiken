@@ -7,7 +7,10 @@
     "de": "Fahrzeugtechnik, Mechatronik"
   },
   "note": {
-    "de": "Fahrzeugtechnik; Mechatronik"
+    "de": [
+      "Fahrzeugtechnik",
+      "Mechatronik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Motortechnik"
       },
       "note": {
-        "de": "Motortechnik"
+        "de": [
+          "Motortechnik"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Kraft- und Bewegungsübertragung"
       },
       "note": {
-        "de": "Kraftübertragung; Bewegungsübertragung"
+        "de": [
+          "Bewegungsübertragung",
+          "Kraftübertragung"
+        ]
       }
     },
     {
@@ -34,7 +42,10 @@
         "de": "Fahrwerk- und Bremstechnik"
       },
       "note": {
-        "de": "Fahrwerktechnik; Bremstechnik"
+        "de": [
+          "Bremstechnik",
+          "Fahrwerktechnik"
+        ]
       }
     },
     {
@@ -43,7 +54,10 @@
         "de": "Steuerungs- und Regelungstechnik"
       },
       "note": {
-        "de": "Steuerungstechnik; Regelungstechnik"
+        "de": [
+          "Regelungstechnik",
+          "Steuerungstechnik"
+        ]
       }
     },
     {
@@ -52,7 +66,9 @@
         "de": "Karosserietechnik"
       },
       "note": {
-        "de": "Karosserietechnik"
+        "de": [
+          "Karosserietechnik"
+        ]
       }
     },
     {
@@ -61,7 +77,9 @@
         "de": "Installationstechnik"
       },
       "note": {
-        "de": "Installationstechnik"
+        "de": [
+          "Installationstechnik"
+        ]
       }
     }
   ],
@@ -69,9 +87,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -128,10 +143,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

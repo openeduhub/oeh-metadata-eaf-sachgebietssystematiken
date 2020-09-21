@@ -7,13 +7,22 @@
     "de": "Populäre Musik"
   },
   "note": {
-    "de": "Populäre Musik; Musik; Musikunterricht"
+    "de": [
+      "Musik",
+      "Musikunterricht",
+      "Populäre Musik"
+    ]
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/420030401",
       "note": {
-        "de": "Unterhaltungsmusik; Schlager; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Schlager",
+          "Unterhaltungsmusik"
+        ]
       }
     },
     {
@@ -22,7 +31,11 @@
         "de": "Jazz und Blues"
       },
       "note": {
-        "de": "Jazz und Blues; Musik; Musikunterricht"
+        "de": [
+          "Jazz und Blues",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -31,7 +44,12 @@
         "de": "Rock- und Popmusik"
       },
       "note": {
-        "de": "Popmusik; Rockmusik; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Popmusik",
+          "Rockmusik"
+        ]
       }
     },
     {
@@ -40,7 +58,13 @@
         "de": "Chanson, Liedermacher, Kleinkunst"
       },
       "note": {
-        "de": "Chanson; Liedermacher; Kleinkunst; Musik; Musikunterricht"
+        "de": [
+          "Chanson",
+          "Kleinkunst",
+          "Liedermacher",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -49,7 +73,14 @@
         "de": "Neue Stilrichtungen"
       },
       "note": {
-        "de": "New Wave; Punk; Techno; Rap; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "New Wave",
+          "Punk",
+          "Rap",
+          "Techno"
+        ]
       }
     }
   ],
@@ -57,9 +88,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
     "prefLabel": {
       "de": "Musikarten"
-    },
-    "note": {
-      "de": "Musikarten; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -116,10 +144,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,9 @@
     "de": "PRAXISORIENTIERTE FÄCHER"
   },
   "note": {
-    "de": "Praxisorientierte Fächer"
+    "de": [
+      "Praxisorientierte Fächer"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Hauswirtschaft"
       },
       "note": {
-        "de": "Hauswirtschaft"
+        "de": [
+          "Hauswirtschaft"
+        ]
       }
     },
     {
@@ -25,7 +29,11 @@
         "de": "Maschinenschreiben, Textverarbeitung, Kurzschrift"
       },
       "note": {
-        "de": "Maschinenschreiben; Textverarbeitung; Kurzschrift"
+        "de": [
+          "Kurzschrift",
+          "Maschinenschreiben",
+          "Textverarbeitung"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Schulgarten"
       },
       "note": {
-        "de": "Schulgarten"
+        "de": [
+          "Schulgarten"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Textiles Gestalten"
       },
       "note": {
-        "de": "Textiles Gestalten"
+        "de": [
+          "Textiles Gestalten"
+        ]
       }
     },
     {
@@ -52,7 +64,9 @@
         "de": "Werken"
       },
       "note": {
-        "de": "Werken"
+        "de": [
+          "Werken"
+        ]
       }
     }
   ],
@@ -113,10 +127,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

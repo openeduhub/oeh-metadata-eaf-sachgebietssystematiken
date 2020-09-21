@@ -7,7 +7,11 @@
     "de": "Kommunikation"
   },
   "note": {
-    "de": "Kommunikation; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Kommunikation"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Kommunikationstheorie, Probleme der Kommunikation"
       },
       "note": {
-        "de": "Kommunikationstheorie; Probleme der Kommunikation; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Kommunikationstheorie",
+          "Probleme der Kommunikation"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Sprachgeschichte, Sprachentwicklung"
       },
       "note": {
-        "de": "Sprachgeschichte; Sprachentwicklung; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Sprachentwicklung",
+          "Sprachgeschichte"
+        ]
       }
     },
     {
@@ -34,7 +48,11 @@
         "de": "Kommunikationsanregung"
       },
       "note": {
-        "de": "Kommunikationsanregung; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Kommunikationsanregung"
+        ]
       }
     }
   ],
@@ -42,9 +60,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120",
     "prefLabel": {
       "de": "DEUTSCH"
-    },
-    "note": {
-      "de": "Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +116,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

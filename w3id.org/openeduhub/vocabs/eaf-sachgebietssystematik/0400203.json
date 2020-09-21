@@ -7,7 +7,9 @@
     "de": "Ausbau"
   },
   "note": {
-    "de": "Innenausbau"
+    "de": [
+      "Innenausbau"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Bodenbeläge"
       },
       "note": {
-        "de": "Oberboden"
+        "de": [
+          "Oberboden"
+        ]
       }
     },
     {
@@ -25,7 +29,10 @@
         "de": "Dämmung, Isolierung"
       },
       "note": {
-        "de": "Dämmung; Isolierung"
+        "de": [
+          "Dämmung",
+          "Isolierung"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Elektroinstallationen"
       },
       "note": {
-        "de": "Elektroinstallationen"
+        "de": [
+          "Elektroinstallationen"
+        ]
       }
     },
     {
@@ -43,13 +52,21 @@
         "de": "Estricharbeiten"
       },
       "note": {
-        "de": "Estrich"
+        "de": [
+          "Estrich"
+        ]
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040020305",
       "note": {
-        "de": "Gebäudetechnik; Klimatisierung; Lüftung; Heizungsarbeiten; Sanitärarbeiten"
+        "de": [
+          "Gebäudetechnik",
+          "Heizungsarbeiten",
+          "Klimatisierung",
+          "Lüftung",
+          "Sanitärarbeiten"
+        ]
       }
     },
     {
@@ -58,7 +75,11 @@
         "de": "Holzbau"
       },
       "note": {
-        "de": "Holzbau; Schreinerarbeiten; Möbelarbeiten"
+        "de": [
+          "Holzbau",
+          "Möbelarbeiten",
+          "Schreinerarbeiten"
+        ]
       }
     },
     {
@@ -67,7 +88,10 @@
         "de": "Metallbau"
       },
       "note": {
-        "de": "Metallbau; Schlosserarbeiten"
+        "de": [
+          "Metallbau",
+          "Schlosserarbeiten"
+        ]
       }
     },
     {
@@ -76,7 +100,9 @@
         "de": "Putzarbeiten"
       },
       "note": {
-        "de": "Innenputz"
+        "de": [
+          "Innenputz"
+        ]
       }
     }
   ],
@@ -84,9 +110,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04002",
     "prefLabel": {
       "de": "Bau, Architektur, Vermessung"
-    },
-    "note": {
-      "de": "Architektur; Vermessung"
     }
   },
   "inScheme": {
@@ -143,10 +166,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

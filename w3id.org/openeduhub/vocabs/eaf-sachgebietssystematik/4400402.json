@@ -7,14 +7,14 @@
     "de": "Methodik, Didaktik"
   },
   "note": {
-    "de": "Methodik; Didaktik"
+    "de": [
+      "Didaktik",
+      "Methodik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/44004",
     "prefLabel": {
-      "de": "Schulpädagogik"
-    },
-    "note": {
       "de": "Schulpädagogik"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

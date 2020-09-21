@@ -7,7 +7,14 @@
     "de": "Wirtschaftsgeographie"
   },
   "note": {
-    "de": "Wirtschaftsgeographie; Wirtschaftsgeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Wirtschaftsgeografie",
+      "Wirtschaftsgeographie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,15 @@
         "de": "Wirtschaftsstrukturen, Wirtschaftssysteme, Wirtschaftsformen"
       },
       "note": {
-        "de": "Wirtschaftsstrukturen; Wirtschaftssysteme; Wirtschaftsformen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Wirtschaftsformen",
+          "Wirtschaftsstrukturen",
+          "Wirtschaftssysteme"
+        ]
       }
     },
     {
@@ -25,7 +40,13 @@
         "de": "Wirtschaftsräume"
       },
       "note": {
-        "de": "Wirtschaftsräume; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Wirtschaftsräume"
+        ]
       }
     },
     {
@@ -34,7 +55,14 @@
         "de": "Handel, Versorgung"
       },
       "note": {
-        "de": "Handel; Versorgung; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Handel",
+          "Versorgung"
+        ]
       }
     },
     {
@@ -43,7 +71,14 @@
         "de": "Waldwirtschaft"
       },
       "note": {
-        "de": "Waldwirtschaft; Forstwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Forstwirtschaft",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Waldwirtschaft"
+        ]
       }
     },
     {
@@ -52,7 +87,14 @@
         "de": "Fischwirtschaft, Fischereiwirtschaft"
       },
       "note": {
-        "de": "Fischwirtschaft; Fischereiwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Fischereiwirtschaft",
+          "Fischwirtschaft",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -61,7 +103,13 @@
         "de": "Wasserwirtschaft"
       },
       "note": {
-        "de": "Wasserwirtschaft; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Wasserwirtschaft"
+        ]
       }
     }
   ],
@@ -69,9 +117,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -128,10 +173,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

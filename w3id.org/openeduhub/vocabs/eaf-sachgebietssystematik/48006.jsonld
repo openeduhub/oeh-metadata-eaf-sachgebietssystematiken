@@ -7,7 +7,13 @@
     "de": "Individuum und Gesellschaft"
   },
   "note": {
-    "de": "Individuum und Gesellschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Individuum und Gesellschaft",
+      "Politik",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,14 @@
         "de": "Sozialisation, Verhalten"
       },
       "note": {
-        "de": "Sozialisation; Verhalten; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Sozialisation",
+          "Sozialkunde",
+          "Verhalten"
+        ]
       }
     },
     {
@@ -25,7 +38,14 @@
         "de": "Kommunikation, Massenkommunikation"
       },
       "note": {
-        "de": "Kommunikation; Massenkommunikation; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Kommunikation",
+          "Massenkommunikation",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -33,9 +53,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -92,10 +109,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,14 @@
     "de": "Politikfelder"
   },
   "note": {
-    "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikfelder",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,15 @@
         "de": "Bildung, Kultur, Forschung"
       },
       "note": {
-        "de": "Bildungspolitik; Kulturpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Bildungspolitik",
+          "Gesellschaftslehre",
+          "Kulturpolitik",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +40,15 @@
         "de": "Innere Sicherheit"
       },
       "note": {
-        "de": "Innere Sicherheit; Sicherheitspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Innere Sicherheit",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sicherheitspolitik",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +57,14 @@
         "de": "Internationale Beziehungen"
       },
       "note": {
-        "de": "Internationale Beziehungen; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Internationale Beziehungen",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -43,7 +73,15 @@
         "de": "Raumordnung, Städtebau, Verkehr"
       },
       "note": {
-        "de": "Raumordnung; Städtebau; Verkehr; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Raumordnung",
+          "Sozialkunde",
+          "Städtebau",
+          "Verkehr"
+        ]
       }
     },
     {
@@ -52,7 +90,13 @@
         "de": "Recht"
       },
       "note": {
-        "de": "Recht; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Recht",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -61,7 +105,14 @@
         "de": "Sozialpolitik"
       },
       "note": {
-        "de": "Sozialpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde",
+          "Sozialpolitik"
+        ]
       }
     },
     {
@@ -70,7 +121,14 @@
         "de": "Verteidigungspolitik"
       },
       "note": {
-        "de": "Verteidigungspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde",
+          "Verteidigungspolitik"
+        ]
       }
     },
     {
@@ -79,7 +137,14 @@
         "de": "Wirtschaftspolitik"
       },
       "note": {
-        "de": "Wirtschaftspolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde",
+          "Wirtschaftspolitik"
+        ]
       }
     }
   ],
@@ -87,9 +152,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -146,10 +208,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

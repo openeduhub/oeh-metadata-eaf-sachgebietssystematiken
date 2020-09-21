@@ -7,15 +7,16 @@
     "de": "Fotometrie"
   },
   "note": {
-    "de": "Fotometrie; Physik; Physikunterricht"
+    "de": [
+      "Fotometrie",
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46003",
     "prefLabel": {
       "de": "Optik"
-    },
-    "note": {
-      "de": "Optik; Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

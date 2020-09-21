@@ -7,7 +7,10 @@
     "de": "Verkehrsmittel"
   },
   "note": {
-    "de": "Verkehrsmittel; Verkehrserziehung"
+    "de": [
+      "Verkehrserziehung",
+      "Verkehrsmittel"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Fahrrad"
       },
       "note": {
-        "de": "Fahrrad; Verkehrserziehung"
+        "de": [
+          "Fahrrad",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -25,7 +31,11 @@
         "de": "Motorisiertes Zweirad"
       },
       "note": {
-        "de": "Motorisiertes Zweirad; Motorrad; Verkehrserziehung"
+        "de": [
+          "Motorisiertes Zweirad",
+          "Motorrad",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -34,7 +44,17 @@
         "de": "Automobil"
       },
       "note": {
-        "de": "Automobil; Auto; Pkw; Lkw; Kfz; Kraftfahrzeug; Lastkraftwagen; Personenkraftwagen; Verkehrserziehung"
+        "de": [
+          "Auto",
+          "Automobil",
+          "Kfz",
+          "Kraftfahrzeug",
+          "Lastkraftwagen",
+          "Lkw",
+          "Personenkraftwagen",
+          "Pkw",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -43,7 +63,11 @@
         "de": "Bahn"
       },
       "note": {
-        "de": "Bahn; Eisenbahn; Verkehrserziehung"
+        "de": [
+          "Bahn",
+          "Eisenbahn",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -52,7 +76,10 @@
         "de": "Schiff"
       },
       "note": {
-        "de": "Schiff; Verkehrserziehung"
+        "de": [
+          "Schiff",
+          "Verkehrserziehung"
+        ]
       }
     },
     {
@@ -61,7 +88,10 @@
         "de": "Flugzeug"
       },
       "note": {
-        "de": "Flugzeug; Verkehrserziehung"
+        "de": [
+          "Flugzeug",
+          "Verkehrserziehung"
+        ]
       }
     }
   ],
@@ -69,9 +99,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/660",
     "prefLabel": {
       "de": "VERKEHRSERZIEHUNG"
-    },
-    "note": {
-      "de": "Verkehrserziehung"
     }
   },
   "inScheme": {
@@ -128,10 +155,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

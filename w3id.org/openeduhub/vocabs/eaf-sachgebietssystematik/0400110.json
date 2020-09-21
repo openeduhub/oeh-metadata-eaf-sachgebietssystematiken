@@ -7,15 +7,15 @@
     "de": "Gartenbau, Floristik"
   },
   "note": {
-    "de": "Gartenbau; Floristik"
+    "de": [
+      "Floristik",
+      "Gartenbau"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04001",
     "prefLabel": {
       "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
-    },
-    "note": {
-      "de": "Gartenbau; Landwirtschaft; Natur und Umwelt"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

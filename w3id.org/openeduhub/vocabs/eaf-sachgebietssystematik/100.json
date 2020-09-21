@@ -7,7 +7,10 @@
     "de": "CHEMIE"
   },
   "note": {
-    "de": "Chemie; Chemieunterricht"
+    "de": [
+      "Chemie",
+      "Chemieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Geschichte der Chemie"
       },
       "note": {
-        "de": "Geschichte der Chemie; Chemieunterricht"
+        "de": [
+          "Chemieunterricht",
+          "Geschichte der Chemie"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Allgemeine Chemie"
       },
       "note": {
-        "de": "Allgemeine Chemie; Chemieunterricht"
+        "de": [
+          "Allgemeine Chemie",
+          "Chemieunterricht"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Physikalische Chemie"
       },
       "note": {
-        "de": "Physikalische Chemie; Chemieunterricht"
+        "de": [
+          "Chemieunterricht",
+          "Physikalische Chemie"
+        ]
       }
     },
     {
@@ -43,7 +55,11 @@
         "de": "Anorganische Chemie"
       },
       "note": {
-        "de": "Anorganische Chemie; Anorganik; Chemieunterricht"
+        "de": [
+          "Anorganik",
+          "Anorganische Chemie",
+          "Chemieunterricht"
+        ]
       }
     },
     {
@@ -52,7 +68,10 @@
         "de": "Organische Chemie"
       },
       "note": {
-        "de": "Organische Chemie; Chemieunterricht"
+        "de": [
+          "Chemieunterricht",
+          "Organische Chemie"
+        ]
       }
     },
     {
@@ -61,7 +80,11 @@
         "de": "Biochemie"
       },
       "note": {
-        "de": "Biochemie; Chemieunterricht; Chemie"
+        "de": [
+          "Biochemie",
+          "Chemie",
+          "Chemieunterricht"
+        ]
       }
     },
     {
@@ -70,7 +93,10 @@
         "de": "Angewandte Chemie"
       },
       "note": {
-        "de": "Angewandte Chemie; Chemieunterricht"
+        "de": [
+          "Angewandte Chemie",
+          "Chemieunterricht"
+        ]
       }
     },
     {
@@ -79,7 +105,12 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Biografien; Chemieunterricht; Chemie"
+        "de": [
+          "Biografien",
+          "Biographien",
+          "Chemie",
+          "Chemieunterricht"
+        ]
       }
     },
     {
@@ -88,7 +119,10 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Chemieunterricht; Chemie"
+        "de": [
+          "Bilingualer Chemieunterricht",
+          "Chemie"
+        ]
       }
     }
   ],
@@ -149,10 +183,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Recht und Öffentliche Verwaltung"
   },
   "note": {
-    "de": "Recht; Öffentliche Verwaltung"
+    "de": [
+      "Recht",
+      "Öffentliche Verwaltung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Finanzwesen, Steuerwesen"
       },
       "note": {
-        "de": "Finanzwesen; Steuerwesen"
+        "de": [
+          "Finanzwesen",
+          "Steuerwesen"
+        ]
       }
     },
     {
@@ -25,7 +31,9 @@
         "de": "Öffentliche Ordnung"
       },
       "note": {
-        "de": "Öffentliche Ordnung"
+        "de": [
+          "Öffentliche Ordnung"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Verkehrswesen"
       },
       "note": {
-        "de": "Verkehrswesen"
+        "de": [
+          "Verkehrswesen"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Bauwesen"
       },
       "note": {
-        "de": "Bauwesen"
+        "de": [
+          "Bauwesen"
+        ]
       }
     },
     {
@@ -52,7 +64,9 @@
         "de": "Sozialwesen"
       },
       "note": {
-        "de": "Sozialwesen"
+        "de": [
+          "Sozialwesen"
+        ]
       }
     }
   ],
@@ -60,9 +74,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04013",
     "prefLabel": {
       "de": "Wirtschaft und Verwaltung"
-    },
-    "note": {
-      "de": "Wirtschaft; Verwaltung"
     }
   },
   "inScheme": {
@@ -119,10 +130,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

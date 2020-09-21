@@ -7,15 +7,15 @@
     "de": "Fahrwerk- und Bremstechnik"
   },
   "note": {
-    "de": "Fahrwerktechnik; Bremstechnik"
+    "de": [
+      "Bremstechnik",
+      "Fahrwerktechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04010",
     "prefLabel": {
       "de": "Fahrzeugtechnik, Mechatronik"
-    },
-    "note": {
-      "de": "Fahrzeugtechnik; Mechatronik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,15 @@
     "de": "Nachweismethoden"
   },
   "note": {
-    "de": "Physik; Physikunterricht"
+    "de": [
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/46009",
     "prefLabel": {
       "de": "Kernphysik"
-    },
-    "note": {
-      "de": "Kernphysik; Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

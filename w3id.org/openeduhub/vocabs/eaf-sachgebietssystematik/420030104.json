@@ -7,15 +7,16 @@
     "de": "Kinderlied"
   },
   "note": {
-    "de": "Kinderlied; Musik; Musikunterricht"
+    "de": [
+      "Kinderlied",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4200301",
     "prefLabel": {
       "de": "Vokalmusik"
-    },
-    "note": {
-      "de": "Vokalmusik; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

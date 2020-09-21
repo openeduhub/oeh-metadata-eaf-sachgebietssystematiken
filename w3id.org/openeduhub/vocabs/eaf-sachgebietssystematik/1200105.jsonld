@@ -7,7 +7,11 @@
     "de": "Literaturgeschichte"
   },
   "note": {
-    "de": "Literaturgeschichte; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Literaturgeschichte"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Antike"
       },
       "note": {
-        "de": "Antike; Deutsch; Deutschunterricht"
+        "de": [
+          "Antike",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Mittelalter"
       },
       "note": {
-        "de": "Mittelalter; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Mittelalter"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "16. - 18. Jahrhundert"
       },
       "note": {
-        "de": "16. - 18. Jahrhundert; Deutsch; Deutschunterricht"
+        "de": [
+          "16. - 18. Jahrhundert",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "19. Jahrhundert"
       },
       "note": {
-        "de": "19. Jahrhundert; Deutsch; Deutschunterricht"
+        "de": [
+          "19. Jahrhundert",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "20. Jahrhundert"
       },
       "note": {
-        "de": "20. Jahrhundert; Deutsch; Deutschunterricht"
+        "de": [
+          "20. Jahrhundert",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -61,7 +85,11 @@
         "de": "21. Jahrhundert"
       },
       "note": {
-        "de": "21. Jahrhundert; Deutsch; Deutschunterricht"
+        "de": [
+          "21. Jahrhundert",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -70,7 +98,14 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Biographien bekannter Autoren und Schriftsteller; Biografien; Biografien bekannter Autoren und Schriftsteller; Deutsch; Deutschunterricht"
+        "de": [
+          "Biografien",
+          "Biografien bekannter Autoren und Schriftsteller",
+          "Biographien",
+          "Biographien bekannter Autoren und Schriftsteller",
+          "Deutsch",
+          "Deutschunterricht"
+        ]
       }
     },
     {
@@ -79,7 +114,11 @@
         "de": "Überblicksdarstellungen"
       },
       "note": {
-        "de": "Überblicksdarstellungen; Deutsch; Deutschunterricht"
+        "de": [
+          "Deutsch",
+          "Deutschunterricht",
+          "Überblicksdarstellungen"
+        ]
       }
     }
   ],
@@ -87,9 +126,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12001",
     "prefLabel": {
       "de": "Literatur"
-    },
-    "note": {
-      "de": "Literatur; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -146,10 +182,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

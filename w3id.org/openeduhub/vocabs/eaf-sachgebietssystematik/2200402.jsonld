@@ -7,15 +7,21 @@
     "de": "Oberflächenformen"
   },
   "note": {
-    "de": "Oberflächenformen; Oberflächengestalt; Relief; Landschaftsformen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Landschaftsformen",
+      "Oberflächenformen",
+      "Oberflächengestalt",
+      "Relief"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22004",
     "prefLabel": {
       "de": "Geomorphologie"
-    },
-    "note": {
-      "de": "Geomorphologie; Morphologie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +78,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

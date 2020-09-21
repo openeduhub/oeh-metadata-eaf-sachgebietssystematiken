@@ -7,7 +7,13 @@
     "de": "Angewandte Kunst der Gegenwart"
   },
   "note": {
-    "de": "Angewandte Kunst der Gegenwart; Gegenwartskunst; Zeitgenössische Kunst; Kunst; Kunstunterricht"
+    "de": [
+      "Angewandte Kunst der Gegenwart",
+      "Gegenwartskunst",
+      "Kunst",
+      "Kunstunterricht",
+      "Zeitgenössische Kunst"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,12 @@
         "de": "Architektur und Landschaftsgestaltung"
       },
       "note": {
-        "de": "Architektur; Landschaftsgestaltung; Kunst; Kunstunterricht"
+        "de": [
+          "Architektur",
+          "Kunst",
+          "Kunstunterricht",
+          "Landschaftsgestaltung"
+        ]
       }
     },
     {
@@ -25,7 +36,12 @@
         "de": "Produktgestaltung, Design"
       },
       "note": {
-        "de": "Produktgestaltung; Design; Kunst; Kunstunterricht"
+        "de": [
+          "Design",
+          "Kunst",
+          "Kunstunterricht",
+          "Produktgestaltung"
+        ]
       }
     },
     {
@@ -34,7 +50,11 @@
         "de": "Werbung"
       },
       "note": {
-        "de": "Werbung; Kunst; Kunstunterricht"
+        "de": [
+          "Kunst",
+          "Kunstunterricht",
+          "Werbung"
+        ]
       }
     }
   ],
@@ -42,9 +62,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/060",
     "prefLabel": {
       "de": "BILDENDE KUNST"
-    },
-    "note": {
-      "de": "Bildende Kunst; Kunst; Kunstunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +118,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

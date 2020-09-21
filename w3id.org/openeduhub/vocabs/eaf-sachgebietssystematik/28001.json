@@ -7,7 +7,14 @@
     "de": "Deutsch"
   },
   "note": {
-    "de": "Deutsch; Deutschunterricht; Deutsch in der Grundschule; Grundschule; Grundschulunterricht; Primarunterricht"
+    "de": [
+      "Deutsch",
+      "Deutsch in der Grundschule",
+      "Deutschunterricht",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,17 @@
         "de": "Anlässe zum Sprechen, Lesen, Schreiben"
       },
       "note": {
-        "de": "Anlässe zum Sprechen; Lesen; Schreiben; Grundschule; Grundschulunterricht; Deutsch; Deutschunterricht; Deutsch in der Grundschule; Primarunterricht"
+        "de": [
+          "Anlässe zum Sprechen",
+          "Deutsch",
+          "Deutsch in der Grundschule",
+          "Deutschunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Lesen",
+          "Primarunterricht",
+          "Schreiben"
+        ]
       }
     },
     {
@@ -25,7 +42,12 @@
         "de": "Literatur"
       },
       "note": {
-        "de": "Literatur; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Literatur",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -34,7 +56,13 @@
         "de": "Sprachlehre, Rechtschreibung"
       },
       "note": {
-        "de": "Sprachlehre; Rechtschreibung; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Rechtschreibung",
+          "Sprachlehre"
+        ]
       }
     },
     {
@@ -43,7 +71,14 @@
         "de": "Lesen, Lesetechnik, Umgang mit Texten"
       },
       "note": {
-        "de": "Lesen; Lesetechnik; Umgang mit Texten; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Lesen",
+          "Lesetechnik",
+          "Primarunterricht",
+          "Umgang mit Texten"
+        ]
       }
     }
   ],
@@ -51,9 +86,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/280",
     "prefLabel": {
       "de": "GRUNDSCHULE"
-    },
-    "note": {
-      "de": "Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +142,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

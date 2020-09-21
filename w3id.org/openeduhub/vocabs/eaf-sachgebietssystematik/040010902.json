@@ -7,14 +7,14 @@
     "de": "Forst"
   },
   "note": {
-    "de": "Forst; Wald"
+    "de": [
+      "Forst",
+      "Wald"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400109",
     "prefLabel": {
-      "de": "Forstwirtschaft"
-    },
-    "note": {
       "de": "Forstwirtschaft"
     }
   },
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

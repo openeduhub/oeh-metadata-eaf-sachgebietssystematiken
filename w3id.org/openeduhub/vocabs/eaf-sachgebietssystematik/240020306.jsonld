@@ -7,15 +7,16 @@
     "de": "Außereuropäische Geschichte"
   },
   "note": {
-    "de": "Außereuropäische Geschichte; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Außereuropäische Geschichte",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400203",
     "prefLabel": {
       "de": "Mittelalterliche Geschichte"
-    },
-    "note": {
-      "de": "Mittelalterliche Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

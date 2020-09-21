@@ -7,15 +7,16 @@
     "de": "Wirtschaftsinformatik"
   },
   "note": {
-    "de": "Wirtschaftsinformatik; Informatik; Informatikunterricht"
+    "de": [
+      "Informatik",
+      "Informatikunterricht",
+      "Wirtschaftsinformatik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32003",
     "prefLabel": {
       "de": "Berufsbezogene informationstechnische Bildung"
-    },
-    "note": {
-      "de": "Berufsbezogene informationstechnische Bildung; Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

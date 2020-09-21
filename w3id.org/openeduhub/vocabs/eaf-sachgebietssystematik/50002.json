@@ -7,15 +7,16 @@
     "de": "Maschinenschreiben, Textverarbeitung, Kurzschrift"
   },
   "note": {
-    "de": "Maschinenschreiben; Textverarbeitung; Kurzschrift"
+    "de": [
+      "Kurzschrift",
+      "Maschinenschreiben",
+      "Textverarbeitung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/500",
     "prefLabel": {
       "de": "PRAXISORIENTIERTE FÄCHER"
-    },
-    "note": {
-      "de": "Praxisorientierte Fächer"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

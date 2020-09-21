@@ -7,15 +7,19 @@
     "de": "Politische Systeme anderer Länder"
   },
   "note": {
-    "de": "Politische Systeme anderer Länder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Politische Systeme anderer Länder",
+      "Sozialkunde"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

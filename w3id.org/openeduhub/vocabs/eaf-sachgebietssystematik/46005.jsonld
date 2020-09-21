@@ -7,7 +7,11 @@
     "de": "Elektrizitätslehre"
   },
   "note": {
-    "de": "Elektrizitätslehre; Physik; Physikunterricht"
+    "de": [
+      "Elektrizitätslehre",
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Elektrostatik"
       },
       "note": {
-        "de": "Elektrostatik; Physik; Physikunterricht"
+        "de": [
+          "Elektrostatik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Elektrodynamik"
       },
       "note": {
-        "de": "Elektrodynamik; Physik; Physikunterricht"
+        "de": [
+          "Elektrodynamik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Elektronik"
       },
       "note": {
-        "de": "Elektronik; Physik; Physikunterricht"
+        "de": [
+          "Elektronik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,10 @@
         "de": "Technische Anwendungen"
       },
       "note": {
-        "de": "Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +70,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
-    },
-    "note": {
-      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +126,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,16 @@
     "de": "Museen, Restaurierung, Denkmalschutz"
   },
   "note": {
-    "de": "Museum; Restaurierung; Denkmalschutz"
+    "de": [
+      "Denkmalschutz",
+      "Museum",
+      "Restaurierung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04020",
     "prefLabel": {
       "de": "Kunst, Kultur, Gestaltung"
-    },
-    "note": {
-      "de": "Kunst; Kultur; Gestaltung"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,14 @@
     "de": "Kanalbau"
   },
   "note": {
-    "de": "Kanalbau"
+    "de": [
+      "Kanalbau"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0400201",
     "prefLabel": {
       "de": "Tiefbau"
-    },
-    "note": {
-      "de": "Tiefbau; Bauverfahren"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

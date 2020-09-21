@@ -7,7 +7,12 @@
     "de": "Gymnastik, Tanz"
   },
   "note": {
-    "de": "Gymnastik; Tanz; Sport; Sportunterricht"
+    "de": [
+      "Gymnastik",
+      "Sport",
+      "Sportunterricht",
+      "Tanz"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,12 @@
         "de": "Gymnastik"
       },
       "note": {
-        "de": "Gymnastik; Aerobic; Sport; Sportunterricht"
+        "de": [
+          "Aerobic",
+          "Gymnastik",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -25,7 +35,11 @@
         "de": "Entspannung"
       },
       "note": {
-        "de": "Entspannung; Sport; Sportunterricht"
+        "de": [
+          "Entspannung",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -34,7 +48,11 @@
         "de": "Tanz"
       },
       "note": {
-        "de": "Tanz; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Tanz"
+        ]
       }
     },
     {
@@ -43,7 +61,13 @@
         "de": "Theatersport"
       },
       "note": {
-        "de": "Theatersport; Theater; darstellendes Spiel; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Theater",
+          "Theatersport",
+          "darstellendes Spiel"
+        ]
       }
     }
   ],
@@ -51,9 +75,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
     "prefLabel": {
       "de": "Sportarten"
-    },
-    "note": {
-      "de": "Sportarten; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +131,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

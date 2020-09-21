@@ -7,7 +7,12 @@
     "de": "Deutsch als Zweit- und Fremdsprache"
   },
   "note": {
-    "de": "Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,13 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +36,13 @@
         "de": "Landeskunde Deutschland"
       },
       "note": {
-        "de": "Landeskunde Deutschland; Deutsch als Fremdsprache; Deutsch als Zweitsprache; DAF; DAZ"
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Landeskunde Deutschland"
+        ]
       }
     }
   ],
@@ -33,9 +50,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120",
     "prefLabel": {
       "de": "DEUTSCH"
-    },
-    "note": {
-      "de": "Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -92,10 +106,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,11 @@
     "de": "Botanik"
   },
   "note": {
-    "de": "Botanik; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Botanik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Allgemeine Botanik"
       },
       "note": {
-        "de": "Allgemeine Botanik; Biologieunterricht; Biologie"
+        "de": [
+          "Allgemeine Botanik",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Angewandte Botanik"
       },
       "note": {
-        "de": "Angewandte Botanik; Biologieunterricht; Biologie"
+        "de": [
+          "Angewandte Botanik",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Blütenpflanzen"
       },
       "note": {
-        "de": "Blütenpflanzen; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Blütenpflanzen"
+        ]
       }
     },
     {
@@ -43,7 +59,14 @@
         "de": "Blütenlose Pflanzen"
       },
       "note": {
-        "de": "Blütenlose Pflanzen; Farne; Flechten; Moose; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Blütenlose Pflanzen",
+          "Farne",
+          "Flechten",
+          "Moose"
+        ]
       }
     }
   ],
@@ -51,9 +74,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
-    },
-    "note": {
-      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +130,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

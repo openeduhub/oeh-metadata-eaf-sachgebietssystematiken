@@ -7,7 +7,10 @@
     "de": "Interkulturelles Zusammenleben"
   },
   "note": {
-    "de": "Interkulturelles Zusammenleben; Interkulturelle Bildung"
+    "de": [
+      "Interkulturelle Bildung",
+      "Interkulturelles Zusammenleben"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,10 @@
         "de": "Schule"
       },
       "note": {
-        "de": "Schule; Interkulturelle Bildung"
+        "de": [
+          "Interkulturelle Bildung",
+          "Schule"
+        ]
       }
     },
     {
@@ -25,7 +31,10 @@
         "de": "Freizeit"
       },
       "note": {
-        "de": "Freizeit; Interkulturelle Bildung"
+        "de": [
+          "Freizeit",
+          "Interkulturelle Bildung"
+        ]
       }
     },
     {
@@ -34,7 +43,10 @@
         "de": "Familie"
       },
       "note": {
-        "de": "Familie; Interkulturelle Bildung"
+        "de": [
+          "Familie",
+          "Interkulturelle Bildung"
+        ]
       }
     },
     {
@@ -43,7 +55,10 @@
         "de": "Arbeitswelt"
       },
       "note": {
-        "de": "Arbeitswelt; Interkulturelle Bildung"
+        "de": [
+          "Arbeitswelt",
+          "Interkulturelle Bildung"
+        ]
       }
     },
     {
@@ -52,7 +67,11 @@
         "de": "Gesellschaft, Öffentlichkeit"
       },
       "note": {
-        "de": "Gesellschaft; Öffentlichkeit; Interkulturelle Bildung"
+        "de": [
+          "Gesellschaft",
+          "Interkulturelle Bildung",
+          "Öffentlichkeit"
+        ]
       }
     }
   ],
@@ -60,9 +79,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/340",
     "prefLabel": {
       "de": "INTERKULTURELLE BILDUNG"
-    },
-    "note": {
-      "de": "Interkulturelle Bildung"
     }
   },
   "inScheme": {
@@ -119,10 +135,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

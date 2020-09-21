@@ -7,15 +7,18 @@
     "de": "Absolutismus, Aufklärung, Parlamentarismus"
   },
   "note": {
-    "de": "Absolutismus; Aufklärung; Parlamentarismus; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Absolutismus",
+      "Aufklärung",
+      "Geschichte",
+      "Geschichtsunterricht",
+      "Parlamentarismus"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400204",
     "prefLabel": {
       "de": "Neuere Geschichte"
-    },
-    "note": {
-      "de": "Neuere Geschichte; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

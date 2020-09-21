@@ -7,15 +7,15 @@
     "de": "Foto"
   },
   "note": {
-    "de": "Foto; Bildverarbeitung"
+    "de": [
+      "Bildverarbeitung",
+      "Foto"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04004",
     "prefLabel": {
       "de": "IT- und Medientechnik"
-    },
-    "note": {
-      "de": "Informationstechnik; Medientechnik; Informationstechnologie; Mediengestaltung; IT-Technik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Literatur, Medien"
   },
   "note": {
-    "de": "Literatur Frankreichs; Medien; Französisch; Französischunterricht"
+    "de": [
+      "Französisch",
+      "Französischunterricht",
+      "Literatur Frankreichs",
+      "Medien"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20002",
     "prefLabel": {
       "de": "Französisch"
-    },
-    "note": {
-      "de": "Französisch; Französischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

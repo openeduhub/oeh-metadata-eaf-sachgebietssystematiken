@@ -7,7 +7,11 @@
     "de": "Landeskunde"
   },
   "note": {
-    "de": "Landeskunde; Englisch; Englischunterricht"
+    "de": [
+      "Englisch",
+      "Englischunterricht",
+      "Landeskunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,12 @@
         "de": "Großbritannien, Irland"
       },
       "note": {
-        "de": "Großbritannien; Irland; Englisch; Englischunterricht"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "Großbritannien",
+          "Irland"
+        ]
       }
     },
     {
@@ -25,7 +34,13 @@
         "de": "Nordamerika"
       },
       "note": {
-        "de": "Nordamerika; USA; Kanada; Englisch; Englischunterricht"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "Kanada",
+          "Nordamerika",
+          "USA"
+        ]
       }
     },
     {
@@ -34,7 +49,12 @@
         "de": "Australien, Neuseeland"
       },
       "note": {
-        "de": "Australien; Neuseeland; Englisch; Englischunterricht"
+        "de": [
+          "Australien",
+          "Englisch",
+          "Englischunterricht",
+          "Neuseeland"
+        ]
       }
     },
     {
@@ -43,7 +63,11 @@
         "de": "Andere englischsprachige Länder"
       },
       "note": {
-        "de": "englischprachige Länder; Englisch; Englischunterricht"
+        "de": [
+          "Englisch",
+          "Englischunterricht",
+          "englischprachige Länder"
+        ]
       }
     }
   ],
@@ -51,9 +75,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20001",
     "prefLabel": {
       "de": "Englisch"
-    },
-    "note": {
-      "de": "Englisch; Englischunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +131,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,19 @@
     "de": "Rohstoffe und Verarbeitung"
   },
   "note": {
-    "de": "Rohstoffe; Rohstoffverarbeitung; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Rohstoffe",
+      "Rohstoffverarbeitung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22015",
     "prefLabel": {
       "de": "Industriegeographie"
-    },
-    "note": {
-      "de": "Industriegeographie; Industriegeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

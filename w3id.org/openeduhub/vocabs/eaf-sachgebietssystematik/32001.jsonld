@@ -7,7 +7,9 @@
     "de": "Informationstechnische Grundbildung"
   },
   "note": {
-    "de": "Informationstechnische Grundbildung"
+    "de": [
+      "Informationstechnische Grundbildung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,11 @@
         "de": "Geschichte der IuK-Techniken"
       },
       "note": {
-        "de": "Geschichte der IuK-Techniken; Neuronale Netze; Fuzzy Logic"
+        "de": [
+          "Fuzzy Logic",
+          "Geschichte der IuK-Techniken",
+          "Neuronale Netze"
+        ]
       }
     },
     {
@@ -25,7 +31,9 @@
         "de": "Grundlagen der IuK-Techniken"
       },
       "note": {
-        "de": "Grundlagen der IuK-Techniken"
+        "de": [
+          "Grundlagen der IuK-Techniken"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Anwendungen der IuK-Techniken"
       },
       "note": {
-        "de": "Anwendungen der IuK-Techniken"
+        "de": [
+          "Anwendungen der IuK-Techniken"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Auswirkungen der IuK-Techniken"
       },
       "note": {
-        "de": "Auswirkungen der IuK-Techniken"
+        "de": [
+          "Auswirkungen der IuK-Techniken"
+        ]
       }
     }
   ],
@@ -51,9 +63,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/320",
     "prefLabel": {
       "de": "INFORMATIONSTECHNISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Informationstechnische Bildung"
     }
   },
   "inScheme": {
@@ -110,10 +119,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,17 @@
     "de": "Deutsche Demokratische Republik 1949 - 1990"
   },
   "note": {
-    "de": "Deutsche Demokratische Republik 1949 - 1990; DDR 1949 bis 1990; Geschichte; Geschichtsunterricht"
+    "de": [
+      "DDR 1949 bis 1990",
+      "Deutsche Demokratische Republik 1949 - 1990",
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240020501",
     "prefLabel": {
       "de": "Deutschland"
-    },
-    "note": {
-      "de": "Deutschland; Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

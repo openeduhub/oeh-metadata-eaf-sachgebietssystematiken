@@ -7,15 +7,16 @@
     "de": "Überblicksdarstellungen"
   },
   "note": {
-    "de": "Überblicksdarstellungen; Deutsch; Deutschunterricht"
+    "de": [
+      "Deutsch",
+      "Deutschunterricht",
+      "Überblicksdarstellungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200105",
     "prefLabel": {
       "de": "Literaturgeschichte"
-    },
-    "note": {
-      "de": "Literaturgeschichte; Deutsch; Deutschunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

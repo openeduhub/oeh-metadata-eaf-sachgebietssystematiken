@@ -7,15 +7,16 @@
     "de": "Bilingualer Unterricht"
   },
   "note": {
-    "de": "Bilingualer Unterricht; Sorbisch; Sorbischunterricht"
+    "de": [
+      "Bilingualer Unterricht",
+      "Sorbisch",
+      "Sorbischunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20009",
     "prefLabel": {
       "de": "Sorbisch"
-    },
-    "note": {
-      "de": "Sorbisch; Sorbischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

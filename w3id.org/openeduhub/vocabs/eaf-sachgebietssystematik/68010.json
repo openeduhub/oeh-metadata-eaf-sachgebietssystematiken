@@ -7,15 +7,15 @@
     "de": "Schulische Weiterbildung, Zweiter Bildungsweg"
   },
   "note": {
-    "de": "Schulische Weiterbildung; Zweiter Bildungsweg"
+    "de": [
+      "Schulische Weiterbildung",
+      "Zweiter Bildungsweg"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/680",
     "prefLabel": {
       "de": "WEITERBILDUNG"
-    },
-    "note": {
-      "de": "Weiterbildung"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,15 @@
     "de": "Medienkundlicher Aspekt"
   },
   "note": {
-    "de": "Medienkundlicher Aspekt; Medienpädagogik"
+    "de": [
+      "Medienkundlicher Aspekt",
+      "Medienpädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4000207",
     "prefLabel": {
       "de": "Theater"
-    },
-    "note": {
-      "de": "Theater; Medienpädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

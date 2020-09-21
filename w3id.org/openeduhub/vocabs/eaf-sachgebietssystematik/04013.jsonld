@@ -7,7 +7,10 @@
     "de": "Wirtschaft und Verwaltung"
   },
   "note": {
-    "de": "Wirtschaft; Verwaltung"
+    "de": [
+      "Verwaltung",
+      "Wirtschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,9 @@
         "de": "Betriebswirtschaft"
       },
       "note": {
-        "de": "Betriebswirtschaft"
+        "de": [
+          "Betriebswirtschaft"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Volkswirtschaft"
       },
       "note": {
-        "de": "Volkswirtschaft; Wirtschaftswissenschaft"
+        "de": [
+          "Volkswirtschaft",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -34,7 +42,10 @@
         "de": "Recht und Öffentliche Verwaltung"
       },
       "note": {
-        "de": "Recht; Öffentliche Verwaltung"
+        "de": [
+          "Recht",
+          "Öffentliche Verwaltung"
+        ]
       }
     },
     {
@@ -43,7 +54,9 @@
         "de": "Informationswirtschaft"
       },
       "note": {
-        "de": "Informationswirtschaft"
+        "de": [
+          "Informationswirtschaft"
+        ]
       }
     },
     {
@@ -52,7 +65,10 @@
         "de": "Marketing, Werbung"
       },
       "note": {
-        "de": "Marketing; Werbung"
+        "de": [
+          "Marketing",
+          "Werbung"
+        ]
       }
     },
     {
@@ -61,7 +77,10 @@
         "de": "Beratung, Verkauf"
       },
       "note": {
-        "de": "Beartung; Verkauf"
+        "de": [
+          "Beartung",
+          "Verkauf"
+        ]
       }
     }
   ],
@@ -69,9 +88,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/040",
     "prefLabel": {
       "de": "BERUFLICHE BILDUNG"
-    },
-    "note": {
-      "de": "Berufliche Bildung"
     }
   },
   "inScheme": {
@@ -128,10 +144,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

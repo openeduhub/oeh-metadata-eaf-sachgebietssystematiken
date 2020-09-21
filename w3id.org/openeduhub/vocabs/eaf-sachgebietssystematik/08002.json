@@ -7,7 +7,11 @@
     "de": "Mikroorganismen"
   },
   "note": {
-    "de": "Mikroorganismen; Biologieunterricht; Biologie"
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Mikroorganismen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Bakterien"
       },
       "note": {
-        "de": "Bakterien; Biologieunterricht; Biologie"
+        "de": [
+          "Bakterien",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Viren und Phagen"
       },
       "note": {
-        "de": "Viren; Phagen; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Phagen",
+          "Viren"
+        ]
       }
     },
     {
@@ -34,7 +47,12 @@
         "de": "Pflanzliche und tierische Einzeller"
       },
       "note": {
-        "de": "Pflanzliche Einzeller; Tierische Einzeller; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Pflanzliche Einzeller",
+          "Tierische Einzeller"
+        ]
       }
     }
   ],
@@ -42,9 +60,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/080",
     "prefLabel": {
       "de": "BIOLOGIE"
-    },
-    "note": {
-      "de": "Biologie; Biologieunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +116,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

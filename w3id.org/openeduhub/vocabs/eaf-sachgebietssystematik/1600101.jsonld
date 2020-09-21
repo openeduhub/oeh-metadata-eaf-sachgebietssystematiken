@@ -7,15 +7,16 @@
     "de": "Familiäre Konflikte"
   },
   "note": {
-    "de": "Familiäre Konflikte; Ethik; Ethikunterricht"
+    "de": [
+      "Ethik",
+      "Ethikunterricht",
+      "Familiäre Konflikte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/16001",
     "prefLabel": {
       "de": "Konflikte und Konfliktregelung"
-    },
-    "note": {
-      "de": "Konflikte; Konfliktregelung; Ethik; Ethikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

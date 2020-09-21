@@ -7,7 +7,14 @@
     "de": "Agrargeographie"
   },
   "note": {
-    "de": "Agrargeographie; Agrargeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Agrargeografie",
+      "Agrargeographie",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Agrarstrukturen"
       },
       "note": {
-        "de": "Agrarstrukturen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Agrarstrukturen",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +38,13 @@
         "de": "Betriebsstrukturen"
       },
       "note": {
-        "de": "Betriebsstrukturen; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Betriebsstrukturen",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -34,7 +53,15 @@
         "de": "Boden, Melioration"
       },
       "note": {
-        "de": "Boden; Melioration; Bodenkunde; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Boden",
+          "Bodenkunde",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht",
+          "Melioration"
+        ]
       }
     },
     {
@@ -43,7 +70,13 @@
         "de": "Agrarprodukte"
       },
       "note": {
-        "de": "Agrarprodukte; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Agrarprodukte",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     },
     {
@@ -52,7 +85,13 @@
         "de": "Agrarräume"
       },
       "note": {
-        "de": "Agrarräume; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+        "de": [
+          "Agrarräume",
+          "Geografie",
+          "Geografieunterricht",
+          "Geographie",
+          "Geographieunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +99,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/220",
     "prefLabel": {
       "de": "GEOGRAPHIE"
-    },
-    "note": {
-      "de": "Geographie; Erdkunde; Geografie; Geografieunterricht; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -119,10 +155,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

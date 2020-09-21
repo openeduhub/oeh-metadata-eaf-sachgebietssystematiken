@@ -7,15 +7,19 @@
     "de": "Lesen, Lesetechnik, Umgang mit Texten"
   },
   "note": {
-    "de": "Lesen; Lesetechnik; Umgang mit Texten; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Lesen",
+      "Lesetechnik",
+      "Primarunterricht",
+      "Umgang mit Texten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28001",
     "prefLabel": {
       "de": "Deutsch"
-    },
-    "note": {
-      "de": "Deutsch; Deutschunterricht; Deutsch in der Grundschule; Grundschule; Grundschulunterricht; Primarunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

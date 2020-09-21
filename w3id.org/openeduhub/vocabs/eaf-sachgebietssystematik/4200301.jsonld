@@ -7,7 +7,11 @@
     "de": "Vokalmusik"
   },
   "note": {
-    "de": "Vokalmusik; Musik; Musikunterricht"
+    "de": [
+      "Musik",
+      "Musikunterricht",
+      "Vokalmusik"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Chormusik"
       },
       "note": {
-        "de": "Chormusik; Musik; Musikunterricht"
+        "de": [
+          "Chormusik",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,11 @@
         "de": "Volkslied"
       },
       "note": {
-        "de": "Volkslied; Musik; Musikunterricht"
+        "de": [
+          "Musik",
+          "Musikunterricht",
+          "Volkslied"
+        ]
       }
     },
     {
@@ -34,7 +46,11 @@
         "de": "Kunstlied"
       },
       "note": {
-        "de": "Kunstlied; Musik; Musikunterricht"
+        "de": [
+          "Kunstlied",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Kinderlied"
       },
       "note": {
-        "de": "Kinderlied; Musik; Musikunterricht"
+        "de": [
+          "Kinderlied",
+          "Musik",
+          "Musikunterricht"
+        ]
       }
     }
   ],
@@ -51,9 +71,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42003",
     "prefLabel": {
       "de": "Musikarten"
-    },
-    "note": {
-      "de": "Musikarten; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +127,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,18 @@
     "de": "Natur"
   },
   "note": {
-    "de": "Natur; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
+    "de": [
+      "Elementarbereich",
+      "Natur",
+      "Vorschulerziehung",
+      "frühkindliche Bildung",
+      "frühkindliche Erziehung"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/14002",
     "prefLabel": {
       "de": "Lebensbereiche"
-    },
-    "note": {
-      "de": "Lebensbereiche; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

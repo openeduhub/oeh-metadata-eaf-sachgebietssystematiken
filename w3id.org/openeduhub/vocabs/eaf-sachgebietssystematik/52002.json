@@ -7,7 +7,12 @@
     "de": "Bibel"
   },
   "note": {
-    "de": "Bibel; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Bibel",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,12 @@
         "de": "Altes Testament"
       },
       "note": {
-        "de": "Altes Testament; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Altes Testament",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +35,12 @@
         "de": "Neues Testament"
       },
       "note": {
-        "de": "Neues Testament; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Neues Testament",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     }
   ],
@@ -33,9 +48,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -92,10 +104,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

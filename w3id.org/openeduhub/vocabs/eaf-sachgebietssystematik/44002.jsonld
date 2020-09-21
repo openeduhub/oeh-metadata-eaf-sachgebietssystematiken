@@ -7,7 +7,9 @@
     "de": "Pädagogische Psychologie"
   },
   "note": {
-    "de": "Pädagogische Psychologie"
+    "de": [
+      "Pädagogische Psychologie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Grundfragen"
       },
       "note": {
-        "de": "Grundfragen der pädagogischen Psychologie"
+        "de": [
+          "Grundfragen der pädagogischen Psychologie"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Methoden"
       },
       "note": {
-        "de": "Methoden der Pädagogischen Psychologie"
+        "de": [
+          "Methoden der Pädagogischen Psychologie"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Entwicklungspsychologie"
       },
       "note": {
-        "de": "Entwicklungspsychologie"
+        "de": [
+          "Entwicklungspsychologie"
+        ]
       }
     },
     {
@@ -43,7 +51,9 @@
         "de": "Lernpsychologie"
       },
       "note": {
-        "de": "Lernpsychologie"
+        "de": [
+          "Lernpsychologie"
+        ]
       }
     },
     {
@@ -52,7 +62,9 @@
         "de": "Sozialpsychologie"
       },
       "note": {
-        "de": "Sozialpsychologie"
+        "de": [
+          "Sozialpsychologie"
+        ]
       }
     }
   ],
@@ -60,9 +72,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/440",
     "prefLabel": {
       "de": "PÄDAGOGIK"
-    },
-    "note": {
-      "de": "Pädagogik"
     }
   },
   "inScheme": {
@@ -119,10 +128,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

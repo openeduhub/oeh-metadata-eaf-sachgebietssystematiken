@@ -7,15 +7,20 @@
     "de": "Boden, Melioration"
   },
   "note": {
-    "de": "Boden; Melioration; Bodenkunde; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Boden",
+      "Bodenkunde",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Melioration"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22014",
     "prefLabel": {
       "de": "Agrargeographie"
-    },
-    "note": {
-      "de": "Agrargeographie; Agrargeografie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,25 @@
     "de": "Ostasien"
   },
   "note": {
-    "de": "Ostasien; China; Tibet; Korea; Japan; Taiwan; Hongkong; Macao; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "China",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Hongkong",
+      "Japan",
+      "Korea",
+      "Macao",
+      "Ostasien",
+      "Taiwan",
+      "Tibet"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22020",
     "prefLabel": {
       "de": "Asien"
-    },
-    "note": {
-      "de": "Asien; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +82,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

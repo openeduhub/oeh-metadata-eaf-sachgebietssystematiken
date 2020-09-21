@@ -7,7 +7,11 @@
     "de": "Astronomie"
   },
   "note": {
-    "de": "Astronomie; Physik; Physikunterricht"
+    "de": [
+      "Astronomie",
+      "Physik",
+      "Physikunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,11 @@
         "de": "Himmelsmechanik"
       },
       "note": {
-        "de": "Himmelsmechanik; Physik; Physikunterricht"
+        "de": [
+          "Himmelsmechanik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -25,7 +33,12 @@
         "de": "Astrophysik, Geophysik"
       },
       "note": {
-        "de": "Astrophysik; Geophysik; Physik; Physikunterricht"
+        "de": [
+          "Astrophysik",
+          "Geophysik",
+          "Physik",
+          "Physikunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Weltraumfahrt"
       },
       "note": {
-        "de": "Weltraumfahrt; Physik; Physikunterricht"
+        "de": [
+          "Physik",
+          "Physikunterricht",
+          "Weltraumfahrt"
+        ]
       }
     }
   ],
@@ -42,9 +59,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/460",
     "prefLabel": {
       "de": "PHYSIK"
-    },
-    "note": {
-      "de": "Physik; Physikunterricht"
     }
   },
   "inScheme": {
@@ -101,10 +115,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

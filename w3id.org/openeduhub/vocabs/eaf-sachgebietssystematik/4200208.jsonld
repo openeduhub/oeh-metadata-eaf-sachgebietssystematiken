@@ -7,15 +7,16 @@
     "de": "Moderne"
   },
   "note": {
-    "de": "Moderne; Musik; Musikunterricht"
+    "de": [
+      "Moderne",
+      "Musik",
+      "Musikunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/42002",
     "prefLabel": {
       "de": "Europäische Zeitstile"
-    },
-    "note": {
-      "de": "Europäische Zeitstile; Musik; Musikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

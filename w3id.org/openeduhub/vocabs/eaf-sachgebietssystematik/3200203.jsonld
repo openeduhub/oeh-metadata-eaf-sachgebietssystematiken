@@ -7,15 +7,16 @@
     "de": "Theoretische Informatik"
   },
   "note": {
-    "de": "Theoretische Informatik; Informatik; Informatikunterricht"
+    "de": [
+      "Informatik",
+      "Informatikunterricht",
+      "Theoretische Informatik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/32002",
     "prefLabel": {
       "de": "Informatik"
-    },
-    "note": {
-      "de": "Informatik; Informatikunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

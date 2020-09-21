@@ -7,15 +7,17 @@
     "de": "Literatur, Medien"
   },
   "note": {
-    "de": "Literatur Portugals; Medien; Portugisisch; Portugisischunterricht"
+    "de": [
+      "Literatur Portugals",
+      "Medien",
+      "Portugisisch",
+      "Portugisischunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20014",
     "prefLabel": {
       "de": "Portugisisch"
-    },
-    "note": {
-      "de": "Portugisisch; Portugisischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +74,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

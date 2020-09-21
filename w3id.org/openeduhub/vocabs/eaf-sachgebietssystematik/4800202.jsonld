@@ -7,7 +7,14 @@
     "de": "Kommunale Ebene"
   },
   "note": {
-    "de": "Kommunale Ebene; Kommunalverwaltung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Kommunale Ebene",
+      "Kommunalverwaltung",
+      "Politik",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Kommunalwahlen"
       },
       "note": {
-        "de": "Kommunalwahlen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Kommunalwahlen",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +38,15 @@
         "de": "Kommunale Institutionen"
       },
       "note": {
-        "de": "Kommunale Institutionen; Institutionen der Kommunen; kommunale Institutionen; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Institutionen der Kommunen",
+          "Kommunale Institutionen",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde",
+          "kommunale Institutionen"
+        ]
       }
     },
     {
@@ -34,7 +55,14 @@
         "de": "Kommunalpolitik"
       },
       "note": {
-        "de": "Kommunalpolitik; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Kommunalpolitik",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -42,9 +70,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48002",
     "prefLabel": {
       "de": "Politisches System der Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -101,10 +126,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,10 @@
     "de": "Betriebswirtschaft"
   },
   "note": {
-    "de": "Betriebswirtschaft; Wirtschaftswissenschaft"
+    "de": [
+      "Betriebswirtschaft",
+      "Wirtschaftswissenschaft"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Unternehmensformen, Unternehmensstrukturen"
       },
       "note": {
-        "de": "Unternehmensformen; Unternehmensstrukturen; Wirtschaftswissenschaft"
+        "de": [
+          "Unternehmensformen",
+          "Unternehmensstrukturen",
+          "Wirtschaftswissenschaft"
+        ]
       }
     },
     {
@@ -25,7 +32,10 @@
         "de": "Bilanzierung, Leistungserstellung"
       },
       "note": {
-        "de": "Bilanzierung; Leistungserstellung"
+        "de": [
+          "Bilanzierung",
+          "Leistungserstellung"
+        ]
       }
     }
   ],
@@ -33,9 +43,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/700",
     "prefLabel": {
       "de": "WIRTSCHAFTSKUNDE"
-    },
-    "note": {
-      "de": "Wirtschaftskunde; Wirtschaftswissenschaft"
     }
   },
   "inScheme": {
@@ -92,10 +99,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

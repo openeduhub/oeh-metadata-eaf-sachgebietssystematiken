@@ -7,7 +7,10 @@
     "de": "SUCHT UND PRÄVENTION"
   },
   "note": {
-    "de": "Sucht; Prävention"
+    "de": [
+      "Prävention",
+      "Sucht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Suchtursachen"
       },
       "note": {
-        "de": "Suchtursachen; Sucht; Prävention"
+        "de": [
+          "Prävention",
+          "Sucht",
+          "Suchtursachen"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Drogen"
       },
       "note": {
-        "de": "Drogen; Sucht; Prävention"
+        "de": [
+          "Drogen",
+          "Prävention",
+          "Sucht"
+        ]
       }
     },
     {
@@ -34,7 +45,10 @@
         "de": "Sonstige Abhängigkeiten"
       },
       "note": {
-        "de": "Sucht; Prävention"
+        "de": [
+          "Prävention",
+          "Sucht"
+        ]
       }
     },
     {
@@ -43,7 +57,11 @@
         "de": "Prävention, Therapie"
       },
       "note": {
-        "de": "Prävention; Therapie; Sucht; Prävention"
+        "de": [
+          "Prävention",
+          "Sucht",
+          "Therapie"
+        ]
       }
     },
     {
@@ -52,7 +70,10 @@
         "de": "Gesellschaftliche Aspekte"
       },
       "note": {
-        "de": "Sucht; Prävention"
+        "de": [
+          "Prävention",
+          "Sucht"
+        ]
       }
     },
     {
@@ -61,7 +82,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Sucht; Prävention"
+        "de": [
+          "Bilingualer Unterricht",
+          "Prävention",
+          "Sucht"
+        ]
       }
     }
   ],
@@ -122,10 +147,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

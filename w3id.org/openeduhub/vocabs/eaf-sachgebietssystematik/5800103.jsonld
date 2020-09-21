@@ -7,7 +7,9 @@
     "de": "Trickfilm"
   },
   "note": {
-    "de": "Trickfilm"
+    "de": [
+      "Trickfilm"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Zeichentrick"
       },
       "note": {
-        "de": "Zeichentrick; Zeichentrickfilm"
+        "de": [
+          "Zeichentrick",
+          "Zeichentrickfilm"
+        ]
       }
     },
     {
@@ -25,7 +30,10 @@
         "de": "Puppentrick"
       },
       "note": {
-        "de": "Puppentrick; Puppentrickfilm"
+        "de": [
+          "Puppentrick",
+          "Puppentrickfilm"
+        ]
       }
     },
     {
@@ -34,7 +42,9 @@
         "de": "Scherenschnitt"
       },
       "note": {
-        "de": "Scherenschnitt"
+        "de": [
+          "Scherenschnitt"
+        ]
       }
     },
     {
@@ -43,7 +53,9 @@
         "de": "Sonstige Trickarten"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -52,16 +64,15 @@
         "de": "Computeranimation"
       },
       "note": {
-        "de": "Computeranimation"
+        "de": [
+          "Computeranimation"
+        ]
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58001",
     "prefLabel": {
-      "de": "Kurzfilm"
-    },
-    "note": {
       "de": "Kurzfilm"
     }
   },
@@ -119,10 +130,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

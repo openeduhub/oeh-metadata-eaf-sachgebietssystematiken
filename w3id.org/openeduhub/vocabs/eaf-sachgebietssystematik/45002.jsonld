@@ -7,7 +7,9 @@
     "de": "Epochen"
   },
   "note": {
-    "de": "NaN"
+    "de": [
+      "NaN"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,10 @@
         "de": "Antike Philosophie"
       },
       "note": {
-        "de": "Antike Philosophie; Philosophie der Antike"
+        "de": [
+          "Antike Philosophie",
+          "Philosophie der Antike"
+        ]
       }
     },
     {
@@ -25,7 +30,9 @@
         "de": "Philosophie des Mittelalters"
       },
       "note": {
-        "de": "Philosophie des Mittelalters"
+        "de": [
+          "Philosophie des Mittelalters"
+        ]
       }
     },
     {
@@ -34,7 +41,9 @@
         "de": "Frühneuzeitliche Philosophie"
       },
       "note": {
-        "de": "Frühneuzeitliche Philosophie"
+        "de": [
+          "Frühneuzeitliche Philosophie"
+        ]
       }
     },
     {
@@ -43,7 +52,9 @@
         "de": "Philosophie des 19. Jahrhunderts"
       },
       "note": {
-        "de": "Philosophie des 19. Jahrhunderts"
+        "de": [
+          "Philosophie des 19. Jahrhunderts"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Philosophie des 20. Jahrhunderts"
       },
       "note": {
-        "de": "Philosophie des 20. Jahrhunderts"
+        "de": [
+          "Philosophie des 20. Jahrhunderts"
+        ]
       }
     },
     {
@@ -61,7 +74,9 @@
         "de": "Philosophie der Gegenwart"
       },
       "note": {
-        "de": "Philosophie der Gegenwart"
+        "de": [
+          "Philosophie der Gegenwart"
+        ]
       }
     }
   ],
@@ -69,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/450",
     "prefLabel": {
       "de": "PHILOSOPHIE"
-    },
-    "note": {
-      "de": "Philosophie"
     }
   },
   "inScheme": {
@@ -128,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

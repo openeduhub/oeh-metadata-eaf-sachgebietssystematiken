@@ -7,7 +7,9 @@
     "de": "Methoden"
   },
   "note": {
-    "de": "NaN"
+    "de": [
+      "NaN"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Grundlagen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -25,7 +29,10 @@
         "de": "Mess- und Regelungstechnik"
       },
       "note": {
-        "de": "Messtechnik; Regelungstechnik"
+        "de": [
+          "Messtechnik",
+          "Regelungstechnik"
+        ]
       }
     },
     {
@@ -34,7 +41,11 @@
         "de": "Praktische Informatik"
       },
       "note": {
-        "de": "Praktische Informatik; Informatik; Informatikunterricht"
+        "de": [
+          "Informatik",
+          "Informatikunterricht",
+          "Praktische Informatik"
+        ]
       }
     },
     {
@@ -43,7 +54,9 @@
         "de": "Schaltungstechnik und Funktionsanalyse"
       },
       "note": {
-        "de": "Schaltungstechnik"
+        "de": [
+          "Schaltungstechnik"
+        ]
       }
     },
     {
@@ -52,7 +65,9 @@
         "de": "Werkstoffe"
       },
       "note": {
-        "de": "Werkstoffe"
+        "de": [
+          "Werkstoffe"
+        ]
       }
     },
     {
@@ -61,7 +76,9 @@
         "de": "Technische Kommunikation"
       },
       "note": {
-        "de": "Technische Kommunikation"
+        "de": [
+          "Technische Kommunikation"
+        ]
       }
     }
   ],
@@ -69,9 +86,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04005",
     "prefLabel": {
       "de": "Elektrotechnik"
-    },
-    "note": {
-      "de": "Elektrotechnik; elektrische Energietechnik"
     }
   },
   "inScheme": {
@@ -128,10 +142,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

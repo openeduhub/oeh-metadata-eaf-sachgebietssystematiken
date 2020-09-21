@@ -7,7 +7,10 @@
     "de": "Griechisch"
   },
   "note": {
-    "de": "Griechisch; Griechischunterricht"
+    "de": [
+      "Griechisch",
+      "Griechischunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Sprachliche Fertigkeiten"
       },
       "note": {
-        "de": "Sprachliche Fertigkeiten; Griechisch; Griechischunterricht"
+        "de": [
+          "Griechisch",
+          "Griechischunterricht",
+          "Sprachliche Fertigkeiten"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Landeskunde"
       },
       "note": {
-        "de": "Landeskunde Griechenland; Griechisch; Griechischunterricht"
+        "de": [
+          "Griechisch",
+          "Griechischunterricht",
+          "Landeskunde Griechenland"
+        ]
       }
     },
     {
@@ -34,7 +45,12 @@
         "de": "Literatur, Medien"
       },
       "note": {
-        "de": "Literatur Griechenlands; Medien; Griechisch; Griechischunterricht"
+        "de": [
+          "Griechisch",
+          "Griechischunterricht",
+          "Literatur Griechenlands",
+          "Medien"
+        ]
       }
     },
     {
@@ -43,7 +59,11 @@
         "de": "Spielfilm"
       },
       "note": {
-        "de": "Spielfilm; Griechisch; Griechischunterricht"
+        "de": [
+          "Griechisch",
+          "Griechischunterricht",
+          "Spielfilm"
+        ]
       }
     },
     {
@@ -52,7 +72,11 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Unterricht; Griechisch; Griechischunterricht"
+        "de": [
+          "Bilingualer Unterricht",
+          "Griechisch",
+          "Griechischunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/200",
     "prefLabel": {
       "de": "FREMDSPRACHEN"
-    },
-    "note": {
-      "de": "Fremdsprachen"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

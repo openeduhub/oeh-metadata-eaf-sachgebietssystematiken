@@ -7,7 +7,9 @@
     "de": "PHILOSOPHIE"
   },
   "note": {
-    "de": "Philosophie"
+    "de": [
+      "Philosophie"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +18,9 @@
         "de": "Außereuropäische Philosophie"
       },
       "note": {
-        "de": "Außereuropäische Philosophie"
+        "de": [
+          "Außereuropäische Philosophie"
+        ]
       }
     },
     {
@@ -25,7 +29,9 @@
         "de": "Epochen"
       },
       "note": {
-        "de": "NaN"
+        "de": [
+          "NaN"
+        ]
       }
     },
     {
@@ -34,7 +40,9 @@
         "de": "Philosophische Gegenwartsfragen"
       },
       "note": {
-        "de": "Philosophische Gegenwartsfragen"
+        "de": [
+          "Philosophische Gegenwartsfragen"
+        ]
       }
     },
     {
@@ -43,7 +51,10 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Biografien"
+        "de": [
+          "Biografien",
+          "Biographien"
+        ]
       }
     },
     {
@@ -52,7 +63,9 @@
         "de": "Praktische Philosophie"
       },
       "note": {
-        "de": "Praktische Philosophie"
+        "de": [
+          "Praktische Philosophie"
+        ]
       }
     }
   ],
@@ -113,10 +126,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

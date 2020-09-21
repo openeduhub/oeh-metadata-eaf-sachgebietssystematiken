@@ -7,7 +7,12 @@
     "de": "Spielsportarten"
   },
   "note": {
-    "de": "Spielsportarten; Sportspiele; Sport; Sportunterricht"
+    "de": [
+      "Spielsportarten",
+      "Sport",
+      "Sportspiele",
+      "Sportunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,11 @@
         "de": "Basketball"
       },
       "note": {
-        "de": "Basketball; Sport; Sportunterricht"
+        "de": [
+          "Basketball",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -25,7 +34,11 @@
         "de": "Fußball"
       },
       "note": {
-        "de": "Fußball; Sport; Sportunterricht"
+        "de": [
+          "Fußball",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -34,7 +47,11 @@
         "de": "Handball"
       },
       "note": {
-        "de": "Handball; Sport; Sportunterricht"
+        "de": [
+          "Handball",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,11 @@
         "de": "Tennis"
       },
       "note": {
-        "de": "Tennis; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Tennis"
+        ]
       }
     },
     {
@@ -52,7 +73,11 @@
         "de": "Volleyball"
       },
       "note": {
-        "de": "Volleyball; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Volleyball"
+        ]
       }
     },
     {
@@ -61,7 +86,11 @@
         "de": "Weitere Spielsportarten und Spiele"
       },
       "note": {
-        "de": "Spielsportarten und Spiele; Sport; Sportunterricht"
+        "de": [
+          "Spielsportarten und Spiele",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -70,7 +99,11 @@
         "de": "Badminton"
       },
       "note": {
-        "de": "Badminton; Sport; Sportunterricht"
+        "de": [
+          "Badminton",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -79,7 +112,11 @@
         "de": "Tischtennis"
       },
       "note": {
-        "de": "Tischtennis; Sport; Sportunterricht"
+        "de": [
+          "Sport",
+          "Sportunterricht",
+          "Tischtennis"
+        ]
       }
     },
     {
@@ -88,7 +125,11 @@
         "de": "Hockey"
       },
       "note": {
-        "de": "Hockey; Sport; Sportunterricht"
+        "de": [
+          "Hockey",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -97,7 +138,11 @@
         "de": "Integrative Spiele"
       },
       "note": {
-        "de": "Integrative Spiele; Sport; Sportunterricht"
+        "de": [
+          "Integrative Spiele",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     },
     {
@@ -106,7 +151,11 @@
         "de": "Kleine Spiele"
       },
       "note": {
-        "de": "Kleine Spiele; Sport; Sportunterricht"
+        "de": [
+          "Kleine Spiele",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     }
   ],
@@ -114,9 +163,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/60003",
     "prefLabel": {
       "de": "Sportarten"
-    },
-    "note": {
-      "de": "Sportarten; Sport; Sportunterricht"
     }
   },
   "inScheme": {
@@ -173,10 +219,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,15 +7,20 @@
     "de": "Raumordnung, Städtebau, Verkehr"
   },
   "note": {
-    "de": "Raumordnung; Städtebau; Verkehr; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Raumordnung",
+      "Sozialkunde",
+      "Städtebau",
+      "Verkehr"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48004",
     "prefLabel": {
       "de": "Politikfelder"
-    },
-    "note": {
-      "de": "Politikfelder; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

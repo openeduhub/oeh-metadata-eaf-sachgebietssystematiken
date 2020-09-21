@@ -7,15 +7,18 @@
     "de": "Formen der Weltauffassung, Religion"
   },
   "note": {
-    "de": "Formen der Weltauffassung; Weltanschauungen und ihre Geschichte; Geschichte der Religion; Geschichte; Geschichtsunterricht"
+    "de": [
+      "Formen der Weltauffassung",
+      "Geschichte",
+      "Geschichte der Religion",
+      "Geschichtsunterricht",
+      "Weltanschauungen und ihre Geschichte"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24004",
     "prefLabel": {
       "de": "Geschichtliche Überblicke und thematische Querschnitte"
-    },
-    "note": {
-      "de": "Geschichte; Geschichtsunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +75,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

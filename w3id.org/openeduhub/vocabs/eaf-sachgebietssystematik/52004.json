@@ -7,7 +7,12 @@
     "de": "Kult und Frömmigkeit"
   },
   "note": {
-    "de": "Kult und Frömmigkeit; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Kult und Frömmigkeit",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,17 @@
         "de": "Kirchenjahr"
       },
       "note": {
-        "de": "Kirchenjahr; Advent; Ostern; Passion; Pfingsten; Weihnachten; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Advent",
+          "Kirchenjahr",
+          "Ostern",
+          "Passion",
+          "Pfingsten",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Weihnachten"
+        ]
       }
     },
     {
@@ -25,7 +40,12 @@
         "de": "Gottesdienst"
       },
       "note": {
-        "de": "Gottesdienst; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Gottesdienst",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +54,12 @@
         "de": "Gebet"
       },
       "note": {
-        "de": "Gebet; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Gebet",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -43,7 +68,12 @@
         "de": "Meditation"
       },
       "note": {
-        "de": "Meditation; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Meditation",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -52,7 +82,12 @@
         "de": "Sakramente"
       },
       "note": {
-        "de": "Sakramente; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Sakramente"
+        ]
       }
     },
     {
@@ -61,7 +96,12 @@
         "de": "Religiöses Brauchtum"
       },
       "note": {
-        "de": "Religiöses Brauchtum; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Religiöses Brauchtum"
+        ]
       }
     }
   ],
@@ -69,9 +109,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -128,10 +165,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

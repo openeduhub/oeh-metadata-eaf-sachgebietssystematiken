@@ -7,7 +7,14 @@
     "de": "Mitwirkung am politischen Prozess"
   },
   "note": {
-    "de": "Mitwirkung am politischen Prozess; Politische Beteiligung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Mitwirkung am politischen Prozess",
+      "Politik",
+      "Politische Beteiligung",
+      "Politische Bildung",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,13 @@
         "de": "Bürgerbeteiligung"
       },
       "note": {
-        "de": "Bürgerbeteiligung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Bürgerbeteiligung",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +38,14 @@
         "de": "Parteien"
       },
       "note": {
-        "de": "Parteien; Parteienlandschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Parteien",
+          "Parteienlandschaft",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +54,12 @@
         "de": "Organisationen"
       },
       "note": {
-        "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -43,7 +68,13 @@
         "de": "Massenmedien"
       },
       "note": {
-        "de": "Massenmedien; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Massenmedien",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -51,9 +82,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48002",
     "prefLabel": {
       "de": "Politisches System der Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -110,10 +138,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -7,7 +7,14 @@
     "de": "Szenarien- bzw. dialogbezogene Ordnung"
   },
   "note": {
-    "de": "Szenarien- bzw. dialogbezogene Ordnung; Szenarienbezogene Ordnung; Dialogbezogene Ordnung; Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Dialogbezogene Ordnung",
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Szenarien- bzw. dialogbezogene Ordnung",
+      "Szenarienbezogene Ordnung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,12 @@
         "de": "Einwirkende Interaktionen"
       },
       "note": {
-        "de": "Einwirkende Interaktionen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Einwirkende Interaktionen",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -25,7 +37,12 @@
         "de": "Informationsaustausch"
       },
       "note": {
-        "de": "Informationsaustausch; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Informationsaustausch",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -34,7 +51,12 @@
         "de": "Meinungsaustausch"
       },
       "note": {
-        "de": "Meinungsaustausch; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Meinungsaustausch",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -43,7 +65,12 @@
         "de": "Soziale Kontakte"
       },
       "note": {
-        "de": "Soziale Kontakte; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Soziale Kontakte"
+        ]
       }
     }
   ],
@@ -51,9 +78,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28002",
     "prefLabel": {
       "de": "Deutsch für Kinder anderer Muttersprache"
-    },
-    "note": {
-      "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
     }
   },
   "inScheme": {
@@ -110,10 +134,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

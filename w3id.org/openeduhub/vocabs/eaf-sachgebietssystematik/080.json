@@ -7,7 +7,10 @@
     "de": "BIOLOGIE"
   },
   "note": {
-    "de": "Biologie; Biologieunterricht"
+    "de": [
+      "Biologie",
+      "Biologieunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +19,11 @@
         "de": "Allgemeine Biologie"
       },
       "note": {
-        "de": "Allgemeine Biologie; Biologie; Biologieunterricht"
+        "de": [
+          "Allgemeine Biologie",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -25,7 +32,11 @@
         "de": "Mikroorganismen"
       },
       "note": {
-        "de": "Mikroorganismen; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Mikroorganismen"
+        ]
       }
     },
     {
@@ -34,7 +45,11 @@
         "de": "Pilze"
       },
       "note": {
-        "de": "Pilze; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Pilze"
+        ]
       }
     },
     {
@@ -43,7 +58,11 @@
         "de": "Botanik"
       },
       "note": {
-        "de": "Botanik; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Botanik"
+        ]
       }
     },
     {
@@ -52,7 +71,11 @@
         "de": "Zoologie"
       },
       "note": {
-        "de": "Zoologie; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Zoologie"
+        ]
       }
     },
     {
@@ -61,7 +84,11 @@
         "de": "Menschenkunde"
       },
       "note": {
-        "de": "Menschenkunde; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Menschenkunde"
+        ]
       }
     },
     {
@@ -70,7 +97,11 @@
         "de": "Ökologie"
       },
       "note": {
-        "de": "Ökologie; Biologieunterricht; Biologie"
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Ökologie"
+        ]
       }
     },
     {
@@ -79,7 +110,12 @@
         "de": "Biographien"
       },
       "note": {
-        "de": "Biographien; Biografien; Biologieunterricht; Biologie"
+        "de": [
+          "Biografien",
+          "Biographien",
+          "Biologie",
+          "Biologieunterricht"
+        ]
       }
     },
     {
@@ -88,7 +124,10 @@
         "de": "Bilingualer Unterricht"
       },
       "note": {
-        "de": "Bilingualer Biologieunterricht; Biologie"
+        "de": [
+          "Bilingualer Biologieunterricht",
+          "Biologie"
+        ]
       }
     }
   ],
@@ -149,10 +188,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

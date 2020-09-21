@@ -7,15 +7,16 @@
     "de": "Architektur, Bautechnik"
   },
   "note": {
-    "de": "Architektur; Bautechnik; Baukunde"
+    "de": [
+      "Architektur",
+      "Baukunde",
+      "Bautechnik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/04002",
     "prefLabel": {
       "de": "Bau, Architektur, Vermessung"
-    },
-    "note": {
-      "de": "Architektur; Vermessung"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

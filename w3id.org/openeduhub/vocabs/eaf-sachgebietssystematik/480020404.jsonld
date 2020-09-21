@@ -7,15 +7,19 @@
     "de": "Zusammenwirken von Bund und Ländern"
   },
   "note": {
-    "de": "Zusammenwirken von Bund und Ländern; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Sozialkunde",
+      "Zusammenwirken von Bund und Ländern"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800204",
     "prefLabel": {
       "de": "Politische Ordnung des Bundes"
-    },
-    "note": {
-      "de": "Politische Ordnung des Bundes; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

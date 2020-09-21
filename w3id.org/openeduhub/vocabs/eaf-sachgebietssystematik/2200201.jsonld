@@ -7,15 +7,19 @@
     "de": "Erde als Himmelkörper, Astronomie"
   },
   "note": {
-    "de": "Erde als Himmelkörper; Astronomie; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Astronomie",
+      "Erde als Himmelkörper",
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22002",
     "prefLabel": {
       "de": "Erde"
-    },
-    "note": {
-      "de": "Erde; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

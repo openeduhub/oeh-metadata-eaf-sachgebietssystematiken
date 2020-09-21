@@ -7,15 +7,15 @@
     "de": "Kraftmaschinen, Arbeitsmaschinen"
   },
   "note": {
-    "de": "Kraftmaschinen; Arbeitsmaschinen"
+    "de": [
+      "Arbeitsmaschinen",
+      "Kraftmaschinen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/0401102",
     "prefLabel": {
       "de": "Konstruktionstechnik, Maschinenelemente"
-    },
-    "note": {
-      "de": "Konstruktionstechnik; Maschinenelemente"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

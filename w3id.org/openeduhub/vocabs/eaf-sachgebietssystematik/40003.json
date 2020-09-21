@@ -7,15 +7,15 @@
     "de": "Ergebnisse aktiver Medienarbeit"
   },
   "note": {
-    "de": "Ergebnisse aktiver Medienarbeit; Medienpädagogik"
+    "de": [
+      "Ergebnisse aktiver Medienarbeit",
+      "Medienpädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/400",
     "prefLabel": {
       "de": "MEDIENPÄDAGOGIK"
-    },
-    "note": {
-      "de": "Medienpädagogik"
     }
   },
   "inScheme": {
@@ -72,10 +72,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

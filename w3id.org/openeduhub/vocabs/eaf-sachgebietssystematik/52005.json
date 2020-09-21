@@ -7,7 +7,12 @@
     "de": "Religiöse Lebensgestaltung"
   },
   "note": {
-    "de": "Religiöse Lebensgestaltung; Religion; Religionsunterricht; Religionslehre"
+    "de": [
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht",
+      "Religiöse Lebensgestaltung"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +21,11 @@
         "de": "Grunderfahrungen"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -25,7 +34,12 @@
         "de": "Glaube"
       },
       "note": {
-        "de": "Glaube; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Glaube",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -34,7 +48,10 @@
         "de": "Ethik"
       },
       "note": {
-        "de": "Ethik; Ethikunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht"
+        ]
       }
     },
     {
@@ -43,7 +60,9 @@
         "de": "Erziehung und Bildung"
       },
       "note": {
-        "de": "Erziehung und Bildung"
+        "de": [
+          "Erziehung und Bildung"
+        ]
       }
     },
     {
@@ -52,7 +71,12 @@
         "de": "Persönlichkeitsbilder"
       },
       "note": {
-        "de": "Persönlichkeitsbilder; Religion; Religionsunterricht; Religionslehre"
+        "de": [
+          "Persönlichkeitsbilder",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
       }
     }
   ],
@@ -60,9 +84,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
     "prefLabel": {
       "de": "RELIGION"
-    },
-    "note": {
-      "de": "Religion; Religionsunterricht; Religionslehre"
     }
   },
   "inScheme": {
@@ -119,10 +140,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

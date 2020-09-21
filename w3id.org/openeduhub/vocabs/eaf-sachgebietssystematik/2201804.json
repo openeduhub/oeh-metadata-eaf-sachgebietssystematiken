@@ -7,15 +7,19 @@
     "de": "Süddeutsches Stufen- und Bergland"
   },
   "note": {
-    "de": "Süddeutsches Stufen- und Bergland; Süddeutsches Stufenland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
+    "de": [
+      "Geografie",
+      "Geografieunterricht",
+      "Geographie",
+      "Geographieunterricht",
+      "Süddeutsches Stufen- und Bergland",
+      "Süddeutsches Stufenland"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/22018",
     "prefLabel": {
       "de": "Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Bundesrepublik Deutschland; Deutschland; Geografie; Geografieunterricht; Geographie; Geographieunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +76,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

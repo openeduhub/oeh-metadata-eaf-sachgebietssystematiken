@@ -7,7 +7,11 @@
     "de": "GRUNDSCHULE"
   },
   "note": {
-    "de": "Grundschule; Primarunterricht; Grundschulunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +20,14 @@
         "de": "Deutsch"
       },
       "note": {
-        "de": "Deutsch; Deutschunterricht; Deutsch in der Grundschule; Grundschule; Grundschulunterricht; Primarunterricht"
+        "de": [
+          "Deutsch",
+          "Deutsch in der Grundschule",
+          "Deutschunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -25,7 +36,12 @@
         "de": "Deutsch für Kinder anderer Muttersprache"
       },
       "note": {
-        "de": "Deutsch für Kinder anderer Muttersprache; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Deutsch für Kinder anderer Muttersprache",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -34,7 +50,12 @@
         "de": "Medienerziehung"
       },
       "note": {
-        "de": "Medienerziehung; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Medienerziehung",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -43,7 +64,13 @@
         "de": "Ethik"
       },
       "note": {
-        "de": "Ethik; Ethikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -52,7 +79,12 @@
         "de": "Fremdsprachen"
       },
       "note": {
-        "de": "Fremdsprachen; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Fremdsprachen",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -61,7 +93,14 @@
         "de": "Kunst, Werken, Textiles Gestalten"
       },
       "note": {
-        "de": "Kunst; Werken; Textiles Gestalten; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Kunst",
+          "Primarunterricht",
+          "Textiles Gestalten",
+          "Werken"
+        ]
       }
     },
     {
@@ -70,7 +109,15 @@
         "de": "Mathematik"
       },
       "note": {
-        "de": "Mathematik; Rechnen; Mathematikunterricht; Matheunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Primarunterricht",
+          "Rechnen"
+        ]
       }
     },
     {
@@ -79,7 +126,13 @@
         "de": "Musik"
       },
       "note": {
-        "de": "Musik; Musikunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Musik",
+          "Musikunterricht",
+          "Primarunterricht"
+        ]
       }
     },
     {
@@ -88,7 +141,13 @@
         "de": "Religion"
       },
       "note": {
-        "de": "Religion; Religionsunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Religion",
+          "Religionsunterricht"
+        ]
       }
     },
     {
@@ -97,7 +156,14 @@
         "de": "Sachkunde"
       },
       "note": {
-        "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -106,7 +172,13 @@
         "de": "Sport"
       },
       "note": {
-        "de": "Sport; Sportunterricht; Grundschule; Primarunterricht; Grundschulunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sport",
+          "Sportunterricht"
+        ]
       }
     }
   ],
@@ -167,10 +239,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

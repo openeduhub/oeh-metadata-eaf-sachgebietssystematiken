@@ -7,15 +7,20 @@
     "de": "Familie, Nachbarschaft, Freunde"
   },
   "note": {
-    "de": "Familie; Nachbarschaft; Freunde; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehungf"
+    "de": [
+      "Elementarbereich",
+      "Familie",
+      "Freunde",
+      "Nachbarschaft",
+      "Vorschulerziehung",
+      "frühkindliche Bildung",
+      "frühkindliche Erziehungf"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/14002",
     "prefLabel": {
       "de": "Lebensbereiche"
-    },
-    "note": {
-      "de": "Lebensbereiche; Elementarbereich; Vorschulerziehung; frühkindliche Bildung; frühkindliche Erziehung"
     }
   },
   "inScheme": {
@@ -72,10 +77,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

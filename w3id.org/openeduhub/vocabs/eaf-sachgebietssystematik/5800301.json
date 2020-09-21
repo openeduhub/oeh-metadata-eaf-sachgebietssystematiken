@@ -7,15 +7,14 @@
     "de": "Kinderfilm"
   },
   "note": {
-    "de": "Kinderfilm"
+    "de": [
+      "Kinderfilm"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/58003",
     "prefLabel": {
       "de": "Zielgruppenfilm"
-    },
-    "note": {
-      "de": "NaN"
     }
   },
   "inScheme": {
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

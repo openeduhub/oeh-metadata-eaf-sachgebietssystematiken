@@ -7,14 +7,13 @@
     "de": "Grundfragen"
   },
   "note": {
-    "de": "Grundfragen der Schulpädagogik"
+    "de": [
+      "Grundfragen der Schulpädagogik"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/44004",
     "prefLabel": {
-      "de": "Schulpädagogik"
-    },
-    "note": {
       "de": "Schulpädagogik"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

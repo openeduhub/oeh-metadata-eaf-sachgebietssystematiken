@@ -7,14 +7,13 @@
     "de": "Sozialpsychologie"
   },
   "note": {
-    "de": "Sozialpsychologie"
+    "de": [
+      "Sozialpsychologie"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/44002",
     "prefLabel": {
-      "de": "Pädagogische Psychologie"
-    },
-    "note": {
       "de": "Pädagogische Psychologie"
     }
   },
@@ -72,10 +71,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

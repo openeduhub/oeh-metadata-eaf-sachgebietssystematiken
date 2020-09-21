@@ -7,7 +7,15 @@
     "de": "Soziales Lernen"
   },
   "note": {
-    "de": "Soziales Lernen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht",
+      "Sachkunde",
+      "Sachkundeunterricht",
+      "Sachunterricht",
+      "Soziales Lernen"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +24,15 @@
         "de": "Einstellungsänderung"
       },
       "note": {
-        "de": "Einstellungsänderung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Einstellungsänderung",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -25,7 +41,15 @@
         "de": "Erhalten und Verändern"
       },
       "note": {
-        "de": "Erhalten und Verändern; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Erhalten und Verändern",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -34,7 +58,16 @@
         "de": "Kommunikatives Handeln, Kreativität"
       },
       "note": {
-        "de": "Kommunikatives Handeln; Kreativität; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Kommunikatives Handeln",
+          "Kreativität",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -43,7 +76,15 @@
         "de": "Lernen in Situationen"
       },
       "note": {
-        "de": "Lernen in Situationen; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Lernen in Situationen",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -52,7 +93,16 @@
         "de": "Rechte und Pflichten"
       },
       "note": {
-        "de": "Rechte; Pflichten; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Pflichten",
+          "Primarunterricht",
+          "Rechte",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
       }
     },
     {
@@ -61,7 +111,17 @@
         "de": "Rollen, Interessen, Konflikte"
       },
       "note": {
-        "de": "Rollen; Interessen; Konflikte; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterrich"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Interessen",
+          "Konflikte",
+          "Primarunterricht",
+          "Rollen",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterrich"
+        ]
       }
     },
     {
@@ -70,7 +130,15 @@
         "de": "Sensibilisierung"
       },
       "note": {
-        "de": "Sensibilisierung; Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht",
+          "Sensibilisierung"
+        ]
       }
     }
   ],
@@ -78,9 +146,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/28010",
     "prefLabel": {
       "de": "Sachkunde"
-    },
-    "note": {
-      "de": "Sachkunde; Sachkundeunterricht; Grundschule; Primarunterricht; Grundschulunterricht; Sachunterricht"
     }
   },
   "inScheme": {
@@ -137,10 +202,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

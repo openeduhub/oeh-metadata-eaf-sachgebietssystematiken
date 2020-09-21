@@ -7,15 +7,16 @@
     "de": "Sprachliche Fertigkeiten"
   },
   "note": {
-    "de": "Sprachliche Fertigkeiten; Tschechisch; Tschechischunterricht"
+    "de": [
+      "Sprachliche Fertigkeiten",
+      "Tschechisch",
+      "Tschechischunterricht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/20012",
     "prefLabel": {
       "de": "Tschechisch"
-    },
-    "note": {
-      "de": "Tschechisch; Tschechischunterricht"
     }
   },
   "inScheme": {
@@ -72,10 +73,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

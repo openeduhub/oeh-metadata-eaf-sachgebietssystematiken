@@ -7,7 +7,13 @@
     "de": "Politisches System der Bundesrepublik Deutschland"
   },
   "note": {
-    "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politische Bildung",
+      "Politisches System",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +22,14 @@
         "de": "Mitwirkung am politischen Prozess"
       },
       "note": {
-        "de": "Mitwirkung am politischen Prozess; Politische Beteiligung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Mitwirkung am politischen Prozess",
+          "Politik",
+          "Politische Beteiligung",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +38,14 @@
         "de": "Kommunale Ebene"
       },
       "note": {
-        "de": "Kommunale Ebene; Kommunalverwaltung; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Kommunale Ebene",
+          "Kommunalverwaltung",
+          "Politik",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +54,14 @@
         "de": "Politische Ordnung des Bundeslandes"
       },
       "note": {
-        "de": "Politische Ordnung des Bundeslandes; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Politische Ordnung des Bundeslandes",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -43,7 +70,14 @@
         "de": "Politische Ordnung des Bundes"
       },
       "note": {
-        "de": "Politische Ordnung des Bundes; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Politische Ordnung des Bundes",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -51,9 +85,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480",
     "prefLabel": {
       "de": "POLITISCHE BILDUNG"
-    },
-    "note": {
-      "de": "Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -110,10 +141,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

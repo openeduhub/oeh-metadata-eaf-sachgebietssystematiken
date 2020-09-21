@@ -7,7 +7,14 @@
     "de": "Politische Ordnung des Bundeslandes"
   },
   "note": {
-    "de": "Politische Ordnung des Bundeslandes; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Politische Ordnung des Bundeslandes",
+      "Sozialkunde"
+    ]
   },
   "narrower": [
     {
@@ -16,7 +23,14 @@
         "de": "Landtagswahl"
       },
       "note": {
-        "de": "Landtagswahl; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Landtagswahl",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -25,7 +39,14 @@
         "de": "Regierungssystem"
       },
       "note": {
-        "de": "Regierungssystem; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Regierungssystem",
+          "Sozialkunde"
+        ]
       }
     },
     {
@@ -34,7 +55,14 @@
         "de": "Landesgesetzgebung"
       },
       "note": {
-        "de": "Landesgesetzgebung; Politikwissenschaft; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
+        "de": [
+          "Gesellschaftslehre",
+          "Landesgesetzgebung",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
       }
     }
   ],
@@ -42,9 +70,6 @@
     "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48002",
     "prefLabel": {
       "de": "Politisches System der Bundesrepublik Deutschland"
-    },
-    "note": {
-      "de": "Politisches System; Politische Bildung; Sozialkunde; Politik; Gesellschaftslehre"
     }
   },
   "inScheme": {
@@ -101,10 +126,16 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"
