@@ -1,0 +1,449 @@
+{
+  "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/5800102",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=openeduhub.github.io%2Foeh-metadata-vocabs-playground%2Feaf-sachgebietssystematik%2F5800102",
+  "inbox": "https://test.skohub.io/inbox?target=openeduhub.github.io%2Foeh-metadata-vocabs-playground%2Feaf-sachgebietssystematik%2F5800102",
+  "prefLabel": {
+    "de": "Kurzspielfilm"
+  },
+  "note": {
+    "de": [
+      "Kurzspielfilm",
+      "Spielfilm"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010205",
+      "prefLabel": {
+        "de": "Literaturverfilmung"
+      },
+      "note": {
+        "de": [
+          "Literaturverfilmung"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010210",
+      "prefLabel": {
+        "de": "Abenteuer"
+      },
+      "note": {
+        "de": [
+          "Abenteuerfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010211",
+      "prefLabel": {
+        "de": "Action"
+      },
+      "note": {
+        "de": [
+          "Action",
+          "Actionfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010212",
+      "prefLabel": {
+        "de": "Biografie"
+      },
+      "note": {
+        "de": [
+          "Biografie",
+          "Biographie",
+          "Filmbiografie",
+          "Filmbiographie"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010214",
+      "prefLabel": {
+        "de": "Drama, Schicksal"
+      },
+      "note": {
+        "de": [
+          "Drama",
+          "Schicksal"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010216",
+      "prefLabel": {
+        "de": "Experimentalfilm, Avantgarde"
+      },
+      "note": {
+        "de": [
+          "Avantgarde",
+          "Experimentalfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010218",
+      "prefLabel": {
+        "de": "Gesellschafts- und sozialkritischer Film"
+      },
+      "note": {
+        "de": [
+          "Gesellschaftskritik",
+          "Geselschaftskritischer Film",
+          "Sozialkritik",
+          "Sozialkritischer Film"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010220",
+      "prefLabel": {
+        "de": "Gewalt, Aggression"
+      },
+      "note": {
+        "de": [
+          "Actionfilm",
+          "Aggression",
+          "Gewalt"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010221",
+      "prefLabel": {
+        "de": "Heimat"
+      },
+      "note": {
+        "de": [
+          "Heimatfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010222",
+      "prefLabel": {
+        "de": "Historienfilm"
+      },
+      "note": {
+        "de": [
+          "NaN"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010223",
+      "prefLabel": {
+        "de": "Horror"
+      },
+      "note": {
+        "de": [
+          "Gespensterfilm",
+          "Gruselfilm",
+          "Horrorfilm",
+          "Monsterfilm",
+          "Vampirfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010224",
+      "prefLabel": {
+        "de": "Katastrophe"
+      },
+      "note": {
+        "de": [
+          "Katastrophenfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010226",
+      "prefLabel": {
+        "de": "Komödie, Satire, Parodie"
+      },
+      "note": {
+        "de": [
+          "Filmkomödie",
+          "Parodie",
+          "Satire"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010227",
+      "prefLabel": {
+        "de": "Kriegsfilm, Antikriegsfilm"
+      },
+      "note": {
+        "de": [
+          "Antikriegsfilm",
+          "Kriegsfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010228",
+      "prefLabel": {
+        "de": "Krimi, Thriller, Justiz"
+      },
+      "note": {
+        "de": [
+          "Detektivfilm",
+          "Gangsterfilm",
+          "Gaunerfilm",
+          "Gerichtsdrama",
+          "Justiz",
+          "Krimi",
+          "Kriminalfilm",
+          "Politthriller",
+          "Psychotriller",
+          "Spionagefilm",
+          "Thriller"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010230",
+      "prefLabel": {
+        "de": "Lebenssinn"
+      },
+      "note": {
+        "de": [
+          "Lebenssinn",
+          "Sinn des Lebens"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010240",
+      "prefLabel": {
+        "de": "Liebe, Freundschaft"
+      },
+      "note": {
+        "de": [
+          "Liebesfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010250",
+      "prefLabel": {
+        "de": "Macht, Machtmissbrauch"
+      },
+      "note": {
+        "de": [
+          "Macht",
+          "Machtmissbrauch"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010260",
+      "prefLabel": {
+        "de": "Märchen, Sagen, Legenden"
+      },
+      "note": {
+        "de": [
+          "Fantasyfilm",
+          "Legenden",
+          "Märchen",
+          "Märchenfilm",
+          "Sagen"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010263",
+      "prefLabel": {
+        "de": "Milieufilm"
+      },
+      "note": {
+        "de": [
+          "Milieufilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010266",
+      "prefLabel": {
+        "de": "Musik, Tanz"
+      },
+      "note": {
+        "de": [
+          "Musicalfilm",
+          "Musikfilm",
+          "Revuefilm",
+          "Tanzfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010270",
+      "prefLabel": {
+        "de": "Politik, Geschichte"
+      },
+      "note": {
+        "de": [
+          "Politikwissenschaft"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010273",
+      "prefLabel": {
+        "de": "Sciencefiction, Fantasy"
+      },
+      "note": {
+        "de": [
+          "Fantasy",
+          "Fantasyfilm",
+          "Sciencefiction"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010275",
+      "prefLabel": {
+        "de": "Theaterverfilmung"
+      },
+      "note": {
+        "de": [
+          "Theaterverfilmung"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010277",
+      "prefLabel": {
+        "de": "Tierkurzfilm"
+      },
+      "note": {
+        "de": [
+          "Tierspielfilm"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010280",
+      "prefLabel": {
+        "de": "Tod, Sterben"
+      },
+      "note": {
+        "de": [
+          "Sterben",
+          "Tod"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010285",
+      "prefLabel": {
+        "de": "Western"
+      },
+      "note": {
+        "de": [
+          "Western"
+        ]
+      }
+    },
+    {
+      "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/580010290",
+      "prefLabel": {
+        "de": "Sonstige Gattungen"
+      },
+      "note": {
+        "de": [
+          "NaN"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/58001",
+    "prefLabel": {
+      "de": "Kurzfilm"
+    }
+  },
+  "inScheme": {
+    "id": "http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}
