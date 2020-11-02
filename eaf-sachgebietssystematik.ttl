@@ -1,4 +1,4 @@
-@base <http://openeduhub.github.io/oeh-metadata-vocabs-playground/EAF-Sachgebietssystematik/> .
+@base <http://openeduhub.github.io/oeh-metadata-vocabs-playground/eaf-sachgebietssystematik/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
