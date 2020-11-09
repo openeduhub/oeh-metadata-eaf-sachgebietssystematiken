@@ -2,4 +2,5 @@ pandas
 rdflib==5.0.0
 rdflib-jsonld==0.5.0
 xlrd
+openpyxl
 jupyterlab
