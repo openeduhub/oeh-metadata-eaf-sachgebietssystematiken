@@ -31,10 +31,13 @@ jobs:
 
       - run: git clone https://github.com/openeduhub/oeh-metadata-eaf-sachgebietssystematiken
 
-      - run: cp oeh-metadata-eaf-sachgebietssystematiken/eaf-sachgebietssystematik.ttl data/
+      - run: cp oeh-metadata-eaf-sachgebietssystematiken/eaf-sachgebietssystematik-all.ttl data/
+
+      - name: make .env.production file
+        run: echo "PATH_PREFIX=oeh-metadata-eaf-sachgebietssystematiken/" > .env.production
 
       - name: build public dir with docker image
-        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/skohub-vocabs:oeh-metadata-eaf-sachgebietssystematiken
+        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data -v $(pwd)/.env.production:/app/.env.production laocoon667/openeduhub-skohub-vocabs:docker
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
