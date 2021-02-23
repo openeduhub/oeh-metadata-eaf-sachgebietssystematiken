@@ -1,82 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/42008",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F42008",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F42008",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42008",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42008",
   "prefLabel": {
     "de": "Unterrichtsorientierte Zusammenstellungen"
-  },
-  "note": {
-    "de": [
-      "Musik",
-      "Musikunterricht",
-      "Unterrichtsorientierte Zusammenstellungen"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200801",
       "prefLabel": {
         "de": "Musikalische Elementarbildung"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikalische Elementarbildung",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200802",
       "prefLabel": {
         "de": "Komponistenporträt"
-      },
-      "note": {
-        "de": [
-          "Komponistenporträt",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200803",
       "prefLabel": {
         "de": "Musikgeschichte"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikgeschichte",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200804",
       "prefLabel": {
         "de": "Produktion"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikproduktion",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200805",
       "prefLabel": {
         "de": "Werkauswahl"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Werkauswahl"
-        ]
       }
     }
   ],
@@ -132,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -148,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -171,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

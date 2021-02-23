@@ -1,116 +1,67 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F50005",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F50005",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F50005",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F50005",
   "prefLabel": {
     "de": "Werken"
   },
   "note": {
-    "de": [
-      "Werken"
-    ]
+    "de": "Werken"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000501",
       "prefLabel": {
         "de": "Holz, Kunststoff"
-      },
-      "note": {
-        "de": [
-          "Holz",
-          "Kunststoff"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000502",
       "prefLabel": {
         "de": "Metall"
-      },
-      "note": {
-        "de": [
-          "Metall"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000503",
       "prefLabel": {
         "de": "Ton"
-      },
-      "note": {
-        "de": [
-          "Ton"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000504",
       "prefLabel": {
         "de": "Papier, Pappe"
-      },
-      "note": {
-        "de": [
-          "Papier",
-          "Pappe"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000505",
       "prefLabel": {
         "de": "Andere Materialien"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000506",
       "prefLabel": {
         "de": "Elektrotechnik"
-      },
-      "note": {
-        "de": [
-          "Elektrotechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000507",
       "prefLabel": {
         "de": "Maschinentechnik"
-      },
-      "note": {
-        "de": [
-          "Maschinentechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000508",
       "prefLabel": {
         "de": "Grundlagen des technischen Zeichnens"
-      },
-      "note": {
-        "de": [
-          "technisches Zeichnen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000509",
       "prefLabel": {
         "de": "Unfallverhütung"
-      },
-      "note": {
-        "de": [
-          "Unfallverhütung"
-        ]
       }
     }
   ],
@@ -166,12 +117,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -182,21 +127,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -205,7 +153,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,48 +1,22 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/28002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F28002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F28002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28002",
   "prefLabel": {
     "de": "Deutsch für Kinder anderer Muttersprache"
-  },
-  "note": {
-    "de": [
-      "Deutsch für Kinder anderer Muttersprache",
-      "Grundschule",
-      "Grundschulunterricht",
-      "Primarunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800201",
       "prefLabel": {
         "de": "Szenarien- bzw. dialogbezogene Ordnung"
-      },
-      "note": {
-        "de": [
-          "Dialogbezogene Ordnung",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Primarunterricht",
-          "Szenarien- bzw. dialogbezogene Ordnung",
-          "Szenarienbezogene Ordnung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800202",
       "prefLabel": {
         "de": "Fertigkeitsbezogene Ordnung"
-      },
-      "note": {
-        "de": [
-          "Fertigkeitsbezogene Ordnung",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Primarunterricht"
-        ]
       }
     }
   ],
@@ -98,12 +72,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -114,21 +82,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -137,7 +108,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,44 +1,22 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/080050405",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F080050405",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F080050405",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F080050405",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F080050405",
   "prefLabel": {
     "de": "Säugetiere"
-  },
-  "note": {
-    "de": [
-      "Biologie",
-      "Biologieunterricht",
-      "Säugetiere"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/08005040501",
       "prefLabel": {
         "de": "Haustiere, Nutztiere"
-      },
-      "note": {
-        "de": [
-          "Biologie",
-          "Biologieunterricht",
-          "Haustiere",
-          "Nutztiere"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/08005040502",
       "prefLabel": {
         "de": "Wild lebende Tiere"
-      },
-      "note": {
-        "de": [
-          "Biologie",
-          "Biologieunterricht",
-          "Wild lebende Tiere"
-        ]
       }
     }
   ],
@@ -94,12 +72,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -110,21 +82,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -133,7 +108,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

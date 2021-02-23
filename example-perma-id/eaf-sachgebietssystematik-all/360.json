@@ -1,97 +1,55 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/360",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F360",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F360",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F360",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F360",
   "prefLabel": {
     "de": "KINDER- UND JUGENDBILDUNG"
   },
   "note": {
-    "de": [
-      "Kinder- und Jugendbildung"
-    ]
+    "de": "Kinder- und Jugendbildung"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36001",
       "prefLabel": {
         "de": "Lebensbewältigung"
-      },
-      "note": {
-        "de": [
-          "Lebensbewältigung von Jugendlichen",
-          "Lebensbewältigung von Kindern"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36002",
       "prefLabel": {
         "de": "Lebensformen, Lebensvorstellungen"
-      },
-      "note": {
-        "de": [
-          "Lebensformen",
-          "Lebensvorstellungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36003",
       "prefLabel": {
         "de": "Leben miteinander"
-      },
-      "note": {
-        "de": [
-          "Leben miteinander"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36004",
       "prefLabel": {
         "de": "Leben anderswo"
-      },
-      "note": {
-        "de": [
-          "Leben anderswo"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36005",
       "prefLabel": {
         "de": "Beeinflussung durch Subkulturen, Ideologien, Jugendsekten"
-      },
-      "note": {
-        "de": [
-          "Beeinflussung durch Subkulturen",
-          "Ideologien",
-          "Jugendsekten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36006",
       "prefLabel": {
         "de": "Kreatives, künstlerisches Lernen"
-      },
-      "note": {
-        "de": [
-          "Kreatives",
-          "künstlerisches Lernen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/36007",
       "prefLabel": {
         "de": "Spiele"
-      },
-      "note": {
-        "de": [
-          "Spiele"
-        ]
       }
     }
   ],
@@ -144,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -160,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -183,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

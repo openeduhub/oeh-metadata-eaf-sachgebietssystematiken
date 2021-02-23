@@ -1,121 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/32002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F32002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F32002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F32002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F32002",
   "prefLabel": {
     "de": "Informatik"
-  },
-  "note": {
-    "de": [
-      "Informatik",
-      "Informatikunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200201",
       "prefLabel": {
         "de": "Technische Informatik"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Technische Informatik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200202",
       "prefLabel": {
         "de": "Angewandte Informatik"
-      },
-      "note": {
-        "de": [
-          "Angewandte Informatik",
-          "Informatik",
-          "Informatikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200203",
       "prefLabel": {
         "de": "Theoretische Informatik"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Theoretische Informatik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200204",
       "prefLabel": {
         "de": "Praktische Informatik"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Praktische Informatik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200205",
       "prefLabel": {
         "de": "Informatik und andere Wissenschaften"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200206",
       "prefLabel": {
         "de": "Informatik und Gesellschaft"
-      },
-      "note": {
-        "de": [
-          "Gesellschaft",
-          "Informatik",
-          "Informatikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200207",
       "prefLabel": {
         "de": "Künstliche Intelligenz"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "KI",
-          "Künstliche Intelligenz"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200208",
       "prefLabel": {
         "de": "Didaktik und Methodik des Informationsunterrichts"
-      },
-      "note": {
-        "de": [
-          "Didaktik",
-          "Informatik",
-          "Informatikunterricht",
-          "Methodik"
-        ]
       }
     }
   ],
@@ -171,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -187,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -210,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,95 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/160",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F160",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F160",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F160",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F160",
   "prefLabel": {
     "de": "ETHIK"
-  },
-  "note": {
-    "de": [
-      "Ethik",
-      "Ethikunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16001",
       "prefLabel": {
         "de": "Konflikte und Konfliktregelung"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Konflikte",
-          "Konfliktregelung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16002",
       "prefLabel": {
         "de": "Soziale Bindungen"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Soziale Bindungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16003",
       "prefLabel": {
         "de": "Werte und Normen"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Werte und Normen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16005",
       "prefLabel": {
         "de": "Anthropologie"
-      },
-      "note": {
-        "de": [
-          "Anthropologie",
-          "Ethik",
-          "Ethikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16006",
       "prefLabel": {
         "de": "Religionen, Weltanschauungen"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Religionen",
-          "Weltanschauungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
-      },
-      "note": {
-        "de": [
-          "Bilingualer Ethikunterricht",
-          "Ethik"
-        ]
       }
     }
   ],
@@ -142,12 +93,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -158,21 +103,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -181,7 +129,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

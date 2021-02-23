@@ -1,82 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/52005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F52005",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F52005",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F52005",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F52005",
   "prefLabel": {
     "de": "Religiöse Lebensgestaltung"
-  },
-  "note": {
-    "de": [
-      "Religion",
-      "Religionslehre",
-      "Religionsunterricht",
-      "Religiöse Lebensgestaltung"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200501",
       "prefLabel": {
         "de": "Grunderfahrungen"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200502",
       "prefLabel": {
         "de": "Glaube"
-      },
-      "note": {
-        "de": [
-          "Glaube",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200503",
       "prefLabel": {
         "de": "Ethik"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200504",
       "prefLabel": {
         "de": "Erziehung und Bildung"
-      },
-      "note": {
-        "de": [
-          "Erziehung und Bildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200505",
       "prefLabel": {
         "de": "Persönlichkeitsbilder"
-      },
-      "note": {
-        "de": [
-          "Persönlichkeitsbilder",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     }
   ],
@@ -132,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -148,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -171,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

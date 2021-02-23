@@ -1,57 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/16001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F16001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F16001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F16001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F16001",
   "prefLabel": {
     "de": "Konflikte und Konfliktregelung"
-  },
-  "note": {
-    "de": [
-      "Ethik",
-      "Ethikunterricht",
-      "Konflikte",
-      "Konfliktregelung"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1600101",
       "prefLabel": {
         "de": "Familiäre Konflikte"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Familiäre Konflikte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1600102",
       "prefLabel": {
         "de": "Außerfamiliäre Konflikte"
-      },
-      "note": {
-        "de": [
-          "Außerfamiliäre Konflikte",
-          "Ethik",
-          "Ethikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1600103",
       "prefLabel": {
         "de": "Gesellschaftliche Konflikte"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Gesellschaftliche Konflikte"
-        ]
       }
     }
   ],
@@ -107,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -123,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -146,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

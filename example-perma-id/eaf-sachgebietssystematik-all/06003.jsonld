@@ -1,213 +1,94 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F06003",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F06003",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F06003",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F06003",
   "prefLabel": {
     "de": "Kunstgeschichte"
-  },
-  "note": {
-    "de": [
-      "Kunst",
-      "Kunstgeschichte",
-      "Kunstunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600301",
       "prefLabel": {
         "de": "Vor- und frühgeschichtliche Kulturen"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstunterricht, Vor- und Frühgeschichte",
-          "Vor- und frühgeschichtliche Kulturen",
-          "Vorgeschichtliche und frühgeschichtliche Kulturen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600302",
       "prefLabel": {
         "de": "Frühe Hochkulturen"
-      },
-      "note": {
-        "de": [
-          "Frühe Hochkulturen",
-          "Kunst",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600303",
       "prefLabel": {
         "de": "Klassisches Altertum"
-      },
-      "note": {
-        "de": [
-          "Klassisches Altertum",
-          "Kunst",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600304",
       "prefLabel": {
         "de": "Frühchristliche und byzantinische Kunst"
-      },
-      "note": {
-        "de": [
-          "Frühchristliche Kunst, Byzantinische Kunst",
-          "Kunst",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600305",
       "prefLabel": {
         "de": "Kunst des Mittelalters"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunst des Mittelalters",
-          "Kunst im Mittelalter",
-          "Kunstunterricht",
-          "mittelalterliche Kunst"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600306",
       "prefLabel": {
         "de": "Renaissance"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstunterricht",
-          "Renaissance"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600307",
       "prefLabel": {
         "de": "Barock, Rokoko"
-      },
-      "note": {
-        "de": [
-          "Barock",
-          "Kunst",
-          "Kunstunterricht",
-          "Rokoko"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600308",
       "prefLabel": {
         "de": "Klassizismus"
-      },
-      "note": {
-        "de": [
-          "Klassizismus",
-          "Kunst",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600309",
       "prefLabel": {
         "de": "19. Jahrhundert"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunst des 19. Jahrhunderts",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600310",
       "prefLabel": {
         "de": "Kunst der Jahrhundertwende"
-      },
-      "note": {
-        "de": [
-          "Jugendstil",
-          "Kunst",
-          "Kunst der Jahrhundertwende",
-          "Kunst um die Jahrhundertwende",
-          "Kunstunterricht",
-          "Neoimpressionismus",
-          "Pointilismus",
-          "Symbolismus"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600311",
       "prefLabel": {
         "de": "20./21. Jahrhundert"
-      },
-      "note": {
-        "de": [
-          "Jahrhundert",
-          "Kunst",
-          "Kunst der Moderne",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600312",
       "prefLabel": {
         "de": "Kunstgeschichtliche Überblicksdarstellungen"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstgeschichte im Überblick",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600313",
       "prefLabel": {
         "de": "Museen, Galerien"
-      },
-      "note": {
-        "de": [
-          "Galerien",
-          "Kunst",
-          "Kunstunterricht",
-          "Museen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600314",
       "prefLabel": {
         "de": "Biographien"
-      },
-      "note": {
-        "de": [
-          "Biografien",
-          "Biographien",
-          "Kunst",
-          "Kunstunterricht",
-          "Künsterbiografien",
-          "Künstlerbiographien"
-        ]
       }
     }
   ],
@@ -263,12 +144,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -279,21 +154,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -302,7 +180,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

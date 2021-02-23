@@ -1,137 +1,79 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400602",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400602",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400602",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400602",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400602",
   "prefLabel": {
     "de": "Hauswirtschaft"
   },
   "note": {
-    "de": [
-      "Hauswirtschaft"
-    ]
+    "de": "Hauswirtschaft"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060201",
       "prefLabel": {
         "de": "Ernährungslehre"
-      },
-      "note": {
-        "de": [
-          "Ernährungslehre"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060202",
       "prefLabel": {
         "de": "Lebensmittellehre"
-      },
-      "note": {
-        "de": [
-          "Lebensmittellehre"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060203",
       "prefLabel": {
         "de": "Servierkunde"
-      },
-      "note": {
-        "de": [
-          "Servierkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060204",
       "prefLabel": {
         "de": "Verkaufskunde"
-      },
-      "note": {
-        "de": [
-          "Verkaufskunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060205",
       "prefLabel": {
         "de": "Sozioökonomie"
-      },
-      "note": {
-        "de": [
-          "Sozioökonomie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060206",
       "prefLabel": {
         "de": "Haushaltstechnik"
-      },
-      "note": {
-        "de": [
-          "Haushaltstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060207",
       "prefLabel": {
         "de": "Wohnökologie"
-      },
-      "note": {
-        "de": [
-          "Wohnökologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060208",
       "prefLabel": {
         "de": "Textilgestaltung"
-      },
-      "note": {
-        "de": [
-          "Textilgestaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060209",
       "prefLabel": {
         "de": "Gesundheitslehre"
-      },
-      "note": {
-        "de": [
-          "Gesundheitslehre"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060210",
       "prefLabel": {
         "de": "Erziehungslehre"
-      },
-      "note": {
-        "de": [
-          "Erziehungslehre",
-          "Pädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040060211",
       "prefLabel": {
         "de": "Hausgarten"
-      },
-      "note": {
-        "de": [
-          "Hausgarten"
-        ]
       }
     }
   ],
@@ -187,12 +129,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -203,21 +139,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -226,7 +165,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

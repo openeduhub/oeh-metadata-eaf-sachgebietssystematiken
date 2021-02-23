@@ -1,92 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/28009",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F28009",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F28009",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28009",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28009",
   "prefLabel": {
     "de": "Religion"
-  },
-  "note": {
-    "de": [
-      "Grundschule",
-      "Grundschulunterricht",
-      "Primarunterricht",
-      "Religion",
-      "Religionsunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800901",
       "prefLabel": {
         "de": "Bibel"
-      },
-      "note": {
-        "de": [
-          "Bibel",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Primarunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800902",
       "prefLabel": {
         "de": "Kirchenjahr"
-      },
-      "note": {
-        "de": [
-          "Grundschule",
-          "Grundschulunterricht",
-          "Kirchenjahr",
-          "Primarunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800903",
       "prefLabel": {
         "de": "Glaube, Ethik"
-      },
-      "note": {
-        "de": [
-          "Ethik",
-          "Ethikunterricht",
-          "Glaube",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Primarunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800904",
       "prefLabel": {
         "de": "Vorbilder, Heilige"
-      },
-      "note": {
-        "de": [
-          "Grundschule",
-          "Grundschulunterricht",
-          "Heilige",
-          "Primarunterricht",
-          "Vorbilder"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800905",
       "prefLabel": {
         "de": "Christliche und nichtchristliche Religionen"
-      },
-      "note": {
-        "de": [
-          "Christliche und nichtchristliche Religionen",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Primarunterricht"
-        ]
       }
     }
   ],
@@ -142,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -158,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -181,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

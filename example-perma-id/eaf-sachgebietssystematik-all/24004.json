@@ -1,193 +1,88 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/24004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F24004",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F24004",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F24004",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F24004",
   "prefLabel": {
     "de": "Geschichtliche Überblicke und thematische Querschnitte"
-  },
-  "note": {
-    "de": [
-      "Geschichte",
-      "Geschichtsunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400401",
       "prefLabel": {
         "de": "Alltag"
-      },
-      "note": {
-        "de": [
-          "Alltagsgeschichte",
-          "Geschichte",
-          "Geschichtsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400402",
       "prefLabel": {
         "de": "Arbeit, Handwerk"
-      },
-      "note": {
-        "de": [
-          "Arbeit im Wandel der Zeit",
-          "Geschichte",
-          "Geschichte des Handwerks",
-          "Geschichtsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400403",
       "prefLabel": {
         "de": "Bildung und Wissenschaft"
-      },
-      "note": {
-        "de": [
-          "Bildungsgeschichte",
-          "Geschichte",
-          "Geschichte der Wissenschaft",
-          "Geschichtsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400404",
       "prefLabel": {
         "de": "Formen der Weltauffassung, Religion"
-      },
-      "note": {
-        "de": [
-          "Formen der Weltauffassung",
-          "Geschichte",
-          "Geschichte der Religion",
-          "Geschichtsunterricht",
-          "Weltanschauungen und ihre Geschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400405",
       "prefLabel": {
         "de": "Gesellschaft"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichte der Gesellschaft",
-          "Geschichtsunterricht",
-          "Gesellschaft im Wandel der Zeit"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400406",
       "prefLabel": {
         "de": "Staat, Herrschaftsformen"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichte eines Staates",
-          "Geschichtsunterricht",
-          "Herrschaftsformen in der Geschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400407",
       "prefLabel": {
         "de": "Kriegs- und Wehrwesen"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichte des Kriegs- und Wehrwesens",
-          "Geschichtsunterricht",
-          "Kriegswesen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400408",
       "prefLabel": {
         "de": "Kultur"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Kultur und Geschichte",
-          "Kulturgeschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400409",
       "prefLabel": {
         "de": "Recht"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichte des Rechts",
-          "Geschichtsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400410",
       "prefLabel": {
         "de": "Siedlungsformen"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Siedlungsgeschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400411",
       "prefLabel": {
         "de": "Technik, Verkehr"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Technikgeschichte",
-          "Verkehrsgeschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400412",
       "prefLabel": {
         "de": "Wirtschaft"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Wirtschaftsgeschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400413",
       "prefLabel": {
         "de": "Allgemeine Längs- und Querschnitte"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht"
-        ]
       }
     }
   ],
@@ -243,12 +138,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -259,21 +148,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -282,7 +174,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,96 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/52006",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F52006",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F52006",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F52006",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F52006",
   "prefLabel": {
     "de": "Religiöse Kunst"
-  },
-  "note": {
-    "de": [
-      "Religion",
-      "Religionslehre",
-      "Religionsunterricht",
-      "Religiöse Kunst"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200601",
       "prefLabel": {
         "de": "Bild und Plastik"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200602",
       "prefLabel": {
         "de": "Musik"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200603",
       "prefLabel": {
         "de": "Theater"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200604",
       "prefLabel": {
         "de": "Film"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200605",
       "prefLabel": {
         "de": "Literatur"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200606",
       "prefLabel": {
         "de": "Architektur"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     }
   ],
@@ -146,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -162,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -185,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

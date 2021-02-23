@@ -1,52 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040403",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F400040403",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F400040403",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F400040403",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F400040403",
   "prefLabel": {
     "de": "Gesundheit schützen"
-  },
-  "note": {
-    "de": [
-      "Kompetenzbereich Schützen und sicher Agieren",
-      "Kompetenzen in der digitalen Welt"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004040301",
       "prefLabel": {
         "de": "Suchtgefahren vermeiden, sich Selbst und andere vor möglichen Gefahren schützen"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Schützen und sicher Agieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004040302",
       "prefLabel": {
         "de": "Digitale Technologien gesundheitsbewusst nutzen"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Schützen und sicher Agieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004040303",
       "prefLabel": {
         "de": "Digitale Technologien für soziales Wohlergehen und Eingliederung nutzen"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Schützen und sicher Agieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     }
   ],
@@ -102,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -118,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -141,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

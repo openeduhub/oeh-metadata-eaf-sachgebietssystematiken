@@ -1,75 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04016",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04016",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04016",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04016",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04016",
   "prefLabel": {
     "de": "Verkehr und Logistik"
-  },
-  "note": {
-    "de": [
-      "Logistik",
-      "Verkehr"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401601",
       "prefLabel": {
         "de": "Seefahrt"
-      },
-      "note": {
-        "de": [
-          "Seefahrt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401602",
       "prefLabel": {
         "de": "Auto- und Straßenverkehr"
-      },
-      "note": {
-        "de": [
-          "Autoverkehr",
-          "Straßenverkehr"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401603",
       "prefLabel": {
         "de": "Bahn- und Schienenverkehr"
-      },
-      "note": {
-        "de": [
-          "Bahnverkehr",
-          "Schienenverkehr"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401604",
       "prefLabel": {
         "de": "Flugzeug und Luftfahrt"
-      },
-      "note": {
-        "de": [
-          "Flugzeug",
-          "Luftfahrt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401605",
       "prefLabel": {
         "de": "Transport und Logistik"
-      },
-      "note": {
-        "de": [
-          "Logistik",
-          "Transport"
-        ]
       }
     }
   ],
@@ -125,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -141,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -164,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

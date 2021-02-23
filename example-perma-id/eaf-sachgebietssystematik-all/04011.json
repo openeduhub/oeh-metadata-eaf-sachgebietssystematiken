@@ -1,132 +1,73 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04011",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04011",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04011",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04011",
   "prefLabel": {
     "de": "Metalltechnik"
   },
   "note": {
-    "de": [
-      "Metalltechnik"
-    ]
+    "de": "Metalltechnik"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401101",
       "prefLabel": {
         "de": "Technische Mechanik"
-      },
-      "note": {
-        "de": [
-          "Dynamik",
-          "Festigungslehre",
-          "Kinematik",
-          "Kinetik",
-          "Statik",
-          "Technische Mechanik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401102",
       "prefLabel": {
         "de": "Konstruktionstechnik, Maschinenelemente"
-      },
-      "note": {
-        "de": [
-          "Konstruktionstechnik",
-          "Maschinenelemente"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401103",
       "prefLabel": {
         "de": "Werkstofftechnik"
-      },
-      "note": {
-        "de": [
-          "Werkstofftechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401104",
       "prefLabel": {
         "de": "Produktionstechnik"
-      },
-      "note": {
-        "de": [
-          "Produktionstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401105",
       "prefLabel": {
         "de": "Prüftechnik"
-      },
-      "note": {
-        "de": [
-          "Prüftechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401106",
       "prefLabel": {
         "de": "Thermodynamik"
-      },
-      "note": {
-        "de": [
-          "Thermodynamilk"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401107",
       "prefLabel": {
         "de": "Steuerungs- und Regeltechnik"
-      },
-      "note": {
-        "de": [
-          "Regeltechnik",
-          "Steuerungstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401108",
       "prefLabel": {
         "de": "Besondere metallische Gebiete"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401109",
       "prefLabel": {
         "de": "Technische Kommunikation"
-      },
-      "note": {
-        "de": [
-          "Technische Kommunikation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401110",
       "prefLabel": {
         "de": "Arbeitswissenschaft"
-      },
-      "note": {
-        "de": [
-          "Arbeitswissenschaft"
-        ]
       }
     }
   ],
@@ -182,12 +123,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -198,21 +133,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -221,7 +159,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

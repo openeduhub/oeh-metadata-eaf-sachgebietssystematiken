@@ -1,90 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04003",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04003",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04003",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04003",
   "prefLabel": {
     "de": "Naturwissenschaften und Mathematik"
-  },
-  "note": {
-    "de": [
-      "Mathematik",
-      "Naturwissenschaften"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400301",
       "prefLabel": {
         "de": "Labor"
-      },
-      "note": {
-        "de": [
-          "Labor",
-          "Labortechnik",
-          "Labortechnologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400302",
       "prefLabel": {
         "de": "Produktionstechnik"
-      },
-      "note": {
-        "de": [
-          "Energietechnik",
-          "Fertigungstechnik",
-          "Produktionstechnik",
-          "Verfahrenstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400303",
       "prefLabel": {
         "de": "Chemie"
-      },
-      "note": {
-        "de": [
-          "Chemie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400304",
       "prefLabel": {
         "de": "Geowissenschaften"
-      },
-      "note": {
-        "de": [
-          "Geowissenschaften"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400305",
       "prefLabel": {
         "de": "Mathematik und Statistik"
-      },
-      "note": {
-        "de": [
-          "Mathematik",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Statistik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400306",
       "prefLabel": {
         "de": "Pharmazie"
-      },
-      "note": {
-        "de": [
-          "Pharmazie"
-        ]
       }
     }
   ],
@@ -140,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -156,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -179,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

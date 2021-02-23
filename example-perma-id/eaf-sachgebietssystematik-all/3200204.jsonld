@@ -1,84 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3200204",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F3200204",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F3200204",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F3200204",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F3200204",
   "prefLabel": {
     "de": "Praktische Informatik"
-  },
-  "note": {
-    "de": [
-      "Informatik",
-      "Informatikunterricht",
-      "Praktische Informatik"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/320020401",
       "prefLabel": {
         "de": "Algorithmen und Datenstrukturen"
-      },
-      "note": {
-        "de": [
-          "Algorithmen",
-          "Algorithmus",
-          "Datenstruktur",
-          "Informatik",
-          "Informatikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/320020402",
       "prefLabel": {
         "de": "Betriebssysteme"
-      },
-      "note": {
-        "de": [
-          "Betriebssystem",
-          "Informatik",
-          "Informatikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/320020403",
       "prefLabel": {
         "de": "Programmiersprachen"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Programmiersprache"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/320020404",
       "prefLabel": {
         "de": "Programmierung"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Programmierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/320020405",
       "prefLabel": {
         "de": "Software-Projekte"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Software-Projekt"
-        ]
       }
     }
   ],
@@ -134,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -150,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -173,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

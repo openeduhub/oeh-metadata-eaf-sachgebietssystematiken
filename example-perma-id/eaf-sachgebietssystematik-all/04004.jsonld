@@ -1,92 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04004",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04004",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04004",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04004",
   "prefLabel": {
     "de": "IT- und Medientechnik"
-  },
-  "note": {
-    "de": [
-      "IT-Technik",
-      "Informationstechnik",
-      "Informationstechnologie",
-      "Mediengestaltung",
-      "Medientechnik"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400401",
       "prefLabel": {
         "de": "Archiv, Bibliothek, Dokumentation"
-      },
-      "note": {
-        "de": [
-          "Archiv",
-          "Bibliothek",
-          "Dokumentation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400402",
       "prefLabel": {
         "de": "Druck und Medien"
-      },
-      "note": {
-        "de": [
-          "Drucktechnik",
-          "Medientechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400403",
       "prefLabel": {
         "de": "Film, Funk und Fernsehen"
-      },
-      "note": {
-        "de": [
-          "Fernsehen",
-          "Film",
-          "Funk"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400404",
       "prefLabel": {
         "de": "Foto"
-      },
-      "note": {
-        "de": [
-          "Bildverarbeitung",
-          "Foto"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400405",
       "prefLabel": {
         "de": "Verlagswesen"
-      },
-      "note": {
-        "de": [
-          "Verlagswesen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400406",
       "prefLabel": {
         "de": "IT, Computer"
-      },
-      "note": {
-        "de": [
-          "Computer",
-          "IT"
-        ]
       }
     }
   ],
@@ -142,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -158,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -181,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

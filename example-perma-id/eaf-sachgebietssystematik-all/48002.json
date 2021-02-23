@@ -1,83 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/48002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F48002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F48002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F48002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F48002",
   "prefLabel": {
     "de": "Politisches System der Bundesrepublik Deutschland"
-  },
-  "note": {
-    "de": [
-      "Gesellschaftslehre",
-      "Politik",
-      "Politische Bildung",
-      "Politisches System",
-      "Sozialkunde"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800201",
       "prefLabel": {
         "de": "Mitwirkung am politischen Prozess"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Mitwirkung am politischen Prozess",
-          "Politik",
-          "Politische Beteiligung",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800202",
       "prefLabel": {
         "de": "Kommunale Ebene"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Kommunale Ebene",
-          "Kommunalverwaltung",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800203",
       "prefLabel": {
         "de": "Politische Ordnung des Bundeslandes"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Politische Ordnung des Bundeslandes",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800204",
       "prefLabel": {
         "de": "Politische Ordnung des Bundes"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Politische Ordnung des Bundes",
-          "Sozialkunde"
-        ]
       }
     }
   ],
@@ -133,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -149,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -172,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

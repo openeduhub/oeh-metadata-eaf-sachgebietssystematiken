@@ -1,71 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F10002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F10002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F10002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F10002",
   "prefLabel": {
     "de": "Allgemeine Chemie"
-  },
-  "note": {
-    "de": [
-      "Allgemeine Chemie",
-      "Chemieunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000201",
       "prefLabel": {
         "de": "Gesetzmäßigkeiten chemischer Reaktionen"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Gesetzmäßigkeiten chemischer Reaktionen",
-          "chemische Reaktionen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000202",
       "prefLabel": {
         "de": "Chemisches Gleichgewicht und seine Beeinflussung"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Chemisches Gleichgewicht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000203",
       "prefLabel": {
         "de": "Kernchemie, Radiochemie"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Kernchemie",
-          "Radiochemie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000204",
       "prefLabel": {
         "de": "Arbeitsmethoden, Untersuchungsmethoden"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "chemische Arbeitsmethoden",
-          "chemische Untersuchungsmethoden"
-        ]
       }
     }
   ],
@@ -121,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -137,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -160,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

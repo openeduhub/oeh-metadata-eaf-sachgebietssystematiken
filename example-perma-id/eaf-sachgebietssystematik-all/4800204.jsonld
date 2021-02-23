@@ -1,85 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800204",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F4800204",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F4800204",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4800204",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4800204",
   "prefLabel": {
     "de": "Politische Ordnung des Bundes"
-  },
-  "note": {
-    "de": [
-      "Gesellschaftslehre",
-      "Politik",
-      "Politikwissenschaft",
-      "Politische Bildung",
-      "Politische Ordnung des Bundes",
-      "Sozialkunde"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480020401",
       "prefLabel": {
         "de": "Bundestagswahl"
-      },
-      "note": {
-        "de": [
-          "Bundestagswahl",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480020402",
       "prefLabel": {
         "de": "Parlamentarisches Regierungssystem"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Parlamentarisches Regierungssystem",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Regierung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480020403",
       "prefLabel": {
         "de": "Bundesgesetzgebung"
-      },
-      "note": {
-        "de": [
-          "Bundesgesetzgebung",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480020404",
       "prefLabel": {
         "de": "Zusammenwirken von Bund und Ländern"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde",
-          "Zusammenwirken von Bund und Ländern"
-        ]
       }
     }
   ],
@@ -135,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -151,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -174,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

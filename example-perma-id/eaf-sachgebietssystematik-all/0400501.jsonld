@@ -1,106 +1,61 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400501",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400501",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400501",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400501",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400501",
   "prefLabel": {
     "de": "Aufgabenbereiche"
   },
   "note": {
-    "de": [
-      "NaN"
-    ]
+    "de": "NaN"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050101",
       "prefLabel": {
         "de": "Energietechnik"
-      },
-      "note": {
-        "de": [
-          "Energietechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050102",
       "prefLabel": {
         "de": "Antriebstechnik"
-      },
-      "note": {
-        "de": [
-          "Antriebstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050103",
       "prefLabel": {
         "de": "Nachrichtentechnik"
-      },
-      "note": {
-        "de": [
-          "Nachrichtentechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050104",
       "prefLabel": {
         "de": "Elektronik"
-      },
-      "note": {
-        "de": [
-          "Elektronik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050105",
       "prefLabel": {
         "de": "Mechatronik, Automatisierungstechnik"
-      },
-      "note": {
-        "de": [
-          "Automatisierungstechnik",
-          "Mechatronik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050106",
       "prefLabel": {
         "de": "Elektronische Gerätetechnik"
-      },
-      "note": {
-        "de": [
-          "Elektronische Gerätetechnik",
-          "Gerätetechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050107",
       "prefLabel": {
         "de": "Haustechnik/Gebäudetechnik"
-      },
-      "note": {
-        "de": [
-          "Gebäudetechnik",
-          "Haustechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050108",
       "prefLabel": {
         "de": "Theoretische Elektrotechnik"
-      },
-      "note": {
-        "de": [
-          "Theoretische Elektrotechnik"
-        ]
       }
     }
   ],
@@ -156,12 +111,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -172,21 +121,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -195,7 +147,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

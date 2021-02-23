@@ -1,118 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/560",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F560",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F560",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F560",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F560",
   "prefLabel": {
     "de": "SEXUALERZIEHUNG"
-  },
-  "note": {
-    "de": [
-      "Sexualerziehung",
-      "Sexualkunde",
-      "Sexualkundeunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56001",
       "prefLabel": {
         "de": "Sexualität"
-      },
-      "note": {
-        "de": [
-          "Bisexualität",
-          "Homosexualität",
-          "Sexualität",
-          "Transsexualität"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56002",
       "prefLabel": {
         "de": "Pubertät"
-      },
-      "note": {
-        "de": [
-          "Pubertät",
-          "Sexualerziehung",
-          "Sexualkunde",
-          "Sexualkundeunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56003",
       "prefLabel": {
         "de": "Partnerschaft, Beziehungen"
-      },
-      "note": {
-        "de": [
-          "Beziehungen",
-          "Partnerschaft",
-          "Sexualerziehung",
-          "Sexualkunde",
-          "Sexualkundeunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56004",
       "prefLabel": {
         "de": "Schwangerschaft und Geburt"
-      },
-      "note": {
-        "de": [
-          "Geburt",
-          "Schwangerschaft",
-          "Sexualerziehung",
-          "Sexualkunde",
-          "Sexualkundeunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56005",
       "prefLabel": {
         "de": "Empfängnisverhütung"
-      },
-      "note": {
-        "de": [
-          "Empfängnisverhütung",
-          "Sexualerziehung",
-          "Sexualkunde",
-          "Sexualkundeunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56006",
       "prefLabel": {
         "de": "Sexueller Missbrauch"
-      },
-      "note": {
-        "de": [
-          "Sexualerziehung",
-          "Sexualkunde",
-          "Sexualkundeunterricht",
-          "Sexueller Missbrauch"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/56007",
       "prefLabel": {
         "de": "Sexuell übertragbare Krankheiten"
-      },
-      "note": {
-        "de": [
-          "Geschlechtskrankheiten",
-          "Sexualerziehung",
-          "Sexualkunde",
-          "Sexualkundeunterricht",
-          "Sexuell übertragbare Krankheiten"
-        ]
       }
     }
   ],
@@ -165,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -181,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -204,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

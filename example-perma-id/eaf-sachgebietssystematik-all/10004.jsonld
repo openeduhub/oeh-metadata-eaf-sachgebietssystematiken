@@ -1,96 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F10004",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F10004",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F10004",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F10004",
   "prefLabel": {
     "de": "Anorganische Chemie"
-  },
-  "note": {
-    "de": [
-      "Anorganik",
-      "Anorganische Chemie",
-      "Chemieunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000401",
       "prefLabel": {
         "de": "Stoffgemische"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Gemisch",
-          "Stoffgemische"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000402",
       "prefLabel": {
         "de": "Elemente"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Chemische Elemente"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000403",
       "prefLabel": {
         "de": "Verbindungen"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Chemische Verbindungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000404",
       "prefLabel": {
         "de": "Redoxreaktionen"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Redoxreaktionen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000405",
       "prefLabel": {
         "de": "Säure-Base-Reaktionen"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Säure-Base-Reaktionen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000406",
       "prefLabel": {
         "de": "Komplexchemie"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Komplexchemie"
-        ]
       }
     }
   ],
@@ -146,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -162,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -185,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

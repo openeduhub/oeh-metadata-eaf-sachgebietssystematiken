@@ -1,128 +1,64 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/100",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F100",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F100",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F100",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F100",
   "prefLabel": {
     "de": "CHEMIE"
-  },
-  "note": {
-    "de": [
-      "Chemie",
-      "Chemieunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10001",
       "prefLabel": {
         "de": "Geschichte der Chemie"
-      },
-      "note": {
-        "de": [
-          "Chemieunterricht",
-          "Geschichte der Chemie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10002",
       "prefLabel": {
         "de": "Allgemeine Chemie"
-      },
-      "note": {
-        "de": [
-          "Allgemeine Chemie",
-          "Chemieunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10003",
       "prefLabel": {
         "de": "Physikalische Chemie"
-      },
-      "note": {
-        "de": [
-          "Chemieunterricht",
-          "Physikalische Chemie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10004",
       "prefLabel": {
         "de": "Anorganische Chemie"
-      },
-      "note": {
-        "de": [
-          "Anorganik",
-          "Anorganische Chemie",
-          "Chemieunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10005",
       "prefLabel": {
         "de": "Organische Chemie"
-      },
-      "note": {
-        "de": [
-          "Chemieunterricht",
-          "Organische Chemie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10006",
       "prefLabel": {
         "de": "Biochemie"
-      },
-      "note": {
-        "de": [
-          "Biochemie",
-          "Chemie",
-          "Chemieunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10007",
       "prefLabel": {
         "de": "Angewandte Chemie"
-      },
-      "note": {
-        "de": [
-          "Angewandte Chemie",
-          "Chemieunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10008",
       "prefLabel": {
         "de": "Biographien"
-      },
-      "note": {
-        "de": [
-          "Biografien",
-          "Biographien",
-          "Chemie",
-          "Chemieunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
-      },
-      "note": {
-        "de": [
-          "Bilingualer Chemieunterricht",
-          "Chemie"
-        ]
       }
     }
   ],
@@ -175,12 +111,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -191,21 +121,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -214,7 +147,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

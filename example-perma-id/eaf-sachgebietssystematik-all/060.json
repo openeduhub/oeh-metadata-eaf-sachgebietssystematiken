@@ -1,99 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/060",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F060",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F060",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F060",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F060",
   "prefLabel": {
     "de": "BILDENDE KUNST"
-  },
-  "note": {
-    "de": [
-      "Bildende Kunst",
-      "Kunst",
-      "Kunstunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06001",
       "prefLabel": {
         "de": "Grundlagen künstlerischen Schaffens"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstunterricht",
-          "künstlerisches Schaffen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06002",
       "prefLabel": {
         "de": "Theorien zur Kunst"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunsttheorie",
-          "Kunstunterricht",
-          "Theorien zur Kunst"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06003",
       "prefLabel": {
         "de": "Kunstgeschichte"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstgeschichte",
-          "Kunstunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06004",
       "prefLabel": {
         "de": "Angewandte Kunst der Gegenwart"
-      },
-      "note": {
-        "de": [
-          "Angewandte Kunst der Gegenwart",
-          "Gegenwartskunst",
-          "Kunst",
-          "Kunstunterricht",
-          "Zeitgenössische Kunst"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06005",
       "prefLabel": {
         "de": "Erhalten und Restaurieren"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstunterricht",
-          "Restaurieren",
-          "Restaurierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
-      },
-      "note": {
-        "de": [
-          "Bilingualer Kunstunterricht",
-          "Kunst",
-          "Kunstunterricht"
-        ]
       }
     }
   ],
@@ -146,12 +93,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -162,21 +103,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -185,7 +129,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

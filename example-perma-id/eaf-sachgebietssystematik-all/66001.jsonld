@@ -1,78 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F66001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F66001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F66001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F66001",
   "prefLabel": {
     "de": "Verkehrsverhalten"
-  },
-  "note": {
-    "de": [
-      "Verkehrserziehung",
-      "Verkehrsverhalten"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6600101",
       "prefLabel": {
         "de": "Fußgänger"
-      },
-      "note": {
-        "de": [
-          "Fußgänger",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6600102",
       "prefLabel": {
         "de": "Radfahrer"
-      },
-      "note": {
-        "de": [
-          "Radfahrer",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6600103",
       "prefLabel": {
         "de": "Motorisierter Zweiradfahrer"
-      },
-      "note": {
-        "de": [
-          "Motorisierter Zweiradfahrer",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6600104",
       "prefLabel": {
         "de": "Autofahrer"
-      },
-      "note": {
-        "de": [
-          "Autofahrer",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6600105",
       "prefLabel": {
         "de": "Sonstige"
-      },
-      "note": {
-        "de": [
-          "Inline-Skater",
-          "Kickboarder",
-          "Skateboardfahrer",
-          "Verkehrserziehung"
-        ]
       }
     }
   ],
@@ -128,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -144,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -167,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

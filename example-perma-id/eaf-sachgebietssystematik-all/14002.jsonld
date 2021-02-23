@@ -1,97 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/14002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F14002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F14002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F14002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F14002",
   "prefLabel": {
     "de": "Lebensbereiche"
-  },
-  "note": {
-    "de": [
-      "Elementarbereich",
-      "Lebensbereiche",
-      "Vorschulerziehung",
-      "frühkindliche Bildung",
-      "frühkindliche Erziehung"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1400201",
       "prefLabel": {
         "de": "Familie, Nachbarschaft, Freunde"
-      },
-      "note": {
-        "de": [
-          "Elementarbereich",
-          "Familie",
-          "Freunde",
-          "Nachbarschaft",
-          "Vorschulerziehung",
-          "frühkindliche Bildung",
-          "frühkindliche Erziehungf"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1400202",
       "prefLabel": {
         "de": "Gesundheit"
-      },
-      "note": {
-        "de": [
-          "Elementarbereich",
-          "Gesundheit",
-          "Vorschulerziehung",
-          "frühkindliche Bildung",
-          "frühkindliche Erziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1400203",
       "prefLabel": {
         "de": "Natur"
-      },
-      "note": {
-        "de": [
-          "Elementarbereich",
-          "Natur",
-          "Vorschulerziehung",
-          "frühkindliche Bildung",
-          "frühkindliche Erziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1400204",
       "prefLabel": {
         "de": "Öffentliche Einrichtungen/Dienstleistungen"
-      },
-      "note": {
-        "de": [
-          "Elementarbereich",
-          "Vorschulerziehung",
-          "frühkindliche",
-          "frühkindliche Bildung",
-          "Öffentliche Dienstleistungen",
-          "Öffentliche Einrichtungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1400205",
       "prefLabel": {
         "de": "Berufe"
-      },
-      "note": {
-        "de": [
-          "Berufe",
-          "Elementarbereich",
-          "Vorschulerziehung",
-          "frühkindliche Bildung",
-          "frühkindliche Erziehung"
-        ]
       }
     }
   ],
@@ -147,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -163,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -186,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

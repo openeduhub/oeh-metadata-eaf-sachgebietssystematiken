@@ -1,90 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/28007",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F28007",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F28007",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28007",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28007",
   "prefLabel": {
     "de": "Mathematik"
-  },
-  "note": {
-    "de": [
-      "Grundschule",
-      "Grundschulunterricht",
-      "Mathematik",
-      "Mathematikunterricht",
-      "Matheunterricht",
-      "Primarunterricht",
-      "Rechnen"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800701",
       "prefLabel": {
         "de": "Zahlen, Grundrechenarten"
-      },
-      "note": {
-        "de": [
-          "Grundrechenarten",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Primarunterricht",
-          "Zahlen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800702",
       "prefLabel": {
         "de": "Messen und Größen"
-      },
-      "note": {
-        "de": [
-          "Grundschule",
-          "Grundschulunterricht",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Messgröße",
-          "Messung",
-          "Primarunterricht",
-          "physikalische Größe"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800703",
       "prefLabel": {
         "de": "Raum und Ebenen"
-      },
-      "note": {
-        "de": [
-          "Ebene",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Primarunterricht",
-          "Raum"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800704",
       "prefLabel": {
         "de": "Daten und Zufall"
-      },
-      "note": {
-        "de": [
-          "Daten",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Primarunterricht",
-          "Zufall"
-        ]
       }
     }
   ],
@@ -140,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -156,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -179,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

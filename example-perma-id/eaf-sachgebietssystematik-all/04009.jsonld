@@ -1,81 +1,49 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04009",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04009",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04009",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04009",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04009",
   "prefLabel": {
     "de": "Holztechnik"
   },
   "note": {
-    "de": [
-      "Holztechnik"
-    ]
+    "de": "Holztechnik"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400901",
       "prefLabel": {
         "de": "Holzbearbeitung"
-      },
-      "note": {
-        "de": [
-          "Holzbearbeitung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400902",
       "prefLabel": {
         "de": "Holzverarbeitung"
-      },
-      "note": {
-        "de": [
-          "Holzverarbeitung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400903",
       "prefLabel": {
         "de": "Grundlagen der Holztechnik"
-      },
-      "note": {
-        "de": [
-          "Holztechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400904",
       "prefLabel": {
         "de": "Technische Kommunikation"
-      },
-      "note": {
-        "de": [
-          "Technische Kommunikation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400905",
       "prefLabel": {
         "de": "Holzschäden"
-      },
-      "note": {
-        "de": [
-          "Holzschäden"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400906",
       "prefLabel": {
         "de": "Werkstoffe"
-      },
-      "note": {
-        "de": [
-          "Werkstoffe"
-        ]
       }
     }
   ],
@@ -131,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -147,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -170,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

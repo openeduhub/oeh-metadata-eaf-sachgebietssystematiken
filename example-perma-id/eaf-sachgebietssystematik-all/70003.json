@@ -1,103 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/70003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F70003",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F70003",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F70003",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F70003",
   "prefLabel": {
     "de": "Volkswirtschaft"
-  },
-  "note": {
-    "de": [
-      "Volkswirtschaft",
-      "Wirtschaftswissenschaft"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000301",
       "prefLabel": {
         "de": "Markt und Preis"
-      },
-      "note": {
-        "de": [
-          "Markt und Preis",
-          "Wirtschaftswissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000302",
       "prefLabel": {
         "de": "Geld und Kredit"
-      },
-      "note": {
-        "de": [
-          "Geld und Kredit",
-          "Wirtschaftswissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000303",
       "prefLabel": {
         "de": "Arbeit und Lohn"
-      },
-      "note": {
-        "de": [
-          "Arbeit und Lohn",
-          "Arbeitsentgelt",
-          "Einkommen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000304",
       "prefLabel": {
         "de": "Sozialpolitik, Wirtschaftspolitik"
-      },
-      "note": {
-        "de": [
-          "Politikwissenschaft",
-          "Sozialpolitik",
-          "Wirtschaftspolitik",
-          "Wirtschaftswissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000305",
       "prefLabel": {
         "de": "Öffentliche Finanzwirtschaft, Steuern"
-      },
-      "note": {
-        "de": [
-          "Steuern",
-          "Öffentliche Finanzwirtschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000306",
       "prefLabel": {
         "de": "Weltwirtschaft"
-      },
-      "note": {
-        "de": [
-          "Weltwirtschaft",
-          "Wirtschaftswissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/7000307",
       "prefLabel": {
         "de": "Wirtschaftssysteme"
-      },
-      "note": {
-        "de": [
-          "Wirtschaftssysteme",
-          "Wirtschaftswissenschaft"
-        ]
       }
     }
   ],
@@ -153,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -169,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -192,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

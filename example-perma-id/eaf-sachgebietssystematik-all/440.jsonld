@@ -1,138 +1,79 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/440",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F440",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F440",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F440",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F440",
   "prefLabel": {
     "de": "PÄDAGOGIK"
   },
   "note": {
-    "de": [
-      "Pädagogik"
-    ]
+    "de": "Pädagogik"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44001",
       "prefLabel": {
         "de": "Allgemeine Pädagogik"
-      },
-      "note": {
-        "de": [
-          "Allgemeine Pädagogik",
-          "Pädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44002",
       "prefLabel": {
         "de": "Pädagogische Psychologie"
-      },
-      "note": {
-        "de": [
-          "Pädagogische Psychologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44003",
       "prefLabel": {
         "de": "Vorschulpädagogik"
-      },
-      "note": {
-        "de": [
-          "Vorschulpädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44004",
       "prefLabel": {
         "de": "Schulpädagogik"
-      },
-      "note": {
-        "de": [
-          "Schulpädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44005",
       "prefLabel": {
         "de": "Berufspädagogik"
-      },
-      "note": {
-        "de": [
-          "Berufspädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44006",
       "prefLabel": {
         "de": "Sonderpädagogik"
-      },
-      "note": {
-        "de": [
-          "Sonderpädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44007",
       "prefLabel": {
         "de": "Sozialpädagogik"
-      },
-      "note": {
-        "de": [
-          "Sozialpädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44008",
       "prefLabel": {
         "de": "Erwachsenenpädagogik"
-      },
-      "note": {
-        "de": [
-          "Erwachsenenpädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44009",
       "prefLabel": {
         "de": "Ausländerpädagogik"
-      },
-      "note": {
-        "de": [
-          "Ausländerpädagogik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44010",
       "prefLabel": {
         "de": "Eltern und Erziehung"
-      },
-      "note": {
-        "de": [
-          "Eltern",
-          "Erziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/44011",
       "prefLabel": {
         "de": "Inklusion"
-      },
-      "note": {
-        "de": [
-          "Inklusion"
-        ]
       }
     }
   ],
@@ -185,12 +126,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -201,21 +136,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -224,7 +162,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

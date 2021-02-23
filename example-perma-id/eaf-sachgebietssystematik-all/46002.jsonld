@@ -1,70 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/46002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F46002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F46002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F46002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F46002",
   "prefLabel": {
     "de": "Wärmelehre"
-  },
-  "note": {
-    "de": [
-      "Physik",
-      "Physikunterricht",
-      "Wärmelehre"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4600201",
       "prefLabel": {
         "de": "Temperatur, Wärmemenge"
-      },
-      "note": {
-        "de": [
-          "Physik",
-          "Physikunterricht",
-          "Temperatur",
-          "Wärmemenge"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4600202",
       "prefLabel": {
         "de": "Aggregatzustände, Lösungen"
-      },
-      "note": {
-        "de": [
-          "Aggregatzustände",
-          "Lösungen",
-          "Physik",
-          "Physikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4600203",
       "prefLabel": {
         "de": "Wärmetheorie"
-      },
-      "note": {
-        "de": [
-          "Physik",
-          "Physikunterricht",
-          "Wärmetheorie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4600204",
       "prefLabel": {
         "de": "Technische Anwendungen"
-      },
-      "note": {
-        "de": [
-          "Physik",
-          "Physikunterricht"
-        ]
       }
     }
   ],
@@ -120,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -136,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -159,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,84 +1,49 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400502",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400502",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400502",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400502",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400502",
   "prefLabel": {
     "de": "Methoden"
   },
   "note": {
-    "de": [
-      "NaN"
-    ]
+    "de": "NaN"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050201",
       "prefLabel": {
         "de": "Grundlagen"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050202",
       "prefLabel": {
         "de": "Mess- und Regelungstechnik"
-      },
-      "note": {
-        "de": [
-          "Messtechnik",
-          "Regelungstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050203",
       "prefLabel": {
         "de": "Praktische Informatik"
-      },
-      "note": {
-        "de": [
-          "Informatik",
-          "Informatikunterricht",
-          "Praktische Informatik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050204",
       "prefLabel": {
         "de": "Schaltungstechnik und Funktionsanalyse"
-      },
-      "note": {
-        "de": [
-          "Schaltungstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050205",
       "prefLabel": {
         "de": "Werkstoffe"
-      },
-      "note": {
-        "de": [
-          "Werkstoffe"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040050206",
       "prefLabel": {
         "de": "Technische Kommunikation"
-      },
-      "note": {
-        "de": [
-          "Technische Kommunikation"
-        ]
       }
     }
   ],
@@ -134,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -150,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -173,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

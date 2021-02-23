@@ -1,58 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F12004",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F12004",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F12004",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F12004",
   "prefLabel": {
     "de": "Kommunikation"
-  },
-  "note": {
-    "de": [
-      "Deutsch",
-      "Deutschunterricht",
-      "Kommunikation"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200401",
       "prefLabel": {
         "de": "Kommunikationstheorie, Probleme der Kommunikation"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Kommunikationstheorie",
-          "Probleme der Kommunikation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200402",
       "prefLabel": {
         "de": "Sprachgeschichte, Sprachentwicklung"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Sprachentwicklung",
-          "Sprachgeschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200403",
       "prefLabel": {
         "de": "Kommunikationsanregung"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Kommunikationsanregung"
-        ]
       }
     }
   ],
@@ -108,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -124,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -147,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

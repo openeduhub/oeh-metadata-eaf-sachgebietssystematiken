@@ -1,60 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/06004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F06004",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F06004",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F06004",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F06004",
   "prefLabel": {
     "de": "Angewandte Kunst der Gegenwart"
-  },
-  "note": {
-    "de": [
-      "Angewandte Kunst der Gegenwart",
-      "Gegenwartskunst",
-      "Kunst",
-      "Kunstunterricht",
-      "Zeitgenössische Kunst"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600401",
       "prefLabel": {
         "de": "Architektur und Landschaftsgestaltung"
-      },
-      "note": {
-        "de": [
-          "Architektur",
-          "Kunst",
-          "Kunstunterricht",
-          "Landschaftsgestaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600402",
       "prefLabel": {
         "de": "Produktgestaltung, Design"
-      },
-      "note": {
-        "de": [
-          "Design",
-          "Kunst",
-          "Kunstunterricht",
-          "Produktgestaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0600403",
       "prefLabel": {
         "de": "Werbung"
-      },
-      "note": {
-        "de": [
-          "Kunst",
-          "Kunstunterricht",
-          "Werbung"
-        ]
       }
     }
   ],
@@ -110,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -126,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -149,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

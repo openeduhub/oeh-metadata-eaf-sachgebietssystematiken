@@ -1,80 +1,43 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/260",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F260",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F260",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F260",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F260",
   "prefLabel": {
     "de": "GESUNDHEIT"
   },
   "note": {
-    "de": [
-      "Gesundheit"
-    ]
+    "de": "Gesundheit"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/26001",
       "prefLabel": {
         "de": "Gesunderhaltung"
-      },
-      "note": {
-        "de": [
-          "Gesunderhaltung",
-          "Gesundheit"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/26002",
       "prefLabel": {
         "de": "Krankheit"
-      },
-      "note": {
-        "de": [
-          "Gesundheit",
-          "Krankheit"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/26003",
       "prefLabel": {
         "de": "Behinderung"
-      },
-      "note": {
-        "de": [
-          "Behinderung",
-          "Gesundheit",
-          "Handicap"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/26004",
       "prefLabel": {
         "de": "Psychologie/Psychiatrie"
-      },
-      "note": {
-        "de": [
-          "Gesundheit",
-          "Psychiatrie",
-          "Psychologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/26005",
       "prefLabel": {
         "de": "Medizinische Versorgung"
-      },
-      "note": {
-        "de": [
-          "Gesundheit",
-          "Medizinische Versorgung",
-          "Rehabilitation",
-          "Versicherung",
-          "ärztliche Grundversorgung"
-        ]
       }
     }
   ],
@@ -127,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -143,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -166,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

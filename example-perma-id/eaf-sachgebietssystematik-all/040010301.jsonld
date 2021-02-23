@@ -1,102 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040010301",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F040010301",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F040010301",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F040010301",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F040010301",
   "prefLabel": {
     "de": "Tierzucht und Tierhaltung, Tierpflege"
-  },
-  "note": {
-    "de": [
-      "Massentierhaltung",
-      "Tierhaltung",
-      "Tierpflege",
-      "Tierzucht",
-      "artgerechte Haltung"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030101",
       "prefLabel": {
         "de": "Geflügel"
-      },
-      "note": {
-        "de": [
-          "Geflügelhaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030102",
       "prefLabel": {
         "de": "Pferde"
-      },
-      "note": {
-        "de": [
-          "Pferdehaltung",
-          "Pferdezucht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030103",
       "prefLabel": {
         "de": "Rinder"
-      },
-      "note": {
-        "de": [
-          "Rinderhaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030104",
       "prefLabel": {
         "de": "Schafe"
-      },
-      "note": {
-        "de": [
-          "Schafhaltung",
-          "Schafzucht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030105",
       "prefLabel": {
         "de": "Schweine"
-      },
-      "note": {
-        "de": [
-          "Schweinemast",
-          "Schweineproduktion",
-          "Schweinezucht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030106",
       "prefLabel": {
         "de": "Fische"
-      },
-      "note": {
-        "de": [
-          "Aquakultur",
-          "Fischerei",
-          "Fischzucht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001030107",
       "prefLabel": {
         "de": "Allgemein"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     }
   ],
@@ -152,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -168,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -191,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

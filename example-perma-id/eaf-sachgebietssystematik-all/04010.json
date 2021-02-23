@@ -1,85 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04010",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04010",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04010",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04010",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04010",
   "prefLabel": {
     "de": "Fahrzeugtechnik, Mechatronik"
-  },
-  "note": {
-    "de": [
-      "Fahrzeugtechnik",
-      "Mechatronik"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401001",
       "prefLabel": {
         "de": "Motortechnik"
-      },
-      "note": {
-        "de": [
-          "Motortechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401002",
       "prefLabel": {
         "de": "Kraft- und Bewegungsübertragung"
-      },
-      "note": {
-        "de": [
-          "Bewegungsübertragung",
-          "Kraftübertragung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401003",
       "prefLabel": {
         "de": "Fahrwerk- und Bremstechnik"
-      },
-      "note": {
-        "de": [
-          "Bremstechnik",
-          "Fahrwerktechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401004",
       "prefLabel": {
         "de": "Steuerungs- und Regelungstechnik"
-      },
-      "note": {
-        "de": [
-          "Regelungstechnik",
-          "Steuerungstechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401005",
       "prefLabel": {
         "de": "Karosserietechnik"
-      },
-      "note": {
-        "de": [
-          "Karosserietechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401006",
       "prefLabel": {
         "de": "Installationstechnik"
-      },
-      "note": {
-        "de": [
-          "Installationstechnik"
-        ]
       }
     }
   ],
@@ -135,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -151,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -174,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

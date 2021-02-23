@@ -1,82 +1,49 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/45002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F45002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F45002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F45002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F45002",
   "prefLabel": {
     "de": "Epochen"
   },
   "note": {
-    "de": [
-      "NaN"
-    ]
+    "de": "NaN"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500201",
       "prefLabel": {
         "de": "Antike Philosophie"
-      },
-      "note": {
-        "de": [
-          "Antike Philosophie",
-          "Philosophie der Antike"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500202",
       "prefLabel": {
         "de": "Philosophie des Mittelalters"
-      },
-      "note": {
-        "de": [
-          "Philosophie des Mittelalters"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500203",
       "prefLabel": {
         "de": "Frühneuzeitliche Philosophie"
-      },
-      "note": {
-        "de": [
-          "Frühneuzeitliche Philosophie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500204",
       "prefLabel": {
         "de": "Philosophie des 19. Jahrhunderts"
-      },
-      "note": {
-        "de": [
-          "Philosophie des 19. Jahrhunderts"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500205",
       "prefLabel": {
         "de": "Philosophie des 20. Jahrhunderts"
-      },
-      "note": {
-        "de": [
-          "Philosophie des 20. Jahrhunderts"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500206",
       "prefLabel": {
         "de": "Philosophie der Gegenwart"
-      },
-      "note": {
-        "de": [
-          "Philosophie der Gegenwart"
-        ]
       }
     }
   ],
@@ -132,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -148,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -171,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

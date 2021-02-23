@@ -1,206 +1,112 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/640",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F640",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F640",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F640",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F640",
   "prefLabel": {
     "de": "UMWELTGEFÄHRDUNG, UMWELTSCHUTZ"
-  },
-  "note": {
-    "de": [
-      "Umweltgefährdung",
-      "Umweltschutz"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64001",
       "prefLabel": {
         "de": "Wasser"
-      },
-      "note": {
-        "de": [
-          "Wasser"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64002",
       "prefLabel": {
         "de": "Boden"
-      },
-      "note": {
-        "de": [
-          "Boden"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64003",
       "prefLabel": {
         "de": "Luft"
-      },
-      "note": {
-        "de": [
-          "Luft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64004",
       "prefLabel": {
         "de": "Klima"
-      },
-      "note": {
-        "de": [
-          "Klima"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64005",
       "prefLabel": {
         "de": "Wald"
-      },
-      "note": {
-        "de": [
-          "Wald"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64006",
       "prefLabel": {
         "de": "Arten, Biotope"
-      },
-      "note": {
-        "de": [
-          "Arten",
-          "Biotope"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64007",
       "prefLabel": {
         "de": "Landschaft"
-      },
-      "note": {
-        "de": [
-          "Landschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64008",
       "prefLabel": {
         "de": "Landwirtschaft und Nahrungsmittelproduktion"
-      },
-      "note": {
-        "de": [
-          "Landwirtschaft und Nahrungsmittelproduktion"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64009",
       "prefLabel": {
         "de": "Abfall"
-      },
-      "note": {
-        "de": [
-          "Abfall",
-          "Müll"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64010",
       "prefLabel": {
         "de": "Energie"
-      },
-      "note": {
-        "de": [
-          "Energie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64011",
       "prefLabel": {
         "de": "Lärm"
-      },
-      "note": {
-        "de": [
-          "Lärm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64012",
       "prefLabel": {
         "de": "Verkehr"
-      },
-      "note": {
-        "de": [
-          "Verkehr"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64013",
       "prefLabel": {
         "de": "Freizeit und Tourismus"
-      },
-      "note": {
-        "de": [
-          "Freizeit und Tourismus"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64014",
       "prefLabel": {
         "de": "Bauen und Wohnen"
-      },
-      "note": {
-        "de": [
-          "Bauen und Wohnen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64015",
       "prefLabel": {
         "de": "Umwelt in Politik und Wirtschaft"
-      },
-      "note": {
-        "de": [
-          "Politikwissenschaft",
-          "Umwelt in Politik und Wirtschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64016",
       "prefLabel": {
         "de": "Umweltbewusstes Handeln"
-      },
-      "note": {
-        "de": [
-          "Umweltbewusstes Handeln"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/64017",
       "prefLabel": {
         "de": "Themenübergreifende Darstellungen"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     }
   ],
@@ -253,12 +159,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -269,21 +169,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -292,7 +195,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

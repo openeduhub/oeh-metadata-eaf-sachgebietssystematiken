@@ -1,115 +1,67 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401301",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0401301",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0401301",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0401301",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0401301",
   "prefLabel": {
     "de": "Betriebswirtschaft"
   },
   "note": {
-    "de": [
-      "Betriebswirtschaft"
-    ]
+    "de": "Betriebswirtschaft"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130101",
       "prefLabel": {
         "de": "Beschaffung"
-      },
-      "note": {
-        "de": [
-          "Beschaffung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130102",
       "prefLabel": {
         "de": "Produktion"
-      },
-      "note": {
-        "de": [
-          "Produktion"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130103",
       "prefLabel": {
         "de": "Absatz"
-      },
-      "note": {
-        "de": [
-          "Absatz"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130104",
       "prefLabel": {
         "de": "Organisation"
-      },
-      "note": {
-        "de": [
-          "Organisation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130105",
       "prefLabel": {
         "de": "Personalwesen"
-      },
-      "note": {
-        "de": [
-          "Personalwesen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130106",
       "prefLabel": {
         "de": "Rechnungswesen"
-      },
-      "note": {
-        "de": [
-          "Rechnungswesen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130107",
       "prefLabel": {
         "de": "Finanzbereich"
-      },
-      "note": {
-        "de": [
-          "Finanzbereich"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130108",
       "prefLabel": {
         "de": "EDV"
-      },
-      "note": {
-        "de": [
-          "EDV"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040130109",
       "prefLabel": {
         "de": "Spezielle Betriebsarten"
-      },
-      "note": {
-        "de": [
-          "Betrieb",
-          "Betriebsart"
-        ]
       }
     }
   ],
@@ -165,12 +117,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -181,21 +127,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -204,7 +153,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

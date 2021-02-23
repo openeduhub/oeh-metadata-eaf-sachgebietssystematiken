@@ -1,117 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/02001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F02001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F02001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F02001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F02001",
   "prefLabel": {
     "de": "Hinführung zur Arbeitswelt"
-  },
-  "note": {
-    "de": [
-      "Arbeitslehre",
-      "Arbeitswelt"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200101",
       "prefLabel": {
         "de": "Arbeitsbedingungen, Arbeitsabläufe"
-      },
-      "note": {
-        "de": [
-          "Arbeitsabläufe",
-          "Arbeitsbedingungen",
-          "Arbeitslehre"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200102",
       "prefLabel": {
         "de": "Arbeitswert"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Arbeitswert"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200103",
       "prefLabel": {
         "de": "Arbeitssicherheit"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Arbeitssicherheit"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200104",
       "prefLabel": {
         "de": "Recht im Betrieb"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Arbeitsrecht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200105",
       "prefLabel": {
         "de": "Unternehmensformen, Unternehmensstrukturen"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Unternehmensformen",
-          "Unternehmensstrukturen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200106",
       "prefLabel": {
         "de": "Strukturwandel, Rationalisierung, Humanisierung"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Humanisierung",
-          "Rationalisierung",
-          "Strukturwandel"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200107",
       "prefLabel": {
         "de": "Gesellschaftliche Bedingungen"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Gesellschaftliche Bedingungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0200108",
       "prefLabel": {
         "de": "Geschichte von Arbeit und Technik"
-      },
-      "note": {
-        "de": [
-          "Arbeitslehre",
-          "Geschichte der Arbeit",
-          "Technikgeschichte"
-        ]
       }
     }
   ],
@@ -167,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -183,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -206,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

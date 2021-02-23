@@ -1,93 +1,55 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401903",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0401903",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0401903",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0401903",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0401903",
   "prefLabel": {
     "de": "Lebensmittellehre"
   },
   "note": {
-    "de": [
-      "Lebensmittellehre"
-    ]
+    "de": "Lebensmittellehre"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190301",
       "prefLabel": {
         "de": "Nahrungsmittel"
-      },
-      "note": {
-        "de": [
-          "Nahrungsmittel"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190302",
       "prefLabel": {
         "de": "Genussmittel"
-      },
-      "note": {
-        "de": [
-          "Genussmittel"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190303",
       "prefLabel": {
         "de": "Lebensmittelzubereitung"
-      },
-      "note": {
-        "de": [
-          "Lebensmittelzubereitung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190304",
       "prefLabel": {
         "de": "Haltbarmachung"
-      },
-      "note": {
-        "de": [
-          "Haltbarmachung",
-          "Lebensmittelkonservierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190305",
       "prefLabel": {
         "de": "Vorratshaltung"
-      },
-      "note": {
-        "de": [
-          "Vorratshaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190306",
       "prefLabel": {
         "de": "Lebensmittelhygiene"
-      },
-      "note": {
-        "de": [
-          "Lebensmittelhygiene"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040190307",
       "prefLabel": {
         "de": "Lebensmittelrecht"
-      },
-      "note": {
-        "de": [
-          "Lebensmittelrecht"
-        ]
       }
     }
   ],
@@ -143,12 +105,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -159,21 +115,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -182,7 +141,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

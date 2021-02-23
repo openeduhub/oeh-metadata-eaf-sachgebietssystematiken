@@ -1,73 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2000102",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F2000102",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F2000102",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F2000102",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F2000102",
   "prefLabel": {
     "de": "Landeskunde"
-  },
-  "note": {
-    "de": [
-      "Englisch",
-      "Englischunterricht",
-      "Landeskunde"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/200010201",
       "prefLabel": {
         "de": "Großbritannien, Irland"
-      },
-      "note": {
-        "de": [
-          "Englisch",
-          "Englischunterricht",
-          "Großbritannien",
-          "Irland"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/200010202",
       "prefLabel": {
         "de": "Nordamerika"
-      },
-      "note": {
-        "de": [
-          "Englisch",
-          "Englischunterricht",
-          "Kanada",
-          "Nordamerika",
-          "USA"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/200010203",
       "prefLabel": {
         "de": "Australien, Neuseeland"
-      },
-      "note": {
-        "de": [
-          "Australien",
-          "Englisch",
-          "Englischunterricht",
-          "Neuseeland"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/200010209",
       "prefLabel": {
         "de": "Andere englischsprachige Länder"
-      },
-      "note": {
-        "de": [
-          "Englisch",
-          "Englischunterricht",
-          "englischprachige Länder"
-        ]
       }
     }
   ],
@@ -123,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -139,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -162,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

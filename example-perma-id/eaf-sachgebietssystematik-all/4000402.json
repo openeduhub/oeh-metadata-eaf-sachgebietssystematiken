@@ -1,77 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4000402",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F4000402",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F4000402",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4000402",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4000402",
   "prefLabel": {
     "de": "Kommunizieren und Kooperieren"
-  },
-  "note": {
-    "de": [
-      "Kompetenzbereich Kommunizieren und Kooperieren",
-      "Kompetenzen in der digitalen Welt"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040201",
       "prefLabel": {
         "de": "Interagieren"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Kommunizieren und Kooperieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040202",
       "prefLabel": {
         "de": "Teilen"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Kommunizieren und Kooperieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040203",
       "prefLabel": {
         "de": "Zusammenarbeiten"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Kommunizieren und Kooperieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040204",
       "prefLabel": {
         "de": "Umgangsregeln kennen und einhalten"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Kommunizieren und Kooperieren",
-          "Kompetenzen in der digitalen Welt",
-          "Netiquette"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040205",
       "prefLabel": {
         "de": "An der Gesellschaft aktiv teilhaben"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Kommunizieren und Kooperieren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     }
   ],
@@ -127,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -143,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -166,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

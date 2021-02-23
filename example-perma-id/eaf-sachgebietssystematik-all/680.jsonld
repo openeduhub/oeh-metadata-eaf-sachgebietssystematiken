@@ -1,139 +1,79 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/680",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F680",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F680",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F680",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F680",
   "prefLabel": {
     "de": "WEITERBILDUNG"
   },
   "note": {
-    "de": [
-      "Weiterbildung"
-    ]
+    "de": "Weiterbildung"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68001",
       "prefLabel": {
         "de": "Grundlagen der Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68002",
       "prefLabel": {
         "de": "Politische Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Politische Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68003",
       "prefLabel": {
         "de": "Kulturelle Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Kulturelle Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68004",
       "prefLabel": {
         "de": "Kreative Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Kreative Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68005",
       "prefLabel": {
         "de": "Elternbildung, Familienbildung"
-      },
-      "note": {
-        "de": [
-          "Elternbildung",
-          "Familienbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68006",
       "prefLabel": {
         "de": "Wirtschaftliche Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Wirtschaftliche Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68007",
       "prefLabel": {
         "de": "Mathematisch-naturwissenschaftliche Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Mathematisch-naturwissenschaftliche Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68008",
       "prefLabel": {
         "de": "Sprachliche Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Sprachliche Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68009",
       "prefLabel": {
         "de": "Gesundheitliche und sportliche Weiterbildung"
-      },
-      "note": {
-        "de": [
-          "Gesundheitliche Weiterbildung",
-          "sportliche Weiterbildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68010",
       "prefLabel": {
         "de": "Schulische Weiterbildung, Zweiter Bildungsweg"
-      },
-      "note": {
-        "de": [
-          "Schulische Weiterbildung",
-          "Zweiter Bildungsweg"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/68011",
       "prefLabel": {
         "de": "Zielgruppenangebot"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     }
   ],
@@ -186,12 +126,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -202,21 +136,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -225,7 +162,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

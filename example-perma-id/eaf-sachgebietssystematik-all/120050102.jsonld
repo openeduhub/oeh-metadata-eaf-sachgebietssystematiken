@@ -1,141 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120050102",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F120050102",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F120050102",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F120050102",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F120050102",
   "prefLabel": {
     "de": "Fertigkeitsbezogene Ordnung"
-  },
-  "note": {
-    "de": [
-      "DAF",
-      "DAZ",
-      "Deutsch als Fremdsprache",
-      "Deutsch als Zweitsprache",
-      "Fertigkeitsbezogene Ordnung"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010201",
       "prefLabel": {
         "de": "Alphabetisierung"
-      },
-      "note": {
-        "de": [
-          "Alphabetisierung",
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010202",
       "prefLabel": {
         "de": "Seh-/Hörverstehen und Hörverstehen"
-      },
-      "note": {
-        "de": [
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Hörverstehen",
-          "Sehverstehen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010203",
       "prefLabel": {
         "de": "Interkulturelles Verstehen"
-      },
-      "note": {
-        "de": [
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Interkulturelles Verstehen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010204",
       "prefLabel": {
         "de": "Leseverstehen"
-      },
-      "note": {
-        "de": [
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Leseverstehen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010205",
       "prefLabel": {
         "de": "Schreiben"
-      },
-      "note": {
-        "de": [
-          "DA",
-          "DAF",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Schreiben"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010206",
       "prefLabel": {
         "de": "Sprechen"
-      },
-      "note": {
-        "de": [
-          "DA",
-          "DAF",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Sprechen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010207",
       "prefLabel": {
         "de": "Übersetzen"
-      },
-      "note": {
-        "de": [
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Übersetzen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005010208",
       "prefLabel": {
         "de": "Grammatik/Systematisierung"
-      },
-      "note": {
-        "de": [
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache",
-          "Grammatik",
-          "Systematisierung"
-        ]
       }
     }
   ],
@@ -191,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -207,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -230,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

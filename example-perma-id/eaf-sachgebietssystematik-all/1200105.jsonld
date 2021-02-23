@@ -1,124 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200105",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F1200105",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F1200105",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F1200105",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F1200105",
   "prefLabel": {
     "de": "Literaturgeschichte"
-  },
-  "note": {
-    "de": [
-      "Deutsch",
-      "Deutschunterricht",
-      "Literaturgeschichte"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010501",
       "prefLabel": {
         "de": "Antike"
-      },
-      "note": {
-        "de": [
-          "Antike",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010502",
       "prefLabel": {
         "de": "Mittelalter"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Mittelalter"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010503",
       "prefLabel": {
         "de": "16. - 18. Jahrhundert"
-      },
-      "note": {
-        "de": [
-          "16. - 18. Jahrhundert",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010504",
       "prefLabel": {
         "de": "19. Jahrhundert"
-      },
-      "note": {
-        "de": [
-          "19. Jahrhundert",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010505",
       "prefLabel": {
         "de": "20. Jahrhundert"
-      },
-      "note": {
-        "de": [
-          "20. Jahrhundert",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010506",
       "prefLabel": {
         "de": "21. Jahrhundert"
-      },
-      "note": {
-        "de": [
-          "21. Jahrhundert",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010507",
       "prefLabel": {
         "de": "Biographien"
-      },
-      "note": {
-        "de": [
-          "Biografien",
-          "Biografien bekannter Autoren und Schriftsteller",
-          "Biographien",
-          "Biographien bekannter Autoren und Schriftsteller",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010508",
       "prefLabel": {
         "de": "Überblicksdarstellungen"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Überblicksdarstellungen"
-        ]
       }
     }
   ],
@@ -174,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -190,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -213,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

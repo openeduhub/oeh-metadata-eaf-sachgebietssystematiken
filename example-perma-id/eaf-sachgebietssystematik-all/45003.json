@@ -1,92 +1,55 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/45003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F45003",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F45003",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F45003",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F45003",
   "prefLabel": {
     "de": "Philosophische Gegenwartsfragen"
   },
   "note": {
-    "de": [
-      "Philosophische Gegenwartsfragen"
-    ]
+    "de": "Philosophische Gegenwartsfragen"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500301",
       "prefLabel": {
         "de": "Wissenschaftstheorie"
-      },
-      "note": {
-        "de": [
-          "Wissenschaftstheorie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500302",
       "prefLabel": {
         "de": "Religionskritik"
-      },
-      "note": {
-        "de": [
-          "Religionskritik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500303",
       "prefLabel": {
         "de": "Naturphilosophie"
-      },
-      "note": {
-        "de": [
-          "Naturphilosophie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500304",
       "prefLabel": {
         "de": "Technikphilosophie"
-      },
-      "note": {
-        "de": [
-          "Technikphilosophie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500305",
       "prefLabel": {
         "de": "Medienphilosophie"
-      },
-      "note": {
-        "de": [
-          "Medienphilosophie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500306",
       "prefLabel": {
         "de": "Philosophie des Geistes"
-      },
-      "note": {
-        "de": [
-          "Philosophie des Geistes"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4500307",
       "prefLabel": {
         "de": "Ethische Grundfragen"
-      },
-      "note": {
-        "de": [
-          "Ethische Grundfragen"
-        ]
       }
     }
   ],
@@ -142,12 +105,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -158,21 +115,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -181,7 +141,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

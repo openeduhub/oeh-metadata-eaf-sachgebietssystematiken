@@ -1,58 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/10006",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F10006",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F10006",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F10006",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F10006",
   "prefLabel": {
     "de": "Biochemie"
-  },
-  "note": {
-    "de": [
-      "Biochemie",
-      "Chemie",
-      "Chemieunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000601",
       "prefLabel": {
         "de": "Molekulare Grundlagen der Organismen"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Molekulare Grundlagen der Organismen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000602",
       "prefLabel": {
         "de": "Stoffwechselvorgänge"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Stoffwechsel",
-          "Stoffwechselvorgänge"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1000603",
       "prefLabel": {
         "de": "Physiologische Wirkungsweise chemischer Substanzen"
-      },
-      "note": {
-        "de": [
-          "Chemie",
-          "Chemieunterricht",
-          "Physiologische Wirkungsweise chemischer Substanzen",
-          "Wirkung chemischer Substanzen"
-        ]
       }
     }
   ],
@@ -108,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -124,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -147,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

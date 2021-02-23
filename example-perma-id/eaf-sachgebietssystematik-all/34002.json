@@ -1,77 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/34002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F34002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F34002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F34002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F34002",
   "prefLabel": {
     "de": "Interkulturelles Zusammenleben"
-  },
-  "note": {
-    "de": [
-      "Interkulturelle Bildung",
-      "Interkulturelles Zusammenleben"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3400201",
       "prefLabel": {
         "de": "Schule"
-      },
-      "note": {
-        "de": [
-          "Interkulturelle Bildung",
-          "Schule"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3400202",
       "prefLabel": {
         "de": "Freizeit"
-      },
-      "note": {
-        "de": [
-          "Freizeit",
-          "Interkulturelle Bildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3400203",
       "prefLabel": {
         "de": "Familie"
-      },
-      "note": {
-        "de": [
-          "Familie",
-          "Interkulturelle Bildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3400204",
       "prefLabel": {
         "de": "Arbeitswelt"
-      },
-      "note": {
-        "de": [
-          "Arbeitswelt",
-          "Interkulturelle Bildung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/3400205",
       "prefLabel": {
         "de": "Gesellschaft, Öffentlichkeit"
-      },
-      "note": {
-        "de": [
-          "Gesellschaft",
-          "Interkulturelle Bildung",
-          "Öffentlichkeit"
-        ]
       }
     }
   ],
@@ -127,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -143,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -166,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,149 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800403",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F4800403",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F4800403",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4800403",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4800403",
   "prefLabel": {
     "de": "Internationale Beziehungen"
-  },
-  "note": {
-    "de": [
-      "Gesellschaftslehre",
-      "Internationale Beziehungen",
-      "Politik",
-      "Politikwissenschaft",
-      "Politische Bildung",
-      "Sozialkunde"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040301",
       "prefLabel": {
         "de": "Europäische Union"
-      },
-      "note": {
-        "de": [
-          "Europäische Union",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040302",
       "prefLabel": {
         "de": "Sonstige europäische Aspekte"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040303",
       "prefLabel": {
         "de": "Außereuropäische Beziehungen"
-      },
-      "note": {
-        "de": [
-          "Außereuropäische Beziehungen",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040304",
       "prefLabel": {
         "de": "Dritte Welt, Entwicklungspolitik"
-      },
-      "note": {
-        "de": [
-          "Dritte Welt",
-          "Entwicklungspolitik",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040305",
       "prefLabel": {
         "de": "Konflikte"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Konflikte",
-          "Krisenherd",
-          "Krisenregion",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040306",
       "prefLabel": {
         "de": "Friedenspolitik, Sicherheitspolitik"
-      },
-      "note": {
-        "de": [
-          "Friedenspolitik",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politikwissenschaft",
-          "Politische Bildung",
-          "Sicherheitspolitik",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040307",
       "prefLabel": {
         "de": "Internationale Hilfsorganisationen und Interessensvertretungen"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Internationale Hilfsorganisationen",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/480040308",
       "prefLabel": {
         "de": "Globalisierung"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Globalisierung",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     }
   ],
@@ -199,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -215,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -238,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

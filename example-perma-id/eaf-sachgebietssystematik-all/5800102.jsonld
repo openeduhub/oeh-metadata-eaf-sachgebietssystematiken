@@ -1,364 +1,178 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5800102",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F5800102",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F5800102",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F5800102",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F5800102",
   "prefLabel": {
     "de": "Kurzspielfilm"
-  },
-  "note": {
-    "de": [
-      "Kurzspielfilm",
-      "Spielfilm"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010205",
       "prefLabel": {
         "de": "Literaturverfilmung"
-      },
-      "note": {
-        "de": [
-          "Literaturverfilmung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010210",
       "prefLabel": {
         "de": "Abenteuer"
-      },
-      "note": {
-        "de": [
-          "Abenteuerfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010211",
       "prefLabel": {
         "de": "Action"
-      },
-      "note": {
-        "de": [
-          "Action",
-          "Actionfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010212",
       "prefLabel": {
         "de": "Biografie"
-      },
-      "note": {
-        "de": [
-          "Biografie",
-          "Biographie",
-          "Filmbiografie",
-          "Filmbiographie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010214",
       "prefLabel": {
         "de": "Drama, Schicksal"
-      },
-      "note": {
-        "de": [
-          "Drama",
-          "Schicksal"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010216",
       "prefLabel": {
         "de": "Experimentalfilm, Avantgarde"
-      },
-      "note": {
-        "de": [
-          "Avantgarde",
-          "Experimentalfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010218",
       "prefLabel": {
         "de": "Gesellschafts- und sozialkritischer Film"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftskritik",
-          "Geselschaftskritischer Film",
-          "Sozialkritik",
-          "Sozialkritischer Film"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010220",
       "prefLabel": {
         "de": "Gewalt, Aggression"
-      },
-      "note": {
-        "de": [
-          "Actionfilm",
-          "Aggression",
-          "Gewalt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010221",
       "prefLabel": {
         "de": "Heimat"
-      },
-      "note": {
-        "de": [
-          "Heimatfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010222",
       "prefLabel": {
         "de": "Historienfilm"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010223",
       "prefLabel": {
         "de": "Horror"
-      },
-      "note": {
-        "de": [
-          "Gespensterfilm",
-          "Gruselfilm",
-          "Horrorfilm",
-          "Monsterfilm",
-          "Vampirfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010224",
       "prefLabel": {
         "de": "Katastrophe"
-      },
-      "note": {
-        "de": [
-          "Katastrophenfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010226",
       "prefLabel": {
         "de": "Komödie, Satire, Parodie"
-      },
-      "note": {
-        "de": [
-          "Filmkomödie",
-          "Parodie",
-          "Satire"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010227",
       "prefLabel": {
         "de": "Kriegsfilm, Antikriegsfilm"
-      },
-      "note": {
-        "de": [
-          "Antikriegsfilm",
-          "Kriegsfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010228",
       "prefLabel": {
         "de": "Krimi, Thriller, Justiz"
-      },
-      "note": {
-        "de": [
-          "Detektivfilm",
-          "Gangsterfilm",
-          "Gaunerfilm",
-          "Gerichtsdrama",
-          "Justiz",
-          "Krimi",
-          "Kriminalfilm",
-          "Politthriller",
-          "Psychotriller",
-          "Spionagefilm",
-          "Thriller"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010230",
       "prefLabel": {
         "de": "Lebenssinn"
-      },
-      "note": {
-        "de": [
-          "Lebenssinn",
-          "Sinn des Lebens"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010240",
       "prefLabel": {
         "de": "Liebe, Freundschaft"
-      },
-      "note": {
-        "de": [
-          "Liebesfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010250",
       "prefLabel": {
         "de": "Macht, Machtmissbrauch"
-      },
-      "note": {
-        "de": [
-          "Macht",
-          "Machtmissbrauch"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010260",
       "prefLabel": {
         "de": "Märchen, Sagen, Legenden"
-      },
-      "note": {
-        "de": [
-          "Fantasyfilm",
-          "Legenden",
-          "Märchen",
-          "Märchenfilm",
-          "Sagen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010263",
       "prefLabel": {
         "de": "Milieufilm"
-      },
-      "note": {
-        "de": [
-          "Milieufilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010266",
       "prefLabel": {
         "de": "Musik, Tanz"
-      },
-      "note": {
-        "de": [
-          "Musicalfilm",
-          "Musikfilm",
-          "Revuefilm",
-          "Tanzfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010270",
       "prefLabel": {
         "de": "Politik, Geschichte"
-      },
-      "note": {
-        "de": [
-          "Politikwissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010273",
       "prefLabel": {
         "de": "Sciencefiction, Fantasy"
-      },
-      "note": {
-        "de": [
-          "Fantasy",
-          "Fantasyfilm",
-          "Sciencefiction"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010275",
       "prefLabel": {
         "de": "Theaterverfilmung"
-      },
-      "note": {
-        "de": [
-          "Theaterverfilmung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010277",
       "prefLabel": {
         "de": "Tierkurzfilm"
-      },
-      "note": {
-        "de": [
-          "Tierspielfilm"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010280",
       "prefLabel": {
         "de": "Tod, Sterben"
-      },
-      "note": {
-        "de": [
-          "Sterben",
-          "Tod"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010285",
       "prefLabel": {
         "de": "Western"
-      },
-      "note": {
-        "de": [
-          "Western"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/580010290",
       "prefLabel": {
         "de": "Sonstige Gattungen"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     }
   ],
@@ -414,12 +228,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -430,21 +238,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -453,7 +264,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

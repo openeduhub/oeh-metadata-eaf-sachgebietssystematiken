@@ -1,82 +1,49 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040110401",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F040110401",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F040110401",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F040110401",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F040110401",
   "prefLabel": {
     "de": "Fertigungstechnik"
   },
   "note": {
-    "de": [
-      "Fertigungstechnik"
-    ]
+    "de": "Fertigungstechnik"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011040101",
       "prefLabel": {
         "de": "Urformen"
-      },
-      "note": {
-        "de": [
-          "Urformen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011040102",
       "prefLabel": {
         "de": "Umformen"
-      },
-      "note": {
-        "de": [
-          "Umformen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011040103",
       "prefLabel": {
         "de": "Trennen"
-      },
-      "note": {
-        "de": [
-          "Trennen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011040104",
       "prefLabel": {
         "de": "Fügen"
-      },
-      "note": {
-        "de": [
-          "Fügen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011040105",
       "prefLabel": {
         "de": "Stoffeigenschaften ändern"
-      },
-      "note": {
-        "de": [
-          "Stoffeigenschaften"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011040106",
       "prefLabel": {
         "de": "Galvanik und Oberflächenbearbeitung"
-      },
-      "note": {
-        "de": [
-          "Galvanik",
-          "Oberflächenbearbeitung"
-        ]
       }
     }
   ],
@@ -132,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -148,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -171,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

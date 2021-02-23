@@ -1,110 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F60003",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F60003",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F60003",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F60003",
   "prefLabel": {
     "de": "Sportarten"
-  },
-  "note": {
-    "de": [
-      "Sport",
-      "Sportarten",
-      "Sportunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000301",
       "prefLabel": {
         "de": "Gerätturnen"
-      },
-      "note": {
-        "de": [
-          "Gerätturnen",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000302",
       "prefLabel": {
         "de": "Gymnastik, Tanz"
-      },
-      "note": {
-        "de": [
-          "Gymnastik",
-          "Sport",
-          "Sportunterricht",
-          "Tanz"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000303",
       "prefLabel": {
         "de": "Leichtathletik"
-      },
-      "note": {
-        "de": [
-          "Leichtathletik",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000304",
       "prefLabel": {
         "de": "Spielsportarten"
-      },
-      "note": {
-        "de": [
-          "Spielsportarten",
-          "Sport",
-          "Sportspiele",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000305",
       "prefLabel": {
         "de": "Wassersport"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportunterricht",
-          "Wassersport"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000306",
       "prefLabel": {
         "de": "Wintersport, Schneesport"
-      },
-      "note": {
-        "de": [
-          "Schneesport",
-          "Sport",
-          "Sportunterricht",
-          "Wintersport"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000307",
       "prefLabel": {
         "de": "Sonstige Sportarten"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     }
   ],
@@ -160,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -176,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -199,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

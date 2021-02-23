@@ -1,98 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/42007",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F42007",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F42007",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42007",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42007",
   "prefLabel": {
     "de": "Musiktheorie"
-  },
-  "note": {
-    "de": [
-      "Musik",
-      "Musiktheorie",
-      "Musikunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200701",
       "prefLabel": {
         "de": "Akustik"
-      },
-      "note": {
-        "de": [
-          "Akustik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200702",
       "prefLabel": {
         "de": "Formenlehre"
-      },
-      "note": {
-        "de": [
-          "Formenlehre",
-          "Formenlehre in der Musik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200703",
       "prefLabel": {
         "de": "Harmonielehre"
-      },
-      "note": {
-        "de": [
-          "Harmonielehre",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200704",
       "prefLabel": {
         "de": "Instrumentenkunde"
-      },
-      "note": {
-        "de": [
-          "Instrumentenkunde",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200705",
       "prefLabel": {
         "de": "Notation"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Notation",
-          "Notation in der Musik",
-          "Notenschrift"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200706",
       "prefLabel": {
         "de": "Arrangement"
-      },
-      "note": {
-        "de": [
-          "Arrangement",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     }
   ],
@@ -148,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -164,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -187,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,85 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200102",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F1200102",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F1200102",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F1200102",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F1200102",
   "prefLabel": {
     "de": "Dramatik"
-  },
-  "note": {
-    "de": [
-      "Deutsch",
-      "Deutschunterricht",
-      "Dramatik"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010201",
       "prefLabel": {
         "de": "Lesung"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Lesung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010202",
       "prefLabel": {
         "de": "Adaption als Verfilmung"
-      },
-      "note": {
-        "de": [
-          "Adaption als Verfilmung",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010203",
       "prefLabel": {
         "de": "Aufzeichnung einer Inszenierung"
-      },
-      "note": {
-        "de": [
-          "Aufzeichnung einer Inszenierung",
-          "Deutsch",
-          "Deutschunterricht",
-          "Inszenierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010204",
       "prefLabel": {
         "de": "Arbeit an einer Inszenierung"
-      },
-      "note": {
-        "de": [
-          "Arbeit an einer Inszenierung",
-          "Deutsch",
-          "Deutschunterricht",
-          "Inszenierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120010205",
       "prefLabel": {
         "de": "Hörspiel, Hörbild"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Hörbild",
-          "Hörspiel"
-        ]
       }
     }
   ],
@@ -135,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -151,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -174,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

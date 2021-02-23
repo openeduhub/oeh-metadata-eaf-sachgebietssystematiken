@@ -1,123 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F12001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F12001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F12001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F12001",
   "prefLabel": {
     "de": "Literatur"
-  },
-  "note": {
-    "de": [
-      "Deutsch",
-      "Deutschunterricht",
-      "Literatur"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200101",
       "prefLabel": {
         "de": "Epik"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Epik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200102",
       "prefLabel": {
         "de": "Dramatik"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Dramatik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200103",
       "prefLabel": {
         "de": "Lyrik"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Lyrik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200104",
       "prefLabel": {
         "de": "Literaturtheorie"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Literaturtheorie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200105",
       "prefLabel": {
         "de": "Literaturgeschichte"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Literaturgeschichte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200106",
       "prefLabel": {
         "de": "Literatursoziologie"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Literatursoziologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200107",
       "prefLabel": {
         "de": "Kinder- und Jugendliteratur"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Jugendliteratur",
-          "Kinderliteratur"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/1200108",
       "prefLabel": {
         "de": "Comics, Cartoons"
-      },
-      "note": {
-        "de": [
-          "Cartoons",
-          "Comics",
-          "Deutsch",
-          "Deutschunterricht"
-        ]
       }
     }
   ],
@@ -173,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -189,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -212,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

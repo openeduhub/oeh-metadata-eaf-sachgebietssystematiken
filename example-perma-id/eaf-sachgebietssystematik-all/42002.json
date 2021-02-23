@@ -1,122 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/42002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F42002",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F42002",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42002",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42002",
   "prefLabel": {
     "de": "Europäische Zeitstile"
-  },
-  "note": {
-    "de": [
-      "Europäische Zeitstile",
-      "Musik",
-      "Musikunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200201",
       "prefLabel": {
         "de": "Anfänge der abendländischen Musik"
-      },
-      "note": {
-        "de": [
-          "Anfänge der abendländischen Musik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200202",
       "prefLabel": {
         "de": "Mittelalterliche Ein- und Mehrstimmigkeit"
-      },
-      "note": {
-        "de": [
-          "Mittelalterliche Einstimmigkeit",
-          "Mittelalterliche Mehrstimmigkeit",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200203",
       "prefLabel": {
         "de": "Renaissance"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Renaissance"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200204",
       "prefLabel": {
         "de": "Barock"
-      },
-      "note": {
-        "de": [
-          "Barock",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200205",
       "prefLabel": {
         "de": "Klassik"
-      },
-      "note": {
-        "de": [
-          "Klassik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200206",
       "prefLabel": {
         "de": "Romantik"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Romantik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200207",
       "prefLabel": {
         "de": "Impressionismus"
-      },
-      "note": {
-        "de": [
-          "Impressionismus",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200208",
       "prefLabel": {
         "de": "Moderne"
-      },
-      "note": {
-        "de": [
-          "Moderne",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     }
   ],
@@ -172,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -188,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -211,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

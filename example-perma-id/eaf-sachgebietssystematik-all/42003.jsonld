@@ -1,109 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/42003",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F42003",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F42003",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42003",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F42003",
   "prefLabel": {
     "de": "Musikarten"
-  },
-  "note": {
-    "de": [
-      "Musik",
-      "Musikarten",
-      "Musikunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200301",
       "prefLabel": {
         "de": "Vokalmusik"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Vokalmusik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200302",
       "prefLabel": {
         "de": "Instrumentalmusik"
-      },
-      "note": {
-        "de": [
-          "Instrumentalmusik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200303",
       "prefLabel": {
         "de": "Theater- und Filmmusik"
-      },
-      "note": {
-        "de": [
-          "Filmmusik",
-          "Musik",
-          "Musikunterricht",
-          "Theatermusik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200304",
       "prefLabel": {
         "de": "Populäre Musik"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Populäre Musik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200305",
       "prefLabel": {
         "de": "Religiöse Musik"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Religiöse Musik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200306",
       "prefLabel": {
         "de": "Funktionelle Musik"
-      },
-      "note": {
-        "de": [
-          "Funktionelle Musik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200307",
       "prefLabel": {
         "de": "Tanzmusik"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Tanzmusik"
-        ]
       }
     }
   ],
@@ -159,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -175,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -198,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

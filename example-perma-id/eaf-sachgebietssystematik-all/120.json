@@ -1,112 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/120",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F120",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F120",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F120",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F120",
   "prefLabel": {
     "de": "DEUTSCH"
-  },
-  "note": {
-    "de": [
-      "Deutsch",
-      "Deutschunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12001",
       "prefLabel": {
         "de": "Literatur"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Literatur"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12002",
       "prefLabel": {
         "de": "Darstellendes Spiel, Schultheater"
-      },
-      "note": {
-        "de": [
-          "Darstellendes Spiel",
-          "Deutsch",
-          "Deutschunterricht",
-          "Schultheater"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12003",
       "prefLabel": {
         "de": "Nichtliterarische Texte"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Jounalistik",
-          "Nichtliterarische Texte",
-          "Reden",
-          "wissenschaftliche Texte"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12004",
       "prefLabel": {
         "de": "Kommunikation"
-      },
-      "note": {
-        "de": [
-          "Deutsch",
-          "Deutschunterricht",
-          "Kommunikation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12005",
       "prefLabel": {
         "de": "Deutsch als Zweit- und Fremdsprache"
-      },
-      "note": {
-        "de": [
-          "DAF",
-          "DAZ",
-          "Deutsch als Fremdsprache",
-          "Deutsch als Zweitsprache"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12006",
       "prefLabel": {
         "de": "Grammatik, Rechtschreiben"
-      },
-      "note": {
-        "de": [
-          "Grammatik",
-          "Rechtschreiben",
-          "Rechtschreibung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/12007",
       "prefLabel": {
         "de": "Lesen, Lesetechnik, Umgang mit Texten"
-      },
-      "note": {
-        "de": [
-          "Lesen",
-          "Lesetechnik",
-          "Umgang mit Texten"
-        ]
       }
     }
   ],
@@ -159,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -175,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -198,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

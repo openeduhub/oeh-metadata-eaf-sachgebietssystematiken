@@ -1,240 +1,127 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/200",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F200",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F200",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F200",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F200",
   "prefLabel": {
     "de": "FREMDSPRACHEN"
   },
   "note": {
-    "de": [
-      "Fremdsprachen"
-    ]
+    "de": "Fremdsprachen"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20001",
       "prefLabel": {
         "de": "Englisch"
-      },
-      "note": {
-        "de": [
-          "Englisch",
-          "Englischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20002",
       "prefLabel": {
         "de": "Französisch"
-      },
-      "note": {
-        "de": [
-          "Französisch",
-          "Französischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20003",
       "prefLabel": {
         "de": "Griechisch"
-      },
-      "note": {
-        "de": [
-          "Griechisch",
-          "Griechischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20004",
       "prefLabel": {
         "de": "Italienisch"
-      },
-      "note": {
-        "de": [
-          "Italienisch",
-          "Italienischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20005",
       "prefLabel": {
         "de": "Latein"
-      },
-      "note": {
-        "de": [
-          "Latein",
-          "Lateinunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20006",
       "prefLabel": {
         "de": "Russisch"
-      },
-      "note": {
-        "de": [
-          "Russisch",
-          "Russischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20007",
       "prefLabel": {
         "de": "Spanisch"
-      },
-      "note": {
-        "de": [
-          "Spanisch",
-          "Spanischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20008",
       "prefLabel": {
         "de": "Türkisch"
-      },
-      "note": {
-        "de": [
-          "Türkisch",
-          "Türkischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20009",
       "prefLabel": {
         "de": "Sorbisch"
-      },
-      "note": {
-        "de": [
-          "Sorbisch",
-          "Sorbischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20010",
       "prefLabel": {
         "de": "Dänisch"
-      },
-      "note": {
-        "de": [
-          "Dänisch",
-          "Dänischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20011",
       "prefLabel": {
         "de": "Polnisch"
-      },
-      "note": {
-        "de": [
-          "Polnisch",
-          "Polnischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20012",
       "prefLabel": {
         "de": "Tschechisch"
-      },
-      "note": {
-        "de": [
-          "Tschechisch",
-          "Tschechischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20013",
       "prefLabel": {
         "de": "Niederländisch"
-      },
-      "note": {
-        "de": [
-          "Niederländisch",
-          "Niederländischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20014",
       "prefLabel": {
         "de": "Portugisisch"
-      },
-      "note": {
-        "de": [
-          "Portugisisch",
-          "Portugisischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20040",
       "prefLabel": {
         "de": "Weitere europäische Fremdsprachen"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20041",
       "prefLabel": {
         "de": "Chinesisch"
-      },
-      "note": {
-        "de": [
-          "Chinesisch",
-          "Chinesischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20042",
       "prefLabel": {
         "de": "Japanisch"
-      },
-      "note": {
-        "de": [
-          "Japanisch",
-          "Japanischunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20070",
       "prefLabel": {
         "de": "Weitere außereuropäische Fremdsprachen"
-      },
-      "note": {
-        "de": [
-          "NaN"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/20080",
       "prefLabel": {
         "de": "Esperanto"
-      },
-      "note": {
-        "de": [
-          "Esperanto"
-        ]
       }
     }
   ],
@@ -287,12 +174,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -303,21 +184,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -326,7 +210,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

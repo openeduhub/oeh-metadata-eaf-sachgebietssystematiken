@@ -1,96 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4200303",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F4200303",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F4200303",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4200303",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4200303",
   "prefLabel": {
     "de": "Theater- und Filmmusik"
-  },
-  "note": {
-    "de": [
-      "Filmmusik",
-      "Musik",
-      "Musikunterricht",
-      "Theatermusik"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/420030301",
       "prefLabel": {
         "de": "Oper"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Oper"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/420030302",
       "prefLabel": {
         "de": "Operette"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Operette"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/420030303",
       "prefLabel": {
         "de": "Musical"
-      },
-      "note": {
-        "de": [
-          "Musical",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/420030304",
       "prefLabel": {
         "de": "Ballett"
-      },
-      "note": {
-        "de": [
-          "Ballett",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/420030305",
       "prefLabel": {
         "de": "Filmmusik"
-      },
-      "note": {
-        "de": [
-          "Filmmusik",
-          "Musik",
-          "Musikunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/420030306",
       "prefLabel": {
         "de": "Musikvideo"
-      },
-      "note": {
-        "de": [
-          "Musik",
-          "Musikunterricht",
-          "Musikvideo"
-        ]
       }
     }
   ],
@@ -146,12 +96,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -162,21 +106,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -185,7 +132,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

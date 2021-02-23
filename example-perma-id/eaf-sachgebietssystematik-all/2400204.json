@@ -1,225 +1,100 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2400204",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F2400204",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F2400204",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F2400204",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F2400204",
   "prefLabel": {
     "de": "Neuere Geschichte"
-  },
-  "note": {
-    "de": [
-      "Geschichte",
-      "Geschichtsunterricht",
-      "Neuere Geschichte"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020401",
       "prefLabel": {
         "de": "Zeitalter der Entdeckungen, Eroberungen und Erfindungen"
-      },
-      "note": {
-        "de": [
-          "Erfindungen",
-          "Eroberungen",
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Zeitalter der Entdeckungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020402",
       "prefLabel": {
         "de": "Humanismus und Renaissance"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Humanismus",
-          "Renaissance"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020403",
       "prefLabel": {
         "de": "Reformation, Bauernkriege, Glaubenskämpfe"
-      },
-      "note": {
-        "de": [
-          "Bauernkriege",
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Glaubenskämpfe",
-          "Reformation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020404",
       "prefLabel": {
         "de": "Absolutismus, Aufklärung, Parlamentarismus"
-      },
-      "note": {
-        "de": [
-          "Absolutismus",
-          "Aufklärung",
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Parlamentarismus"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020405",
       "prefLabel": {
         "de": "Bürgerliche Revolutionen des 18. Jahrhunderts"
-      },
-      "note": {
-        "de": [
-          "Bürgerliche Revolutionen des 18. Jahrhunderts",
-          "Geschichte",
-          "Geschichtsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020406",
       "prefLabel": {
         "de": "Napoleon, Napoleonisches Zeitalter"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Napoleon",
-          "Napoleonisches Zeitalter"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020407",
       "prefLabel": {
         "de": "Restauration, Revolutionen des 19. Jahrhunderts"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Liberalismus",
-          "Restauration",
-          "Revolutionen des 19. Jahrhunderts"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020408",
       "prefLabel": {
         "de": "Industrialisierung und soziale Frage"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Industrialisierung",
-          "soziale Frage"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020409",
       "prefLabel": {
         "de": "Nationale Bewegungen und Deutsches Kaiserreich"
-      },
-      "note": {
-        "de": [
-          "Deutsches Kaiserreich",
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Nationale Bewegungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020410",
       "prefLabel": {
         "de": "Imperialismus und Erster Weltkrieg"
-      },
-      "note": {
-        "de": [
-          "Erster Weltkrieg",
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Imperialismus"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020411",
       "prefLabel": {
         "de": "Weimarer Republik"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Weimarer Republik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020412",
       "prefLabel": {
         "de": "Faschismus und Nationalsozialismus"
-      },
-      "note": {
-        "de": [
-          "Faschismus",
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Nationalsozialismus"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020413",
       "prefLabel": {
         "de": "Zweiter Weltkrieg"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Zweiter Weltkrieg"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020414",
       "prefLabel": {
         "de": "Weitere Themen der neueren europäischen Geschichte"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/240020415",
       "prefLabel": {
         "de": "Neuere Geschichte außereuropäischer Staaten und Völker"
-      },
-      "note": {
-        "de": [
-          "Geschichte",
-          "Geschichtsunterricht",
-          "Neuere Geschichte außereuropäischer Staaten und Völker"
-        ]
       }
     }
   ],
@@ -275,12 +150,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -291,21 +160,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -314,7 +186,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

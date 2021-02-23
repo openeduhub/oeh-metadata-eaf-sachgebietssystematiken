@@ -1,64 +1,37 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F400",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F400",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F400",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F400",
   "prefLabel": {
     "de": "MEDIENPÄDAGOGIK"
   },
   "note": {
-    "de": [
-      "Medienpädagogik"
-    ]
+    "de": "Medienpädagogik"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40001",
       "prefLabel": {
         "de": "Grundlagen"
-      },
-      "note": {
-        "de": [
-          "Grundlagen",
-          "Medienpädagogik"
-        ]
-      }
-    },
-    {
-      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40002",
-      "prefLabel": {
-        "de": "Medienpädagogische Handlungsfelder"
-      },
-      "note": {
-        "de": [
-          "Medienpädagogik",
-          "Medienpädagogische Handlungsfelder"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40003",
       "prefLabel": {
         "de": "Ergebnisse aktiver Medienarbeit"
-      },
-      "note": {
-        "de": [
-          "Ergebnisse aktiver Medienarbeit",
-          "Medienpädagogik"
-        ]
+      }
+    },
+    {
+      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40002",
+      "prefLabel": {
+        "de": "Medienpädagogische Handlungsfelder"
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004",
       "prefLabel": {
         "de": "Kompetenzen in der digitalen Welt"
-      },
-      "note": {
-        "de": [
-          "KMK-Kompetenzrahmen",
-          "Kompetenzbereiche",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     }
   ],
@@ -111,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -127,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -150,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,256 +1,133 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F040",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F040",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F040",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F040",
   "prefLabel": {
     "de": "BERUFLICHE BILDUNG"
   },
   "note": {
-    "de": [
-      "Berufliche Bildung"
-    ]
+    "de": "Berufliche Bildung"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04001",
       "prefLabel": {
         "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
-      },
-      "note": {
-        "de": [
-          "Gartenbau",
-          "Landwirtschaft",
-          "Natur und Umwelt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04002",
       "prefLabel": {
         "de": "Bau, Architektur, Vermessung"
-      },
-      "note": {
-        "de": [
-          "Architektur",
-          "Vermessung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04003",
       "prefLabel": {
         "de": "Naturwissenschaften und Mathematik"
-      },
-      "note": {
-        "de": [
-          "Mathematik",
-          "Naturwissenschaften"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04004",
       "prefLabel": {
         "de": "IT- und Medientechnik"
-      },
-      "note": {
-        "de": [
-          "IT-Technik",
-          "Informationstechnik",
-          "Informationstechnologie",
-          "Mediengestaltung",
-          "Medientechnik"
-        ]
-      }
-    },
-    {
-      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04005",
-      "prefLabel": {
-        "de": "Elektrotechnik"
-      },
-      "note": {
-        "de": [
-          "Elektrotechnik",
-          "elektrische Energietechnik"
-        ]
-      }
-    },
-    {
-      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04006",
-      "prefLabel": {
-        "de": "Gastgewerbe und Hauswirtschaft"
-      },
-      "note": {
-        "de": [
-          "Gastgewerbe",
-          "Hauswirtschaft"
-        ]
-      }
-    },
-    {
-      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04007",
-      "prefLabel": {
-        "de": "Farbtechnik und Raumgestaltung"
-      },
-      "note": {
-        "de": [
-          "Farbtechnik",
-          "Raumgestaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04008",
       "prefLabel": {
         "de": "Gesundheit und Pflege"
-      },
-      "note": {
-        "de": [
-          "Gesundheit",
-          "Pflege"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04009",
       "prefLabel": {
         "de": "Holztechnik"
-      },
-      "note": {
-        "de": [
-          "Holztechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04010",
       "prefLabel": {
         "de": "Fahrzeugtechnik, Mechatronik"
-      },
-      "note": {
-        "de": [
-          "Fahrzeugtechnik",
-          "Mechatronik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04011",
       "prefLabel": {
         "de": "Metalltechnik"
-      },
-      "note": {
-        "de": [
-          "Metalltechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04012",
       "prefLabel": {
         "de": "Textiltechnik und Bekleidung"
-      },
-      "note": {
-        "de": [
-          "Bekleidung",
-          "Textiltechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04013",
       "prefLabel": {
         "de": "Wirtschaft und Verwaltung"
-      },
-      "note": {
-        "de": [
-          "Verwaltung",
-          "Wirtschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04014",
       "prefLabel": {
         "de": "Arbeitssicherheit"
-      },
-      "note": {
-        "de": [
-          "Arbeitssicherheit"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04015",
       "prefLabel": {
         "de": "Sozialarbeit und Erziehung"
-      },
-      "note": {
-        "de": [
-          "Erziehung",
-          "Sozialarbeit"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04016",
       "prefLabel": {
         "de": "Verkehr und Logistik"
-      },
-      "note": {
-        "de": [
-          "Logistik",
-          "Verkehr"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04017",
       "prefLabel": {
         "de": "Klima-, Heizungs- und Sanitärtechnik"
-      },
-      "note": {
-        "de": [
-          "Heizungstechnik",
-          "Klimatechnik",
-          "Sanitärtechnik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04018",
       "prefLabel": {
         "de": "Dienstleistung"
-      },
-      "note": {
-        "de": [
-          "Dienstleistungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04019",
       "prefLabel": {
         "de": "Lebensmittel"
-      },
-      "note": {
-        "de": [
-          "Lebensmittel"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04020",
       "prefLabel": {
         "de": "Kunst, Kultur, Gestaltung"
-      },
-      "note": {
-        "de": [
-          "Gestaltung",
-          "Kultur",
-          "Kunst"
-        ]
+      }
+    },
+    {
+      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04005",
+      "prefLabel": {
+        "de": "Elektrotechnik"
+      }
+    },
+    {
+      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04006",
+      "prefLabel": {
+        "de": "Gastgewerbe und Hauswirtschaft"
+      }
+    },
+    {
+      "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04007",
+      "prefLabel": {
+        "de": "Farbtechnik und Raumgestaltung"
       }
     }
   ],
@@ -303,12 +180,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -319,21 +190,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -342,7 +216,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

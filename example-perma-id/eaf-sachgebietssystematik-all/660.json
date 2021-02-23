@@ -1,153 +1,79 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/660",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F660",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F660",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F660",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F660",
   "prefLabel": {
     "de": "VERKEHRSERZIEHUNG"
   },
   "note": {
-    "de": [
-      "Verkehrserziehung"
-    ]
+    "de": "Verkehrserziehung"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66001",
       "prefLabel": {
         "de": "Verkehrsverhalten"
-      },
-      "note": {
-        "de": [
-          "Verkehrserziehung",
-          "Verkehrsverhalten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66002",
       "prefLabel": {
         "de": "Verkehrsmittel"
-      },
-      "note": {
-        "de": [
-          "Verkehrserziehung",
-          "Verkehrsmittel"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66003",
       "prefLabel": {
         "de": "Verkehrswege"
-      },
-      "note": {
-        "de": [
-          "Autobahn",
-          "Flughafen",
-          "Hafen",
-          "Verkehrserziehung",
-          "Verkehrswege"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66004",
       "prefLabel": {
         "de": "Verkehrsrecht"
-      },
-      "note": {
-        "de": [
-          "Verkehrserziehung",
-          "Verkehrsrecht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66005",
       "prefLabel": {
         "de": "Verkehrspolitik"
-      },
-      "note": {
-        "de": [
-          "Politikwissenschaft",
-          "Verkehrserziehung",
-          "Verkehrspolitik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66006",
       "prefLabel": {
         "de": "Sicherheitstechnik, Fahrphysik"
-      },
-      "note": {
-        "de": [
-          "Fahrphysik",
-          "Sicherheitstechnik",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66007",
       "prefLabel": {
         "de": "Verkehrspsychologie, Verkehrssoziologie"
-      },
-      "note": {
-        "de": [
-          "Verkehrserziehung",
-          "Verkehrspsychologie",
-          "Verkehrssoziologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66008",
       "prefLabel": {
         "de": "Verkehrsmedizin"
-      },
-      "note": {
-        "de": [
-          "Verkehrserziehung",
-          "Verkehrsmedizin"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66009",
       "prefLabel": {
         "de": "Verkehr und Wetter"
-      },
-      "note": {
-        "de": [
-          "Verkehr und Wetter",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66010",
       "prefLabel": {
         "de": "Verkehr und Umweltschutz"
-      },
-      "note": {
-        "de": [
-          "Verkehr und Umweltschutz",
-          "Verkehrserziehung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/66011",
       "prefLabel": {
         "de": "Verkehrsunfall"
-      },
-      "note": {
-        "de": [
-          "Verkehrserziehung",
-          "Verkehrsunfall"
-        ]
       }
     }
   ],
@@ -200,12 +126,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -216,21 +136,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -239,7 +162,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

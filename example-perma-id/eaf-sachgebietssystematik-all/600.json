@@ -1,205 +1,94 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F600",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F600",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F600",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F600",
   "prefLabel": {
     "de": "SPORT"
-  },
-  "note": {
-    "de": [
-      "Sport",
-      "Sportunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60001",
       "prefLabel": {
         "de": "Sportwissenschaft"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportunterricht",
-          "Sportwissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60002",
       "prefLabel": {
         "de": "Sportbereiche"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportbereiche",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60003",
       "prefLabel": {
         "de": "Sportarten"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportarten",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60004",
       "prefLabel": {
         "de": "Sportorganisation"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportorganisation",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60005",
       "prefLabel": {
         "de": "Olympische Spiele"
-      },
-      "note": {
-        "de": [
-          "Olympiade",
-          "Olympische Spiele",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60006",
       "prefLabel": {
         "de": "Sport und Kunst"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Kunst",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60007",
       "prefLabel": {
         "de": "Sport und Recht"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Recht",
-          "Sportrecht",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60008",
       "prefLabel": {
         "de": "Sport und Umwelt"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Umwelt",
-          "Sportunterricht",
-          "Sportökologie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60009",
       "prefLabel": {
         "de": "Sportstätten"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportstätten",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60010",
       "prefLabel": {
         "de": "Sport und Physik"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Physik",
-          "Sportphysik",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60011",
       "prefLabel": {
         "de": "Sport und Ernährung"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Ernährung",
-          "Sporternährung",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60012",
       "prefLabel": {
         "de": "Sport und Erziehung"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Erziehung",
-          "Sporterziehung",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60013",
       "prefLabel": {
         "de": "Sport und Biologie"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sport und Biologie",
-          "Sportbiologie",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60080",
       "prefLabel": {
         "de": "Bilingualer Unterricht"
-      },
-      "note": {
-        "de": [
-          "Bilingualer Sportunterricht",
-          "Bilingualer Unterricht",
-          "Sport"
-        ]
       }
     }
   ],
@@ -252,12 +141,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -268,21 +151,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -291,7 +177,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

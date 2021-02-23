@@ -1,94 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04012",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04012",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04012",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04012",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04012",
   "prefLabel": {
     "de": "Textiltechnik und Bekleidung"
-  },
-  "note": {
-    "de": [
-      "Bekleidung",
-      "Textiltechnik"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401201",
       "prefLabel": {
         "de": "Textilrohstoffe"
-      },
-      "note": {
-        "de": [
-          "Textilrohstoffe"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401202",
       "prefLabel": {
         "de": "Textilherstellung"
-      },
-      "note": {
-        "de": [
-          "Textilherstellung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401203",
       "prefLabel": {
         "de": "Textilmaschinen"
-      },
-      "note": {
-        "de": [
-          "Textilmaschinen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401204T",
       "prefLabel": {
         "de": "extilveredlung und -verzierung"
-      },
-      "note": {
-        "de": [
-          "Textilveredlung",
-          "Textilverzierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401205",
       "prefLabel": {
         "de": "Textliverarbeitung"
-      },
-      "note": {
-        "de": [
-          "Textilverarbeitung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401206",
       "prefLabel": {
         "de": "Leder"
-      },
-      "note": {
-        "de": [
-          "Leder"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0401207",
       "prefLabel": {
         "de": "Textilpflege"
-      },
-      "note": {
-        "de": [
-          "Textilpflege"
-        ]
       }
     }
   ],
@@ -144,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -160,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -183,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

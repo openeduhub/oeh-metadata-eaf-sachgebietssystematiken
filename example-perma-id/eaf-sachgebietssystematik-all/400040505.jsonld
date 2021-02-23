@@ -1,54 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040505",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F400040505",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F400040505",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F400040505",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F400040505",
   "prefLabel": {
     "de": "Algorithmen erkennen und formulieren"
-  },
-  "note": {
-    "de": [
-      "Kompetenzbereich Problemlösen und Handeln",
-      "Kompetenzen in der digitalen Welt, Algorithmen"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004050501",
       "prefLabel": {
         "de": "Funktionsweisen und grundlegende Prinzipien der digitalen Welt kennen und verstehen"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Problemlösen und Handeln",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004050502",
       "prefLabel": {
         "de": "Algorithmische Strukturen in genutzten digitalen Tools erkennen und formulieren"
-      },
-      "note": {
-        "de": [
-          "Algorithmen",
-          "Kompetenzbereich Problemlösen und Handeln",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/40004050503",
       "prefLabel": {
         "de": "Eine strukturierte, algorithmische Sequenz zur Lösung eines Problems planen und verwenden"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Problemlösen und Handeln",
-          "Kompetenzen in der digitalen Welt",
-          "algorithmen"
-        ]
       }
     }
   ],
@@ -104,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -120,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -143,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

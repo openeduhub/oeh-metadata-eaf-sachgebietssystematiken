@@ -1,106 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/04008",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F04008",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F04008",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04008",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F04008",
   "prefLabel": {
     "de": "Gesundheit und Pflege"
-  },
-  "note": {
-    "de": [
-      "Gesundheit",
-      "Pflege"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400801",
       "prefLabel": {
         "de": "Medizinische Grundlagen"
-      },
-      "note": {
-        "de": [
-          "Medizinische Grundlagen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400802",
       "prefLabel": {
         "de": "Gesunderhaltung"
-      },
-      "note": {
-        "de": [
-          "Gesunderhaltung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400803",
       "prefLabel": {
         "de": "Vorbeugung"
-      },
-      "note": {
-        "de": [
-          "Prävention",
-          "Vorbeugung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400804",
       "prefLabel": {
         "de": "Erste Hilfe"
-      },
-      "note": {
-        "de": [
-          "Erste Hilfe"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400805",
       "prefLabel": {
         "de": "Therapie"
-      },
-      "note": {
-        "de": [
-          "Heilpädagogik",
-          "Therapie"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400806",
       "prefLabel": {
         "de": "Rehabilitation"
-      },
-      "note": {
-        "de": [
-          "Rehabilitation"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400807",
       "prefLabel": {
         "de": "Ernährung"
-      },
-      "note": {
-        "de": [
-          "Ernährung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400808",
       "prefLabel": {
         "de": "Pflege"
-      },
-      "note": {
-        "de": [
-          "Pflege"
-        ]
       }
     }
   ],
@@ -156,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -172,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -195,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

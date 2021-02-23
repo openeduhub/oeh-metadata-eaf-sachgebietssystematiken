@@ -1,111 +1,61 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0400203",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400203",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0400203",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400203",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0400203",
   "prefLabel": {
     "de": "Ausbau"
   },
   "note": {
-    "de": [
-      "Innenausbau"
-    ]
+    "de": "Innenausbau"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020301",
       "prefLabel": {
         "de": "Bodenbeläge"
-      },
-      "note": {
-        "de": [
-          "Oberboden"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020302",
       "prefLabel": {
         "de": "Dämmung, Isolierung"
-      },
-      "note": {
-        "de": [
-          "Dämmung",
-          "Isolierung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020303",
       "prefLabel": {
         "de": "Elektroinstallationen"
-      },
-      "note": {
-        "de": [
-          "Elektroinstallationen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020304",
       "prefLabel": {
         "de": "Estricharbeiten"
-      },
-      "note": {
-        "de": [
-          "Estrich"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020305",
       "prefLabel": {
         "de": "Haustechnik/Gebäudetechnik"
-      },
-      "note": {
-        "de": [
-          "Gebäudetechnik",
-          "Heizungsarbeiten",
-          "Klimatisierung",
-          "Lüftung",
-          "Sanitärarbeiten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020306",
       "prefLabel": {
         "de": "Holzbau"
-      },
-      "note": {
-        "de": [
-          "Holzbau",
-          "Möbelarbeiten",
-          "Schreinerarbeiten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020307",
       "prefLabel": {
         "de": "Metallbau"
-      },
-      "note": {
-        "de": [
-          "Metallbau",
-          "Schlosserarbeiten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/040020308",
       "prefLabel": {
         "de": "Putzarbeiten"
-      },
-      "note": {
-        "de": [
-          "Innenputz"
-        ]
       }
     }
   ],
@@ -161,12 +111,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -177,21 +121,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -200,7 +147,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

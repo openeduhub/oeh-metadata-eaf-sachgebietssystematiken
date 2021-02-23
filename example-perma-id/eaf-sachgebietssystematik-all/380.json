@@ -1,105 +1,46 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/380",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F380",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F380",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F380",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F380",
   "prefLabel": {
     "de": "MATHEMATIK"
-  },
-  "note": {
-    "de": [
-      "Mathematik",
-      "Mathematikunterricht",
-      "Matheunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/38001",
       "prefLabel": {
         "de": "Zahlen, Algebra"
-      },
-      "note": {
-        "de": [
-          "Algebra",
-          "Mathematik",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Zahlen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/38002",
       "prefLabel": {
         "de": "Analysis, Analytische Geometrie"
-      },
-      "note": {
-        "de": [
-          "Analysis",
-          "Analytische Geometrie",
-          "Mathematik",
-          "Mathematikunterricht",
-          "Matheunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/38003",
       "prefLabel": {
         "de": "Geometrie"
-      },
-      "note": {
-        "de": [
-          "Geometrie",
-          "Mathematik",
-          "Mathematikunterricht",
-          "Matheunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/38004",
       "prefLabel": {
         "de": "Endliche Mathematik, Stochastik"
-      },
-      "note": {
-        "de": [
-          "Endliche Mathematik",
-          "Mathematik",
-          "Mathematikunterricht",
-          "Matheunterricht",
-          "Stochastik"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/38005",
       "prefLabel": {
         "de": "Mathematik und Chaos"
-      },
-      "note": {
-        "de": [
-          "Chaosforschung",
-          "Chaostheorie",
-          "Mathematik",
-          "Mathematik und Chaos",
-          "Mathematikunterricht",
-          "Matheunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/38006",
       "prefLabel": {
         "de": "Mathematische Anwendungen in anderen Gebieten"
-      },
-      "note": {
-        "de": [
-          "Mathematik",
-          "Mathematikunterricht",
-          "Matheunterricht"
-        ]
       }
     }
   ],
@@ -152,12 +93,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -168,21 +103,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -191,7 +129,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,131 +1,52 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/52001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F52001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F52001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F52001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F52001",
   "prefLabel": {
     "de": "Religionskunde"
-  },
-  "note": {
-    "de": [
-      "Religion",
-      "Religionskunde",
-      "Religionslehre",
-      "Religionsunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200101",
       "prefLabel": {
         "de": "Riten, Symbole"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht",
-          "Riten",
-          "Rituale",
-          "Symbole"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200102",
       "prefLabel": {
         "de": "Christliche Konfessionen"
-      },
-      "note": {
-        "de": [
-          "Christliche Konfessionen",
-          "Katholizismus",
-          "Orthodoxie",
-          "Protestantismus",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200103",
       "prefLabel": {
         "de": "Nichtchristliche Religionen"
-      },
-      "note": {
-        "de": [
-          "Buddhismus",
-          "Hinduismus",
-          "Islam",
-          "Judentum",
-          "Nichtchristliche Religionen",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht",
-          "Stammesreligionen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200104",
       "prefLabel": {
         "de": "Sekten, neue religiöse Strömungen"
-      },
-      "note": {
-        "de": [
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht",
-          "Sekten",
-          "neue religiöse Strömungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200105",
       "prefLabel": {
         "de": "Weltanschauungen, Ideologien"
-      },
-      "note": {
-        "de": [
-          "Ideologien",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht",
-          "Weltanschauungen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200106",
       "prefLabel": {
         "de": "Magie, Aberglaube"
-      },
-      "note": {
-        "de": [
-          "Aberglaube",
-          "Magie",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5200107",
       "prefLabel": {
         "de": "Naturreligionen, Animismus, Schamanismus"
-      },
-      "note": {
-        "de": [
-          "Animismus",
-          "Naturreligionen",
-          "Religion",
-          "Religionslehre",
-          "Religionsunterricht",
-          "Schamanismus"
-        ]
       }
     }
   ],
@@ -181,12 +102,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -197,21 +112,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -220,7 +138,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

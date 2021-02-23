@@ -1,82 +1,49 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F50001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F50001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F50001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F50001",
   "prefLabel": {
     "de": "Hauswirtschaft"
   },
   "note": {
-    "de": [
-      "Hauswirtschaft"
-    ]
+    "de": "Hauswirtschaft"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000101",
       "prefLabel": {
         "de": "Ernährungslehre"
-      },
-      "note": {
-        "de": [
-          "Ernährungslehre"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000102",
       "prefLabel": {
         "de": "Kochen"
-      },
-      "note": {
-        "de": [
-          "Kochen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000103",
       "prefLabel": {
         "de": "Wirtschaften im privaten Haushalt"
-      },
-      "note": {
-        "de": [
-          "Wirtschaften im privaten Haushalt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000104",
       "prefLabel": {
         "de": "Haushalt und Umwelt"
-      },
-      "note": {
-        "de": [
-          "Haushalt",
-          "Umwelt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000105",
       "prefLabel": {
         "de": "Wohnung"
-      },
-      "note": {
-        "de": [
-          "Wohnung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/5000106",
       "prefLabel": {
         "de": "Unfallverhütung"
-      },
-      "note": {
-        "de": [
-          "Unfallverhütung"
-        ]
       }
     }
   ],
@@ -132,12 +99,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -148,21 +109,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -171,7 +135,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

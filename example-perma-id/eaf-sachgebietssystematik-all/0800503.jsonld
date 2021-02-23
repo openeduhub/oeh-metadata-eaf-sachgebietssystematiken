@@ -1,107 +1,40 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/0800503",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F0800503",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F0800503",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0800503",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F0800503",
   "prefLabel": {
     "de": "Wirbellose"
-  },
-  "note": {
-    "de": [
-      "Biologie",
-      "Biologieunterricht",
-      "Wirbellose"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/080050301",
       "prefLabel": {
         "de": "Gliederfüßer"
-      },
-      "note": {
-        "de": [
-          "Biologie",
-          "Biologieunterricht",
-          "Gliederfüßer",
-          "Insekten",
-          "Krebse",
-          "Spinnentiere",
-          "Tausendfüßer"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/080050302",
       "prefLabel": {
         "de": "Stachelhäuter"
-      },
-      "note": {
-        "de": [
-          "Biologie",
-          "Biologieunterricht",
-          "Haarsterne",
-          "Schlangensterne",
-          "Seegurken",
-          "Seeigel",
-          "Seewalzen",
-          "Stachelhäuter"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/080050303",
       "prefLabel": {
         "de": "Weichtiere"
-      },
-      "note": {
-        "de": [
-          "Biologie",
-          "Biologieunterricht",
-          "Kopffüßer",
-          "Muscheln",
-          "Schnecken",
-          "Weichtiere"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/080050304",
       "prefLabel": {
         "de": "Platt-, Rund- und Ringelwürmer"
-      },
-      "note": {
-        "de": [
-          "Bandwürmer",
-          "Biologie",
-          "Biologieunterricht",
-          "Fadenwürmer",
-          "Plattwürmer",
-          "Ringelwürmer",
-          "Rundwürmer",
-          "Rüsselwürmer",
-          "Saugwürmer",
-          "Strudelwürmer",
-          "Vielborster",
-          "Wenigborster"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/080050305",
       "prefLabel": {
         "de": "Hohltiere, Schwämme"
-      },
-      "note": {
-        "de": [
-          "Biologie",
-          "Hohltiere",
-          "Korallentiere",
-          "Nesseltiere",
-          "Quallenpolypen",
-          "Schirmquallen",
-          "Schwämme"
-        ]
       }
     }
   ],
@@ -157,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -173,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -196,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

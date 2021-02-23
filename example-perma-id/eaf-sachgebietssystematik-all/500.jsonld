@@ -1,72 +1,43 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/500",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F500",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F500",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F500",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F500",
   "prefLabel": {
     "de": "PRAXISORIENTIERTE FÄCHER"
   },
   "note": {
-    "de": [
-      "Praxisorientierte Fächer"
-    ]
+    "de": "Praxisorientierte Fächer"
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50001",
       "prefLabel": {
         "de": "Hauswirtschaft"
-      },
-      "note": {
-        "de": [
-          "Hauswirtschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50002",
       "prefLabel": {
         "de": "Maschinenschreiben, Textverarbeitung, Kurzschrift"
-      },
-      "note": {
-        "de": [
-          "Kurzschrift",
-          "Maschinenschreiben",
-          "Textverarbeitung"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50003",
       "prefLabel": {
         "de": "Schulgarten"
-      },
-      "note": {
-        "de": [
-          "Schulgarten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50004",
       "prefLabel": {
         "de": "Textiles Gestalten"
-      },
-      "note": {
-        "de": [
-          "Textiles Gestalten"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/50005",
       "prefLabel": {
         "de": "Werken"
-      },
-      "note": {
-        "de": [
-          "Werken"
-        ]
       }
     }
   ],
@@ -119,12 +90,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -135,21 +100,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -158,7 +126,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,84 +1,34 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/28001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F28001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F28001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F28001",
   "prefLabel": {
     "de": "Deutsch"
-  },
-  "note": {
-    "de": [
-      "Deutsch",
-      "Deutsch in der Grundschule",
-      "Deutschunterricht",
-      "Grundschule",
-      "Grundschulunterricht",
-      "Primarunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800101",
       "prefLabel": {
         "de": "Anlässe zum Sprechen, Lesen, Schreiben"
-      },
-      "note": {
-        "de": [
-          "Anlässe zum Sprechen",
-          "Deutsch",
-          "Deutsch in der Grundschule",
-          "Deutschunterricht",
-          "Grundschule",
-          "Grundschulunterricht",
-          "Lesen",
-          "Primarunterricht",
-          "Schreiben"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800102",
       "prefLabel": {
         "de": "Literatur"
-      },
-      "note": {
-        "de": [
-          "Grundschule",
-          "Grundschulunterricht",
-          "Literatur",
-          "Primarunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800103",
       "prefLabel": {
         "de": "Sprachlehre, Rechtschreibung"
-      },
-      "note": {
-        "de": [
-          "Grundschule",
-          "Grundschulunterricht",
-          "Primarunterricht",
-          "Rechtschreibung",
-          "Sprachlehre"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/2800104",
       "prefLabel": {
         "de": "Lesen, Lesetechnik, Umgang mit Texten"
-      },
-      "note": {
-        "de": [
-          "Grundschule",
-          "Grundschulunterricht",
-          "Lesen",
-          "Lesetechnik",
-          "Primarunterricht",
-          "Umgang mit Texten"
-        ]
       }
     }
   ],
@@ -134,12 +84,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -150,21 +94,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -173,7 +120,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

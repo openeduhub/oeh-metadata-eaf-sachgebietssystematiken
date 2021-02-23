@@ -1,161 +1,76 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000304",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F6000304",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F6000304",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F6000304",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F6000304",
   "prefLabel": {
     "de": "Spielsportarten"
-  },
-  "note": {
-    "de": [
-      "Spielsportarten",
-      "Sport",
-      "Sportspiele",
-      "Sportunterricht"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030401",
       "prefLabel": {
         "de": "Basketball"
-      },
-      "note": {
-        "de": [
-          "Basketball",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030402",
       "prefLabel": {
         "de": "Fußball"
-      },
-      "note": {
-        "de": [
-          "Fußball",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030403",
       "prefLabel": {
         "de": "Handball"
-      },
-      "note": {
-        "de": [
-          "Handball",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030404",
       "prefLabel": {
         "de": "Tennis"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportunterricht",
-          "Tennis"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030405",
       "prefLabel": {
         "de": "Volleyball"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportunterricht",
-          "Volleyball"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030406",
       "prefLabel": {
         "de": "Weitere Spielsportarten und Spiele"
-      },
-      "note": {
-        "de": [
-          "Spielsportarten und Spiele",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030407",
       "prefLabel": {
         "de": "Badminton"
-      },
-      "note": {
-        "de": [
-          "Badminton",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030408",
       "prefLabel": {
         "de": "Tischtennis"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportunterricht",
-          "Tischtennis"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030409",
       "prefLabel": {
         "de": "Hockey"
-      },
-      "note": {
-        "de": [
-          "Hockey",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030410",
       "prefLabel": {
         "de": "Integrative Spiele"
-      },
-      "note": {
-        "de": [
-          "Integrative Spiele",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/600030411",
       "prefLabel": {
         "de": "Kleine Spiele"
-      },
-      "note": {
-        "de": [
-          "Kleine Spiele",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     }
   ],
@@ -211,12 +126,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -227,21 +136,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -250,7 +162,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

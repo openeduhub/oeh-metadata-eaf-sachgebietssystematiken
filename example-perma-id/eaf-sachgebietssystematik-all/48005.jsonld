@@ -1,210 +1,82 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/48005",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F48005",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F48005",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F48005",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F48005",
   "prefLabel": {
     "de": "Gesellschaftspolitische Gegenwartsfragen"
-  },
-  "note": {
-    "de": [
-      "Gesellschaftslehre",
-      "Gesellschaftspolitische Gegenwartsfragen",
-      "Politik",
-      "Politikwissenschaft",
-      "Politische Bildung",
-      "Sozialkunde"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800501",
       "prefLabel": {
         "de": "Arbeit"
-      },
-      "note": {
-        "de": [
-          "Arbeit",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800502",
       "prefLabel": {
         "de": "Armut, soziale Unterschiede"
-      },
-      "note": {
-        "de": [
-          "Armut",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde",
-          "soziale Unterschiede"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800503",
       "prefLabel": {
         "de": "Formen des Zusammenlebens"
-      },
-      "note": {
-        "de": [
-          "Formen des Zusammenlebens",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde",
-          "Zusammenleben"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800504",
       "prefLabel": {
         "de": "Freizeit"
-      },
-      "note": {
-        "de": [
-          "Freizeit",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800505",
       "prefLabel": {
         "de": "Gewalt"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Gewalt",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800506",
       "prefLabel": {
         "de": "Gleichberechtigung"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Gleichberechtigung",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800507",
       "prefLabel": {
         "de": "Migration"
-      },
-      "note": {
-        "de": [
-          "Flucht",
-          "Gesellschaftslehre",
-          "Immigration",
-          "Migration",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800508",
       "prefLabel": {
         "de": "Randgruppen"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Minderheiten",
-          "Politik",
-          "Politische Bildung",
-          "Randgruppen",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800509",
       "prefLabel": {
         "de": "Schule, Ausbildung"
-      },
-      "note": {
-        "de": [
-          "Ausbildung",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Schule",
-          "Sozialkunde"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800510",
       "prefLabel": {
         "de": "Verhältnis der Generationen"
-      },
-      "note": {
-        "de": [
-          "Generationenbeziehungen",
-          "Generationenverhältnis",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde",
-          "Verhältnis der Generationen"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800511",
       "prefLabel": {
         "de": "Vorurteile, Rassismus"
-      },
-      "note": {
-        "de": [
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Rassismus",
-          "Sozialkunde",
-          "Vorurteile"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4800512",
       "prefLabel": {
         "de": "Umwelt, Energie"
-      },
-      "note": {
-        "de": [
-          "Energie",
-          "Gesellschaftslehre",
-          "Politik",
-          "Politische Bildung",
-          "Sozialkunde",
-          "Umwelt"
-        ]
       }
     }
   ],
@@ -260,12 +132,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -276,21 +142,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -299,7 +168,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

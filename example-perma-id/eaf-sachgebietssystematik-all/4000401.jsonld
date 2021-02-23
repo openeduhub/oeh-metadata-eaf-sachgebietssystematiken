@@ -1,53 +1,28 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/4000401",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F4000401",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F4000401",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4000401",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F4000401",
   "prefLabel": {
     "de": "Suchen, Verarbeiten und Aufbewahren"
-  },
-  "note": {
-    "de": [
-      "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
-      "Kompetenzen in der digitalen Welt"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040101",
       "prefLabel": {
         "de": "Suchen und Filtern"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
-          "Kompetenzen in der digitalen Welt",
-          "Suchstrategien"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040102",
       "prefLabel": {
         "de": "Auswerten und Bewerten"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/400040103",
       "prefLabel": {
         "de": "Speichern und Abrufen"
-      },
-      "note": {
-        "de": [
-          "Kompetenzbereich Suchen, Verarbeiten und Aufbewahren",
-          "Kompetenzen in der digitalen Welt"
-        ]
       }
     }
   ],
@@ -103,12 +78,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -119,21 +88,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -142,7 +114,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }

@@ -1,130 +1,58 @@
 {
   "id": "http://example-perma-id/eaf-sachgebietssystematik-all/60001",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example-perma-id%2Feaf-sachgebietssystematik-all%2F60001",
-  "inbox": "https://test.skohub.io/inbox?target=example-perma-id%2Feaf-sachgebietssystematik-all%2F60001",
+  "followers": "https://test.skohub.io/followers?subject=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F60001",
+  "inbox": "https://test.skohub.io/inbox?target=oeh-metadata-eaf-sachgebietssystematiken%2Fexample-perma-id%2Feaf-sachgebietssystematik-all%2F60001",
   "prefLabel": {
     "de": "Sportwissenschaft"
-  },
-  "note": {
-    "de": [
-      "Sport",
-      "Sportunterricht",
-      "Sportwissenschaft"
-    ]
   },
   "narrower": [
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000101",
       "prefLabel": {
         "de": "Trainings- und Bewegungslehre"
-      },
-      "note": {
-        "de": [
-          "Aufwärmprogramm",
-          "Bewegungslehre",
-          "Bewegungswissenschaft",
-          "Sport",
-          "Sporttraining",
-          "Sportunterricht",
-          "Trainingslehre",
-          "Trainingswissenschaft"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000102",
       "prefLabel": {
         "de": "Sportgeschichte"
-      },
-      "note": {
-        "de": [
-          "Geschichte des Sports",
-          "Sport",
-          "Sportgeschichte",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000103",
       "prefLabel": {
         "de": "Sportpädagogik"
-      },
-      "note": {
-        "de": [
-          "Pädagogik des Sports Sportpädagogik",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000104",
       "prefLabel": {
         "de": "Sportpsychologie"
-      },
-      "note": {
-        "de": [
-          "Psychologie des Sports",
-          "Sport",
-          "Sportpsychologie",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000105",
       "prefLabel": {
         "de": "Sportsoziologie"
-      },
-      "note": {
-        "de": [
-          "Soziologie des Sports",
-          "Sport",
-          "Sportsoziologie",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000106",
       "prefLabel": {
         "de": "Sportmedizin"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportmedizin",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000107",
       "prefLabel": {
         "de": "Sportdidaktik"
-      },
-      "note": {
-        "de": [
-          "Sport",
-          "Sportdidaktik",
-          "Sportpädagogik",
-          "Sportunterricht"
-        ]
       }
     },
     {
       "id": "http://example-perma-id/eaf-sachgebietssystematik-all/6000108",
       "prefLabel": {
         "de": "Biomechanik"
-      },
-      "note": {
-        "de": [
-          "Biomechanik",
-          "Sport",
-          "Sportunterricht"
-        ]
       }
     }
   ],
@@ -180,12 +108,6 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
       "@container": [
         "@language",
@@ -196,21 +118,24 @@
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
     },
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -219,7 +144,22 @@
     "broaderTransitive": {
       "@container": "@set"
     },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
   }
 }
