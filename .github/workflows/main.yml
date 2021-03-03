@@ -31,7 +31,7 @@ jobs:
 
       - run: git clone https://github.com/openeduhub/oeh-metadata-eaf-sachgebietssystematiken
 
-      - run: cp oeh-metadata-eaf-sachgebietssystematiken/eaf-sachgebietssystematik-all.ttl data/
+      - run: cp oeh-metadata-eaf-sachgebietssystematiken/eaf-sachgebietssystematik.ttl data/
 
       - name: make .env.production file
         run: echo "BASEURL=/oeh-metadata-eaf-sachgebietssystematiken" > .env.production
